@@ -1,0 +1,1205 @@
+[
+  {
+    "race_id": "mesto-presov",
+    "name": "Prešov",
+    "office": "primator",
+    "incumbent": {
+      "name": "František Oľha",
+      "since": 2022,
+      "party_2022": "SaS, PS, SPOLU, DS, ŠANCA, ODS, Dobrá voľba a Umiernení",
+      "running_2026": true
+    },
+    "history": {
+      "2022": {
+        "turnout_pct": 42.66,
+        "registered_voters": 70029,
+        "valid_votes": 29344,
+        "results": [
+          {
+            "name": "František Oľha",
+            "party": "SaS, Progresívne Slovensko, SPOLU, DS, ŠANCA, ODS - Občianski demokrati Slovenska, DOBRÁ VOĽBA a Umiernení",
+            "votes": 10934,
+            "pct": 37.26,
+            "ballot_no": 11,
+            "elected": true
+          },
+          {
+            "name": "Pavel Hagyari",
+            "party": "STAROSTOVIA A NEZÁVISLÍ KANDIDÁTI, SME RODINA",
+            "votes": 6853,
+            "pct": 23.35,
+            "ballot_no": 7,
+            "elected": false
+          },
+          {
+            "name": "Ľuboš Micheľ",
+            "party": "Hlas - sociálna demokracia",
+            "votes": 3419,
+            "pct": 11.65,
+            "ballot_no": 10,
+            "elected": false
+          },
+          {
+            "name": "Artúr Benes",
+            "party": "NEKA",
+            "votes": 3290,
+            "pct": 11.21,
+            "ballot_no": 4,
+            "elected": false
+          },
+          {
+            "name": "Zuzana Bednárová",
+            "party": "KDH",
+            "votes": 1655,
+            "pct": 5.63,
+            "ballot_no": 2,
+            "elected": false
+          },
+          {
+            "name": "Ján Andrejko",
+            "party": "NEKA",
+            "votes": 1461,
+            "pct": 4.97,
+            "ballot_no": 1,
+            "elected": false
+          },
+          {
+            "name": "Martin Eštočák",
+            "party": "NEKA",
+            "votes": 546,
+            "pct": 1.86,
+            "ballot_no": 6,
+            "elected": false
+          },
+          {
+            "name": "Marek Kurta",
+            "party": "REPUBLIKA",
+            "votes": 360,
+            "pct": 1.22,
+            "ballot_no": 9,
+            "elected": false
+          },
+          {
+            "name": "Ján Štovka",
+            "party": "NEKA",
+            "votes": 292,
+            "pct": 0.99,
+            "ballot_no": 12,
+            "elected": false
+          },
+          {
+            "name": "Renáta Bobáková",
+            "party": "Hnutie ONÁS",
+            "votes": 211,
+            "pct": 0.71,
+            "ballot_no": 5,
+            "elected": false
+          },
+          {
+            "name": "Patrik Benčík",
+            "party": "NEKA",
+            "votes": 210,
+            "pct": 0.71,
+            "ballot_no": 3,
+            "elected": false
+          },
+          {
+            "name": "Jozef Kubica",
+            "party": "NK/NEKA",
+            "votes": 113,
+            "pct": 0.38,
+            "ballot_no": 8,
+            "elected": false
+          }
+        ],
+        "source": "https://volby.statistics.sk/oso/oso2022/files/xlsx/OSO2022_SK_tab05d.xlsx (candidates) + https://volby.statistics.sk/oso/oso2022/files/xlsx/OSO2022_SK_tab02bd.xlsx (turnout/registered)",
+        "note": "ŠÚ SR definitive results. valid_votes = valid mayoral ballots; pct as published by ŠÚ SR (share of valid ballots). Entries with withdrew=true were marked X (vzdal sa / zrušená kandidatúra) by ŠÚ SR; their votes are included in the published totals."
+      },
+      "2018": {
+        "turnout_pct": 43.2,
+        "registered_voters": 72521,
+        "valid_votes": 31060,
+        "results": [
+          {
+            "name": "Andrea Turčanová",
+            "party": "KDH, OBYČAJNÍ ĽUDIA a nezávislé osobnosti (OĽANO), NOVA",
+            "votes": 14205,
+            "pct": 45.73,
+            "ballot_no": 7,
+            "elected": true
+          },
+          {
+            "name": "Pavel Hagyari",
+            "party": "NEKA",
+            "votes": 8921,
+            "pct": 28.72,
+            "ballot_no": 5,
+            "elected": false
+          },
+          {
+            "name": "Richard Drutarovský",
+            "party": "SPOLU, Progresívne Slovensko, OKS",
+            "votes": 2648,
+            "pct": 8.52,
+            "ballot_no": 2,
+            "elected": false
+          },
+          {
+            "name": "Miroslav Benko",
+            "party": "SMER-SD, SNS, MOST - HÍD",
+            "votes": 2560,
+            "pct": 8.24,
+            "ballot_no": 1,
+            "elected": false
+          },
+          {
+            "name": "František Oľha",
+            "party": "SaS, SME RODINA - Boris Kollár, ŠANCA, DS",
+            "votes": 2360,
+            "pct": 7.59,
+            "ballot_no": 6,
+            "elected": false
+          },
+          {
+            "name": "Stanislav Grega",
+            "party": "NEKA",
+            "votes": 233,
+            "pct": 0.75,
+            "ballot_no": 4,
+            "elected": false
+          },
+          {
+            "name": "Igor Dužda",
+            "party": "SRK",
+            "votes": 133,
+            "pct": 0.42,
+            "ballot_no": 3,
+            "elected": false
+          }
+        ],
+        "source": "https://volby.statistics.sk/oso/oso2018/files/xlsx/OSO_2018_tab05.xlsx (candidates) + https://volby.statistics.sk/oso/oso2018/files/xlsx/OSO_2018_tab02bd.xlsx (turnout/registered)",
+        "note": "ŠÚ SR definitive results. valid_votes = valid mayoral ballots; pct as published by ŠÚ SR (share of valid ballots). Entries with withdrew=true were marked X (vzdal sa / zrušená kandidatúra) by ŠÚ SR; their votes are included in the published totals."
+      }
+    },
+    "candidates_2026": [
+      {
+        "name": "Ing. Artúr Benes",
+        "ballot_no": 1,
+        "party": "NEKA",
+        "endorsed_by": null,
+        "incumbent": false,
+        "withdrew": false,
+        "prior_runs": "2022 Prešov mayor 4th, 11.21 %",
+        "profile": "63, generálny riaditeľ Agentúry regionálneho rozvoja PSK, krajský poslanec."
+      },
+      {
+        "name": "JUDr. Martin Eštočák",
+        "ballot_no": 2,
+        "party": "NEKA",
+        "endorsed_by": null,
+        "incumbent": false,
+        "withdrew": false,
+        "prior_runs": "2022 Prešov mayor 7th, 1.86 %",
+        "profile": "37, právnik, mestský poslanec (8 rokov), téma transparentnosti/kontroly hospodárenia."
+      },
+      {
+        "name": "JUDr. Pavel Hagyari, PhD., MBA",
+        "ballot_no": 3,
+        "party": "NEKA",
+        "endorsed_by": null,
+        "incumbent": false,
+        "withdrew": false,
+        "prior_runs": "Primátor 2006-2014; 2nd in 2014, 2018 (28.72 %) and 2022 (23.35 %, STANK+Sme rodina)",
+        "profile": "69, advokát, exprimátor, mestský aj krajský poslanec; slogan 'Vráťme Prešov na koňa'."
+      },
+      {
+        "name": "Ing. Rastislav Mochnacký",
+        "ballot_no": 4,
+        "party": "KDH, Hnutie Slovensko, SaS, Konzervatívci - kresťanská únia, Za ľudí, Nova",
+        "endorsed_by": null,
+        "incumbent": false,
+        "withdrew": false,
+        "prior_runs": "first mayoral run; 2022 KDH candidate for PSK council (not elected)",
+        "profile": "54, krajinný architekt, mestský poslanec od 2014 (KDH)."
+      },
+      {
+        "name": "Ing. František Oľha",
+        "ballot_no": 5,
+        "party": "Progresívne Slovensko, Demokrati, Demokratická strana - občianski demokrati Slovenska",
+        "endorsed_by": null,
+        "incumbent": true,
+        "withdrew": false,
+        "prior_runs": "2018 Prešov mayor 5th, 7.59 %; 2022 won with 37.26 %; 2017 PSK chair 6th",
+        "profile": "56, úradujúci primátor (od 2022), podpredseda strany Demokrati, krajský poslanec."
+      },
+      {
+        "name": "PhDr. Ing. Svetlana Pavlovičová, MBA",
+        "ballot_no": 6,
+        "party": "Smer - sociálna demokracia, Slovenská národná strana, Sme rodina, Bratia Slovenska",
+        "endorsed_by": null,
+        "incumbent": false,
+        "withdrew": false,
+        "prior_runs": "first mayoral run",
+        "profile": "49, mestská poslankyňa ~16 rokov, poslankyňa NR SR 2012-2016, pracuje na Úrade komisára pre deti."
+      }
+    ],
+    "candidates_source": [
+      "https://oznamypresov.sk/download/10648",
+      "https://www.aktuality.sk/clanok/PQR3sHF/kompletny-zoznam-kandidatov-na-primatora-mesta-presov-vo-volbach-2026/",
+      "https://sita.sk/presov-pozna-kandidatov-na-primatora-aj-zupana-o-kreslo-v-krajskom-zastupitelstve-zabojuje-476-ludi/",
+      "https://www.aktuality.sk/clanok/W8n9gmb/kompletny-zoznam-kandidatov-na-primatorov-krajskych-miest-vo-volbach-2026/"
+    ],
+    "polls": [
+      {
+        "pollster": "NMS Market Research (CAPI)",
+        "fieldwork": "2026-10-12/2026-10-16",
+        "n": 510,
+        "sponsor": "commissioned by candidate František Oľha (internal poll released by his campaign; paid article)",
+        "results": {
+          "František Oľha": 46,
+          "Pavel Hagyari": 30,
+          "Rastislav Mochnacký": 11,
+          "Artúr Benes": 5,
+          "Svetlana Pavlovičová": 5,
+          "Martin Eštočák": 4
+        },
+        "undecided_pct": null,
+        "source": "https://www.presovak.sk/clanky/15886/novy-prieskum-v-presove-poradie-favoritov-na-primatora-sa-meni",
+        "note": "Sponsor-released, treat with house-effect caution; 2nd NMS poll commissioned by Oľha (first one in Sept, figures not retrieved). Shares appear to be among decided (sum 101 by rounding)."
+      },
+      {
+        "pollster": "Policy Insights (Martin Burgr) with Focus",
+        "fieldwork": null,
+        "n": null,
+        "sponsor": "unknown; cited by Denník N as older data",
+        "results": {
+          "František Oľha": 24,
+          "Pavel Hagyari": 17,
+          "Rastislav Mochnacký": 1
+        },
+        "undecided_pct": 27,
+        "source": "https://www.pressreader.com/slovakia/dennik-n/20261015/281556592795039",
+        "note": "Approximate figures ('asi 24', 'zhruba 17', 'niečo vyše jedného percenta', undecided 'over 27 %'); other candidates not reported; fieldwork date and n not stated."
+      }
+    ],
+    "odds": [
+      {
+        "bookmaker": "Tipsport",
+        "date": "2026-10-20",
+        "odds": {
+          "František Oľha": 1.08,
+          "Rastislav Mochnacký": 5.0,
+          "Pavel Hagyari": 8.0,
+          "Svetlana Pavlovičová": 40.0,
+          "Martin Eštočák": 60.0,
+          "Artúr Benes": 100.0
+        },
+        "source": "https://stavkynavolby.sk/informacie/kandidati-na-primatora-presova-2026/",
+        "note": "Per source, 88 % of Tipsport stakes on Oľha as of 20.10."
+      },
+      {
+        "bookmaker": "Tipsport",
+        "date": "2026-10-14",
+        "odds": {
+          "František Oľha": 1.1,
+          "Pavel Hagyari": 5.5,
+          "Rastislav Mochnacký": 5.5,
+          "Svetlana Pavlovičová": 15.0,
+          "Artúr Benes": 35.0,
+          "Martin Eštočák": 88.0
+        },
+        "source": "https://kurzynavolby.sk/tipovanie/kurzy-na-volby/"
+      },
+      {
+        "bookmaker": "Fortuna",
+        "date": "2026-10-14",
+        "odds": {
+          "František Oľha": 1.1,
+          "Pavel Hagyari": 5.0,
+          "Rastislav Mochnacký": 6.0,
+          "Svetlana Pavlovičová": 12.0,
+          "Artúr Benes": 30.0,
+          "Martin Eštočák": 80.0
+        },
+        "source": "https://kurzynavolby.sk/tipovanie/kurzy-na-volby/"
+      },
+      {
+        "bookmaker": "DOXXbet",
+        "date": "2026-10-14",
+        "odds": {
+          "František Oľha": 1.1,
+          "Pavel Hagyari": 5.5,
+          "Rastislav Mochnacký": 6.0,
+          "Svetlana Pavlovičová": 12.0,
+          "Artúr Benes": 30.0
+        },
+        "source": "https://kurzynavolby.sk/tipovanie/kurzy-na-volby/"
+      },
+      {
+        "bookmaker": "Polymarket (prediction market, implied probability %, not decimal odds)",
+        "date": "2026-10-20",
+        "odds": {
+          "František Oľha": 84.5,
+          "Rastislav Mochnacký": 11.7,
+          "Pavel Hagyari": 3.3
+        },
+        "source": "https://polymarkettrader.com/odds/presov-mayoral-election-winner-2026/",
+        "note": "YES-share prices as %, total volume ~$23.2K; on 2026-10-07 it was Oľha 71.5 / Mochnacký 19 / Hagyari 10.2."
+      }
+    ],
+    "key_events": [
+      {
+        "date": "2026-08-25",
+        "text": "Candidate filing closed: 6 mayoral candidates (12 in 2022). Benes, Eštočák, Hagyari, Oľha repeat runs; Mochnacký and Pavlovičová first-time.",
+        "source": "https://sita.sk/presov-pozna-kandidatov-na-primatora-aj-zupana-o-kreslo-v-krajskom-zastupitelstve-zabojuje-476-ludi/"
+      },
+      {
+        "date": "2026-09-07",
+        "text": "Mestská volebná komisia registered all 6 candidates.",
+        "source": "https://oznamypresov.sk/download/10648"
+      },
+      {
+        "date": "2026-08",
+        "text": "Oľha campaign centred on investments and defending city borrowing ('Ako v meste šetríme cez úvery'); dispute with Mochnacký over council constituency resolution that Oľha refused to sign citing legality.",
+        "source": "https://www1.pluska.sk/spravy/suboj-o-presov-sa-zacal-pat-kandidatov-uz-odhaluje-tromfy"
+      },
+      {
+        "date": "2026-10-19",
+        "text": "Oľha campaign released its 2nd commissioned NMS poll (12-16 Oct, n=510): Oľha 46, Hagyari 30, Mochnacký 11, Benes 5, Pavlovičová 5, Eštočák 4.",
+        "source": "https://www.presovak.sk/clanky/15886/novy-prieskum-v-presove-poradie-favoritov-na-primatora-sa-meni"
+      },
+      {
+        "date": "2026-10-15",
+        "text": "Denník N: Hlas and Republika endorse no Prešov mayoral candidate; cites older Policy Insights/Focus data Oľha ~24, Hagyari ~17, Mochnacký ~1, undecided >27.",
+        "source": "https://www.pressreader.com/slovakia/dennik-n/20261015/281556592795039"
+      }
+    ],
+    "notes": "Coalition map 2026: governing Smer+SNS+Sme rodina+Bratia Slovenska back Pavlovičová; Hlas has NO mayoral candidate in Prešov (Hlas runs own council list; Hlas's Micheľ got 11.65 % in 2022) and, per Denník N (15.10.), Hlas and Republika endorsed no mayoral candidate - where Hlas voters go is a key unknown. Opposition split: PS+Demokrati+DS back incumbent Oľha; KDH+SaS+Hnutie Slovensko+KÚ+Za ľudí+Nova back Mochnacký (in 2022 SaS backed Oľha and KDH ran Bednárová 5.63 %). Hagyari (2nd in 2014/2018/2022) runs as NEKA this time (2022 STANK+Sme rodina). Markets: all bookmakers make Oľha a heavy favourite (1.08-1.10); Mochnacký has overtaken Hagyari as 2nd favourite at Tipsport by 20.10 and on Polymarket. Polls: only a sponsor-released NMS poll (12-16 Oct, n=510: Oľha 46, Hagyari 30, Mochnacký 11) and an older Policy Insights/Focus figure (Oľha ~24, Hagyari ~17, Mochnacký ~1, undecided >27) - both put Hagyari, not Mochnacký, 2nd, contradicting the late market move to Mochnacký. Hagyari is running for the 6th time (2nd in last three). Turnout 2022 42.66 %, 2018 43.2 %. Relative majority, one round: fragmented field (6) means winner can win with ~35 %."
+  },
+  {
+    "race_id": "mesto-trnava",
+    "name": "Trnava",
+    "office": "primator",
+    "incumbent": {
+      "name": "Peter Bročka",
+      "since": 2014,
+      "party_2022": "NEKA",
+      "running_2026": false
+    },
+    "history": {
+      "2022": {
+        "turnout_pct": 41.87,
+        "registered_voters": 52921,
+        "valid_votes": 21621,
+        "results": [
+          {
+            "name": "Peter Bročka",
+            "party": "NEKA",
+            "votes": 9665,
+            "pct": 44.7,
+            "ballot_no": 3,
+            "elected": true
+          },
+          {
+            "name": "Branislav Baroš",
+            "party": "NEKA",
+            "votes": 7269,
+            "pct": 33.62,
+            "ballot_no": 1,
+            "elected": false
+          },
+          {
+            "name": "Matej Lančarič",
+            "party": "NEKA",
+            "votes": 2609,
+            "pct": 12.06,
+            "ballot_no": 5,
+            "elected": false
+          },
+          {
+            "name": "Marián Galbavý",
+            "party": "SaS, SME RODINA, ODS - Občianski demokrati Slovenska, ŠANCA",
+            "votes": 1741,
+            "pct": 8.05,
+            "ballot_no": 4,
+            "elected": false
+          },
+          {
+            "name": "Zdenko Rosina",
+            "party": "NK/NEKA",
+            "votes": 246,
+            "pct": 1.13,
+            "ballot_no": 6,
+            "elected": false
+          },
+          {
+            "name": "Zuzana Bošnáková",
+            "party": "KDH, ZA ĽUDÍ, Kresťanská únia",
+            "votes": 91,
+            "pct": 0.42,
+            "ballot_no": 2,
+            "elected": false,
+            "withdrew": true
+          }
+        ],
+        "source": "https://volby.statistics.sk/oso/oso2022/files/xlsx/OSO2022_SK_tab05d.xlsx (candidates) + https://volby.statistics.sk/oso/oso2022/files/xlsx/OSO2022_SK_tab02bd.xlsx (turnout/registered)",
+        "note": "ŠÚ SR definitive results. valid_votes = valid mayoral ballots; pct as published by ŠÚ SR (share of valid ballots). Entries with withdrew=true were marked X (vzdal sa / zrušená kandidatúra) by ŠÚ SR; their votes are included in the published totals."
+      },
+      "2018": {
+        "turnout_pct": 37.74,
+        "registered_voters": 54375,
+        "valid_votes": 20265,
+        "results": [
+          {
+            "name": "Peter Bročka",
+            "party": "NEKA",
+            "votes": 12731,
+            "pct": 62.82,
+            "ballot_no": 1,
+            "elected": true
+          },
+          {
+            "name": "Rastislav Mráz",
+            "party": "KDH, SZS, SDKÚ-DS",
+            "votes": 3349,
+            "pct": 16.52,
+            "ballot_no": 3,
+            "elected": false
+          },
+          {
+            "name": "Marián Galbavý",
+            "party": "NEKA",
+            "votes": 1560,
+            "pct": 7.69,
+            "ballot_no": 2,
+            "elected": false
+          },
+          {
+            "name": "Igor Válek",
+            "party": "SMER-SD, SNS",
+            "votes": 1170,
+            "pct": 5.77,
+            "ballot_no": 7,
+            "elected": false
+          },
+          {
+            "name": "Peter Tomeček",
+            "party": "NÁRODNÁ KOALÍCIA",
+            "votes": 839,
+            "pct": 4.14,
+            "ballot_no": 6,
+            "elected": false
+          },
+          {
+            "name": "Vanesa Šteinerová",
+            "party": "NEKA",
+            "votes": 357,
+            "pct": 1.76,
+            "ballot_no": 5,
+            "elected": false
+          },
+          {
+            "name": "Peter Ondrejka",
+            "party": "NEKA",
+            "votes": 246,
+            "pct": 1.21,
+            "ballot_no": 4,
+            "elected": false
+          },
+          {
+            "name": "Stanislav Žigmund",
+            "party": "SRK",
+            "votes": 13,
+            "pct": 0.06,
+            "ballot_no": 8,
+            "elected": false,
+            "withdrew": true
+          }
+        ],
+        "source": "https://volby.statistics.sk/oso/oso2018/files/xlsx/OSO_2018_tab05.xlsx (candidates) + https://volby.statistics.sk/oso/oso2018/files/xlsx/OSO_2018_tab02bd.xlsx (turnout/registered)",
+        "note": "ŠÚ SR definitive results. valid_votes = valid mayoral ballots; pct as published by ŠÚ SR (share of valid ballots). Entries with withdrew=true were marked X (vzdal sa / zrušená kandidatúra) by ŠÚ SR; their votes are included in the published totals."
+      }
+    },
+    "candidates_2026": [
+      {
+        "name": "Ing. Branislav Baroš",
+        "ballot_no": 1,
+        "party": "Trnava pre každého, KDH - kresťanskodemokratické hnutie",
+        "endorsed_by": null,
+        "incumbent": false,
+        "withdrew": false,
+        "prior_runs": "2022 Trnava mayor 2nd, 33.62 % (NEKA)",
+        "profile": "53, riaditeľ strojárskej spoločnosti, mestský poslanec, líder hnutia Trnava pre každého."
+      },
+      {
+        "name": "doc. PhDr. Andrea Čajková, PhD.",
+        "ballot_no": 2,
+        "party": "NEKA",
+        "endorsed_by": "občianska iniciatíva Trnava+",
+        "incumbent": false,
+        "withdrew": false,
+        "prior_runs": "first mayoral run",
+        "profile": "48, docentka verejnej politiky a verejnej správy (VŠ pedagogička)."
+      },
+      {
+        "name": "Mgr. Ľubica Horváthová",
+        "ballot_no": 3,
+        "party": "Demokrati",
+        "endorsed_by": null,
+        "incumbent": false,
+        "withdrew": true,
+        "withdrew_date": "2026-10-09",
+        "withdrew_note": "Announced 9.10.2026 in favour of Eva Nemčovská; formal withdrawal protocol at city 13.10.2026 9:09. Remains on printed ballot; votes for her are invalid. Still runs for city council (PS/SaS/Demokrati/Hnutie Slovensko list) and TTSK council.",
+        "withdrew_source": [
+          "https://www.teraz.sk/najnovsie/lubica-horvathova-odstupila-z-boja-o/998430-clanok.html",
+          "https://www.trnava.sk/content/files/Volby/komunlne_volby_2026/kandidati_vzdanie_sa_kandidatury.pdf"
+        ],
+        "prior_runs": "first mayoral run",
+        "profile": "41, špecialistka na energetické projekty; Demokrati nominee; 2018 city-council candidate (NEKA)."
+      },
+      {
+        "name": "PhDr. Eva Nemčovská, PhD., MPH",
+        "ballot_no": 4,
+        "party": "NEKA",
+        "endorsed_by": "Progresívne Slovensko, Demokrati (after Horváthová withdrawal); združenie Za lepšiu Trnavu",
+        "incumbent": false,
+        "withdrew": false,
+        "prior_runs": "first mayoral run",
+        "profile": "43, viceprimátorka Trnavy (zástupkyňa primátora Bročku)."
+      },
+      {
+        "name": "Ing. Jozef Obselka",
+        "ballot_no": 5,
+        "party": "NEKA",
+        "endorsed_by": null,
+        "incumbent": false,
+        "withdrew": false,
+        "prior_runs": "first mayoral run",
+        "profile": "48, vedúci spoločnosti."
+      },
+      {
+        "name": "Ing. Martin Pullmann",
+        "ballot_no": 6,
+        "party": "Smer - sociálna demokracia, Hlas - sociálna demokracia, Slovenská národná strana, Republika",
+        "endorsed_by": null,
+        "incumbent": false,
+        "withdrew": false,
+        "prior_runs": "first mayoral run",
+        "profile": "53, vedúci štátny zamestnanec; candidate of the governing parties plus Republika."
+      }
+    ],
+    "candidates_source": [
+      "https://www.trnava.sk/content/files/Volby/komunlne_volby_2026/komunalne_volby2026_zoznam-kandidatov_prim.pdf",
+      "https://www.trnavskyhlas.sk/c/42611-kto-kandiduje-vo-volbach-trnave-prinasame-kompletny-zoznam-uchadzacov-o-hlasy/",
+      "https://www.trnava.sk/content/files/Volby/komunlne_volby_2026/kandidati_vzdanie_sa_kandidatury.pdf",
+      "https://www.aktuality.sk/clanok/W8n9gmb/kompletny-zoznam-kandidatov-na-primatorov-krajskych-miest-vo-volbach-2026/"
+    ],
+    "polls": [
+      {
+        "pollster": "Katedra sociológie Trnavskej univerzity (student fieldwork)",
+        "fieldwork": "2026-09-21/2026-10-08",
+        "n": 1111,
+        "sponsor": "published by Mestská televízia Trnava",
+        "results": {
+          "Branislav Baroš": 32.4,
+          "Eva Nemčovská": 31.9,
+          "Ľubica Horváthová": 12.4,
+          "Andrea Čajková": 8.8,
+          "Martin Pullmann": 7.6,
+          "Jozef Obselka": 6.9
+        },
+        "undecided_pct": null,
+        "source": "https://www.finreport.sk/agenturne-spravy/v-trnave-sa-vo-volbach-primatora-rozhodne-medzi-barosom-a-nemcovskou-suboj-bude-podla-vysledkov-prieskumu-tesny/",
+        "note": "Shares among decided (sum 100 %). Fieldwork before Horváthová withdrew (9.10). Nemčovská stronger in Trnava-stred and -sever; Baroš in západ, juh, Modranka; východ closest (Baroš 32.1, Nemčovská 30.09, Horváthová 14.5)."
+      }
+    ],
+    "odds": [
+      {
+        "bookmaker": "Tipsport",
+        "date": "2026-10-20",
+        "odds": {
+          "Eva Nemčovská": 1.45,
+          "Branislav Baroš": 2.45,
+          "Martin Pullmann": 10.0,
+          "Andrea Čajková": 18.0,
+          "Jozef Obselka": 50.0
+        },
+        "source": "https://stavkynavolby.sk/informacie/kandidati-na-primatora-trnavy-2026/"
+      },
+      {
+        "bookmaker": "Tipsport",
+        "date": "2026-10-14",
+        "odds": {
+          "Eva Nemčovská": 1.5,
+          "Branislav Baroš": 2.15,
+          "Martin Pullmann": 8.0,
+          "Andrea Čajková": 15.0,
+          "Jozef Obselka": 30.0
+        },
+        "source": "https://kurzynavolby.sk/tipovanie/kurzy-na-volby/"
+      },
+      {
+        "bookmaker": "Fortuna",
+        "date": "2026-10-14",
+        "odds": {
+          "Eva Nemčovská": 1.45,
+          "Branislav Baroš": 2.3,
+          "Martin Pullmann": 8.0,
+          "Andrea Čajková": 15.0,
+          "Jozef Obselka": 40.0
+        },
+        "source": "https://kurzynavolby.sk/tipovanie/kurzy-na-volby/"
+      },
+      {
+        "bookmaker": "DOXXbet",
+        "date": "2026-10-14",
+        "odds": {
+          "Eva Nemčovská": 1.65,
+          "Branislav Baroš": 1.9,
+          "Martin Pullmann": 8.0,
+          "Andrea Čajková": 15.0
+        },
+        "source": "https://kurzynavolby.sk/tipovanie/kurzy-na-volby/"
+      }
+    ],
+    "key_events": [
+      {
+        "date": "2026-09-04",
+        "text": "City election commission registered 6 mayoral candidates (first time equal number of men and women). Bročka (mayor since 2014) not running.",
+        "source": "https://www.trnavskyhlas.sk/c/42611-kto-kandiduje-vo-volbach-trnave-prinasame-kompletny-zoznam-uchadzacov-o-hlasy/"
+      },
+      {
+        "date": "2026-10-09",
+        "text": "Ľubica Horváthová (Demokrati) withdrew in favour of Eva Nemčovská citing internal polls; PS (MP Jana Hanuliaková) declared full support for Nemčovská; Horváthová aims to be vice-mayor if Nemčovská wins. They differ on the Medziháj development.",
+        "source": "https://www.teraz.sk/najnovsie/lubica-horvathova-odstupila-z-boja-o/998430-clanok.html"
+      },
+      {
+        "date": "2026-10-13",
+        "text": "Trnava University sociology poll published: Baroš 32.4 vs Nemčovská 31.9 (statistical tie) before Horváthová's 12.4 % was released.",
+        "source": "https://www.finreport.sk/agenturne-spravy/v-trnave-sa-vo-volbach-primatora-rozhodne-medzi-barosom-a-nemcovskou-suboj-bude-podla-vysledkov-prieskumu-tesny/"
+      }
+    ],
+    "notes": "Open seat (Bročka retiring after 3 terms; won 2022 with 44.7 % vs Baroš 33.62 %). Two-horse race Baroš (Trnava pre každého + KDH) vs. vice-mayor Nemčovská (NEKA, backed by PS and after 9.10 by Demokrati). Poll pre-withdrawal: 32.4 vs 31.9; if Horváthová's 12.4 % transfers mostly to Nemčovská she leads clearly - bookmakers price her favourite (1.45-1.65) vs Baroš (1.90-2.45). Pullmann carries Smer+Hlas+SNS+Republika label in a liberal-leaning city (2018 Smer+SNS candidate Válek got 5.77 %). Horváthová stays on ballot - votes for her invalid. Whether Bročka endorsed anyone: not found (SME: 'his shadow felt over every candidate'). Turnout 2022 41.87 %, 2018 37.74 %."
+  },
+  {
+    "race_id": "mesto-trencin",
+    "name": "Trenčín",
+    "office": "primator",
+    "incumbent": {
+      "name": "Richard Rybníček",
+      "since": 2010,
+      "party_2022": "NEKA",
+      "running_2026": false
+    },
+    "history": {
+      "2022": {
+        "turnout_pct": 37,
+        "registered_voters": 46201,
+        "valid_votes": 16339,
+        "results": [
+          {
+            "name": "Richard Rybníček",
+            "party": "NEKA",
+            "votes": 11918,
+            "pct": 72.94,
+            "ballot_no": 2,
+            "elected": true
+          },
+          {
+            "name": "Miloš Mičega",
+            "party": "NEKA",
+            "votes": 4421,
+            "pct": 27.05,
+            "ballot_no": 1,
+            "elected": false
+          }
+        ],
+        "source": "https://volby.statistics.sk/oso/oso2022/files/xlsx/OSO2022_SK_tab05d.xlsx (candidates) + https://volby.statistics.sk/oso/oso2022/files/xlsx/OSO2022_SK_tab02bd.xlsx (turnout/registered)",
+        "note": "ŠÚ SR definitive results. valid_votes = valid mayoral ballots; pct as published by ŠÚ SR (share of valid ballots). Entries with withdrew=true were marked X (vzdal sa / zrušená kandidatúra) by ŠÚ SR; their votes are included in the published totals."
+      },
+      "2018": {
+        "turnout_pct": 42.03,
+        "registered_voters": 46803,
+        "valid_votes": 19135,
+        "results": [
+          {
+            "name": "Richard Rybníček",
+            "party": "NEKA",
+            "votes": 13855,
+            "pct": 72.4,
+            "ballot_no": 3,
+            "elected": true
+          },
+          {
+            "name": "Miloš Mičega",
+            "party": "NEKA",
+            "votes": 5228,
+            "pct": 27.32,
+            "ballot_no": 2,
+            "elected": false
+          },
+          {
+            "name": "Ľubomír Žabár",
+            "party": "NEKA",
+            "votes": 36,
+            "pct": 0.18,
+            "ballot_no": 4,
+            "elected": false,
+            "withdrew": true
+          },
+          {
+            "name": "Danica Birošová",
+            "party": "DOMA DOBRE",
+            "votes": 16,
+            "pct": 0.08,
+            "ballot_no": 1,
+            "elected": false,
+            "withdrew": true
+          }
+        ],
+        "source": "https://volby.statistics.sk/oso/oso2018/files/xlsx/OSO_2018_tab05.xlsx (candidates) + https://volby.statistics.sk/oso/oso2018/files/xlsx/OSO_2018_tab02bd.xlsx (turnout/registered)",
+        "note": "ŠÚ SR definitive results. valid_votes = valid mayoral ballots; pct as published by ŠÚ SR (share of valid ballots). Entries with withdrew=true were marked X (vzdal sa / zrušená kandidatúra) by ŠÚ SR; their votes are included in the published totals."
+      }
+    },
+    "candidates_2026": [
+      {
+        "name": "JUDr. Danica Birošová",
+        "ballot_no": 1,
+        "party": "NEKA",
+        "endorsed_by": null,
+        "incumbent": false,
+        "withdrew": false,
+        "prior_runs": "Announced runs in 2018 (on ballot for DOMA DOBRE, withdrew; 16 votes) and 2022, withdrew both times in favour of Mičega; says she will not withdraw in 2026",
+        "profile": "69, advokátka, bývalá mestská poslankyňa."
+      },
+      {
+        "name": "Michal Bratranec",
+        "ballot_no": 2,
+        "party": "NEKA",
+        "endorsed_by": null,
+        "incumbent": false,
+        "withdrew": false,
+        "prior_runs": "first run",
+        "profile": "51, šofér, 20+ rokov pracoval v Južnom Tirolsku."
+      },
+      {
+        "name": "Mgr. Ján Forgáč",
+        "ballot_no": 3,
+        "party": "NEKA",
+        "endorsed_by": "outgoing mayor Richard Rybníček (no party support sought; plans council club 'Trenčín 2026 plus')",
+        "incumbent": false,
+        "withdrew": false,
+        "prior_runs": "first mayoral run",
+        "profile": "51, prvý viceprimátor od 2014, mestský poslanec; 2011-2014 prednosta spoločného stavebného úradu."
+      },
+      {
+        "name": "Ing. Miloš Mičega, MBA, LL.M.",
+        "ballot_no": 4,
+        "party": "NEKA",
+        "endorsed_by": null,
+        "incumbent": false,
+        "withdrew": false,
+        "prior_runs": "2018 2nd 27.32 %, 2022 2nd 27.05 % (both vs Rybníček)",
+        "profile": "56, riaditeľ Regionálneho úradu pre územné plánovanie a výstavbu Trenčín, mestský (od 2014) a krajský (od 2017) poslanec; also runs for city council; 600+ nomination signatures."
+      }
+    ],
+    "candidates_source": [
+      "https://trencin.sk/wp-content/uploads/2026/09/Zoznam-zaregistrovanych-kandidatov-pre-volby-primatora-mesta-Trencin-1.pdf",
+      "https://trencin.sk/aktuality/pozname-mena-kandidatov-a-kandidatok-na-primatorsky-post-a-do-mestskeho-zastupitelstva/",
+      "https://my.sme.sk/trencin/c/kandidati-na-primatora-mesta-trencin-2026-kompletny-zoznam-a-profily-komunalne-volby-2026"
+    ],
+    "polls": [],
+    "odds": [
+      {
+        "bookmaker": "Tipsport",
+        "date": "2026-10-20",
+        "odds": {
+          "Ján Forgáč": 1.1,
+          "Miloš Mičega": 6.0,
+          "Danica Birošová": 20.0,
+          "Michal Bratranec": 30.0
+        },
+        "source": "https://stavkynavolby.sk/informacie/kandidati-na-primatora-trencina-2026/",
+        "note": "Per source nearly 100 % of Tipsport stakes (EUR 3,130) on Forgáč as of 20.10."
+      },
+      {
+        "bookmaker": "Tipsport",
+        "date": "2026-10-14",
+        "odds": {
+          "Ján Forgáč": 1.15,
+          "Miloš Mičega": 4.5,
+          "Danica Birošová": 17.0,
+          "Michal Bratranec": 20.0
+        },
+        "source": "https://kurzynavolby.sk/tipovanie/kurzy-na-volby/"
+      },
+      {
+        "bookmaker": "Fortuna",
+        "date": "2026-10-14",
+        "odds": {
+          "Ján Forgáč": 1.12,
+          "Miloš Mičega": 5.0,
+          "Danica Birošová": 18.0,
+          "Michal Bratranec": 20.0
+        },
+        "source": "https://kurzynavolby.sk/tipovanie/kurzy-na-volby/"
+      },
+      {
+        "bookmaker": "DOXXbet",
+        "date": "2026-10-14",
+        "odds": {
+          "Ján Forgáč": 1.19,
+          "Miloš Mičega": 4.0,
+          "Danica Birošová": 12.0,
+          "Michal Bratranec": 15.0
+        },
+        "source": "https://kurzynavolby.sk/tipovanie/kurzy-na-volby/"
+      }
+    ],
+    "key_events": [
+      {
+        "date": "2025-10",
+        "text": "Richard Rybníček (mayor since 2010, 72.94 % in 2022) announced he will not run again; he backs his first deputy Ján Forgáč.",
+        "source": "https://www.aktuality.sk/clanok/c1dNCOv/kompletny-zoznam-kandidatov-na-primatora-mesta-trencin-vo-volbach-2026/"
+      },
+      {
+        "date": "2026-09-07",
+        "text": "Commission registered 4 mayoral candidates, all NEKA; 5th filer Anton Kysel (SLOVEXIT) dropped after his party revoked the nomination. Council: 78 candidates, PS+SaS+KDH+Demokrati+OKS+Hnutie Slovensko joint list of 21, Hlas 5, Smer/SNS/Republika 2 each.",
+        "source": "https://trencin.sk/aktuality/pozname-mena-kandidatov-a-kandidatok-na-primatorsky-post-a-do-mestskeho-zastupitelstva/"
+      }
+    ],
+    "notes": "Open seat after 16 years of Rybníček. Effectively Forgáč (continuity, Rybníček-endorsed) vs Mičega (two-time runner-up with ~27 %, the anti-Rybníček pole). No party formally nominates any mayoral candidate; no Smer/Hlas mayoral candidate, so where government-leaning voters go (likely Mičega?) is unknown - no source found on party endorsements. Birošová (withdrew in favour of Mičega in 2018 and 2022) stays in this time, splitting the opposition vote. No public poll found. Bookmakers: Forgáč 1.10-1.19, Mičega 4.0-6.0. Turnout 2022 37.0 %, 2018 42.03 %. Mičega's 27 % ceiling was vs. a popular incumbent; open-seat dynamics are different."
+  },
+  {
+    "race_id": "mesto-zilina",
+    "name": "Žilina",
+    "office": "primator",
+    "incumbent": {
+      "name": "Peter Fiabáne",
+      "since": 2018,
+      "party_2022": "NEKA",
+      "running_2026": true
+    },
+    "history": {
+      "2022": {
+        "turnout_pct": 38.16,
+        "registered_voters": 69091,
+        "valid_votes": 25595,
+        "results": [
+          {
+            "name": "Peter Fiabáne",
+            "party": "NEKA",
+            "votes": 11654,
+            "pct": 45.53,
+            "ballot_no": 4,
+            "elected": true
+          },
+          {
+            "name": "Patrik Groma",
+            "party": "Hlas - sociálna demokracia, KDH",
+            "votes": 4866,
+            "pct": 19.01,
+            "ballot_no": 5,
+            "elected": false
+          },
+          {
+            "name": "Peter Cibulka",
+            "party": "NEKA",
+            "votes": 3970,
+            "pct": 15.51,
+            "ballot_no": 3,
+            "elected": false
+          },
+          {
+            "name": "Pavol Slota",
+            "party": "DOMOV-NS",
+            "votes": 2723,
+            "pct": 10.63,
+            "ballot_no": 7,
+            "elected": false
+          },
+          {
+            "name": "Ján Rzeszoto",
+            "party": "NEKA",
+            "votes": 981,
+            "pct": 3.83,
+            "ballot_no": 6,
+            "elected": false
+          },
+          {
+            "name": "Silvia Bakkery",
+            "party": "REPUBLIKA",
+            "votes": 668,
+            "pct": 2.6,
+            "ballot_no": 1,
+            "elected": false
+          },
+          {
+            "name": "Štefan Zelník",
+            "party": "ŽIVOT",
+            "votes": 276,
+            "pct": 1.07,
+            "ballot_no": 8,
+            "elected": false,
+            "withdrew": true
+          },
+          {
+            "name": "Daniela Zemanová",
+            "party": "Hnutie ONÁS",
+            "votes": 273,
+            "pct": 1.06,
+            "ballot_no": 9,
+            "elected": false
+          },
+          {
+            "name": "Timotej Bernhauser",
+            "party": "NEKA",
+            "votes": 184,
+            "pct": 0.71,
+            "ballot_no": 2,
+            "elected": false
+          }
+        ],
+        "source": "https://volby.statistics.sk/oso/oso2022/files/xlsx/OSO2022_SK_tab05d.xlsx (candidates) + https://volby.statistics.sk/oso/oso2022/files/xlsx/OSO2022_SK_tab02bd.xlsx (turnout/registered)",
+        "note": "ŠÚ SR definitive results. valid_votes = valid mayoral ballots; pct as published by ŠÚ SR (share of valid ballots). Entries with withdrew=true were marked X (vzdal sa / zrušená kandidatúra) by ŠÚ SR; their votes are included in the published totals."
+      },
+      "2018": {
+        "turnout_pct": 41.3,
+        "registered_voters": 70771,
+        "valid_votes": 28872,
+        "results": [
+          {
+            "name": "Peter Fiabáne",
+            "party": "NEKA",
+            "votes": 13876,
+            "pct": 48.06,
+            "ballot_no": 1,
+            "elected": true
+          },
+          {
+            "name": "Patrik Groma",
+            "party": "NEKA",
+            "votes": 7142,
+            "pct": 24.73,
+            "ballot_no": 2,
+            "elected": false
+          },
+          {
+            "name": "Martin Kapitulík",
+            "party": "NEKA",
+            "votes": 3754,
+            "pct": 13,
+            "ballot_no": 6,
+            "elected": false
+          },
+          {
+            "name": "Ľudmila Chodelková",
+            "party": "NEKA",
+            "votes": 2548,
+            "pct": 8.82,
+            "ballot_no": 4,
+            "elected": false
+          },
+          {
+            "name": "Ján Púček",
+            "party": "ĽS Naše Slovensko",
+            "votes": 917,
+            "pct": 3.17,
+            "ballot_no": 7,
+            "elected": false
+          },
+          {
+            "name": "Tibor Hanuliak",
+            "party": "SNS",
+            "votes": 325,
+            "pct": 1.12,
+            "ballot_no": 3,
+            "elected": false
+          },
+          {
+            "name": "Marian Janušek",
+            "party": "NEKA",
+            "votes": 310,
+            "pct": 1.07,
+            "ballot_no": 5,
+            "elected": false
+          }
+        ],
+        "source": "https://volby.statistics.sk/oso/oso2018/files/xlsx/OSO_2018_tab05.xlsx (candidates) + https://volby.statistics.sk/oso/oso2018/files/xlsx/OSO_2018_tab02bd.xlsx (turnout/registered)",
+        "note": "ŠÚ SR definitive results. valid_votes = valid mayoral ballots; pct as published by ŠÚ SR (share of valid ballots). Entries with withdrew=true were marked X (vzdal sa / zrušená kandidatúra) by ŠÚ SR; their votes are included in the published totals."
+      }
+    },
+    "candidates_2026": [
+      {
+        "name": "Mgr. Peter Cibulka",
+        "ballot_no": 1,
+        "party": "NEKA",
+        "endorsed_by": null,
+        "incumbent": false,
+        "withdrew": false,
+        "prior_runs": "2022 Žilina mayor 3rd, 15.51 %",
+        "profile": "44, učiteľ, mestský poslanec 12 rokov a krajský poslanec; najostrejší kritik Fiabáneho."
+      },
+      {
+        "name": "Mgr. Peter Fiabáne",
+        "ballot_no": 2,
+        "party": "NEKA",
+        "endorsed_by": "Progresívne Slovensko, KDH, SaS, Demokrati",
+        "incumbent": true,
+        "withdrew": false,
+        "prior_runs": "won 2018 (48.06 %) and 2022 (45.53 %)",
+        "profile": "63, primátor od 2018, mestský poslanec od 2002; says this is his last run."
+      },
+      {
+        "name": "MUDr. Rastislav Johanes, PhD., MBA",
+        "ballot_no": 3,
+        "party": "NEKA",
+        "endorsed_by": null,
+        "incumbent": false,
+        "withdrew": false,
+        "prior_runs": "first mayoral run",
+        "profile": "61, chirurg, námestník v Dolnooravskej nemocnici, dlhoročný mestský poslanec a poslanec ŽSK."
+      },
+      {
+        "name": "Bc. Bohumil Kostolný",
+        "ballot_no": 4,
+        "party": "NEKA",
+        "endorsed_by": null,
+        "incumbent": false,
+        "withdrew": false,
+        "prior_runs": "first run",
+        "profile": "63, predčasný dôchodca, no known municipal record."
+      },
+      {
+        "name": "Ing. Anton Kozlík",
+        "ballot_no": 5,
+        "party": "NEKA",
+        "endorsed_by": null,
+        "incumbent": false,
+        "withdrew": false,
+        "prior_runs": "first mayoral run",
+        "profile": "47, riaditeľ spoločnosti (správa nehnuteľností), mestský poslanec od 2022."
+      },
+      {
+        "name": "Mgr. Ivan Magát",
+        "ballot_no": 6,
+        "party": "NEKA",
+        "endorsed_by": null,
+        "incumbent": false,
+        "withdrew": false,
+        "prior_runs": "first run",
+        "profile": "50, právnik, taxikár."
+      },
+      {
+        "name": "JUDr. PaedDr. Michal Milo, LL.M.",
+        "ballot_no": 7,
+        "party": "Republika",
+        "endorsed_by": null,
+        "incumbent": false,
+        "withdrew": false,
+        "prior_runs": "first mayoral run (Republika got 2.60 % in 2022 with Bakkery)",
+        "profile": "41, účtovník; candidate of Republika."
+      },
+      {
+        "name": "Ing. Miroslav Sokol",
+        "ballot_no": 8,
+        "party": "NEKA",
+        "endorsed_by": null,
+        "incumbent": false,
+        "withdrew": false,
+        "prior_runs": "first run",
+        "profile": "47, elektrotechnik/podnikateľ."
+      }
+    ],
+    "candidates_source": [
+      "https://zilina.sk/wp-content/uploads/2026/06/Zoznam-zaregistrovanych-kandidatov-pre-volby-primatora-mesta-Zilina.pdf",
+      "https://hnonline.sk/volby-2026/komunalne-volby-2026/96307650-komunalne-volby-2026-zilina-zoznam-kandidatov-primator-a-poslanci",
+      "https://www.aktuality.sk/clanok/uBDJaIF/kompletny-zoznam-kandidatov-na-primatora-mesta-zilina-vo-volbach-2026/"
+    ],
+    "polls": [],
+    "odds": [
+      {
+        "bookmaker": "Tipsport",
+        "date": "2026-10-19",
+        "odds": {
+          "Peter Fiabáne": 1.2,
+          "Rastislav Johanes": 4.0,
+          "Peter Cibulka": 15.0,
+          "Michal Milo": 40.0,
+          "Ivan Magát": 45.0,
+          "Miroslav Sokol": 45.0,
+          "Bohumil Kostolný": 50.0,
+          "Anton Kozlík": 50.0
+        },
+        "source": "https://stavkynavolby.sk/informacie/kandidati-na-primatora-ziliny-2026/"
+      },
+      {
+        "bookmaker": "Tipsport",
+        "date": "2026-10-14",
+        "odds": {
+          "Peter Fiabáne": 1.18,
+          "Rastislav Johanes": 4.0,
+          "Peter Cibulka": 11.0,
+          "Michal Milo": 30.0,
+          "Ivan Magát": 35.0,
+          "Miroslav Sokol": 35.0,
+          "Bohumil Kostolný": 40.0,
+          "Anton Kozlík": 40.0
+        },
+        "source": "https://kurzynavolby.sk/tipovanie/kurzy-na-volby/"
+      },
+      {
+        "bookmaker": "Fortuna",
+        "date": "2026-10-14",
+        "odds": {
+          "Peter Fiabáne": 1.18,
+          "Rastislav Johanes": 4.0,
+          "Peter Cibulka": 10.0,
+          "Miroslav Sokol": 30.0,
+          "Anton Kozlík": 40.0
+        },
+        "source": "https://kurzynavolby.sk/tipovanie/kurzy-na-volby/"
+      },
+      {
+        "bookmaker": "DOXXbet",
+        "date": "2026-10-14",
+        "odds": {
+          "Peter Fiabáne": 1.19,
+          "Rastislav Johanes": 3.8,
+          "Peter Cibulka": 10.0,
+          "Miroslav Sokol": 25.0,
+          "Anton Kozlík": 30.0
+        },
+        "source": "https://kurzynavolby.sk/tipovanie/kurzy-na-volby/"
+      },
+      {
+        "bookmaker": "Tipsport",
+        "date": "2026-08-12",
+        "odds": {
+          "Peter Fiabáne": 1.04,
+          "Rastislav Johanes": 7.0
+        },
+        "source": "https://sita.sk/prve-kurzy-na-volby-v-ziline-su-vonku-kto-je-podla-bookmakerov-favoritom-volieb/",
+        "note": "Opening odds per Tipsport spokesman; only these two quoted."
+      }
+    ],
+    "key_events": [
+      {
+        "date": "2026-06-08",
+        "text": "Fiabáne officially announced third (and, he says, last) candidacy as NEKA with support of PS, SaS, KDH and Demokrati. Long-running conflict with council member Cibulka (Fiabáne called him a 'hoaxer and troll') over Karpatská hall / Žilinská parkovacia spoločnosť land swap.",
+        "source": "https://www.aktuality.sk/clanok/pszum2w/volby-2026-peter-fiabane-kandiduje-na-primatora-ziliny-tvrdi-ze-poslednykrat/"
+      },
+      {
+        "date": "2026-09-05",
+        "text": "Commission registered 8 mayoral candidates (7 NEKA + Michal Milo for Republika).",
+        "source": "https://zilina.sk/wp-content/uploads/2026/06/Zoznam-zaregistrovanych-kandidatov-pre-volby-primatora-mesta-Zilina.pdf"
+      },
+      {
+        "date": "2026-10",
+        "text": "STVR debate with all 8 candidates.",
+        "source": "https://spravy.stvr.sk/2026/10/volby-2026-kandidati-na-primatora-ziliny-diskusia/"
+      }
+    ],
+    "notes": "Incumbent Fiabáne (48.06 % 2018, 45.53 % 2022) faces fragmented field of 7. Main challengers: Johanes (doctor, ŽSK councillor) and Cibulka (3rd in 2022 with 15.51 %). In 2022 the 2nd place Groma (Hlas+KDH, 19.01 %) - this time KDH backs Fiabáne and Hlas/Smer/SNS/Domov run joint council lists but NO mayoral candidate; no source found on whether they informally back Johanes. Republika (Milo) is the only party-nominated challenger. Odds drifted from Fiabáne 1.04 / Johanes 7.0 (12.8.) to 1.18-1.20 / 3.8-4.0 (mid-Oct) - tightening but Fiabáne clear favourite. No scientific poll found (komunalne-volby.sk runs a self-selected web vote - not usable). Turnout 2022 38.16 %, 2018 41.3 %."
+  }
+]

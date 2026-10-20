@@ -1,0 +1,75 @@
+# Judgement layer ("AI s modelom"): only facts the fundamentals model cannot see.
+# Keys: race id -> candidates -> ascii surname (or "firstname surname") -> fields.
+#   adj         log-utility shift (+0.4 ~ +40 % relative share before normalisation); always with adj_reason
+#   transfer_to withdrawn candidate's endorsement: half of their poll support moves to this candidate
+#   prev_share  previous result in the same office when the 2022 table does not show it
+# Scale used for profile adjustments (kept coarse on purpose):
+#   +0.6 former holder of the same office / heir endorsed by a long-serving outgoing mayor
+#   +0.3 clear organisational advantage not captured by party count (endorsements, merged lists)
+#   -0.5 no public or political profile found (no office, no previous run, no party)
+
+# ---------- regions ----------
+kraj-za:
+  candidates:
+    lucansky: {transfer_to: Igor Choma}
+    belousovova: {transfer_to: Igor Choma}
+kraj-po:
+  candidates:
+    leskova: {transfer_to: Milan Mazurek}
+    kaso: {transfer_to: Samuel Migaľ}
+kraj-ke:
+  candidates:
+    geci: {transfer_to: Igor Šimko}
+  polls:
+    - pollster: AKO (JOJ 24)
+      fieldwork_end: "2026-10-12"
+      n: null
+      results: {Rastislav Trnka: 42.4, Marián Porvažník: 25.7, Igor Šimko: 19.7}
+      source: https://joj24.noviny.sk/prieskumy/1274835-kto-ovladne-kosicky-kraj-prieskum-joj-24-ukazal-vyrazny-naskok-jedneho-z-kandidatov
+      note: fieldwork dates not published; Géci (withdrew 12.10) still listed, so end date set to 12.10 (assumption); only the three leaders are used
+
+# ---------- regional cities ----------
+mesto-trnava:
+  candidates:
+    horvathova: {transfer_to: Eva Nemčovská}
+    obselka: {adj: -0.5, adj_reason: "Bez verejného profilu (vedúci spoločnosti, prvá kandidatúra, žiadna funkcia ani strana)."}
+mesto-trencin:
+  candidates:
+    forgac: {adj: 0.6, adj_reason: "Prvý viceprimátor od 2014, ktorého podporuje odchádzajúci primátor Rybníček (16 rokov vo funkcii, 2022 jasne zvolený). Model pozná len to, že je miestny funkcionár."}
+    bratranec: {adj: -0.5, adj_reason: "Bez verejného profilu (šofér, 20 rokov v zahraničí, prvá kandidatúra)."}
+mesto-zilina:
+  candidates:
+    kostolny: {adj: -0.5, adj_reason: "Bez verejného profilu (predčasný dôchodca, bez komunálnej histórie)."}
+    magat: {adj: -0.5, adj_reason: "Bez verejného profilu (prvá kandidatúra, bez funkcie)."}
+    sokol: {adj: -0.5, adj_reason: "Bez verejného profilu (prvá kandidatúra, bez funkcie)."}
+
+# ---------- Bratislava districts ----------
+mc-podunajske-biskupice:
+  candidates:
+    cinovska: {adj: 0.3, adj_reason: "Spojená kandidatúra SaNK, KDH, Nova a Maďarskej aliancie s podporou exstarostu Péka na jej kandidátke. Tieto prúdy mali v roku 2022 spolu okolo 40 %."}
+mc-nove-mesto:
+  candidates:
+    kusy: {adj: 0.4, adj_reason: "Bývalý starosta (2014–2022). V roku 2018 porazil Čupku 58,5 % : 37,5 %. Model vidí len posledné voľby, kde nekandidoval. Úprava je nižšia ako +0,6 kvôli obvineniu z úplatku (2025)."}
+mc-karlova-ves:
+  candidates:
+    zahradnik: {adj: 0.3, adj_reason: "Vicestarosta, ktorého verejne podporuje odchádzajúca starostka Čahojová (2022: 85,5 %)."}
+mc-petrzalka:
+  candidates:
+    mravec: {prev_share: 0.214, adj_reason: "V doplňujúcich voľbách 6. 9. 2025 získal asi 21,4 % proti Hrčkovi (dopočet 100 − 78,58)."}
+mc-cunovo:
+  candidates:
+    krist: {adj: 0.3, adj_reason: "V roku 2018 získal proti dnešnej starostke 36,98 %. V roku 2022 nekandidoval, takže to model nevidí."}
+
+mesto-bratislava:
+  candidates:
+    winkler: {transfer_to: Jozef Ráž}
+    raz: {bloc: gov, adj_reason: "Formálne nezávislý, ale minister dopravy nominovaný Smerom. V simulácii nesie spoločný šok vládneho bloku (bez úpravy podielu)."}
+mesto-kosice:
+  candidates:
+    lorinc: {exec_office: true, adj_reason: "Starosta mestskej časti Sídlisko KVP od 2018: rys 'úradujúci starosta inej samosprávy' (koeficient z dát)."}
+    kovacevicova: {exec_office: true, adj_reason: "Starostka mestskej časti Nad jazerom od 2014: rys 'úradujúci starosta inej samosprávy' (koeficient z dát)."}
+mesto-banska-bystrica:
+  candidates:
+    sobota: {transfer_to: Diana Javorčíková}
+mesto-nitra:
+  partisan_polls: [Infostat, Focus]

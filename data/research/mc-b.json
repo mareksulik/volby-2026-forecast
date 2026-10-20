@@ -1,0 +1,1015 @@
+[
+  {
+    "race_id": "mc-dubravka",
+    "name": "Dúbravka",
+    "office": "starosta",
+    "incumbent": {
+      "name": "Martin Zaťovič",
+      "since": 2018,
+      "party_2022": "SOM Slovensko",
+      "running_2026": true
+    },
+    "history": {
+      "2022": {
+        "turnout_pct": 35.91,
+        "registered_voters": 30999,
+        "valid_votes": 10577,
+        "results": [
+          {
+            "name": "Martin Zaťovič",
+            "party": "SOM Slovensko",
+            "votes": 8572,
+            "pct": 81.04
+          },
+          {
+            "name": "Marek Dinuš",
+            "party": "NEKA",
+            "votes": 2005,
+            "pct": 18.95
+          }
+        ],
+        "source": "https://volby.statistics.sk/oso/oso2022/sk/vysledky_obce.html (JSON: https://volby.statistics.sk/oso/oso2022/json/tab05/529389.json, graph01/529389.json)",
+        "note": "valid_votes = valid ballots cast for starosta (C09); turnout_pct = ŠÚ SR účasť."
+      },
+      "2018": {
+        "turnout_pct": 39.93,
+        "registered_voters": 31247,
+        "valid_votes": 12124,
+        "results": [
+          {
+            "name": "Martin Zaťovič",
+            "party": "SaS, OBYČAJNÍ ĽUDIA a nezávislé osobnosti (OĽANO), KDH, SME RODINA - Boris Kollár, OKS, NOVA, Zmena zdola, DÚ",
+            "votes": 11007,
+            "pct": 90.78
+          },
+          {
+            "name": "Iveta Petrušková",
+            "party": "SMER-SD, SNS",
+            "votes": 1117,
+            "pct": 9.21
+          }
+        ],
+        "source": "https://volby.statistics.sk/oso/oso2018/sk/data02.html (JSON: https://volby.statistics.sk/oso/oso2018/json/tab05/529389.json, graph01/529389.json)",
+        "note": "valid_votes = valid ballots cast for starosta (C09); turnout_pct = ŠÚ SR účasť."
+      }
+    },
+    "candidates_2026": [
+      {
+        "name": "RNDr. Martin Zaťovič",
+        "ballot_no": 1,
+        "party": "Som Slovensko - strana obcí a miest",
+        "endorsed_by": null,
+        "incumbent": true,
+        "withdrew": false,
+        "prior_runs": "2022 won 81.04 %; 2018 won 90.78 % (broad centre-right coalition SaS/OĽaNO/KDH/Sme rodina/OKS/NOVA/ZZ)",
+        "profile": "Incumbent starosta, 54; elected 2018, re-elected 2022."
+      }
+    ],
+    "candidates_source": [
+      "https://www.dubravka.sk/files/documents/samosprava/volby/2026%20samospravy/zoznam-zaregistrovaneho-kandidata-na-starostu-2026.pdf",
+      "https://www.dubravka.sk/sk/Samosprava/Samosprava1/Volby/volby-do-organov-samospravy-obci-a-samospravnych-krajov-2026.html",
+      "https://www.aktuality.sk/clanok/qXyfW7d/kompletny-zoznam-kandidatov-na-starostov-mestskych-casti-v-bratislave-vo-volbach-2026/"
+    ],
+    "polls": [],
+    "odds": [],
+    "key_events": [
+      {
+        "date": "2026-09-04",
+        "text": "Local election commission registered a single starosta candidate (incumbent Zaťovič); 62 candidates for 25 council seats.",
+        "source": "https://www.dubravka.sk/files/documents/samosprava/volby/2026%20samospravy/zoznam-zaregistrovaneho-kandidata-na-starostu-2026.pdf"
+      }
+    ],
+    "notes": "UNCONTESTED: only the incumbent is on the ballot, so he wins with 100 % of valid votes (any valid vote elects him). Model note: winner certain; turnout reference 2022 35.91 %, 2018 39.93 % (ŠÚ SR). Zaťovič's 'since' = 2018 is the earliest year verified in ŠÚ SR data used here (earlier terms not checked). POLLS/ODDS: no public scientific poll and no bookmaker odds found for this district as of 2026-10-20."
+  },
+  {
+    "race_id": "mc-lamac",
+    "name": "Lamač",
+    "office": "starosta",
+    "incumbent": {
+      "name": "Igor Polakovič",
+      "since": 2022,
+      "party_2022": "Team Bratislava, Progresívne Slovensko, SaS",
+      "running_2026": true
+    },
+    "history": {
+      "2022": {
+        "turnout_pct": 48.13,
+        "registered_voters": 6529,
+        "valid_votes": 2951,
+        "results": [
+          {
+            "name": "Igor Polakovič",
+            "party": "Team Bratislava, Progresívne Slovensko, SaS",
+            "votes": 1161,
+            "pct": 39.34
+          },
+          {
+            "name": "Lukáš Baňacký",
+            "party": "SOM Slovensko",
+            "votes": 886,
+            "pct": 30.02
+          },
+          {
+            "name": "Radoslav Olekšák",
+            "party": "Hlas - sociálna demokracia, SMER - SD, SNS",
+            "votes": 523,
+            "pct": 17.72
+          },
+          {
+            "name": "Mária Šimončičová",
+            "party": "NEKA",
+            "votes": 381,
+            "pct": 12.91
+          }
+        ],
+        "source": "https://volby.statistics.sk/oso/oso2022/sk/vysledky_obce.html (JSON: https://volby.statistics.sk/oso/oso2022/json/tab05/529419.json, graph01/529419.json)",
+        "note": "valid_votes = valid ballots cast for starosta (C09); turnout_pct = ŠÚ SR účasť."
+      },
+      "2018": {
+        "turnout_pct": 52.82,
+        "registered_voters": 6346,
+        "valid_votes": 3221,
+        "results": [
+          {
+            "name": "Lukáš Baňacký",
+            "party": "SaS, OBYČAJNÍ ĽUDIA a nezávislé osobnosti (OĽANO), KDH, SME RODINA - Boris Kollár, OKS, NOVA, Zmena zdola, DÚ",
+            "votes": 1498,
+            "pct": 46.5
+          },
+          {
+            "name": "Radoslav Olekšák",
+            "party": "NF",
+            "votes": 925,
+            "pct": 28.71
+          },
+          {
+            "name": "Katarína Boskovičová",
+            "party": "NEKA",
+            "votes": 514,
+            "pct": 15.95
+          },
+          {
+            "name": "Richard Sporina",
+            "party": "NEKA",
+            "votes": 153,
+            "pct": 4.75
+          },
+          {
+            "name": "Marian Bukoven",
+            "party": "SNJ-sv",
+            "votes": 131,
+            "pct": 4.06
+          }
+        ],
+        "source": "https://volby.statistics.sk/oso/oso2018/sk/data02.html (JSON: https://volby.statistics.sk/oso/oso2018/json/tab05/529419.json, graph01/529419.json)",
+        "note": "valid_votes = valid ballots cast for starosta (C09); turnout_pct = ŠÚ SR účasť."
+      }
+    },
+    "candidates_2026": [
+      {
+        "name": "Igor Polakovič",
+        "ballot_no": 1,
+        "party": "Team Bratislava, Progresívne Slovensko, Sloboda a solidarita, Demokrati",
+        "endorsed_by": null,
+        "incumbent": true,
+        "withdrew": false,
+        "prior_runs": "2022 won 39.34 % in 4-way race",
+        "profile": "Incumbent starosta, 50; elected 2022 for Vallo's coalition."
+      },
+      {
+        "name": "Mgr. Mária Šimončičová",
+        "ballot_no": 2,
+        "party": "NEKA (nezávislá kandidátka)",
+        "endorsed_by": null,
+        "incumbent": false,
+        "withdrew": false,
+        "prior_runs": "2022 Lamač starosta 4th, 12.91 % (NEKA)",
+        "profile": "Director (riaditeľka), 52; independent."
+      }
+    ],
+    "candidates_source": [
+      "https://www.lamac.sk/files/documents/zverejnovanie/volby/komunalne/2026/starosta_zoznam-reg.-kandidatov.pdf",
+      "https://www.lamac.sk/samosprava/zverejnovanie/uradna-tabula/zoznam-zaregistrovanych-kandidatov-pre-volby-24-oktobra-2026",
+      "https://www.aktuality.sk/clanok/qXyfW7d/kompletny-zoznam-kandidatov-na-starostov-mestskych-casti-v-bratislave-vo-volbach-2026/"
+    ],
+    "polls": [],
+    "odds": [],
+    "key_events": [
+      {
+        "date": "2026-09-02",
+        "text": "Election commission registered 2 starosta candidates: Polakovič (TB/PS/SaS/Demokrati) and Šimončičová (independent).",
+        "source": "https://www.lamac.sk/files/documents/zverejnovanie/volby/komunalne/2026/starosta_zoznam-reg.-kandidatov.pdf"
+      },
+      {
+        "date": "2026-10-20",
+        "text": "Denník N candidate survey: only Polakovič answered; he promises a series of smaller projects (sports grounds, playgrounds, school energy retrofit, day-care centre, old cinema conversion).",
+        "source": "https://dennikn.sk/5616663/co-slubuju-kandidati-na-starostu-v-lamaci-vo-vajnoroch-v-cunove-nove-sportoviska-aj-zachovanie-vidieckeho-charakteru/"
+      }
+    ],
+    "notes": "Head-to-head. 2022 was fragmented: Polakovič 39.34 %, Baňacký (SOM Slovensko, then-incumbent) 30.02 %, Olekšák (Hlas/Smer/SNS) 17.72 %, Šimončičová 12.91 %. In 2026 neither Som Slovensko nor Smer/Hlas field a candidate, so ~48 % of the 2022 vote (Baňacký+Olekšák) is up for grabs; Šimončičová is the only alternative for non-PS voters. Lamač turnout is high (48.13 % in 2022). POLLS/ODDS: no public scientific poll and no bookmaker odds found for this district as of 2026-10-20."
+  },
+  {
+    "race_id": "mc-devin",
+    "name": "Devín",
+    "office": "starosta",
+    "incumbent": {
+      "name": "Jana Jakubkovič",
+      "since": 2022,
+      "party_2022": "NEKA",
+      "running_2026": false
+    },
+    "history": {
+      "2022": {
+        "turnout_pct": 55.35,
+        "registered_voters": 1541,
+        "valid_votes": 837,
+        "results": [
+          {
+            "name": "Jana Jakubkovič",
+            "party": "NEKA",
+            "votes": 364,
+            "pct": 43.48
+          },
+          {
+            "name": "Igor Prieložný",
+            "party": "Team Bratislava, Progresívne Slovensko, SaS",
+            "votes": 252,
+            "pct": 30.1
+          },
+          {
+            "name": "Štefan Lőrinc",
+            "party": "NEKA",
+            "votes": 132,
+            "pct": 15.77
+          },
+          {
+            "name": "Anton Martvoň",
+            "party": "Hlas - sociálna demokracia",
+            "votes": 54,
+            "pct": 6.45
+          },
+          {
+            "name": "Rastislav Kunst",
+            "party": "SME RODINA, ZA ĽUDÍ, DOBRÁ VOĽBA a Umiernení, SZÖVETSÉG - ALIANCIA",
+            "votes": 35,
+            "pct": 4.18
+          }
+        ],
+        "source": "https://volby.statistics.sk/oso/oso2022/sk/vysledky_obce.html (JSON: https://volby.statistics.sk/oso/oso2022/json/tab05/529401.json, graph01/529401.json)",
+        "note": "valid_votes = valid ballots cast for starosta (C09); turnout_pct = ŠÚ SR účasť."
+      },
+      "2018": {
+        "turnout_pct": 57.56,
+        "registered_voters": 1447,
+        "valid_votes": 798,
+        "results": [
+          {
+            "name": "Ľubica Kolková",
+            "party": "NEKA",
+            "votes": 489,
+            "pct": 61.27
+          },
+          {
+            "name": "Andrea Denková",
+            "party": "NEKA",
+            "votes": 309,
+            "pct": 38.72
+          }
+        ],
+        "source": "https://volby.statistics.sk/oso/oso2018/sk/data02.html (JSON: https://volby.statistics.sk/oso/oso2018/json/tab05/529401.json, graph01/529401.json)",
+        "note": "valid_votes = valid ballots cast for starosta (C09); turnout_pct = ŠÚ SR účasť."
+      }
+    },
+    "candidates_2026": [
+      {
+        "name": "Mgr. Martin Galát",
+        "ballot_no": 1,
+        "party": "NEKA (nezávislý kandidát)",
+        "endorsed_by": null,
+        "incumbent": false,
+        "withdrew": false,
+        "prior_runs": null,
+        "profile": "Deputy mayor (zástupca starostu) of Devín, 40."
+      },
+      {
+        "name": "Ing. Pavol Maruščák",
+        "ballot_no": 2,
+        "party": "NEKA (nezávislý kandidát)",
+        "endorsed_by": null,
+        "incumbent": false,
+        "withdrew": false,
+        "prior_runs": null,
+        "profile": "Businessman, 62."
+      },
+      {
+        "name": "Bc. Igor Prieložný",
+        "ballot_no": 3,
+        "party": "Team Bratislava, Progresívne Slovensko, Sloboda a solidarita, Demokrati",
+        "endorsed_by": null,
+        "incumbent": false,
+        "withdrew": false,
+        "prior_runs": "2022 Devín starosta 2nd, 30.10 % (TB/PS/SaS)",
+        "profile": "Craftsman and filmmaker, 43."
+      }
+    ],
+    "candidates_source": [
+      "https://www.devin.sk/data/page/devin.sk/31498/zoznam-kandidatov-pre-volby-starostu-mestskej-casti-bratislava-devin.pdf",
+      "https://www.aktuality.sk/clanok/qXyfW7d/kompletny-zoznam-kandidatov-na-starostov-mestskych-casti-v-bratislave-vo-volbach-2026/",
+      "https://www.tasr.sk/tasr-clanok/TASR:2026090700000212"
+    ],
+    "polls": [],
+    "odds": [],
+    "key_events": [
+      {
+        "date": "2026-09-07",
+        "text": "Three starosta candidates registered; incumbent Jana Jakubkovič not running after one term (open seat).",
+        "source": "https://www.devin.sk/data/page/devin.sk/31498/zoznam-kandidatov-pre-volby-starostu-mestskej-casti-bratislava-devin.pdf"
+      },
+      {
+        "date": "2026-10-19",
+        "text": "Denník N survey: Galát and Prieložný agree on stopping unsuitable development; Prieložný rejects building in vineyards/flood zone; Maruščák did not answer.",
+        "source": "https://dennikn.sk/5616607/co-slubuju-kandidati-na-starostu-v-devinskej-novej-vsi-a-devine-centralne-namestie-aj-turbookruznu-krizovatku/"
+      }
+    ],
+    "notes": "OPEN SEAT. Very small electorate (1,541 registered in 2022) with high turnout (55.35 % 2022). 2022: Jakubkovič (NEKA) 43.48 %, Prieložný 30.10 %, Lőrinc (NEKA) 15.77 %, Martvoň (Hlas) 6.45 %, Kunst 4.18 %. Prieložný is the only candidate with a prior-run base; Galát carries continuity of the outgoing administration as deputy mayor (no source found that Jakubkovič formally endorsed him). Independents historically win Devín (2018 two independents only). POLLS/ODDS: no public scientific poll and no bookmaker odds found for this district as of 2026-10-20."
+  },
+  {
+    "race_id": "mc-devinska-nova-ves",
+    "name": "Devínska Nová Ves",
+    "office": "starosta",
+    "incumbent": {
+      "name": "Dárius Krajčír",
+      "since": 2018,
+      "party_2022": "SOM Slovensko",
+      "running_2026": true
+    },
+    "history": {
+      "2022": {
+        "turnout_pct": 39.5,
+        "registered_voters": 14281,
+        "valid_votes": 5363,
+        "results": [
+          {
+            "name": "Dárius Krajčír",
+            "party": "SOM Slovensko",
+            "votes": 4287,
+            "pct": 79.93
+          },
+          {
+            "name": "Ján Žatko",
+            "party": "SME RODINA, KDH, ZA ĽUDÍ, DOBRÁ VOĽBA a Umiernení, SPOLU",
+            "votes": 1076,
+            "pct": 20.06
+          }
+        ],
+        "source": "https://volby.statistics.sk/oso/oso2022/sk/vysledky_obce.html (JSON: https://volby.statistics.sk/oso/oso2022/json/tab05/529371.json, graph01/529371.json)",
+        "note": "valid_votes = valid ballots cast for starosta (C09); turnout_pct = ŠÚ SR účasť."
+      },
+      "2018": {
+        "turnout_pct": 44.29,
+        "registered_voters": 14543,
+        "valid_votes": 6255,
+        "results": [
+          {
+            "name": "Dárius Krajčír",
+            "party": "SaS, SME RODINA - Boris Kollár, NOVA",
+            "votes": 3170,
+            "pct": 50.67
+          },
+          {
+            "name": "Rastislav Tešovič",
+            "party": "NEKA",
+            "votes": 2093,
+            "pct": 33.46
+          },
+          {
+            "name": "Peter Hanulík",
+            "party": "NEKA",
+            "votes": 536,
+            "pct": 8.56
+          },
+          {
+            "name": "Denis Ružovič",
+            "party": "NEKA",
+            "votes": 298,
+            "pct": 4.76
+          },
+          {
+            "name": "Martin Bavolár",
+            "party": "Slovenská ľudová strana (SĽS)",
+            "votes": 158,
+            "pct": 2.52
+          }
+        ],
+        "source": "https://volby.statistics.sk/oso/oso2018/sk/data02.html (JSON: https://volby.statistics.sk/oso/oso2018/json/tab05/529371.json, graph01/529371.json)",
+        "note": "valid_votes = valid ballots cast for starosta (C09); turnout_pct = ŠÚ SR účasť."
+      }
+    },
+    "candidates_2026": [
+      {
+        "name": "Dárius Krajčír",
+        "ballot_no": 1,
+        "party": "Som Slovensko - strana obcí a miest",
+        "endorsed_by": null,
+        "incumbent": true,
+        "withdrew": false,
+        "prior_runs": "2022 won 79.93 %; 2018 won 50.67 % (SaS/Sme rodina/NOVA)",
+        "profile": "Incumbent starosta, 39; elected 2018."
+      },
+      {
+        "name": "PhDr. Ľuboš Krajčír",
+        "ballot_no": 2,
+        "party": "NEKA (nezávislý kandidát)",
+        "endorsed_by": null,
+        "incumbent": false,
+        "withdrew": false,
+        "prior_runs": null,
+        "profile": "Project manager, 40; same surname as the incumbent (family relation not verified)."
+      },
+      {
+        "name": "Denis Ružovič",
+        "ballot_no": 3,
+        "party": "Strana vidieka",
+        "endorsed_by": null,
+        "incumbent": false,
+        "withdrew": false,
+        "prior_runs": "2018 DNV starosta 4th, 4.76 % (NEKA)",
+        "profile": "Unemployed (nezamestnaný), 48."
+      }
+    ],
+    "candidates_source": [
+      "https://www.devinskanovaves.sk/data/page/devinskanovaves.sk/31556/zoznam-zaregistrovanych-kandidatov-pre-volby-starostu_.pdf",
+      "https://www.aktuality.sk/clanok/qXyfW7d/kompletny-zoznam-kandidatov-na-starostov-mestskych-casti-v-bratislave-vo-volbach-2026/"
+    ],
+    "polls": [],
+    "odds": [],
+    "key_events": [
+      {
+        "date": "2026-09-03",
+        "text": "Three starosta candidates registered; incumbent Dárius Krajčír seeks a third term.",
+        "source": "https://www.devinskanovaves.sk/data/page/devinskanovaves.sk/31556/zoznam-zaregistrovanych-kandidatov-pre-volby-starostu_.pdf"
+      },
+      {
+        "date": "2026-10-19",
+        "text": "Denník N survey: all three back a turbo-roundabout at the Eisnerova entrance and a central square; Ľuboš Krajčír stresses debt reduction and a swimming pool.",
+        "source": "https://dennikn.sk/5616607/co-slubuju-kandidati-na-starostu-v-devinskej-novej-vsi-a-devine-centralne-namestie-aj-turbookruznu-krizovatku/"
+      }
+    ],
+    "notes": "Strong incumbent (79.93 % in 2022 vs a broad SME RODINA/KDH/Za ľudí/SPOLU candidate). No candidate from Vallo's coalition or Smer/Hlas. Two candidates named Krajčír on the ballot (Dárius = incumbent, #1; Ľuboš = challenger, #2) - possible voter confusion. Turnout 2022 39.50 %. POLLS/ODDS: no public scientific poll and no bookmaker odds found for this district as of 2026-10-20."
+  },
+  {
+    "race_id": "mc-zahorska-bystrica",
+    "name": "Záhorská Bystrica",
+    "office": "starosta",
+    "incumbent": {
+      "name": "Jozef Krúpa",
+      "since": 2018,
+      "party_2022": "SOM Slovensko",
+      "running_2026": true
+    },
+    "history": {
+      "2022": {
+        "turnout_pct": 52.67,
+        "registered_voters": 5154,
+        "valid_votes": 2494,
+        "results": [
+          {
+            "name": "Jozef Krúpa",
+            "party": "SOM Slovensko",
+            "votes": 2117,
+            "pct": 84.88
+          },
+          {
+            "name": "Róbert Martauz",
+            "party": "NK/NEKA",
+            "votes": 377,
+            "pct": 15.11
+          }
+        ],
+        "source": "https://volby.statistics.sk/oso/oso2022/sk/vysledky_obce.html (JSON: https://volby.statistics.sk/oso/oso2022/json/tab05/529427.json, graph01/529427.json)",
+        "note": "valid_votes = valid ballots cast for starosta (C09); turnout_pct = ŠÚ SR účasť."
+      },
+      "2018": {
+        "turnout_pct": 62.06,
+        "registered_voters": 4360,
+        "valid_votes": 2648,
+        "results": [
+          {
+            "name": "Jozef Krúpa",
+            "party": "NEKA",
+            "votes": 1605,
+            "pct": 60.61
+          },
+          {
+            "name": "Ivan Bošňák",
+            "party": "NEKA",
+            "votes": 1043,
+            "pct": 39.38
+          }
+        ],
+        "source": "https://volby.statistics.sk/oso/oso2018/sk/data02.html (JSON: https://volby.statistics.sk/oso/oso2018/json/tab05/529427.json, graph01/529427.json)",
+        "note": "valid_votes = valid ballots cast for starosta (C09); turnout_pct = ŠÚ SR účasť."
+      }
+    },
+    "candidates_2026": [
+      {
+        "name": "Ing. Jozef Krúpa",
+        "ballot_no": 1,
+        "party": "Som Slovensko – strana obcí a miest",
+        "endorsed_by": null,
+        "incumbent": true,
+        "withdrew": false,
+        "prior_runs": "2022 won 84.88 %; 2018 won 60.61 % (NEKA)",
+        "profile": "Incumbent starosta, 63."
+      }
+    ],
+    "candidates_source": [
+      "https://zahorskabystrica.sk/zoznam-zaregistrovanych-kandidatov-pre-volby-starostu-a-poslancov-miestneho-zastupitelstva/",
+      "https://www.aktuality.sk/clanok/qXyfW7d/kompletny-zoznam-kandidatov-na-starostov-mestskych-casti-v-bratislave-vo-volbach-2026/"
+    ],
+    "polls": [],
+    "odds": [],
+    "key_events": [
+      {
+        "date": "2026-09-04",
+        "text": "Only the incumbent Krúpa registered for starosta; 14 candidates for 9 council seats (10 of them Som Slovensko).",
+        "source": "https://zahorskabystrica.sk/zoznam-zaregistrovanych-kandidatov-pre-volby-starostu-a-poslancov-miestneho-zastupitelstva/"
+      }
+    ],
+    "notes": "UNCONTESTED: winner certain (Krúpa). Turnout 2022 52.67 %. 'since' = 2018 is earliest verified in ŠÚ SR data used here. POLLS/ODDS: no public scientific poll and no bookmaker odds found for this district as of 2026-10-20."
+  },
+  {
+    "race_id": "mc-petrzalka",
+    "name": "Petržalka",
+    "office": "starosta",
+    "incumbent": {
+      "name": "Ján Hrčka",
+      "since": 2018,
+      "party_2022": "NEKA",
+      "running_2026": true
+    },
+    "history": {
+      "2022": {
+        "turnout_pct": 32.23,
+        "registered_voters": 97824,
+        "valid_votes": 29949,
+        "results": [
+          {
+            "name": "Ján Hrčka",
+            "party": "NEKA",
+            "votes": 23120,
+            "pct": 77.19
+          },
+          {
+            "name": "Elena Pätoprstá",
+            "party": "Zmena zdola, DÚ",
+            "votes": 4172,
+            "pct": 13.93
+          },
+          {
+            "name": "Martin Kližan",
+            "party": "NEKA",
+            "votes": 2657,
+            "pct": 8.87
+          }
+        ],
+        "source": "https://volby.statistics.sk/oso/oso2022/sk/vysledky_obce.html (JSON: https://volby.statistics.sk/oso/oso2022/json/tab05/529460.json, graph01/529460.json)",
+        "note": "valid_votes = valid ballots cast for starosta (C09); turnout_pct = ŠÚ SR účasť."
+      },
+      "2018": {
+        "turnout_pct": 34.59,
+        "registered_voters": 97779,
+        "valid_votes": 32614,
+        "results": [
+          {
+            "name": "Ján Hrčka",
+            "party": "SaS, NOVA, KDH, OKS, SME RODINA - Boris Kollár",
+            "votes": 10659,
+            "pct": 32.68
+          },
+          {
+            "name": "Tatiana Kratochvílová",
+            "party": "Progresívne Slovensko, SPOLU",
+            "votes": 5640,
+            "pct": 17.29
+          },
+          {
+            "name": "Oliver Kríž",
+            "party": "MLADÁ PETRŽALKA - lokálna strana",
+            "votes": 3879,
+            "pct": 11.89
+          },
+          {
+            "name": "Ján Bučan",
+            "party": "NEKA",
+            "votes": 3489,
+            "pct": 10.69
+          },
+          {
+            "name": "Ľudmila Farkašovská",
+            "party": "NEKA",
+            "votes": 3023,
+            "pct": 9.26
+          },
+          {
+            "name": "Elena Pätoprstá",
+            "party": "Zmena zdola, DÚ, OBYČAJNÍ ĽUDIA a nezávislé osobnosti (OĽANO)",
+            "votes": 2908,
+            "pct": 8.91
+          },
+          {
+            "name": "Miroslav Dragun",
+            "party": "NEKA",
+            "votes": 1626,
+            "pct": 4.98
+          },
+          {
+            "name": "Marián Chmelár",
+            "party": "ĽS Naše Slovensko",
+            "votes": 916,
+            "pct": 2.8
+          },
+          {
+            "name": "Marian Greksa",
+            "party": "NEKA",
+            "votes": 368,
+            "pct": 1.12
+          },
+          {
+            "name": "Tomáš Szmrecsányi",
+            "party": "NÁRODNÁ KOALÍCIA",
+            "votes": 106,
+            "pct": 0.32
+          }
+        ],
+        "source": "https://volby.statistics.sk/oso/oso2018/sk/data02.html (JSON: https://volby.statistics.sk/oso/oso2018/json/tab05/529460.json, graph01/529460.json)",
+        "note": "ŠÚ SR marks Marian Greksa with 'X' (withdrew/kandidatúra zanikla); votes still listed. valid_votes = valid ballots cast for starosta (C09); turnout_pct = ŠÚ SR účasť."
+      }
+    },
+    "candidates_2026": [
+      {
+        "name": "Ing. Ján Hrčka",
+        "ballot_no": 1,
+        "party": "Krajina",
+        "endorsed_by": "Krajina coalition backers at joint press event: Viliam Karas (KDH), Milan Krajniak (Kresťanská únia), Veronika Remišová (Za ľudí), Gábor Grendel (NOVA)",
+        "incumbent": true,
+        "withdrew": false,
+        "prior_runs": "2018 won 32.68 % (SaS/NOVA/KDH/OKS/Sme rodina); 2022 won 77.19 % (NEKA); 2025-09-06 by-election won 78.58 % vs Mravec",
+        "profile": "Incumbent starosta since 2018; resigned 31 May 2025 over a ~2.7 M EUR embezzlement at the district office, re-elected in the Sept 2025 by-election; now runs for new centre-conservative party Krajina."
+      },
+      {
+        "name": "doc. PhDr. Daniel Klimovský, PhD.",
+        "ballot_no": 2,
+        "party": "Team Bratislava, Progresívne Slovensko, Sloboda a solidarita, Demokrati",
+        "endorsed_by": null,
+        "incumbent": false,
+        "withdrew": false,
+        "prior_runs": null,
+        "profile": "Political scientist (FiF UK docent), international local-government consultant, Petržalka councillor, 46; Vallo-coalition nominee."
+      },
+      {
+        "name": "JUDr. Ing. PhDr. Juraj Mravec, PhD., MBA",
+        "ballot_no": 3,
+        "party": "NEKA (nezávislý kandidát)",
+        "endorsed_by": null,
+        "incumbent": false,
+        "withdrew": false,
+        "prior_runs": "2025-09-06 by-election lost to Hrčka (Hrčka 78.58 %, so Mravec ~21.4 % by subtraction)",
+        "profile": "Lawyer, local councillor, 45; also runs for city/BSK councils as independent."
+      }
+    ],
+    "candidates_source": [
+      "https://www.petrzalka.sk/wp-content/uploads/2026/09/2026-10_web-1.pdf",
+      "https://www.petrzalka.sk/wp-content/uploads/2026/09/Rozdelenie-plagatovych-ploch-DK-Zrkadlovy-haj.pdf",
+      "https://www.bratislavak.sk/komunalne-volby/bratislava-petrzalka",
+      "https://www.aktuality.sk/clanok/qXyfW7d/kompletny-zoznam-kandidatov-na-starostov-mestskych-casti-v-bratislave-vo-volbach-2026/"
+    ],
+    "polls": [],
+    "odds": [],
+    "key_events": [
+      {
+        "date": "2025-05-31",
+        "text": "Hrčka gave up the mandate (effective 1 June 2025) taking political responsibility for a ~2.7 M EUR fraud by an employee of the district office.",
+        "source": "https://hnonline.sk/slovensko/96233683-doplnujuce-volby-v-petrzalke-mal-vyhrat-staronovy-starosta-jan-hrcka-vysledok-este-musi-potvrdit-komisia"
+      },
+      {
+        "date": "2025-09-06",
+        "text": "By-election: Hrčka re-elected with 12,260 votes (78.58 % of valid votes) vs Juraj Mravec; turnout ~16 % of ~92,492 voters (figures as reported by Hrčka/TASR; official ŠÚ SR table not retrieved).",
+        "source": "https://dennikn.sk/minuta/4834780/"
+      },
+      {
+        "date": "2026-06-16",
+        "text": "Hrčka announced re-election bid under the banner of the new party Krajina.",
+        "source": "https://www.teraz.sk/spravy/hrcka-oznamil-kandidaturu-pod-znacko/970841-clanok.html"
+      },
+      {
+        "date": "2026-10-01",
+        "text": "Krajina presented backers of its Bratislava candidates incl. Hrčka: Karas (KDH), Krajniak (KÚ), Remišová (Za ľudí), Grendel (NOVA); self-described centre-conservative alternative to Vallo's coalition.",
+        "source": "https://dennikn.sk/minuta/5597081/"
+      },
+      {
+        "date": "2026-10-08",
+        "text": "Campaign escalates: Klimovský video likened Hrčka's attacks on PS to Smer rhetoric ('the mayor chose his side'); Hrčka accused him of dishonest campaigning and of digitally reddening his face in the video.",
+        "source": "https://www.bratislavak.sk/clanky/15772/video-boj-o-petrzalku-pritvrdzuje-klimovsky-udajne-zafarbil-hrckovi-tvar-nacerveno-protikandidat-reaguje"
+      },
+      {
+        "date": "2026-10-19",
+        "text": "Petržalka also holds a local referendum on election day; ~96,500 eligible voters in 96 precincts.",
+        "source": "https://sita.sk/bratislavska-petrzalka-okrem-volieb-pripravuje-aj-miestne-referendum-tykat-sa-bude-styroch-klucovych-oblasti/"
+      }
+    ],
+    "notes": "Hrčka is a heavy favourite on track record (77.19 % in 2022, 78.58 % in 2025 by-election) but 2026 is the first time he faces a Vallo-coalition nominee directly (in 2022 the coalition did not field a starosta candidate against him; PS/SaS/TB then won 33 of 35 council seats per ŠÚ SR, https://volby.statistics.sk/oso/oso2022/json/tab07/529460.json). The coalition now frames the race as anti-Smer; Krajina positions centre-right. Petržalka turnout is low (32.23 % in 2022, ~16 % in 2025 by-election); same-day local referendum and BA mayor race (Vallo vs Ráž) may lift turnout and help the coalition nominee. Non-scientific online vote on komunalne-volby.sk (20 self-selected votes, 2026-10-09) is NOT a poll and is excluded. 2018 result: Greksa flagged 'X' by ŠÚ SR (candidacy lapsed/withdrew). Mravec's 2025 share is derived (100 - 78.58), not officially sourced. POLLS/ODDS: no public scientific poll and no bookmaker odds found for this district as of 2026-10-20."
+  },
+  {
+    "race_id": "mc-jarovce",
+    "name": "Jarovce",
+    "office": "starosta",
+    "incumbent": {
+      "name": "Jozef Uhler",
+      "since": 2018,
+      "party_2022": "NEKA",
+      "running_2026": true
+    },
+    "history": {
+      "2022": {
+        "turnout_pct": 53.32,
+        "registered_voters": 2149,
+        "valid_votes": 1009,
+        "results": [
+          {
+            "name": "Jozef Uhler",
+            "party": "NEKA",
+            "votes": 1009,
+            "pct": 100.0
+          }
+        ],
+        "source": "https://volby.statistics.sk/oso/oso2022/sk/vysledky_obce.html (JSON: https://volby.statistics.sk/oso/oso2022/json/tab05/529443.json, graph01/529443.json)",
+        "note": "valid_votes = valid ballots cast for starosta (C09); turnout_pct = ŠÚ SR účasť."
+      },
+      "2018": {
+        "turnout_pct": 62.56,
+        "registered_voters": 1867,
+        "valid_votes": 1049,
+        "results": [
+          {
+            "name": "Jozef Uhler",
+            "party": "NEKA",
+            "votes": 749,
+            "pct": 71.4
+          },
+          {
+            "name": "Pavel Škodler",
+            "party": "NEKA",
+            "votes": 259,
+            "pct": 24.69
+          },
+          {
+            "name": "Albín Valovič",
+            "party": "NAJ",
+            "votes": 41,
+            "pct": 3.9
+          }
+        ],
+        "source": "https://volby.statistics.sk/oso/oso2018/sk/data02.html (JSON: https://volby.statistics.sk/oso/oso2018/json/tab05/529443.json, graph01/529443.json)",
+        "note": "valid_votes = valid ballots cast for starosta (C09); turnout_pct = ŠÚ SR účasť."
+      }
+    },
+    "candidates_2026": [
+      {
+        "name": "JUDr. Mgr. Jozef Uhler",
+        "ballot_no": 1,
+        "party": "NEKA (nezávislý kandidát)",
+        "endorsed_by": null,
+        "incumbent": true,
+        "withdrew": false,
+        "prior_runs": "2022 unopposed 100 %; 2018 won 71.40 %",
+        "profile": "Incumbent starosta, 50; also on the PS/SaS/Demokrati/Team Bratislava list for the BSK council (obvod 11)."
+      }
+    ],
+    "candidates_source": [
+      "https://www.aktuality.sk/clanok/qXyfW7d/kompletny-zoznam-kandidatov-na-starostov-mestskych-casti-v-bratislave-vo-volbach-2026/",
+      "https://bratislavskevolby.sk/aktuality/kandidati-na-starostu-v-deviatich-mestskych-castiach",
+      "https://www.bratislavak.sk/komunalne-volby/bratislava-petrzalka"
+    ],
+    "polls": [],
+    "odds": [],
+    "key_events": [
+      {
+        "date": "2026-09-08",
+        "text": "Only incumbent Uhler registered for starosta; exactly 7 council candidates for 7 seats, all independents and sitting councillors.",
+        "source": "https://bratislavskevolby.sk/aktuality/kandidati-na-starostu-v-deviatich-mestskych-castiach"
+      }
+    ],
+    "notes": "UNCONTESTED (as in 2022): winner certain. Official MČ PDF not retrieved; list from aktuality.sk and bratislavskevolby.sk (based on MČ lists/TASR). Turnout 2022 53.32 %. POLLS/ODDS: no public scientific poll and no bookmaker odds found for this district as of 2026-10-20."
+  },
+  {
+    "race_id": "mc-rusovce",
+    "name": "Rusovce",
+    "office": "starosta",
+    "incumbent": {
+      "name": "Radovan Jenčík",
+      "since": 2022,
+      "party_2022": "NEKA",
+      "running_2026": true
+    },
+    "history": {
+      "2022": {
+        "turnout_pct": 55.98,
+        "registered_voters": 3456,
+        "valid_votes": 1836,
+        "results": [
+          {
+            "name": "Radovan Jenčík",
+            "party": "NEKA",
+            "votes": 1101,
+            "pct": 59.96
+          },
+          {
+            "name": "Lucia Tuleková Henčelová",
+            "party": "Team Bratislava, Progresívne Slovensko",
+            "votes": 735,
+            "pct": 40.03
+          }
+        ],
+        "source": "https://volby.statistics.sk/oso/oso2022/sk/vysledky_obce.html (JSON: https://volby.statistics.sk/oso/oso2022/json/tab05/529494.json, graph01/529494.json)",
+        "note": "valid_votes = valid ballots cast for starosta (C09); turnout_pct = ŠÚ SR účasť."
+      },
+      "2018": {
+        "turnout_pct": 60.14,
+        "registered_voters": 3350,
+        "valid_votes": 1950,
+        "results": [
+          {
+            "name": "Lucia Tuleková Henčelová",
+            "party": "NEKA",
+            "votes": 990,
+            "pct": 50.76
+          },
+          {
+            "name": "Dušan Antoš",
+            "party": "NEKA",
+            "votes": 960,
+            "pct": 49.23
+          }
+        ],
+        "source": "https://volby.statistics.sk/oso/oso2018/sk/data02.html (JSON: https://volby.statistics.sk/oso/oso2018/json/tab05/529494.json, graph01/529494.json)",
+        "note": "valid_votes = valid ballots cast for starosta (C09); turnout_pct = ŠÚ SR účasť."
+      }
+    },
+    "candidates_2026": [
+      {
+        "name": "Radovan Jenčík",
+        "ballot_no": 1,
+        "party": "NEKA (nezávislý kandidát)",
+        "endorsed_by": null,
+        "incumbent": true,
+        "withdrew": false,
+        "prior_runs": "2022 won 59.96 % vs then-mayor Tuleková Henčelová",
+        "profile": "Incumbent starosta, 48."
+      }
+    ],
+    "candidates_source": [
+      "https://www.aktuality.sk/clanok/qXyfW7d/kompletny-zoznam-kandidatov-na-starostov-mestskych-casti-v-bratislave-vo-volbach-2026/",
+      "https://hnonline.sk/volby-2026/komunalne-volby-2026/96308738-komunalne-volby-2026-bratislava-rusovce-kompletny-zoznam-kandidatov-na-primatora-a-poslancov",
+      "https://bratislavskevolby.sk/aktuality/kandidati-na-starostu-v-deviatich-mestskych-castiach"
+    ],
+    "polls": [],
+    "odds": [],
+    "key_events": [
+      {
+        "date": "2026-09-08",
+        "text": "Only incumbent Jenčík registered for starosta. Former mayor Lucia Tuleková Henčelová (2018-22) runs only for the local council (independent).",
+        "source": "https://hnonline.sk/volby-2026/komunalne-volby-2026/96308738-komunalne-volby-2026-bratislava-rusovce-kompletny-zoznam-kandidatov-na-primatora-a-poslancov"
+      }
+    ],
+    "notes": "UNCONTESTED: winner certain. 2018 was a near tie (Tuleková Henčelová 50.76 % vs Antoš 49.23 %). Official MČ PDF not retrieved; list from aktuality.sk, HN and bratislavskevolby.sk. Turnout 2022 55.98 %. POLLS/ODDS: no public scientific poll and no bookmaker odds found for this district as of 2026-10-20."
+  },
+  {
+    "race_id": "mc-cunovo",
+    "name": "Čunovo",
+    "office": "starosta",
+    "incumbent": {
+      "name": "Gabriela Ferenčáková",
+      "since": 2018,
+      "party_2022": "SOM Slovensko",
+      "running_2026": true
+    },
+    "history": {
+      "2022": {
+        "turnout_pct": 62.82,
+        "registered_voters": 1259,
+        "valid_votes": 730,
+        "results": [
+          {
+            "name": "Gabriela Ferenčáková",
+            "party": "SOM Slovensko",
+            "votes": 519,
+            "pct": 71.09
+          },
+          {
+            "name": "Richard Puchala",
+            "party": "NEKA",
+            "votes": 149,
+            "pct": 20.41
+          },
+          {
+            "name": "Michaela Forróová",
+            "party": "NEKA",
+            "votes": 62,
+            "pct": 8.49
+          }
+        ],
+        "source": "https://volby.statistics.sk/oso/oso2022/sk/vysledky_obce.html (JSON: https://volby.statistics.sk/oso/oso2022/json/tab05/529435.json, graph01/529435.json)",
+        "note": "valid_votes = valid ballots cast for starosta (C09); turnout_pct = ŠÚ SR účasť."
+      },
+      "2018": {
+        "turnout_pct": 72.86,
+        "registered_voters": 1194,
+        "valid_votes": 849,
+        "results": [
+          {
+            "name": "Gabriela Ferenčáková",
+            "party": "SaS, OBYČAJNÍ ĽUDIA a nezávislé osobnosti (OĽANO), KDH, SME RODINA - Boris Kollár, OKS, NOVA, Zmena zdola, DÚ",
+            "votes": 535,
+            "pct": 63.01
+          },
+          {
+            "name": "Marián Krist",
+            "party": "NEKA",
+            "votes": 314,
+            "pct": 36.98
+          }
+        ],
+        "source": "https://volby.statistics.sk/oso/oso2018/sk/data02.html (JSON: https://volby.statistics.sk/oso/oso2018/json/tab05/529435.json, graph01/529435.json)",
+        "note": "valid_votes = valid ballots cast for starosta (C09); turnout_pct = ŠÚ SR účasť."
+      }
+    },
+    "candidates_2026": [
+      {
+        "name": "JUDr. Ivan Boška",
+        "ballot_no": 1,
+        "party": "NEKA (nezávislý kandidát)",
+        "endorsed_by": null,
+        "incumbent": false,
+        "withdrew": false,
+        "prior_runs": null,
+        "profile": "Businessman, 58."
+      },
+      {
+        "name": "Gabriela Ferenčáková",
+        "ballot_no": 2,
+        "party": "Som Slovensko - strana obcí a miest",
+        "endorsed_by": null,
+        "incumbent": true,
+        "withdrew": false,
+        "prior_runs": "2022 won 71.09 %; 2018 won 63.01 %",
+        "profile": "Incumbent starosta, 72."
+      },
+      {
+        "name": "Mgr. Marek Kausich",
+        "ballot_no": 3,
+        "party": "NEKA (nezávislý kandidát)",
+        "endorsed_by": null,
+        "incumbent": false,
+        "withdrew": false,
+        "prior_runs": null,
+        "profile": "Businessman, 50; also runs for local council."
+      },
+      {
+        "name": "Marián Krist",
+        "ballot_no": 4,
+        "party": "NEKA (nezávislý kandidát)",
+        "endorsed_by": null,
+        "incumbent": false,
+        "withdrew": false,
+        "prior_runs": "2018 Čunovo starosta 2nd, 36.98 % (NEKA)",
+        "profile": "Broker (maklér), 49."
+      },
+      {
+        "name": "JUDr. PhDr. Michal Šimunek, LLM MBA",
+        "ballot_no": 5,
+        "party": "NEKA (nezávislý kandidát)",
+        "endorsed_by": null,
+        "incumbent": false,
+        "withdrew": false,
+        "prior_runs": null,
+        "profile": "Police officer, 42; also runs for local council."
+      }
+    ],
+    "candidates_source": [
+      "https://www.aktuality.sk/clanok/qXyfW7d/kompletny-zoznam-kandidatov-na-starostov-mestskych-casti-v-bratislave-vo-volbach-2026/",
+      "https://www.topky.sk/cl/2005799/9524443/Komunalne-volby-2026---Bratislava-Cunovo--kandidati-na-starostu--poslanci-a-vysledky",
+      "https://bratislavskevolby.sk/aktuality/kandidati-na-starostu-v-deviatich-mestskych-castiach"
+    ],
+    "polls": [],
+    "odds": [],
+    "key_events": [
+      {
+        "date": "2026-09-08",
+        "text": "Five starosta candidates registered - the most of any Bratislava district: incumbent Ferenčáková (Som Slovensko) vs four independents.",
+        "source": "https://bratislavskevolby.sk/aktuality/kandidati-na-starostu-v-deviatich-mestskych-castiach"
+      }
+    ],
+    "notes": "Smallest electorate in scope (1,259 registered 2022) and highest turnout (62.82 % 2022, 72.86 % 2018), so ~700-900 valid votes decide. Incumbent won 2022 with 71.09 % (vs 20.41 % and 8.49 %). Four-way split of the anti-incumbent vote favours Ferenčáková under plurality rule; Krist is the only challenger with a proven base (36.98 % in 2018 head-to-head). Incumbent age 72. Official MČ PDF not retrieved; ballot order from topky.sk (Boška, Ferenčáková, Kausich, Krist, Šimunek). POLLS/ODDS: no public scientific poll and no bookmaker odds found for this district as of 2026-10-20."
+  }
+]

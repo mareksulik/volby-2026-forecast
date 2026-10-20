@@ -1,0 +1,2353 @@
+- id: kraj-za
+  name: Žilinský samosprávny kraj
+  group: kraj
+  office: predseda VUC
+  voters: 563965
+  incumbent:
+    name: Erika Jurinová
+    since: 2017
+    party_2022: OĽANO-NOVA-KÚ-ZMENA ZDOLA, SME RODINA, ZA ĽUDÍ, DS, ODS, ŠANCA, OKS, SaS
+    running_2026: true
+  history:
+    '2022':
+      turnout_pct: 48.75
+      registered_voters: 563965
+      voters_participated: 274917
+      valid_votes: 249830
+      results:
+      - name: Erika Jurinová
+        party: OĽANO-NOVA-KÚ-ZMENA ZDOLA, SME RODINA, ZA ĽUDÍ, DS, ODS, ŠANCA, OKS, SaS
+        votes: 80049
+        pct: 32.04
+      - name: Igor Choma
+        party: SMER-SD
+        votes: 55571
+        pct: 22.24
+      - name: Igor Janckulík
+        party: KDH, DOBRÁ VOĽBA a Umiernení, SNS
+        votes: 52914
+        pct: 21.18
+      - name: Peter Slyško
+        party: HLAS-SD
+        votes: 17564
+        pct: 7.03
+      - name: Katarína Boková
+        party: Slovenské Hnutie Obrody
+        votes: 11131
+        pct: 4.46
+      - name: Marián Murín
+        party: NEKA
+        votes: 9852
+        pct: 3.94
+      - name: Miroslav Urban
+        party: REPUBLIKA
+        votes: 7137
+        pct: 2.86
+      - name: František Drozd
+        party: ĽS Naše Slovensko
+        votes: 6626
+        pct: 2.65
+      - name: Andrea Starinská
+        party: NK/NEKA
+        votes: 5203
+        pct: 2.08
+      - name: Daniela Zemanová
+        party: Hnutie ONÁS
+        votes: 3783
+        pct: 1.51
+      source: https://volby.statistics.sk/osk/osk2022/files/OSK2022_SK_csv.zip
+      note: 'valid_votes = valid ballots cast for predseda (P_HL_PRE), aggregated from SU SR precinct CSV (tab02bd/tab06d); pct = votes/valid_votes.
+        Withdrawn candidates (X) remain in SU SR tables with their votes. Cross-check: https://sk.wikipedia.org/wiki/Vo%C4%BEby_do_org%C3%A1nov_samospr%C3%A1vnych_krajov_na_Slovensku_v_roku_2022'
+    '2017':
+      turnout_pct: 33.84
+      registered_voters: 568708
+      voters_participated: 192459
+      valid_votes: 187820
+      results:
+      - name: Erika Jurinová
+        party: KDH, NOVA, OKS, OĽANO, SaS
+        votes: 82034
+        pct: 43.67
+      - name: Juraj Blanár
+        party: SMER-SD
+        votes: 55931
+        pct: 29.77
+      - name: Marián Murín
+        party: NEKA
+        votes: 19425
+        pct: 10.34
+      - name: Peter Sagan
+        party: ĽS Naše Slovensko
+        votes: 14323
+        pct: 7.62
+      - name: Anton Martvoň
+        party: NEKA
+        votes: 6615
+        pct: 3.52
+      - name: Ján Mikolaj
+        party: SNS
+        votes: 5010
+        pct: 2.66
+      - name: Peter Cibulka
+        party: NEKA
+        votes: 2921
+        pct: 1.55
+      - name: Stanislav Pirošík
+        party: KSS, VZDOR
+        votes: 946
+        pct: 0.5
+      - name: Kristián Hoffmann
+        party: SZS
+        votes: 615
+        pct: 0.32
+        note: withdrew (SU SR poznamka 0)
+      source: https://volby.statistics.sk/osk/osk2017/files/OSK_2017_xlsx.zip
+      note: 'Official SU SR tab02a (summary) and tab06b (chair results by kraj). Candidates marked withdrawn (poznamka 0) flagged. Cross-check:
+        https://sk.wikipedia.org/wiki/Vo%C4%BEby_do_org%C3%A1nov_samospr%C3%A1vnych_krajov_na_Slovensku_v_roku_2017'
+  candidates:
+  - name: Anna Belousovová
+    ballot_no: 1
+    party: REPUBLIKA
+    parties:
+    - REPUBLIKA
+    bloc: null
+    inc: false
+    prev_share: 0.0
+    neka: false
+    withdrew: true
+    profile: Former SNS MP/deputy speaker, Republika; withdrew to avoid splitting anti-Jurinová vote (Choma welcomed it); still runs for ŽSK council.
+      Remains on ballot (STVR/MV SR table still shows no X as of 2026-10-19).
+    prior_runs: null
+    local_official: false
+    transfer_to: Igor Choma
+  - name: Jana Chlustinová
+    ballot_no: 2
+    party: SLOVEXIT
+    parties: []
+    bloc: null
+    inc: false
+    prev_share: 0.0
+    neka: false
+    withdrew: false
+    profile: Minor candidate (SLOVEXIT).
+    prior_runs: null
+    local_official: false
+  - name: Igor Choma
+    ballot_no: 3
+    party: DOMOV-NS, HLAS - sociálna demokracia, SMER - SD
+    parties:
+    - SMER
+    - HLAS
+    bloc: gov
+    inc: false
+    prev_share: 0.2224
+    neka: false
+    withdrew: false
+    profile: Smer-SD; joint candidate of Smer-SD, Hlas-SD and DOMOV-NS (governing camp).
+    prior_runs: 2022 ŽSK 2nd with 22.24 % (SMER-SD)
+    local_official: false
+  - name: Erika Jurinová
+    ballot_no: 4
+    party: Demokrati, DS-ODS, Hnutie SLOVENSKO, KDH, Konzervatívci, NOVA, OKS, Progresívne Slovensko, SaS, ZA ĽUDÍ
+    parties:
+    - PS
+    - SAS
+    - KDH
+    - SLOVENSKO
+    - DEMOKRATI
+    - ZL
+    bloc: opp
+    inc: true
+    prev_share: 0.3204
+    neka: false
+    withdrew: false
+    profile: Incumbent chair since 2017 seeking 3rd term; broad opposition coalition.
+    prior_runs: Won 2017 (43.67 %) and 2022 (32.04 %)
+    local_official: false
+  - name: Martin Kapitulík
+    ballot_no: 5
+    party: NEKA
+    parties: []
+    bloc: null
+    inc: false
+    prev_share: 0.0
+    neka: true
+    withdrew: false
+    profile: Independent; AKO Sept poll 11.8 %, strong among 18-33 (22 %).
+    prior_runs: null
+    local_official: false
+  - name: Adam Lučanský
+    ballot_no: 6
+    party: SNS
+    parties:
+    - SNS
+    bloc: gov
+    inc: false
+    prev_share: 0.0
+    neka: false
+    withdrew: true
+    profile: SNS MP; withdrew live on JOJ 24 in favour of Igor Choma.
+    prior_runs: null
+    local_official: false
+    transfer_to: Igor Choma
+  - name: Milan Pova
+    ballot_no: 7
+    party: KSS
+    parties: []
+    bloc: null
+    inc: false
+    prev_share: 0.0
+    neka: false
+    withdrew: false
+    profile: Minor candidate (KSS).
+    prior_runs: null
+    local_official: false
+  polls:
+  - pollster: AKO
+    fieldwork_end: '2026-09-16'
+    n: null
+    sponsor: JOJ 24
+    results:
+      Erika Jurinová: 48.5
+      Igor Choma: 17.3
+      Anna Belousovová: 14.3
+      Martin Kapitulík: 11.8
+      Adam Lučanský: 6.2
+      Jana Chlustinová: 1.2
+      Milan Pova: 0.7
+    others_pct: null
+    source: https://joj24.noviny.sk/prieskumy/1265252-volebny-prieskum-joj-24-v-zilinskom-kraji-jedno-meno-ziskalo-takmer-polovicu-volicov
+    partisan: false
+  - pollster: SANEP (for Kanal1)
+    fieldwork_end: '2026-10-01'
+    n: 1050
+    sponsor: null
+    results:
+      Erika Jurinová: 35.4
+      Igor Choma: 31.2
+      Martin Kapitulík: 21.3
+      Anna Belousovová: 10.1
+      Milan Pova: 1.1
+      Jana Chlustinová: 0.9
+    others_pct: null
+    source: https://kanal1.sk/exkluzivny-prieskum-pre-kanal1-kto-by-vyhral-volby-v-zilinskom-kraji-keby-sa-konali-dnes-vyzera-to-na-tesny-suboj-dvoch-kandidatov/
+    partisan: false
+  - pollster: unknown agency (for ta3)
+    fieldwork_end: '2026-09-17'
+    n: null
+    sponsor: null
+    results:
+      Erika Jurinová: 31.1
+      Igor Choma: 29.3
+      Martin Kapitulík: 21.1
+      Anna Belousovová: 7.4
+      Adam Lučanský: 6.3
+      Milan Pova: 2.9
+      Jana Chlustinová: 1.9
+    others_pct: null
+    source: https://www.ta3.com/clanok/1071773/prieskum-pre-ta3-o-kreslo-zupana-v-zilinskom-kraji-moze-byt-este-velka-bitka-do-hry-vstupuje-aj-treti-kandidat
+    partisan: false
+  odds:
+  - bookmaker: Tipsport
+    date: '2026-10-20'
+    odds:
+      Erika Jurinová: 1.15
+      Martin Kapitulík: 5.5
+      Igor Choma: 6.0
+      Jana Chlustinová: 88.0
+      Milan Pova: 88.0
+    source: https://stavkynavolby.sk/informacie/kurzy-na-volby/
+  - bookmaker: Fortuna
+    date: '2026-10-20'
+    odds:
+      Erika Jurinová: 1.12
+      Martin Kapitulík: 6.0
+      Igor Choma: 7.0
+    source: https://stavkynavolby.sk/informacie/kurzy-na-volby/
+  - bookmaker: DOXXbet
+    date: '2026-10-20'
+    odds:
+      Erika Jurinová: 1.1
+      Martin Kapitulík: 5.5
+      Igor Choma: 7.0
+    source: https://stavkynavolby.sk/informacie/kurzy-na-volby/
+  notes: Effective field reduced to 5 (Jurinová, Choma, Kapitulík, Chlustinová, Pova); Lučanský and Belousovová stay on ballot but their votes
+    are not counted. If Lučanský+Belousovová Sept shares (20.5 pp) transferred fully to Choma he would reach ~38 % of Sept decided base vs Jurinová
+    48.5 % – still behind; bookmakers (Jurinová 1.10-1.15) agree. Kapitulík is priced 2nd by bookmakers (5.5-6.0) ahead of Choma despite lower
+    poll share. Ballot numbers follow MV SR/STVR list order (alphabetical, as on SU SR ballots); confirm against official ŽSK PDF. Official ŽSK
+    candidate PDF not fetched directly (Exa out of credits; Firecrawl rate-limited).
+  key_events:
+  - date: '2026-09-16'
+    text: 'AKO/JOJ 24 poll: Jurinová 48.5 %, Choma 17.3 %, Belousovová 14.3 %, Kapitulík 11.8 % (decided).'
+    source: https://joj24.noviny.sk/prieskumy/1265252-volebny-prieskum-joj-24-v-zilinskom-kraji-jedno-meno-ziskalo-takmer-polovicu-volicov
+  - date: '2026-09-29'
+    text: Adam Lučanský (SNS) withdrew live on JOJ 24 in favour of Igor Choma.
+    source: https://www.finreport.sk/agenturne-spravy/lucansky-sa-vzdal-kandidatury-na-zilinskeho-zupana-v-suboji-podporil-igora-chomu/
+  - date: '2026-10-15'
+    text: Anna Belousovová (Republika) withdrew to avoid splitting the vote against Jurinová; Choma welcomed the move.
+    source: https://www.ta3.com/clanok/1077233/kandidatka-republiky-odstupila-z-boja-o-kreslo-zilinskej-zupanky-belousovova-sa-vzdala-kandidatury
+  sources:
+  - https://joj24.noviny.sk/prieskumy/1265252-volebny-prieskum-joj-24-v-zilinskom-kraji-jedno-meno-ziskalo-takmer-polovicu-volicov
+  - https://spravy.stvr.sk/volby-2026/volby-do-vuc/?kraj=SK5
+  - https://volby.statistics.sk/osk/osk2017/files/OSK_2017_xlsx.zip
+  - https://volby.statistics.sk/osk/osk2022/files/OSK2022_SK_csv.zip
+- id: kraj-bb
+  name: Banskobystrický samosprávny kraj
+  group: kraj
+  office: predseda VUC
+  voters: 511603
+  incumbent:
+    name: Ondrej Lunter
+    since: 2022
+    party_2022: NEKA (supported by SaS, KDH, PS, SPOLU, OKS, Aliancia, Hlas-SD)
+    running_2026: true
+  history:
+    '2022':
+      turnout_pct: 45.14
+      registered_voters: 511603
+      voters_participated: 230932
+      valid_votes: 202879
+      results:
+      - name: Ondrej Lunter
+        party: NEKA (podpora SaS, KDH, PS, SPOLU, OKS, Aliancia, Hlas-SD)
+        votes: 96438
+        pct: 47.53
+      - name: Adrian Polóny
+        party: NEKA (podpora SMER-SD, SNS, SMS, PSN)
+        votes: 30436
+        pct: 15.0
+      - name: Rudolf Huliak
+        party: NK/NEKA
+        votes: 23236
+        pct: 11.45
+      - name: Miroslav Suja
+        party: REPUBLIKA
+        votes: 19130
+        pct: 9.43
+      - name: Marek Kotleba
+        party: ĽS Naše Slovensko
+        votes: 14417
+        pct: 7.11
+      - name: Michal Albert
+        party: KSS
+        votes: 7102
+        pct: 3.5
+      - name: Maroš Čupka
+        party: Socialisti.sk
+        votes: 4800
+        pct: 2.37
+      - name: Marek Modranský
+        party: NEKA
+        votes: 4749
+        pct: 2.34
+        note: withdrew 2022-10-18 in favour of Polóny; still printed/counted in SU SR table
+      - name: Jozef Sásik
+        party: Slovenská ľudová strana (SĽS)
+        votes: 2571
+        pct: 1.27
+      source: https://volby.statistics.sk/osk/osk2022/files/OSK2022_SK_csv.zip
+      note: valid_votes = valid ballots cast for predseda (P_HL_PRE), aggregated from SU SR precinct CSV (tab02bd/tab06d); pct = votes/valid_votes.
+        Withdrawn candidates (X) remain in SU SR tables with their votes. Party endorsements from https://sk.wikipedia.org/wiki/Vo%C4%BEby_do_org%C3%A1nov_samospr%C3%A1vnych_krajov_na_Slovensku_v_roku_2022
+    '2017':
+      turnout_pct: 40.29
+      registered_voters: 526978
+      voters_participated: 212360
+      valid_votes: 204321
+      results:
+      - name: Ján Lunter
+        party: NEKA
+        votes: 99169
+        pct: 48.53
+      - name: Marian Kotleba
+        party: ĽS Naše Slovensko
+        votes: 47502
+        pct: 23.24
+      - name: Igor Kašper
+        party: NEKA
+        votes: 21741
+        pct: 10.64
+      - name: Martin Juhaniak
+        party: NEKA
+        votes: 19785
+        pct: 9.68
+      - name: Milan Urbáni
+        party: SMS
+        votes: 2478
+        pct: 1.21
+      - name: Pavel Greksa
+        party: NEKA
+        votes: 2271
+        pct: 1.11
+      - name: Martin Klus
+        party: KDH, NOVA, OKS, OĽANO, SaS
+        votes: 1877
+        pct: 0.91
+        note: withdrew
+      - name: Jozef Šimko
+        party: NEKA
+        votes: 1698
+        pct: 0.83
+        note: withdrew
+      - name: Miroslav Gálik
+        party: NaS - ns
+        votes: 1632
+        pct: 0.79
+      - name: Vojtech Kökény
+        party: SRK
+        votes: 1563
+        pct: 0.76
+      - name: Stanislav Mičev
+        party: NEKA
+        votes: 1130
+        pct: 0.55
+        note: withdrew
+      - name: Viliam Baňák
+        party: JEDNOTA-ĽSS
+        votes: 997
+        pct: 0.48
+        note: withdrew
+      - name: Michal Kantor
+        party: SZS
+        votes: 725
+        pct: 0.35
+      - name: Ivan Saktor
+        party: NEKA
+        votes: 589
+        pct: 0.28
+        note: withdrew
+      - name: Alena Pivovarčiová
+        party: NP
+        votes: 553
+        pct: 0.27
+      - name: Jozef Sásik
+        party: SĽS
+        votes: 392
+        pct: 0.19
+      - name: Zdenek Očovan
+        party: NAJ
+        votes: 219
+        pct: 0.1
+        note: withdrew
+      source: https://volby.statistics.sk/osk/osk2017/files/OSK_2017_xlsx.zip
+      note: Official SU SR tab02a (summary) and tab06b (chair results by kraj). Candidates marked withdrawn (poznamka 0) flagged. Marek Mališ
+        (Strana zelených) withdrew before ballot printing per https://sk.wikipedia.org/wiki/Vo%C4%BEby_do_org%C3%A1nov_samospr%C3%A1vnych_krajov_na_Slovensku_v_roku_2017
+  candidates:
+  - name: Michal Albert
+    ballot_no: 1
+    party: Bratia Slovenska
+    parties: []
+    bloc: null
+    inc: false
+    prev_share: 0.035
+    neka: false
+    withdrew: false
+    profile: Minor candidate; ran for KSS in 2022, now Bratia Slovenska (which co-nominates Smer candidates in PSK/KSK).
+    prior_runs: 2022 BBSK 6th with 3.50 % (KSS)
+    local_official: false
+  - name: Marian Kotleba
+    ballot_no: 2
+    party: Kotlebovci - Ľudová strana Naše Slovensko
+    parties: []
+    bloc: null
+    inc: false
+    prev_share: 0.0
+    neka: false
+    withdrew: false
+    profile: Far-right ĽSNS leader, former BBSK chair 2013-2017.
+    prior_runs: Won BBSK 2013; 2017 2nd with 23.24 %
+    local_official: false
+  - name: Ondrej Lunter
+    ballot_no: 3
+    party: NEKA
+    parties: []
+    bloc: null
+    inc: true
+    prev_share: 0.4753
+    neka: true
+    withdrew: false
+    profile: Incumbent chair since 2022 (son of ex-chair Ján Lunter, 2017-2022).
+    prior_runs: Won 2022 with 47.53 %
+    local_official: false
+  - name: Roman Malatinec
+    ballot_no: 4
+    party: Strana vidieka
+    parties: []
+    bloc: null
+    inc: false
+    prev_share: 0.0
+    neka: false
+    withdrew: false
+    profile: MP and Strana vidieka (Huliak) deputy leader; former BBSK vice-chair under Lunter until leaving Hlas; criticised for campaigning
+      at events funded by Huliak's ministry.
+    prior_runs: null
+    local_official: false
+  - name: Peter Plančík
+    ballot_no: 5
+    party: Komunistická strana Slovenska
+    parties: []
+    bloc: null
+    inc: false
+    prev_share: 0.0
+    neka: false
+    withdrew: false
+    profile: Minor candidate (KSS).
+    prior_runs: null
+    local_official: false
+  - name: Jaroslav Rusina
+    ballot_no: 6
+    party: NEKA
+    parties: []
+    bloc: null
+    inc: false
+    prev_share: 0.0
+    neka: true
+    withdrew: false
+    profile: Minor independent candidate.
+    prior_runs: null
+    local_official: false
+  - name: Miroslav Suja
+    ballot_no: 7
+    party: Republika
+    parties:
+    - REPUBLIKA
+    bloc: null
+    inc: false
+    prev_share: 0.0943
+    neka: false
+    withdrew: false
+    profile: Republika vice-chair, ex-MP (elected on ĽSNS list), BBSK councillor; linked to 'techniques for 1 euro' case from Kotleba era (denies
+      guilt).
+    prior_runs: 2022 BBSK 4th with 9.43 % (REPUBLIKA)
+    local_official: true
+  polls:
+  - pollster: AKO
+    fieldwork_end: '2026-09-16'
+    n: null
+    sponsor: JOJ 24
+    results:
+      Ondrej Lunter: 63.2
+      Miroslav Suja: 16.8
+      Marian Kotleba: 8.6
+      Roman Malatinec: 8.5
+      Jaroslav Rusina: 2.0
+      Michal Albert: 0.6
+      Peter Plančík: 0.3
+    others_pct: null
+    source: https://joj24.noviny.sk/prieskumy/1266317-kde-ma-lunter-najsilnejsiu-podporu-a-kde-suja-prieskum-joj-24-odhalil-velke-rozdiely-medzi-okresmi
+    partisan: false
+  odds:
+  - bookmaker: Tipsport
+    date: '2026-10-20'
+    odds:
+      Ondrej Lunter: 1.01
+      Miroslav Suja: 17.0
+      Michal Albert: 35.0
+      Roman Malatinec: 35.0
+      Marian Kotleba: 88.0
+      Peter Plančík: 100.0
+      Jaroslav Rusina: 100.0
+    source: https://stavkynavolby.sk/informacie/kurzy-na-volby/
+  - bookmaker: Fortuna
+    date: '2026-10-20'
+    odds:
+      Ondrej Lunter: 1.01
+      Miroslav Suja: 15.0
+      Roman Malatinec: 30.0
+      Michal Albert: 30.0
+      Marian Kotleba: 80.0
+      Jaroslav Rusina: 100.0
+      Peter Plančík: 100.0
+    source: https://stavkynavolby.sk/informacie/kurzy-na-volby/
+  - bookmaker: DOXXbet
+    date: '2026-10-20'
+    odds:
+      Ondrej Lunter: 1.01
+      Miroslav Suja: 15.0
+      Roman Malatinec: 20.0
+    source: https://stavkynavolby.sk/informacie/kurzy-na-volby/
+  notes: No withdrawals found in BB as of 2026-10-20. Lunter runs as NEKA with cross-camp support (incl. governing Hlas-SD) -> landslide expected;
+    bookmakers 1.01. Anti-Lunter vote split between Suja (Republika), Kotleba (ĽSNS), Malatinec (Strana vidieka), Albert (Bratia Slovenska). An
+    Instagram post cited 'Lunter 55.4 %' from an unidentified poll – unverified, not included. Ballot numbers follow MV SR/STVR list order (alphabetical);
+    confirm against official BBSK list.
+  key_events:
+  - date: '2026-09-08'
+    text: BBSK election commission registered 7 candidates; no Smer-SD or SNS nominee; Hlas-SD backs incumbent Lunter alongside opposition parties.
+    source: https://my.sme.sk/banska-bystrica/c/kandidati-na-zupana-banskobystricky-kraj-2026-kompletny-zoznam-a-profily-vuc-volby-2026
+  - date: '2026-09-30'
+    text: 'AKO/JOJ 24 poll: Lunter 63.2 %, Suja 16.8 %, Kotleba 8.6 %, Malatinec 8.5 % (decided). Suja strongest in Krupina, Poltár, Žiar n/H,
+      Detva, Zvolen.'
+    source: https://joj24.noviny.sk/prieskumy/1266317-kde-ma-lunter-najsilnejsiu-podporu-a-kde-suja-prieskum-joj-24-odhalil-velke-rozdiely-medzi-okresmi
+  - date: '2026-10-06'
+    text: 'JOJ 24 debate: Kotleba and Suja attack Lunter over regional debt and spending; Lunter cites 770 km of repaired roads and EUR 260 m
+      EU funds.'
+    source: https://joj24.noviny.sk/spravy-joj-24/1266478-samospravne-volby-2026-predvolebna-diskusia-kandidatov-banskobystrickeho-kraja
+  sources:
+  - https://my.sme.sk/banska-bystrica/c/kandidati-na-zupana-banskobystricky-kraj-2026-kompletny-zoznam-a-profily-vuc-volby-2026
+  - https://spravy.stvr.sk/volby-2026/volby-do-vuc/?kraj=SK6
+  - https://volby.sme.sk/volby-vuc/2026/kandidati/banskobystricky-kraj
+  - https://volby.statistics.sk/osk/osk2017/files/OSK_2017_xlsx.zip
+  - https://volby.statistics.sk/osk/osk2022/files/OSK2022_SK_csv.zip
+  - https://www.pravda.sk/spravy/regionalne-volby-2026/clanok/2053855-bitka-o-banskobystricku-zupu-do-ringu-vstupuje-lunter-malatinec-suja-kotleba-albert-plancik-a-rusina
+- id: kraj-po
+  name: Prešovský samosprávny kraj
+  group: kraj
+  office: predseda VUC
+  voters: 636834
+  incumbent:
+    name: Milan Majerský
+    since: 2017
+    party_2022: KDH, SME RODINA, SaS, ZA ĽUDÍ
+    running_2026: true
+  history:
+    '2022':
+      turnout_pct: 47.5
+      registered_voters: 636834
+      voters_participated: 302512
+      valid_votes: 265012
+      results:
+      - name: Milan Majerský
+        party: KDH, SME RODINA, SaS, ZA ĽUDÍ
+        votes: 111343
+        pct: 42.01
+      - name: Michal Kaliňák
+        party: HLAS-SD, SMER-SD, SNS, ALIANCIA
+        votes: 83205
+        pct: 31.4
+      - name: Milan Mazurek
+        party: REPUBLIKA
+        votes: 28834
+        pct: 10.88
+      - name: Ján Bync
+        party: NEKA
+        votes: 11921
+        pct: 4.5
+      - name: Michal Biganič
+        party: NEKA
+        votes: 8634
+        pct: 3.26
+      - name: Filip Kuffa
+        party: ŽIVOT
+        votes: 6689
+        pct: 2.52
+      - name: Patrícia Reváková
+        party: NK/NEKA
+        votes: 6679
+        pct: 2.52
+      - name: Ingrid Tomková
+        party: ĽS Naše Slovensko
+        votes: 3788
+        pct: 1.43
+      - name: Jozef Mihalčin
+        party: SRDCE - SNJ - sv
+        votes: 2088
+        pct: 0.79
+        note: withdrew
+      - name: Ľubomír Goliaš
+        party: Hnutie ONÁS
+        votes: 1831
+        pct: 0.69
+        note: withdrew
+      source: https://volby.statistics.sk/osk/osk2022/files/OSK2022_SK_csv.zip
+      note: 'valid_votes = valid ballots cast for predseda (P_HL_PRE), aggregated from SU SR precinct CSV (tab02bd/tab06d); pct = votes/valid_votes.
+        Withdrawn candidates (X) remain in SU SR tables with their votes. Cross-check: https://sk.wikipedia.org/wiki/Vo%C4%BEby_do_org%C3%A1nov_samospr%C3%A1vnych_krajov_na_Slovensku_v_roku_2022'
+    '2017':
+      turnout_pct: 29.4
+      registered_voters: 639324
+      voters_participated: 187983
+      valid_votes: 179289
+      results:
+      - name: Milan Majerský
+        party: KDH, NOVA, OĽANO, SaS
+        votes: 72366
+        pct: 40.36
+      - name: Peter Chudík
+        party: SMER-SD
+        votes: 54914
+        pct: 30.62
+      - name: Jozef Mihalčin
+        party: ĽS Naše Slovensko
+        votes: 12688
+        pct: 7.07
+      - name: Ján Garaj
+        party: NEKA
+        votes: 10615
+        pct: 5.92
+      - name: Andrej Gmitter
+        party: NEKA
+        votes: 8335
+        pct: 4.64
+      - name: František Oľha
+        party: ŠANCA
+        votes: 5832
+        pct: 3.25
+      - name: Pavol Gašper
+        party: NEKA
+        votes: 4165
+        pct: 2.32
+      - name: Miroslav Škvarek
+        party: SNS
+        votes: 3917
+        pct: 2.18
+      - name: František Bednár
+        party: NAJ
+        votes: 2598
+        pct: 1.44
+      - name: Eduard Markovič
+        party: NEKA
+        votes: 1749
+        pct: 0.97
+      - name: Milan Šteiner
+        party: SZS
+        votes: 1073
+        pct: 0.59
+        note: withdrew
+      - name: Jozef Šváč
+        party: NP
+        votes: 1037
+        pct: 0.57
+      source: https://volby.statistics.sk/osk/osk2017/files/OSK_2017_xlsx.zip
+      note: 'Official SU SR tab02a (summary) and tab06b (chair results by kraj). Candidates marked withdrawn (poznamka 0) flagged. Cross-check:
+        https://sk.wikipedia.org/wiki/Vo%C4%BEby_do_org%C3%A1nov_samospr%C3%A1vnych_krajov_na_Slovensku_v_roku_2017'
+  candidates:
+  - name: Drahomír Čureja
+    ballot_no: 1
+    party: NEKA
+    parties: []
+    bloc: null
+    inc: false
+    prev_share: 0.0
+    neka: true
+    withdrew: false
+    profile: Tradesman from Nová Ľubovňa; minor independent.
+    prior_runs: null
+    local_official: false
+  - name: Marián Geci
+    ballot_no: 2
+    party: NEKA
+    parties: []
+    bloc: null
+    inc: false
+    prev_share: 0.0
+    neka: true
+    withdrew: false
+    profile: Financial adviser/entrepreneur from Roztoky; AKO Oct 4.0 %.
+    prior_runs: null
+    local_official: false
+  - name: Ľubomír Goliaš
+    ballot_no: 3
+    party: Jednota Slovanov
+    parties: []
+    bloc: null
+    inc: false
+    prev_share: 0.0069
+    neka: false
+    withdrew: false
+    profile: Construction manager from Torysa; minor.
+    prior_runs: 2022 PSK withdrew (0.69 %, Hnutie ONÁS)
+    local_official: false
+  - name: Jozef Ištok
+    ballot_no: 4
+    party: NEKA
+    parties: []
+    bloc: null
+    inc: false
+    prev_share: 0.0
+    neka: true
+    withdrew: false
+    profile: 25-year-old unemployed from Levoča; minor independent.
+    prior_runs: null
+    local_official: false
+  - name: Zoltán Kašo
+    ballot_no: 5
+    party: TÍM KOŠICE
+    parties: []
+    bloc: null
+    inc: false
+    prev_share: 0.0
+    neka: false
+    withdrew: true
+    profile: Teaching assistant; withdrew in favour of Samuel Migaľ (joint press conference on Roma inclusion).
+    prior_runs: null
+    local_official: false
+    transfer_to: Samuel Migaľ
+  - name: Judita Laššáková
+    ballot_no: 6
+    party: Bratia Slovenska, SMER - SD
+    parties:
+    - SMER
+    bloc: gov
+    inc: false
+    prev_share: 0.0
+    neka: false
+    withdrew: true
+    profile: Smer-SD MEP; withdrew by agreement with Smer leadership 'to make the race realistic' (Fico). Official PSK notice dated 2026-10-06
+      (https://psk.sk/domov/samosprava/zpsk/volby-do-organov-samospravy/volby-2026/kandidati-na-predsedu-psk-2026/).
+    prior_runs: null
+    local_official: false
+  - name: Monika Lešková
+    ballot_no: 7
+    party: SNS
+    parties:
+    - SNS
+    bloc: gov
+    inc: false
+    prev_share: 0.0
+    neka: false
+    withdrew: true
+    profile: Head of district office (prednostka OÚ); withdrew on STVR Rádio Regina debate, SNS support transferred to Milan Mazurek.
+    prior_runs: null
+    local_official: true
+    transfer_to: Milan Mazurek
+  - name: Milan Majerský
+    ballot_no: 8
+    party: Hnutie SLOVENSKO, KDH, Konzervatívci, Progresívne Slovensko, SaS, ZA ĽUDÍ
+    parties:
+    - PS
+    - SAS
+    - KDH
+    - SLOVENSKO
+    - ZL
+    bloc: opp
+    inc: true
+    prev_share: 0.4201
+    neka: false
+    withdrew: false
+    profile: Incumbent chair since 2017, KDH chairman and MP; seeking 3rd term.
+    prior_runs: Won 2017 (40.36 %) and 2022 (42.01 %)
+    local_official: false
+  - name: Milan Mazurek
+    ballot_no: 9
+    party: REPUBLIKA
+    parties:
+    - REPUBLIKA
+    bloc: null
+    inc: false
+    prev_share: 0.1088
+    neka: false
+    withdrew: false
+    profile: Republika MEP and PSK councillor.
+    prior_runs: 2022 PSK 3rd with 10.88 % (REPUBLIKA)
+    local_official: true
+  - name: Samuel Migaľ
+    ballot_no: 10
+    party: NEKA
+    parties: []
+    bloc: null
+    inc: false
+    prev_share: 0.0
+    neka: true
+    withdrew: false
+    profile: Minister of investment, regional development and informatisation; runs as independent.
+    prior_runs: null
+    local_official: false
+  - name: Ján Stanko
+    ballot_no: 11
+    party: SLOVEXIT
+    parties: []
+    bloc: null
+    inc: false
+    prev_share: 0.0
+    neka: false
+    withdrew: false
+    profile: Mayor of Parihuzovce; minor.
+    prior_runs: null
+    local_official: false
+  polls:
+  - pollster: AKO
+    fieldwork_end: '2026-10-13'
+    n: 250
+    sponsor: JOJ 24
+    results:
+      Milan Majerský: 49.2
+      Milan Mazurek: 32.4
+      Samuel Migaľ: 7.8
+      Marián Geci: 4.0
+      Monika Lešková: 3.9
+      Drahomír Čureja: 1.9
+      Jozef Ištok: 0.6
+      Ján Stanko: 0.3
+      Ľubomír Goliaš: 0.0
+    others_pct: null
+    source: https://joj24.noviny.sk/prieskumy/1272728-majersky-alebo-mazurek-prieskum-joj-24-ukazal-koho-by-volili-ludia-v-presovskom-kraji
+    partisan: false
+  - pollster: AKO (for JOJ 24)
+    fieldwork_end: '2026-09-21'
+    n: null
+    sponsor: null
+    results:
+      Milan Majerský: 44.8
+      Milan Mazurek: 28.8
+      Judita Laššáková: 6.5
+      Samuel Migaľ: 6.2
+      Marián Geci: 5.5
+      Drahomír Čureja: 2.3
+      Zoltán Kašo: 1.7
+      Monika Lešková: 1.4
+      Ján Stanko: 1.2
+      Jozef Ištok: 1.2
+      Ľubomír Goliaš: 0.4
+    others_pct: null
+    source: https://www.infozona.sk/spravodajstvo/aktualny-prieskum-preferencii-v-presovskom-kraji-majersky-to-nema-iste-niektore-okresy-vas-prekvapia/
+    partisan: false
+  odds:
+  - bookmaker: Tipsport
+    date: '2026-10-20'
+    odds:
+      Milan Majerský: 1.11
+      Milan Mazurek: 6.0
+      Samuel Migaľ: 14.0
+      Jozef Ištok: 77.0
+      Drahomír Čureja: 88.0
+      Marián Geci: 88.0
+      Ľubomír Goliaš: 88.0
+      Zoltán Kašo: 88.0
+      Ján Stanko: 88.0
+    source: https://stavkynavolby.sk/informacie/kurzy-na-volby/
+  - bookmaker: Fortuna
+    date: '2026-10-20'
+    odds:
+      Milan Majerský: 1.13
+      Milan Mazurek: 5.0
+      Samuel Migaľ: 15.0
+    source: https://stavkynavolby.sk/informacie/kurzy-na-volby/
+  - bookmaker: DOXXbet
+    date: '2026-10-20'
+    odds:
+      Milan Majerský: 1.11
+      Milan Mazurek: 6.0
+      Samuel Migaľ: 12.0
+    source: https://stavkynavolby.sk/informacie/kurzy-na-volby/
+  - bookmaker: Niké
+    date: '2026-09-03'
+    odds:
+      Milan Majerský: 1.15
+      Milan Mazurek: 4.0
+      Judita Laššáková: 15.0
+      Samuel Migaľ: 35.0
+    source: https://korzar.sme.sk/kosice/c/kurzy-otocili-poradie-favoritov-volieb-kosickeho-primatora-aj-zupana-majersky-sa-este-balit-nemusi
+  notes: Effective field 8 (Čureja, Geci, Goliaš, Ištok, Majerský, Mazurek, Migaľ, Stanko); Kašo, Laššáková, Lešková remain on ballot but votes
+    not counted. Consolidation of nationalist/government vote toward Mazurek (SNS endorsement, Smer withdrawal) is the main risk to Majerský;
+    2022 Kaliňák (Hlas+Smer) got 31.4 % + Mazurek 10.9 % = 42.3 % vs Majerský 42.0 %, so a fully consolidated anti-Majerský vote would be competitive
+    – but Migaľ (sitting government minister running as independent) splits it. Bookmakers still price Majerský ~1.11-1.13. Ballot numbers follow
+    MV SR/STVR list order (alphabetical); official PSK PDF not parsed.
+  key_events:
+  - date: '2026-08-26'
+    text: 11 candidates filed, the most of any region; Majerský backed by KDH, Hnutie Slovensko, SaS, Za ľudí, Konzervatívci, PS.
+    source: https://www.ta3.com/clanok/1068039/presovsky-kraj-caka-suboj-jedenastich-kandidatov-na-zupanske-kreslo-si-robi-zalusk-aj-migal-mazurek-si-lassakova
+  - date: '2026-10-01'
+    text: 'Smer MEP Judita Laššáková withdrew after agreement with Smer leadership (Fico: ''to make the race realistic''); Smer had said in August
+      it might withdraw her to back Mazurek against Majerský.'
+    source: https://spravy.stvr.sk/2026/10/odstupila-z-boja-judita-lassakova-sa-vzdala-kandidatury-na-post-predsednicky-presovskeho-samospravneho-kraja/
+  - date: '2026-10-09'
+    text: Zoltán Kašo (Tím Košice) withdrew and endorsed Samuel Migaľ.
+    source: https://www.finreport.sk/agenturne-spravy/zoltan-kaso-sa-vzdal-kandidatury-na-presovskeho-zupana-podporil-samuela-migala/
+  - date: '2026-10-13'
+    text: Monika Lešková (SNS) withdrew on STVR debate, SNS support to Milan Mazurek; Mazurek attacked Majerský's management of regional finances
+      in the debate.
+    source: https://www.teraz.sk/regiony/leskova-sa-vzdala-kandidatury-na-post/999276-clanok.html
+  - date: '2026-10-14'
+    text: 'AKO/JOJ 24 poll published: Majerský 49.2 %, Mazurek 32.4 %, Migaľ 7.8 % (decided, n=250).'
+    source: https://joj24.noviny.sk/prieskumy/1272728-majersky-alebo-mazurek-prieskum-joj-24-ukazal-koho-by-volili-ludia-v-presovskom-kraji
+  sources:
+  - https://psk.sk/domov/samosprava/zpsk/volby-do-organov-samospravy/volby-2026/kandidati-na-predsedu-psk-2026/
+  - https://spravy.stvr.sk/volby-2026/volby-do-vuc/?kraj=SK7
+  - https://volby.statistics.sk/osk/osk2017/files/OSK_2017_xlsx.zip
+  - https://volby.statistics.sk/osk/osk2022/files/OSK2022_SK_csv.zip
+  - https://www.noviny.sk/slovensko/1271936-po-lassakovej-sa-aj-monika-leskova-vzdala-sa-kandidatury-na-post-predsednicky-psk
+  - https://www.ta3.com/clanok/1068039/presovsky-kraj-caka-suboj-jedenastich-kandidatov-na-zupanske-kreslo-si-robi-zalusk-aj-migal-mazurek-si-lassakova
+- id: kraj-ke
+  name: Košický samosprávny kraj
+  group: kraj
+  office: predseda VUC
+  voters: 627195
+  incumbent:
+    name: Rastislav Trnka
+    since: 2017
+    party_2022: KDH, ALIANCIA, STAROSTOVIA A NEZÁVISLÍ KANDIDÁTI, ŠANCA, DS
+    running_2026: true
+  history:
+    '2022':
+      turnout_pct: 39.7
+      registered_voters: 627195
+      voters_participated: 249000
+      valid_votes: 215081
+      results:
+      - name: Rastislav Trnka
+        party: KDH, ALIANCIA, STAROSTOVIA A NEZÁVISLÍ KANDIDÁTI, ŠANCA, DS
+        votes: 110362
+        pct: 51.31
+      - name: Viliam Zahorčák
+        party: SMER-SD, SME RODINA, SNS, ŽIVOT, SMS, NK/NEKA
+        votes: 32287
+        pct: 15.01
+      - name: Róbert Suja
+        party: HLAS-SD
+        votes: 15040
+        pct: 6.99
+      - name: Juraj Sinay
+        party: NEKA
+        votes: 14631
+        pct: 6.8
+      - name: Erik Ňarjaš
+        party: OĽANO-NOVA-KÚ-ZMENA ZDOLA, ZA ĽUDÍ, ...
+        votes: 11927
+        pct: 5.55
+      - name: Monika Sofiya Soročinová
+        party: NEKA
+        votes: 10137
+        pct: 4.71
+      - name: Tomáš Janco
+        party: REPUBLIKA
+        votes: 4855
+        pct: 2.26
+      - name: Juraj Ďurove
+        party: Socialisti.sk
+        votes: 3624
+        pct: 1.68
+      - name: Stanislav Mizík
+        party: ĽS Naše Slovensko
+        votes: 3416
+        pct: 1.59
+      - name: Vladislav Stanko
+        party: NEKA
+        votes: 3239
+        pct: 1.51
+      - name: Džemal Kodrazi
+        party: PRINCÍP
+        votes: 3018
+        pct: 1.4
+      - name: Ivan Hriczko
+        party: SIM
+        votes: 2545
+        pct: 1.18
+      source: https://volby.statistics.sk/osk/osk2022/files/OSK2022_SK_csv.zip
+      note: 'valid_votes = valid ballots cast for predseda (P_HL_PRE), aggregated from SU SR precinct CSV (tab02bd/tab06d); pct = votes/valid_votes.
+        Withdrawn candidates (X) remain in SU SR tables with their votes. Cross-check: https://sk.wikipedia.org/wiki/Vo%C4%BEby_do_org%C3%A1nov_samospr%C3%A1vnych_krajov_na_Slovensku_v_roku_2022'
+    '2017':
+      turnout_pct: 26.73
+      registered_voters: 630178
+      voters_participated: 168454
+      valid_votes: 157651
+      results:
+      - name: Rastislav Trnka
+        party: KDH, NOVA, OĽANO, SaS, ŠANCA
+        votes: 59599
+        pct: 37.8
+      - name: Richard Raši
+        party: STAROSTOVIA A NEZÁVISLÍ KANDIDÁTI, SMER-SD, SMK-MKP, SZS
+        votes: 58724
+        pct: 37.24
+      - name: Karol Pataky
+        party: MOST - HÍD, SKOK - ELD
+        votes: 14843
+        pct: 9.41
+      - name: Štefan Surmánek
+        party: ĽS Naše Slovensko
+        votes: 7375
+        pct: 4.67
+      - name: Róbert Bačinský
+        party: NEKA
+        votes: 4903
+        pct: 3.11
+      - name: Jarmila Tkáčová
+        party: SNS
+        votes: 3638
+        pct: 2.3
+      - name: Oliver Petrík
+        party: JEDNOTA-ĽSS
+        votes: 1730
+        pct: 1.09
+      - name: Jozef Bobík
+        party: NEKA
+        votes: 1222
+        pct: 0.77
+        note: withdrew
+      - name: Lukáš Sisák
+        party: KSS
+        votes: 1169
+        pct: 0.74
+      - name: Jozef Červeňák
+        party: RIS
+        votes: 1049
+        pct: 0.66
+      - name: Jaroslav Džunko
+        party: NEKA
+        votes: 1021
+        pct: 0.64
+      - name: Vladislav Stanko
+        party: NEKA
+        votes: 753
+        pct: 0.47
+        note: withdrew
+      - name: Adam Šepetka
+        party: NAJ
+        votes: 655
+        pct: 0.41
+        note: withdrew
+      - name: Rudolf Botka
+        party: NP
+        votes: 564
+        pct: 0.35
+      - name: Ján Struk
+        party: SMS
+        votes: 406
+        pct: 0.25
+        note: withdrew
+      source: https://volby.statistics.sk/osk/osk2017/files/OSK_2017_xlsx.zip
+      note: 'Official SU SR tab02a (summary) and tab06b (chair results by kraj). Candidates marked withdrawn (poznamka 0) flagged. Cross-check:
+        https://sk.wikipedia.org/wiki/Vo%C4%BEby_do_org%C3%A1nov_samospr%C3%A1vnych_krajov_na_Slovensku_v_roku_2017'
+  candidates:
+  - name: Tibor Géci
+    ballot_no: 1
+    party: Jednota Slovanov
+    parties: []
+    bloc: null
+    inc: false
+    prev_share: 0.0
+    neka: false
+    withdrew: true
+    profile: Minor; candidacy formally revoked (odvolanie) by Jednota Slovanov per KSK notice (https://www.kosickazupa.sk/uradna-tabula/volby-2026);
+      endorsed Igor Šimko.
+    prior_runs: null
+    local_official: false
+    transfer_to: Igor Šimko
+  - name: Džemal Kodrazi
+    ballot_no: 2
+    party: NEKA
+    parties: []
+    bloc: null
+    inc: false
+    prev_share: 0.014
+    neka: true
+    withdrew: false
+    profile: Minor independent.
+    prior_runs: 2022 KSK 11th with 1.40 % (PRINCÍP)
+    local_official: false
+  - name: Marián Porvažník
+    ballot_no: 3
+    party: Demokrati, DS-ODS, Hnutie Slovensko, KDH, OKS, Progresívne Slovensko, SaS, Za ľudí
+    parties:
+    - PS
+    - SAS
+    - KDH
+    - SLOVENSKO
+    - DEMOKRATI
+    - ZL
+    bloc: opp
+    inc: false
+    prev_share: 0.0
+    neka: false
+    withdrew: false
+    profile: PS candidate backed by the whole opposition coalition.
+    prior_runs: null
+    local_official: false
+  - name: Monika Sofiya Soročinová
+    ballot_no: 4
+    party: NEKA
+    parties: []
+    bloc: null
+    inc: false
+    prev_share: 0.0471
+    neka: true
+    withdrew: false
+    profile: Independent.
+    prior_runs: 2022 KSK 6th with 4.71 % (NEKA)
+    local_official: false
+  - name: Igor Šimko
+    ballot_no: 5
+    party: Bratia Slovenska, Hlas-SD, Právo na pravdu, Republika, SNS, Smer-SD, STANK, Strana vidieka
+    parties:
+    - SMER
+    - HLAS
+    - SNS
+    - REPUBLIKA
+    bloc: gov
+    inc: false
+    prev_share: 0.0
+    neka: false
+    withdrew: false
+    profile: Hlas-SD MP; joint candidate of the governing parties plus Republika.
+    prior_runs: null
+    local_official: false
+  - name: Rastislav Trnka
+    ballot_no: 6
+    party: NEKA
+    parties: []
+    bloc: null
+    inc: true
+    prev_share: 0.5131
+    neka: true
+    withdrew: false
+    profile: Incumbent since 2017, now independent; indicted in 'Valentín' procurement case (Tatra vehicles/sprinklers), trial moved to Okresný
+      súd Námestovo by Supreme Court on 2026-01-29; denies guilt.
+    prior_runs: Won 2017 (37.80 %, OĽANO/SaS/KDH) and 2022 (51.31 %, KDH/Aliancia)
+    local_official: false
+  polls:
+  - pollster: SANEP (for ta3)
+    fieldwork_end: '2026-10-18'
+    n: 950
+    sponsor: null
+    results:
+      Rastislav Trnka: 38.3
+      Marián Porvažník: 32.2
+      Igor Šimko: 19.4
+      Monika Sofiya Soročinová: 7.7
+      Džemal Kodrazi: 2.4
+    others_pct: null
+    source: https://www.pravda.sk/spravy/regionalne-volby-2026/clanok/2062305-prieskum-sanep-kto-ovladne-kosice-a-kto-zupu-novy-prieskum-odhalil-favoritov-v-hre-su-aj-tesne-suboje
+    partisan: false
+  - pollster: AKO (JOJ 24)
+    fieldwork_end: '2026-10-12'
+    n: null
+    results:
+      Rastislav Trnka: 42.4
+      Marián Porvažník: 25.7
+      Igor Šimko: 19.7
+    source: https://joj24.noviny.sk/prieskumy/1274835-kto-ovladne-kosicky-kraj-prieskum-joj-24-ukazal-vyrazny-naskok-jedneho-z-kandidatov
+    note: fieldwork dates not published; Géci (withdrew 12.10) still listed, so end date set to 12.10 (assumption); only the three leaders are
+      used
+  odds:
+  - bookmaker: Tipsport
+    date: '2026-10-20'
+    odds:
+      Rastislav Trnka: 1.75
+      Marián Porvažník: 1.95
+      Igor Šimko: 7.5
+      Monika Sofiya Soročinová: 80.0
+      Džemal Kodrazi: 500.0
+    source: https://stavkynavolby.sk/informacie/kurzy-na-volby/
+  - bookmaker: Fortuna
+    date: '2026-10-20'
+    odds:
+      Rastislav Trnka: 1.8
+      Marián Porvažník: 1.9
+      Igor Šimko: 7.0
+      Monika Sofiya Soročinová: 80.0
+      Džemal Kodrazi: 400.0
+    source: https://stavkynavolby.sk/informacie/kurzy-na-volby/
+  - bookmaker: DOXXbet
+    date: '2026-10-20'
+    odds:
+      Rastislav Trnka: 1.65
+      Marián Porvažník: 1.95
+      Igor Šimko: 7.0
+      Monika Sofiya Soročinová: 50.0
+    source: https://stavkynavolby.sk/informacie/kurzy-na-volby/
+  - bookmaker: Niké
+    date: '2026-09-03'
+    odds:
+      Marián Porvažník: 1.67
+      Rastislav Trnka: 2.2
+      Igor Šimko: 7.5
+      Monika Sofiya Soročinová: 15.0
+    source: https://korzar.sme.sk/kosice/c/kurzy-otocili-poradie-favoritov-volieb-kosickeho-primatora-aj-zupana-majersky-sa-este-balit-nemusi
+  notes: 'Most competitive of the four. Effective field 5 (Kodrazi, Porvažník, Soročinová, Šimko, Trnka); Géci stays on ballot, votes not counted.
+    Polls (AKO: Trnka +16.7 pp) and bookmakers (near coin-flip, Trnka 1.65-1.80 vs Porvažník 1.90-1.95) diverge strongly. Trnka draws cross-camp
+    support (in AKO leads among SNS, Aliancia, Sme rodina, KDH, Hlas voters; strong in Trebišov, Spišská Nová Ves, Gelnica and among Hungarians);
+    Porvažník leads in Košice I/II and Rožňava and among university-educated. Trnka won 2022 with KDH+Aliancia backing that he no longer has formally
+    (KDH now backs Porvažník). Fortuna specials (2026-10-20): ''who gets higher %'' Trnka 2.05 vs Becík (NR) 1.60; Porvažník 1.75 vs Mazurek 1.90.
+    Ballot numbers follow MV SR/STVR list order (alphabetical); official KSK PDF (static.kosice.sk link) not parsed. The STVR table did not flag
+    Géci''s withdrawal with X in all views – rely on news/KSK notice.'
+  key_events:
+  - date: '2026-01-29'
+    text: Supreme Court moved Trnka's 'Valentín' procurement case from Košice courts to Okresný súd Námestovo; indictment pending >1 year, Trnka
+      denies guilt.
+    source: https://korzar.sme.sk/kosice/c/od-podania-obzaloby-na-trnku-a-spol-uplynul-viac-ako-rok-kosicky-zupan-stale-nevie-ci-ho-budu-sudit
+  - date: '2026-09-03'
+    text: Tipsport, Niké and Fortuna made Porvažník favourite (1.65-1.67) over Trnka (2.1-2.2) after Gurbáľová (KDH) and Hirman (Demokrati) stood
+      aside for Porvažník.
+    source: https://korzar.sme.sk/kosice/c/kurzy-otocili-poradie-favoritov-volieb-kosickeho-primatora-aj-zupana-majersky-sa-este-balit-nemusi
+  - date: '2026-10-12'
+    text: Tibor Géci (Jednota Slovanov) withdrew/candidacy revoked; endorsed Igor Šimko.
+    source: https://spravy.stvr.sk/spravy-po-minute/kandidat-za-stranu-jednota-slovanov-tibor-geci-sa-vzdava-svojej-kandidatury-na-post-predsedu-kosickeho-samospravneho-kraja-ksk/
+  - date: '2026-10-14'
+    text: 'Odds flipped back: Trnka narrow favourite (Fortuna 1.65 vs Porvažník 2.00); by 2026-10-20 Tipsport 1.75/1.95, Fortuna 1.80/1.90.'
+    source: https://kurzynavolby.sk/tipovanie/kurzy-na-volby/
+  - date: '2026-10-20'
+    text: 'AKO/JOJ 24 poll: Trnka 42.4 %, Porvažník 25.7 %, Šimko 19.7 %, Soročinová 9.0 % (decided); 25.6 % undecided.'
+    source: https://joj24.noviny.sk/prieskumy/1274835-kto-ovladne-kosicky-kraj-prieskum-joj-24-ukazal-vyrazny-naskok-jedneho-z-kandidatov
+  sources:
+  - https://spravy.stvr.sk/volby-2026/volby-do-vuc/?kraj=SK8
+  - https://static.kosice.sk/files/manual/volby/volby2026_vuc_zoznam_zaregistrovanych_predseda.pdf
+  - https://volby.statistics.sk/osk/osk2017/files/OSK_2017_xlsx.zip
+  - https://volby.statistics.sk/osk/osk2022/files/OSK2022_SK_csv.zip
+  - https://www.kosickazupa.sk/uradna-tabula/volby-2026
+- id: kraj-ba
+  name: Bratislavský samosprávny kraj
+  group: kraj
+  office: predseda VUC
+  voters: 604207
+  incumbent:
+    name: Juraj Droba
+    since: 2017
+    party_2022: SaS, Progresívne Slovensko, Team Bratislava
+    running_2026: true
+  history:
+    '2022':
+      turnout_pct: 38.6
+      registered_voters: 604207
+      participating_voters: 233255
+      valid_votes: 215351
+      results:
+      - name: Juraj Droba
+        party: SaS, Progresívne Slovensko, Team Bratislava
+        votes: 136983
+        pct: 63.6
+      - name: Ján Mažgút
+        party: SMER - SD, SNS
+        votes: 28911
+        pct: 13.42
+      - name: Ivan Bošňák
+        party: DS, ODS, SPOLU, ŠANCA
+        votes: 18445
+        pct: 8.56
+      - name: Dušan Velič
+        party: ZA ĽUDÍ, SME RODINA, KDH, Magyar Fórum
+        votes: 17420
+        pct: 8.08
+      - name: Milan Lopašovský
+        party: STRANA MODERNÉHO SLOVENSKA (SMS)
+        votes: 4449
+        pct: 2.06
+      - name: Štefan Zima
+        party: REPUBLIKA
+        votes: 3751
+        pct: 1.74
+      - name: Magdaléna Sulanová
+        party: ĽS Naše Slovensko
+        votes: 2927
+        pct: 1.35
+      - name: Andrej Trnovec
+        party: Slovenská ľudová strana (SĽS)
+        votes: 2465
+        pct: 1.14
+      source: https://volby.statistics.sk/opendata/osk/2022/OSK2022_SK_tab06a.csv
+      source_turnout: https://volby.statistics.sk/osk/osk2022/sk/suhrnne_vysledky.html
+    '2017':
+      turnout_pct: 31.34
+      registered_voters: 584995
+      participating_voters: 183342
+      valid_votes: 180490
+      results:
+      - name: Juraj Droba
+        party: SaS, OĽaNO, SMK-MKP, NOVA, OKS, Zmena zdola, DÚ
+        votes: 36864
+        pct: 20.42
+      - name: Rudolf Kusý
+        party: NEKA
+        votes: 33489
+        pct: 18.55
+      - name: Milan Ftáčnik
+        party: NEKA
+        votes: 31638
+        pct: 17.52
+      - name: Ján Mrva
+        party: NEKA
+        votes: 28842
+        pct: 15.97
+      - name: Pavol Frešo
+        party: NEKA
+        votes: 19640
+        pct: 10.88
+      - name: Daniel Krajcer
+        party: MOST - HÍD, SKOK - ELD, SZ
+        votes: 13934
+        pct: 7.72
+      - name: Ľubomír Huďo
+        party: NEKA
+        votes: 6063
+        pct: 3.35
+      - name: Jozef Uhler
+        party: NEKA
+        votes: 3954
+        pct: 2.19
+      - name: Natália Hanulíková
+        party: SZS
+        votes: 1444
+        pct: 0.8
+      - name: Martin Jakubec
+        party: NEKA
+        votes: 1219
+        pct: 0.67
+      - name: Lukáš Parízek
+        party: SNS
+        votes: 702
+        pct: 0.38
+      - name: Rastislav Blaško
+        party: NEKA
+        votes: 631
+        pct: 0.34
+      - name: Jalal Suleiman
+        party: KSS
+        votes: 548
+        pct: 0.3
+      - name: Jozef Danko
+        party: NEKA
+        votes: 525
+        pct: 0.29
+      - name: Andrej Trnovec
+        party: SĽS
+        votes: 454
+        pct: 0.25
+      - name: Milan Lopašovský
+        party: SMS
+        votes: 182
+        pct: 0.1
+      - name: Marián Leinerovič
+        party: NP
+        votes: 181
+        pct: 0.1
+      - name: Ľubomír Kolárik
+        party: SZSZO
+        votes: 180
+        pct: 0.09
+      source: https://sk.wikipedia.org/wiki/Vo%C4%BEby_do_org%C3%A1nov_samospr%C3%A1vnych_krajov_na_Slovensku_v_roku_2017
+      source_note: Figures from SK Wikipedia (cites ŠÚ SR); ŠÚ SR 2017 page https://volby.statistics.sk/osk/osk2017/sk/data01.html is JS-rendered
+        and was not machine-readable.
+  candidates:
+  - name: Juraj Droba
+    ballot_no: 1
+    party: Sloboda a solidarita, Progresívne Slovensko, Demokrati, Team Bratislava
+    parties:
+    - PS
+    - SAS
+    - DEMOKRATI
+    bloc: opp
+    inc: true
+    prev_share: 0.636
+    neka: false
+    withdrew: false
+    profile: Incumbent chair since 2017 (third run); ex-SaS MP.
+    prior_runs: 2017 BSK 1st 20.42 %; 2022 BSK 1st 63.60 %
+    local_official: false
+  - name: Rastislav Gajarský
+    ballot_no: 2
+    party: Smer - sociálna demokracia, Hlas - sociálna demokracia, Slovenská národná strana
+    parties:
+    - SMER
+    - HLAS
+    - SNS
+    bloc: gov
+    inc: false
+    prev_share: 0.0
+    neka: false
+    withdrew: false
+    profile: Head (prednosta) of the District Office Bratislava; joint government-coalition candidate.
+    prior_runs: null
+    local_official: true
+  - name: Ján Chalabala
+    ballot_no: 3
+    party: Komunistická strana Slovenska
+    parties: []
+    bloc: null
+    inc: false
+    prev_share: 0.0
+    neka: false
+    withdrew: false
+    profile: Retired (výsluhový dôchodca), Modra; KSS nominee.
+    prior_runs: null
+    local_official: false
+  - name: Zuzana Krajčovičová
+    ballot_no: 4
+    party: Právo na pravdu, Starostovia a nezávislí kandidáti
+    parties: []
+    bloc: null
+    inc: false
+    prev_share: 0.0
+    neka: false
+    withdrew: false
+    profile: Company director, Staré Mesto; known for activism against wind turbines; also on Právo na pravdu council list.
+    prior_runs: null
+    local_official: false
+  - name: Ľudovít Líška
+    ballot_no: 5
+    party: Jednota Slovanov
+    parties: []
+    bloc: null
+    inc: false
+    prev_share: 0.0
+    neka: false
+    withdrew: false
+    profile: Businessman, Petržalka.
+    prior_runs: null
+    local_official: false
+  - name: Peter Poláček
+    ballot_no: 6
+    party: Slovexit
+    parties: []
+    bloc: null
+    inc: false
+    prev_share: 0.0
+    neka: false
+    withdrew: false
+    profile: '''Forensic prompt specialist'', Staré Mesto; Slovexit nominee.'
+    prior_runs: null
+    local_official: false
+  - name: Dávid Staruch
+    ballot_no: 7
+    party: NEKA (nezávislý kandidát)
+    parties: []
+    bloc: null
+    inc: false
+    prev_share: 0.0
+    neka: true
+    withdrew: false
+    profile: IT/data engineer, ex-Ružinov local councillor and founding SaS member; says he wants to 'take over the baton' from Droba rather than
+      attack him.
+    prior_runs: null
+    local_official: true
+  polls:
+  - pollster: Politologické prieskumy
+    fieldwork_end: '2026-09-21'
+    n: 775
+    sponsor: null
+    results:
+      Juraj Droba: 49.4
+      Zuzana Krajčovičová: 8.8
+      Dávid Staruch: 4.8
+      Rastislav Gajarský: 4.3
+      Ján Chalabala: 2.4
+      Ľudovít Líška: 1.4
+      Peter Poláček: 0.6
+    others_pct: null
+    source: https://www.instagram.com/p/DeG2fVMirwT/
+    partisan: false
+  odds:
+  - bookmaker: Tipsport
+    date: '2026-10-20'
+    odds:
+      Juraj Droba: 1.01
+      Zuzana Krajčovičová: 14.0
+      Dávid Staruch: 16.0
+      Rastislav Gajarský: 25.0
+      Ján Chalabala: 88.0
+      Ľudovít Líška: 88.0
+      Peter Poláček: 88.0
+    source: https://stavkynavolby.sk/informacie/kandidati-na-predsedu-vuc-2026-kraj-po-kraji/
+  - bookmaker: Fortuna
+    date: '2026-10-20'
+    odds:
+      Juraj Droba: 1.01
+      Zuzana Krajčovičová: 15.0
+      Dávid Staruch: 18.0
+      Rastislav Gajarský: 25.0
+    source: https://stavkynavolby.sk/informacie/kandidati-na-predsedu-vuc-2026-kraj-po-kraji/
+  - bookmaker: DOXXbet
+    date: '2026-10-20'
+    odds:
+      Juraj Droba: 1.01
+      Zuzana Krajčovičová: 10.0
+      Dávid Staruch: 15.0
+      Rastislav Gajarský: 15.0
+    source: https://stavkynavolby.sk/informacie/kandidati-na-predsedu-vuc-2026-kraj-po-kraji/
+  notes: 'Safest race of the four: incumbent Droba backed by the whole liberal opposition (SaS, PS, Demokrati, Team Bratislava); won 2022 with
+    63.6 %. Government coalition (Smer, Hlas, SNS) unites behind low-profile Gajarský (4.3 % in only poll) - in 2022 Smer+SNS candidate got 13.4
+    %. Krajčovičová (Právo na pravdu + SaNK) is the populist/anti-establishment option; Staruch is an ex-SaS independent splitting the liberal
+    vote marginally. KDH and Hnutie Slovensko do not formally nominate anyone (not on Droba''s nomination). Bookmakers price Droba at 1.01 everywhere.
+    No AKO/JOJ24 BSK poll found (JOJ24 published AKO regional polls for TT, TN, NR, PSK, KSK). No withdrawals known as of 2026-10-20 (national
+    withdrawals so far: Laššáková PSK, Lučanský ŽSK, Belousovová ŽSK). Turnout 2022 was combined-election turnout (38.60 %); 2017 standalone regional
+    election 31.34 %.'
+  key_events:
+  - date: '2026-08-25'
+    text: Deadline for filing candidacies (nationwide).
+    source: https://stavkynavolby.sk/informacie/kandidati-na-predsedu-vuc-2026-kraj-po-kraji/
+  - date: '2026-09-02'
+    text: BSK election commission registered 7 chair candidates (unchanged from filings) and 277 council candidates.
+    source: https://www.bratislavskyvecernik.sk/2026/09/04/bratislavsky-kraj-zaregistroval-kandidatov-do-zupnych-volieb/
+  - date: '2026-10-05'
+    text: 'Politologické prieskumy poll published: Droba 49.4 % of all respondents (68.9 % of decided), Krajčovičová 2nd.'
+    source: https://www.instagram.com/p/DeG2fVMirwT/
+  sources:
+  - https://bratislavskykraj.sk/volby-do-vuc-2026/
+  - https://bratislavskykraj.sk/wp-content/uploads/2026/09/ZOZNAM-ZAREGISTROVANYCH-KANDIDATOV-pre-volby-predsedu-BSK.pdf
+  - https://hnonline.sk/volby-2026/volby-do-vuc-2026/96307631-vuc-volby-2026-bratislavsky-kraj-zoznam-kandidatov-zupan-a-poslanci
+  - https://sk.wikipedia.org/wiki/Vo%C4%BEby_do_org%C3%A1nov_samospr%C3%A1vnych_krajov_na_Slovensku_v_roku_2017
+  - https://volby.statistics.sk/opendata/osk/2022/OSK2022_SK_tab06a.csv
+  - https://www.aktuality.sk/clanok/pGWwtjf/kompletny-zoznam-kandidatov-na-predsedov-samospravnych-krajov-vo-volbach-do-vuc-2026/
+- id: kraj-tt
+  name: Trnavský samosprávny kraj
+  group: kraj
+  office: predseda VUC
+  voters: 471563
+  incumbent:
+    name: Jozef Viskupič
+    since: 2017
+    party_2022: OĽANO-NOVA-KÚ-ZMENA ZDOLA, SaS, KDH, SPOLU, ŠANCA, ODS, ZA ĽUDÍ, SME RODINA, OKS, DS, Magyar Fórum
+    running_2026: true
+  history:
+    '2022':
+      turnout_pct: 42.87
+      registered_voters: 471563
+      participating_voters: 202166
+      valid_votes: 180834
+      results:
+      - name: Jozef Viskupič
+        party: OĽANO-NOVA-KÚ-ZMENA ZDOLA, SaS, KDH, SPOLU, ŠANCA, ODS, ZA ĽUDÍ, SME RODINA, OKS, DS, Magyar Fórum
+        votes: 69743
+        pct: 38.56
+      - name: József Berényi
+        party: SZÖVETSÉG - ALIANCIA
+        votes: 38056
+        pct: 21.04
+      - name: Martin Červenka
+        party: NEKA
+        votes: 29157
+        pct: 16.12
+      - name: Zdenko Čambal
+        party: SNS, SMER - SD
+        votes: 21426
+        pct: 11.84
+      - name: Martin Beluský
+        party: ĽS Naše Slovensko
+        votes: 8145
+        pct: 4.5
+      - name: Veronika Temňáková
+        party: REPUBLIKA
+        votes: 4515
+        pct: 2.49
+      - name: Roland Hakszer
+        party: NEKA
+        votes: 3129
+        pct: 1.73
+      - name: Zdenko Rosina
+        party: NK/NEKA
+        votes: 2631
+        pct: 1.45
+      - name: Roman Chudý
+        party: ŽIVOT
+        votes: 2392
+        pct: 1.32
+      - name: Ivan Stanovič
+        party: Hnutie ONÁS
+        votes: 1640
+        pct: 0.9
+      source: https://volby.statistics.sk/opendata/osk/2022/OSK2022_SK_tab06a.csv
+      source_turnout: https://volby.statistics.sk/osk/osk2022/sk/suhrnne_vysledky.html
+    '2017':
+      turnout_pct: 24.74
+      registered_voters: 473880
+      participating_voters: 117252
+      valid_votes: 113229
+      results:
+      - name: Jozef Viskupič
+        party: OĽaNO, SaS, KDH, OKS, Zmena zdola, DÚ
+        votes: 48584
+        pct: 42.9
+      - name: Tibor Mikuš
+        party: NEKA (supported by SMER-SD, SNS, SMS, SZS, KSS)
+        votes: 34601
+        pct: 30.55
+      - name: József Berényi
+        party: SMK-MKP
+        votes: 19414
+        pct: 17.14
+      - name: Konrád Rigó
+        party: MOST - HÍD
+        votes: 6362
+        pct: 5.61
+      - name: Márius Novák
+        party: NP
+        votes: 2268
+        pct: 2.0
+      - name: Jaroslav Cehlárik
+        party: NEKA
+        votes: 2000
+        pct: 1.76
+      source: https://sk.wikipedia.org/wiki/Vo%C4%BEby_do_org%C3%A1nov_samospr%C3%A1vnych_krajov_na_Slovensku_v_roku_2017
+      source_note: Figures from SK Wikipedia (cites ŠÚ SR); ŠÚ SR 2017 page https://volby.statistics.sk/osk/osk2017/sk/data01.html is JS-rendered
+        and was not machine-readable.
+  candidates:
+  - name: József Berényi
+    ballot_no: 1
+    party: Magyar szövetség - Maďarská aliancia
+    parties:
+    - ALIANCIA
+    bloc: null
+    inc: false
+    prev_share: 0.2104
+    neka: false
+    withdrew: false
+    profile: Vice-chair of TTSK since 2013, ex-SMK chairman; strong in Dunajská Streda/Galanta.
+    prior_runs: 2013 TTSK 2nd; 2017 TTSK 3rd 17.14 % (SMK); 2022 TTSK 2nd 21.04 %
+    local_official: false
+  - name: Jaroslav Cehlárik
+    ballot_no: 2
+    party: Právo na pravdu
+    parties: []
+    bloc: null
+    inc: false
+    prev_share: 0.0
+    neka: false
+    withdrew: false
+    profile: Director of a sign-language interpreting service, deaf-rights activist, regional councillor.
+    prior_runs: 2017 TTSK 6th 1.76 % (NEKA)
+    local_official: true
+  - name: Róbert Dohál
+    ballot_no: 3
+    party: Alternatíva pre Slovensko
+    parties: []
+    bloc: null
+    inc: false
+    prev_share: 0.0
+    neka: false
+    withdrew: false
+    profile: Head of agricultural cooperative Krakovany-Stráže, regenerative-farming advocate; dropped from KDH list in 2023 over leaked messages.
+    prior_runs: null
+    local_official: false
+  - name: Peter Hambálek
+    ballot_no: 4
+    party: Smer - sociálna demokracia, Hlas - sociálna demokracia, Slovenská národná strana, Republika
+    parties:
+    - SMER
+    - HLAS
+    - SNS
+    - REPUBLIKA
+    bloc: gov
+    inc: false
+    prev_share: 0.0
+    neka: false
+    withdrew: false
+    profile: Vice-chair of Správa štátnych hmotných rezerv; son of Smer MP Augustín Hambálek; announced 2026-07-31.
+    prior_runs: null
+    local_official: false
+  - name: Matej Lančarič
+    ballot_no: 5
+    party: NEKA (nezávislý kandidát)
+    parties: []
+    bloc: null
+    inc: false
+    prev_share: 0.0
+    neka: true
+    withdrew: false
+    profile: Trnava city councillor since 2010, regional councillor since 2017, ex-deputy mayor of Trnava; team 'Za lepší Trnavský kraj'; announced
+      2026-06-22.
+    prior_runs: 2022 Trnava mayoral race 3rd
+    local_official: true
+  - name: Štefan Pollák
+    ballot_no: 6
+    party: Spoločne občania Slovenska
+    parties: []
+    bloc: null
+    inc: false
+    prev_share: 0.0
+    neka: false
+    withdrew: false
+    profile: Accountant from Veľké Blahovo; SOS regional chair.
+    prior_runs: null
+    local_official: false
+  - name: Jozef Viskupič
+    ballot_no: 7
+    party: Progresívne Slovensko, Sloboda a solidarita, KDH, Demokrati, Hnutie Slovensko, Maďarské fórum, Občianska konzervatívna strana
+    parties:
+    - PS
+    - SAS
+    - KDH
+    - SLOVENSKO
+    - DEMOKRATI
+    bloc: opp
+    inc: true
+    prev_share: 0.3856
+    neka: false
+    withdrew: false
+    profile: Incumbent since 2017 (third run), chairs SK8 association; ex-OĽaNO MP, joined PS ~2024.
+    prior_runs: 2017 TTSK 1st 42.90 %; 2022 TTSK 1st 38.56 %
+    local_official: false
+  polls:
+  - pollster: AKO
+    fieldwork_end: '2026-09-17'
+    n: null
+    sponsor: JOJ 24
+    results:
+      Jozef Viskupič: 51.8
+      József Berényi: 18.1
+      Matej Lančarič: 11.7
+      Peter Hambálek: 9.6
+      Róbert Dohál: 5.9
+      Jaroslav Cehlárik: 2.0
+      Štefan Pollák: 0.9
+    others_pct: null
+    source: https://joj24.noviny.sk/prieskumy/1271485-viskupic-ma-pred-zupnymi-volbami-vyrazny-naskok-prieskum-ukazal-aj-prekvapenie-na-druhom-mieste
+    partisan: false
+  - pollster: Politologické prieskumy
+    fieldwork_end: '2026-09-25'
+    n: 701
+    sponsor: null
+    results:
+      Jozef Viskupič: 35.5
+      József Berényi: 18.5
+      Peter Hambálek: 9.3
+      Matej Lančarič: 4.5
+      Róbert Dohál: 2.0
+      Štefan Pollák: 0.8
+      Jaroslav Cehlárik: 0.8
+    others_pct: null
+    source: https://www.instagram.com/p/DePEPk9ivUk/
+    partisan: false
+  odds:
+  - bookmaker: Tipsport
+    date: '2026-10-20'
+    odds:
+      Jozef Viskupič: 1.02
+      Peter Hambálek: 11.0
+      József Berényi: 15.0
+      Matej Lančarič: 30.0
+      Róbert Dohál: 45.0
+      Jaroslav Cehlárik: 50.0
+      Štefan Pollák: 75.0
+    source: https://stavkynavolby.sk/informacie/kandidati-na-predsedu-vuc-2026-kraj-po-kraji/
+  - bookmaker: Fortuna
+    date: '2026-10-20'
+    odds:
+      Jozef Viskupič: 1.02
+      Peter Hambálek: 10.0
+      József Berényi: 18.0
+      Matej Lančarič: 30.0
+      Róbert Dohál: 50.0
+    source: https://stavkynavolby.sk/informacie/kandidati-na-predsedu-vuc-2026-kraj-po-kraji/
+  - bookmaker: DOXXbet
+    date: '2026-10-20'
+    odds:
+      Jozef Viskupič: 1.03
+      Peter Hambálek: 8.0
+      József Berényi: 13.0
+      Matej Lančarič: 15.0
+    source: https://stavkynavolby.sk/informacie/kandidati-na-predsedu-vuc-2026-kraj-po-kraji/
+  notes: 'Viskupič (now PS) has the broadest coalition of any opposition-camp candidate (PS, SaS, KDH, Demokrati, Hnutie Slovensko, Maďarské fórum,
+    OKS); both polls give him ~50-52 % of decided. Main structural challenger is Berényi (Maďarská aliancia) whose vote is concentrated among
+    Hungarian voters in Dunajská Streda/Galanta (AKO: Berényi 53 % vs Viskupič 29 % in DS district; 64 % among Hungarian-nationality respondents).
+    Polls disagree on 2nd-4th order: AKO has Lančarič 3rd (11.7 %), Politologické prieskumy has Hambálek 3rd (13.4 %). Government coalition vote
+    is weak here (2022 Smer+SNS 11.8 %). In 2022 Viskupič won with only 38.6 % thanks to fragmentation; independent Červenka (16.1 % in 2022)
+    is not running. Pollák (SOS) is from Veľké Blahovo (Dunajská Streda district) and is reported as SOS regional chair for Nitra region. No withdrawals
+    known as of 2026-10-20. AKO n not published.'
+  key_events:
+  - date: '2026-06-22'
+    text: Matej Lančarič announced independent candidacy (team 'Za lepší Trnavský kraj').
+    source: https://stavkynavolby.sk/informacie/kandidati-na-predsedu-vuc-2026-kraj-po-kraji/
+  - date: '2026-07-31'
+    text: Peter Hambálek announced candidacy backed by Smer-SD, Hlas-SD, SNS and Republika.
+    source: https://stavkynavolby.sk/informacie/kandidati-na-predsedu-vuc-2026-kraj-po-kraji/
+  - date: '2026-09-03'
+    text: TTSK election commission registered 7 chair candidates and 214 council candidates; council grows from 40 to 42 seats (+1 Dunajská Streda,
+      +1 Skalica).
+    source: https://trnava-vuc.sk/sedem-kandidatov-na-zupana-42-poslaneckych-kresiel-a-214-uchadzacov/
+  - date: '2026-09-21'
+    text: PS leader Michal Šimečka declared personal and financial support for Viskupič.
+    source: https://trnavske.radio/2026/09/21/prinasame-prehlad-a-profily-kandidatov-na-predsedu-trnavskeho-samospravneho-kraja/
+  - date: '2026-10-12'
+    text: 'AKO/JOJ 24 poll: Viskupič 51.8 % of decided, Berényi 18.1 %, Lančarič 11.7 %, Hambálek 9.6 %.'
+    source: https://joj24.noviny.sk/prieskumy/1271485-viskupic-ma-pred-zupnymi-volbami-vyrazny-naskok-prieskum-ukazal-aj-prekvapenie-na-druhom-mieste
+  sources:
+  - https://osam.trnava-vuc.sk/OSamApi/fileDownloadEUT/d32d2e09-f347-4a73-80ee-20f1cd2c2ab1
+  - https://sk.wikipedia.org/wiki/Vo%C4%BEby_do_org%C3%A1nov_samospr%C3%A1vnych_krajov_na_Slovensku_v_roku_2017
+  - https://trnava-vuc.sk/sedem-kandidatov-na-zupana-42-poslaneckych-kresiel-a-214-uchadzacov/
+  - https://volby.statistics.sk/opendata/osk/2022/OSK2022_SK_tab06a.csv
+  - https://www.aktuality.sk/clanok/onfHZZp/kompletny-zoznam-kandidatov-na-zupana-pre-trnavsky-kraj-vo-volbach-do-vuc-2026/
+  - https://www.trnavak.sk/komunalne-volby/zupan
+- id: kraj-tn
+  name: Trenčiansky samosprávny kraj
+  group: kraj
+  office: predseda VUC
+  voters: 478826
+  incumbent:
+    name: Jaroslav Baška
+    since: 2013
+    party_2022: SMER - SD, Hlas - sociálna demokracia, SME RODINA, SNS
+    running_2026: true
+  history:
+    '2022':
+      turnout_pct: 44.8
+      registered_voters: 478826
+      participating_voters: 214539
+      valid_votes: 195837
+      results:
+      - name: Jaroslav Baška
+        party: SMER - SD, Hlas - sociálna demokracia, SME RODINA, SNS
+        votes: 131705
+        pct: 67.25
+      - name: Peter Máťoš
+        party: KDH, SaS, OKS, DOBRÁ VOĽBA a Umiernení, Progresívne Slovensko, SPOLU, ODS, ŠANCA
+        votes: 32547
+        pct: 16.61
+      - name: Adrián Mikuš
+        party: NEKA
+        votes: 16317
+        pct: 8.33
+      - name: Miroslav Magdech
+        party: REPUBLIKA
+        votes: 5801
+        pct: 2.96
+      - name: Anton Kysel
+        party: ĽS Naše Slovensko
+        votes: 5553
+        pct: 2.83
+      - name: Marian Kňažko
+        party: Slovenská ľudová strana (SĽS)
+        votes: 3914
+        pct: 1.99
+      source: https://volby.statistics.sk/opendata/osk/2022/OSK2022_SK_tab06a.csv
+      source_turnout: https://volby.statistics.sk/osk/osk2022/sk/suhrnne_vysledky.html
+    '2017':
+      turnout_pct: 26.31
+      registered_voters: 493851
+      participating_voters: 129940
+      valid_votes: 125652
+      results:
+      - name: Jaroslav Baška
+        party: SMER-SD, SNS, MOST - HÍD, SZ
+        votes: 62807
+        pct: 49.98
+      - name: Renáta Kaščáková
+        party: SaS, OĽaNO, KDH, OKS, NOVA, Zmena zdola, DÚ
+        votes: 31580
+        pct: 25.13
+      - name: Štefan Škultéty
+        party: NEKA
+        votes: 17403
+        pct: 13.85
+      - name: Petra Hajšelová
+        party: SME RODINA - Boris Kollár
+        votes: 6032
+        pct: 4.8
+      - name: Ferdinand Vavrík
+        party: NEKA
+        votes: 4079
+        pct: 3.24
+      - name: Nora Pániková
+        party: SZS
+        votes: 2477
+        pct: 1.97
+      - name: Igor Valko
+        party: NP
+        votes: 1274
+        pct: 1.01
+      source: https://sk.wikipedia.org/wiki/Vo%C4%BEby_do_org%C3%A1nov_samospr%C3%A1vnych_krajov_na_Slovensku_v_roku_2017
+      source_note: Figures from SK Wikipedia (cites ŠÚ SR); ŠÚ SR 2017 page https://volby.statistics.sk/osk/osk2017/sk/data01.html is JS-rendered
+        and was not machine-readable.
+  candidates:
+  - name: Jaroslav Baška
+    ballot_no: 1
+    party: Smer - sociálna demokracia, Hlas - sociálna demokracia, Republika, Slovenská národná strana
+    parties:
+    - SMER
+    - HLAS
+    - SNS
+    - REPUBLIKA
+    bloc: gov
+    inc: true
+    prev_share: 0.6725
+    neka: false
+    withdrew: false
+    profile: Incumbent since 2013 (fourth run); Smer MP, ex-defence minister 2008-2010.
+    prior_runs: 2013 TSK won; 2017 TSK 1st 49.98 %; 2022 TSK 1st 67.25 %
+    local_official: false
+  - name: Daniel Galas
+    ballot_no: 2
+    party: Slovexit
+    parties: []
+    bloc: null
+    inc: false
+    prev_share: 0.0
+    neka: false
+    withdrew: false
+    profile: Retired (výsluhový dôchodca), Partizánske; first run.
+    prior_runs: null
+    local_official: false
+  - name: Lubomír Choleva
+    ballot_no: 3
+    party: Vlastenecký blok
+    parties: []
+    bloc: null
+    inc: false
+    prev_share: 0.0
+    neka: false
+    withdrew: false
+    profile: Pensioner, Prievidza; first run.
+    prior_runs: null
+    local_official: false
+  - name: Natália Svítková
+    ballot_no: 4
+    party: Demokrati, Hnutie Slovensko, KDH, Občianska konzervatívna strana, Progresívne Slovensko, Sloboda a solidarita
+    parties:
+    - PS
+    - SAS
+    - KDH
+    - SLOVENSKO
+    - DEMOKRATI
+    bloc: opp
+    inc: false
+    prev_share: 0.0
+    neka: false
+    withdrew: false
+    profile: Prievidza city councillor (2 terms), regional chair of Demokrati since 2023, organiser of anti-government protests; husband is a
+      policeman from the 'Čurillo team'; slogan 'Svítková zmení smer'.
+    prior_runs: null
+    local_official: true
+  polls:
+  - pollster: AKO
+    fieldwork_end: '2026-09-16'
+    n: null
+    sponsor: JOJ 24
+    results:
+      Jaroslav Baška: 57.5
+      Natália Svítková: 38.6
+      Lubomír Choleva: 2.8
+      Daniel Galas: 1.1
+    others_pct: null
+    source: https://joj24.noviny.sk/prieskumy/1268562-kto-bude-zupanom-trencianskeho-kraja-takmer-stvrtina-opytanych-este-nevie-komu-da-hlas
+    partisan: false
+  - pollster: Politologické prieskumy
+    fieldwork_end: '2026-09-11'
+    n: 898
+    sponsor: null
+    results:
+      Jaroslav Baška: 49.2
+      Natália Svítková: 37.6
+      Lubomír Choleva: 0.4
+      Daniel Galas: 0.2
+    others_pct: null
+    source: https://www.instagram.com/p/Dee50RzCO71/
+    partisan: false
+  odds:
+  - bookmaker: Tipsport
+    date: '2026-10-20'
+    odds:
+      Jaroslav Baška: 1.08
+      Natália Svítková: 5.8
+      Daniel Galas: 60.0
+      Lubomír Choleva: 70.0
+    source: https://stavkynavolby.sk/informacie/kandidati-na-predsedu-vuc-2026-kraj-po-kraji/
+  - bookmaker: Fortuna
+    date: '2026-10-20'
+    odds:
+      Jaroslav Baška: 1.05
+      Natália Svítková: 8.0
+      Daniel Galas: 50.0
+      Lubomír Choleva: 70.0
+    source: https://stavkynavolby.sk/informacie/kandidati-na-predsedu-vuc-2026-kraj-po-kraji/
+  - bookmaker: DOXXbet
+    date: '2026-10-20'
+    odds:
+      Jaroslav Baška: 1.07
+      Natália Svítková: 5.5
+    source: https://stavkynavolby.sk/informacie/kandidati-na-predsedu-vuc-2026-kraj-po-kraji/
+  notes: 'Only head-to-head race among the four: unified government coalition (Smer, Hlas, Republika, SNS) behind 13-year incumbent Baška vs unified
+    opposition (PS, SaS, KDH, Demokrati, Hnutie Slovensko, OKS) behind Svítková. Two polls agree Baška ~56-58 % of decided, Svítková ~39-43 %;
+    minor candidates <3 % combined. 2022: Baška 67.3 % vs opposition 16.6 % - Svítková polls far above the 2022 opposition baseline, so swing
+    is large but Baška still favoured (Tipsport 1.08). Curiosity: 2022 opposition candidate Peter Máťoš now runs for TSK council on the Hlas/Smer/SNS/Republika
+    list, while 2022 Republika candidate Magdech runs on KDH/PS/SaS list (hnonline council list). No withdrawals known as of 2026-10-20.'
+  key_events:
+  - date: '2026-09-07'
+    text: 'TSK election commission list: only 4 chair candidates (smallest field in SK); de facto two-way race Baška vs Svítková.'
+    source: https://trencin.sk/wp-content/uploads/2026/09/Zoznam-zaregistrovanych-kandidatov-pre-volby-predsedu-TSK.pdf
+  - date: '2026-10-05'
+    text: 'AKO/JOJ 24 poll published: Baška 57.5 % vs Svítková 38.6 % of decided; 24.8 % undecided.'
+    source: https://joj24.noviny.sk/prieskumy/1268562-kto-bude-zupanom-trencianskeho-kraja-takmer-stvrtina-opytanych-este-nevie-komu-da-hlas
+  - date: '2026-10-14'
+    text: 'Politologické prieskumy poll published: Baška 56.0 % vs Svítková 43.3 % of decided.'
+    source: https://www.instagram.com/p/Dee50RzCO71/
+  sources:
+  - https://cuet.slovensko.sk/sk/dokument/96c05892-6ec3-40b3-9224-9a639a1f013f
+  - https://hnonline.sk/volby-2026/volby-do-vuc-2026/96307638-vuc-volby-2026-trencin-zoznam-kandidatov-zupan-a-poslanci
+  - https://sk.wikipedia.org/wiki/Vo%C4%BEby_do_org%C3%A1nov_samospr%C3%A1vnych_krajov_na_Slovensku_v_roku_2017
+  - https://trencin.sk/wp-content/uploads/2026/09/Zoznam-zaregistrovanych-kandidatov-pre-volby-predsedu-TSK.pdf
+  - https://volby.statistics.sk/opendata/osk/2022/OSK2022_SK_tab06a.csv
+  - https://www.aktuality.sk/clanok/pGWwtjf/kompletny-zoznam-kandidatov-na-predsedov-samospravnych-krajov-vo-volbach-do-vuc-2026/
+- id: kraj-nr
+  name: Nitriansky samosprávny kraj
+  group: kraj
+  office: predseda VUC
+  voters: 566504
+  incumbent:
+    name: Branislav Becík
+    since: 2022
+    party_2022: Hlas - sociálna demokracia, SME RODINA
+    running_2026: true
+  history:
+    '2022':
+      turnout_pct: 43.1
+      registered_voters: 566504
+      participating_voters: 244201
+      valid_votes: 213714
+      results:
+      - name: Branislav Becík
+        party: Hlas - sociálna demokracia, SME RODINA
+        votes: 58765
+        pct: 27.49
+      - name: Milan Belica
+        party: NEKA (supported by SMER-SD, SNS)
+        votes: 46710
+        pct: 21.85
+      - name: Tibor Csenger
+        party: SZÖVETSÉG - ALIANCIA
+        votes: 35604
+        pct: 16.65
+      - name: Martina Holečková
+        party: KDH, SaS, Tím Kraj Nitra, ŠANCA, SPOLU, ODS, DS, OKS, ZA ĽUDÍ
+        votes: 33467
+        pct: 15.65
+      - name: Lukáš Kyselica
+        party: OĽANO-NOVA-KÚ-ZMENA ZDOLA
+        votes: 10897
+        pct: 5.09
+      - name: Martin Kusenda
+        party: NEKA
+        votes: 9130
+        pct: 4.27
+      - name: Renáta Kolenčíková
+        party: NEKA
+        votes: 5741
+        pct: 2.68
+      - name: Peter Pukan
+        party: REPUBLIKA
+        votes: 4968
+        pct: 2.32
+      - name: Milan Španír
+        party: ĽS Naše Slovensko
+        votes: 4061
+        pct: 1.9
+      - name: Artúr Bekmatov
+        party: Socialisti.sk
+        votes: 3424
+        pct: 1.6
+      - name: Oliver Štaudner
+        party: Slovenská ľudová strana (SĽS)
+        votes: 947
+        pct: 0.44
+      source: https://volby.statistics.sk/opendata/osk/2022/OSK2022_SK_tab06a.csv
+      source_turnout: https://volby.statistics.sk/osk/osk2022/sk/suhrnne_vysledky.html
+    '2017':
+      turnout_pct: 26.84
+      registered_voters: 582228
+      participating_voters: 156268
+      valid_votes: 152993
+      results:
+      - name: Milan Belica
+        party: SMER-SD, SNS, MOST - HÍD
+        votes: 52184
+        pct: 34.1
+      - name: Ján Greššo
+        party: SaS, OĽaNO, KDH, ŠANCA, OKS, NOVA, Demokrati Slovenska
+        votes: 26382
+        pct: 17.24
+      - name: Milan Uhrík
+        party: ĽS Naše Slovensko
+        votes: 23502
+        pct: 15.36
+      - name: Peter Oremus
+        party: NEKA
+        votes: 22827
+        pct: 14.92
+      - name: Iván Farkas
+        party: SMK-MKP
+        votes: 21084
+        pct: 13.78
+      - name: Renáta Kolenčíková
+        party: NEKA
+        votes: 3456
+        pct: 2.25
+      - name: László Hajdu
+        party: MKDA-MKDSZ
+        votes: 2571
+        pct: 1.68
+      - name: Ján Marko
+        party: NP
+        votes: 987
+        pct: 0.64
+      source: https://sk.wikipedia.org/wiki/Vo%C4%BEby_do_org%C3%A1nov_samospr%C3%A1vnych_krajov_na_Slovensku_v_roku_2017
+      source_note: Figures from SK Wikipedia (cites ŠÚ SR); ŠÚ SR 2017 page https://volby.statistics.sk/osk/osk2017/sk/data01.html is JS-rendered
+        and was not machine-readable.
+  candidates:
+  - name: Branislav Becík
+    ballot_no: 1
+    party: Hlas - sociálna demokracia, Smer - sociálna demokracia, Slovenská národná strana, Republika, Právo na pravdu, Bratia Slovenska
+    parties:
+    - SMER
+    - HLAS
+    - SNS
+    - REPUBLIKA
+    bloc: gov
+    inc: true
+    prev_share: 0.2749
+    neka: false
+    withdrew: false
+    profile: Incumbent since 2022, Hlas presidium member; son of ex-agriculture minister Stanislav Becík; announced re-run ~2026-08-25.
+    prior_runs: 2022 NSK 1st 27.49 %
+    local_official: false
+  - name: Erik Blaško
+    ballot_no: 2
+    party: Jednota Slovanov
+    parties: []
+    bloc: null
+    inc: false
+    prev_share: 0.0
+    neka: false
+    withdrew: false
+    profile: Driver and activist from Nitra.
+    prior_runs: 2022 Nitra mayoral race 603 votes (2.27 %)
+    local_official: false
+  - name: Tibor Csenger
+    ballot_no: 3
+    party: Magyar szövetség - Maďarská aliancia
+    parties:
+    - ALIANCIA
+    bloc: null
+    inc: false
+    prev_share: 0.1665
+    neka: false
+    withdrew: false
+    profile: NSK vice-chair (Levice district), Želiezovce councillor; Hungarian-minority candidate.
+    prior_runs: 2022 NSK 3rd 16.65 %
+    local_official: true
+  - name: Jolana Čuláková
+    ballot_no: 4
+    party: NEKA (nezávislá kandidátka)
+    parties: []
+    bloc: null
+    inc: false
+    prev_share: 0.0
+    neka: true
+    withdrew: false
+    profile: Radio journalist/editor from Výčapy-Opatovce; leads among 18-33 and in Topoľčany district in AKO poll.
+    prior_runs: null
+    local_official: false
+  - name: Karol Suchan
+    ballot_no: 5
+    party: Slovexit
+    parties: []
+    bloc: null
+    inc: false
+    prev_share: 0.0
+    neka: false
+    withdrew: false
+    profile: Businessman from Nové Zámky.
+    prior_runs: null
+    local_official: false
+  - name: Róbert Švec
+    ballot_no: 6
+    party: Slovenské hnutie obrody
+    parties: []
+    bloc: null
+    inc: false
+    prev_share: 0.0
+    neka: false
+    withdrew: false
+    profile: Political scientist, chairman of Slovenské hnutie obrody (far-right).
+    prior_runs: ran earlier for Nitra mayor and twice for President
+    local_official: false
+  - name: Henrich Varga
+    ballot_no: 7
+    party: Tím kraj Nitra - združenie kandidátov Nitrianskeho kraja, Sloboda a solidarita, Progresívne Slovensko, KDH, Hnutie Slovensko, Demokrati,
+      Maďarské fórum, Občianska konzervatívna strana
+    parties:
+    - PS
+    - SAS
+    - KDH
+    - SLOVENSKO
+    - DEMOKRATI
+    bloc: opp
+    inc: false
+    prev_share: 0.0
+    neka: false
+    withdrew: false
+    profile: Regional councillor (Tím kraj Nitra), ex-communication adviser to Nitra mayor Marek Hattas; announced Feb 2026; joint opposition
+      candidate.
+    prior_runs: null
+    local_official: true
+  polls:
+  - pollster: AKO
+    fieldwork_end: '2026-09-18'
+    n: null
+    sponsor: JOJ 24
+    results:
+      Branislav Becík: 45.5
+      Henrich Varga: 25.5
+      Jolana Čuláková: 10.2
+      Tibor Csenger: 10.1
+      Róbert Švec: 5.5
+      Erik Blaško: 3.2
+      Karol Suchan: 0.0
+    others_pct: null
+    source: https://joj24.noviny.sk/prieskumy/1269439-najmladsi-by-volili-inak-volebny-model-v-nitrianskom-kraji-priniesol-zaujimave-rozdiely
+    partisan: false
+  - pollster: Politologické prieskumy
+    fieldwork_end: '2026-09-14'
+    n: 762
+    sponsor: null
+    results:
+      Branislav Becík: 42.0
+      Henrich Varga: 34.8
+      Tibor Csenger: 8.0
+      Róbert Švec: 2.7
+    others_pct: null
+    source: https://www.instagram.com/p/DeY7rOgCpJt/
+    partisan: false
+  odds:
+  - bookmaker: Tipsport
+    date: '2026-10-20'
+    odds:
+      Branislav Becík: 1.1
+      Henrich Varga: 6.5
+      Tibor Csenger: 25.0
+      Karol Suchan: 40.0
+      Erik Blaško: 50.0
+      Róbert Švec: 50.0
+      Jolana Čuláková: 60.0
+    source: https://stavkynavolby.sk/informacie/kandidati-na-predsedu-vuc-2026-kraj-po-kraji/
+  - bookmaker: Fortuna
+    date: '2026-10-20'
+    odds:
+      Branislav Becík: 1.12
+      Henrich Varga: 6.0
+      Tibor Csenger: 30.0
+      Karol Suchan: 40.0
+      Erik Blaško: 50.0
+      Róbert Švec: 50.0
+      Jolana Čuláková: 50.0
+    source: https://stavkynavolby.sk/informacie/kandidati-na-predsedu-vuc-2026-kraj-po-kraji/
+  - bookmaker: DOXXbet
+    date: '2026-10-20'
+    odds:
+      Branislav Becík: 1.19
+      Henrich Varga: 3.8
+      Tibor Csenger: 19.0
+      Karol Suchan: 30.0
+      Erik Blaško: 40.0
+    source: https://stavkynavolby.sk/informacie/kandidati-na-predsedu-vuc-2026-kraj-po-kraji/
+  notes: Most competitive of the four in polls but bookmakers drifted toward Becík (Tipsport Varga 3.2 on 2026-10-08 -> 6.5 on 2026-10-20). Becík
+    now has the full government coalition plus Právo na pravdu and Bratia Slovenska (in 2022 he won with 27.5 % against Smer-backed Belica 21.9
+    %; Smer+Hlas combined 2022 ~49 %). Varga = unified opposition incl. Tím kraj Nitra (2022 Holečková 15.7 % + Kyselica 5.1 %). Csenger (MA)
+    holds the Hungarian south (16.7 % in 2022) - polls give him only 8-10 %, possibly underestimating ethnic-Hungarian turnout (AKO and online
+    samples). Polls diverge strongly on Varga (25.5 % AKO vs 38.9 % Politologické prieskumy, decided) and Čuláková (10.2 % AKO; not offered in
+    the other). Radava land-swap allegation surfaced 5 days before the vote. Single round, plurality wins. No withdrawals known as of 2026-10-20.
+  key_events:
+  - date: 2026-02
+    text: Henrich Varga announced candidacy (among the first); later gathered PS, SaS, KDH, Hnutie Slovensko, Demokrati, OKS, Maďarské fórum and
+      also collected citizens' signatures.
+    source: https://stavkynavolby.sk/informacie/kandidati-na-predsedu-vuc-2026-kraj-po-kraji/
+  - date: 2026-07
+    text: 'Ipsos poll (mid-July, n=651, via TV Nitrička): Becík 34.1 %, Varga 24.6 %, Csenger 8 %.'
+    source: https://www.facebook.com/tvnitricka.sk/videos/prieskum-agent%C3%BAry-ipsosv-nitrianskom-kraji-sa-schy%C4%BEuje-k-tesn%C3%A9mu-s%C3%BAboju-henrich-/1644967023814328/
+  - date: '2026-08-25'
+    text: Incumbent Becík announced he will seek re-election.
+    source: https://www.instagram.com/p/DcfiUbzkc0m/
+  - date: '2026-09-09'
+    text: NSK election commission registered 7 chair candidates.
+    source: https://cuet.slovensko.sk/sk/priloha/uloz/47e14565-8007-4760-87f3-b844064ebbf8
+  - date: '2026-10-07'
+    text: 'AKO/JOJ 24 poll: Becík 45.5 %, Varga 25.5 % of decided; Varga leads in Nitra and Šaľa districts.'
+    source: https://joj24.noviny.sk/prieskumy/1269439-najmladsi-by-volili-inak-volebny-model-v-nitrianskom-kraji-priniesol-zaujimave-rozdiely
+  - date: '2026-10-19'
+    text: MP Martina (Bajo) Holečková announced a criminal complaint against Becík over the 'Radava' land-swap affair (county land allegedly worth
+      EUR 5m vs a EUR 0.8m guesthouse); says the Justice Ministry ruled the valuation reports unlawful and fined the expert. Allegation, not a
+      charge.
+    source: https://www.instagram.com/p/DerD-IyAPdJ/
+  - date: '2026-10-05'
+    text: PS figure Ivan Korčok campaigned with Varga (Vráble event 2026-10-06).
+    source: https://www.instagram.com/p/DeHdsvJsZdM/
+  sources:
+  - https://cuet.slovensko.sk/sk/priloha/uloz/47e14565-8007-4760-87f3-b844064ebbf8
+  - https://hnonline.sk/volby-2026/volby-do-vuc-2026/96307533-vuc-volby-2026-nitriansky-kraj-zoznam-kandidatov-zupan-a-poslanci
+  - https://sk.wikipedia.org/wiki/Vo%C4%BEby_do_org%C3%A1nov_samospr%C3%A1vnych_krajov_na_Slovensku_v_roku_2017
+  - https://volby.statistics.sk/opendata/osk/2022/OSK2022_SK_tab06a.csv
+  - https://www.aktuality.sk/clanok/pGWwtjf/kompletny-zoznam-kandidatov-na-predsedov-samospravnych-krajov-vo-volbach-do-vuc-2026/
+  - https://www.nitrak.sk/komunalne-volby/zupan

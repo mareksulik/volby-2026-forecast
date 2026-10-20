@@ -1,0 +1,1406 @@
+{
+  "rules": {
+    "election_date": "2026-10-24",
+    "polling_hours": "07:00-20:00",
+    "legal_basis": "Rozhodnutie predsedu NR SR c. 145/2026 Z. z. z 23. 6. 2026 (vyhlasene 24. 6. 2026); zakon c. 180/2014 Z. z.",
+    "date_source": [
+      "https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2026/145/",
+      "https://nitra.sk/wp-content/uploads/2026/06/Rozhodnutie-predsedu-NR-SR-o-vyhlaseni-volieb-do-OSO-a-OSK-2026.pdf"
+    ],
+    "electoral_system": "Starosta/primator and predseda samospravneho kraja are elected in a single round; the candidate with the most valid votes wins (relative majority). Regional chairs single-round since 2017. No source found indicating a 2025/2026 change re-introducing a 2nd round or a turnout/vote quorum; 2026 explainers (SME, Aktuality) still describe single-round plurality.",
+    "electoral_system_sources": [
+      "https://www.aktuality.sk/udalost/volby-do-vuc-2026/",
+      "https://volby.sme.sk/volby-vuc/2026"
+    ],
+    "tie_rule": "Pri rovnosti hlasov sa podla zakona vykonaju nove volby (municipal).",
+    "tie_rule_source": "https://volby.aktuality.sk/komunalne-volby/",
+    "campaign_period": "2026-06-24 to 2026-10-21 23:59",
+    "moratorium": {
+      "start": "2026-10-22T00:00",
+      "end": "2026-10-24T20:00 (end of voting)",
+      "length": "48 hours before election day (plus election day until polls close)",
+      "covers": "campaigning, information on candidates for/against them in broadcast and print, publishing results of election polls and election 'ankety', political advertising",
+      "last_day_polls_may_be_published": "2026-10-21 (until midnight)",
+      "sources": [
+        "https://www.aktuality.sk/clanok/8dEM8Ie/dva-dni-pred-spojenymi-volbami-do-samosprav-zacne-na-slovensku-volebne-moratorium/",
+        "https://spravy.stvr.sk/2026/10/volebne-moratorium-co-je-zakazane/",
+        "https://rpms.sk/komunalne-zupne-volby-2026-datumy-pojmy-v-skratke"
+      ],
+      "note": "Moratorium is 48h, not 14 days; regional polls were still being published on 20 Oct 2026 (SANEP for ta3)."
+    },
+    "withdrawn_candidates": {
+      "rule": "A candidate may withdraw (or be recalled by the nominating party) at the latest 48h before polls open (by 2026-10-22 07:00). If withdrawn after registration, the candidate's data REMAIN on the printed ballot, the withdrawal is posted in polling rooms, and the candidate is disregarded when allocating the mandate (votes cast for them are not counted toward a winner).",
+      "deadline": "2026-10-22T07:00",
+      "source": "https://www.lamac.sk/info/volby-2026/vzdanie-sa-a-odvolanie-kandidatury-spatvzatie-kandidatnej-listiny"
+    },
+    "no_voter_cards": "Voter cards (volicsky preukaz) are not issued; vote only at place of permanent residence.",
+    "no_voter_cards_source": "https://stavkynavolby.sk/",
+    "candidate_register_published": "2026-09-29 (central electronic register at minv.sk)",
+    "candidate_register_source": "https://www.minv.sk/?volby-samosprava26="
+  },
+  "national_polls": [
+    {
+      "pollster": "Infostat (CSV)",
+      "fieldwork": "2026-10-05/2026-10-09",
+      "n": 1080,
+      "method": "CAPI",
+      "results": {
+        "Smer-SD": 19.0,
+        "PS": 18.5,
+        "Republika": 12.0,
+        "Hnutie Slovensko": 9.5,
+        "KDH": 8.6,
+        "Hlas-SD": 7.4,
+        "SaS": 6.3,
+        "Demokrati": 4.8,
+        "Madarska aliancia": 4.7,
+        "Sme rodina": 4.1,
+        "Pravo na pravdu": 2.4,
+        "SNS": 1.7
+      },
+      "source": "https://www.infostat.sk/web2015/sk/images/infostat/_pdf/Suhrnna_sprava_z_prieskumov/Volebne_preferencie_oktober_2026.pdf",
+      "source_alt": "https://www.teraz.sk/najnovsie/prieskum-volby-by-v-oktobri-vyhral-sm/1000386-clanok.html"
+    },
+    {
+      "pollster": "NMS",
+      "fieldwork": "2026-10-01/2026-10-05",
+      "n": 1005,
+      "method": "online panel",
+      "results": {
+        "PS": 19.5,
+        "Smer-SD": 17.8,
+        "Republika": 14.2,
+        "Hnutie Slovensko": 9.0,
+        "SaS": 8.0,
+        "KDH": 6.2,
+        "Hlas-SD": 5.9,
+        "Demokrati": 4.9,
+        "Madarska aliancia": 3.3,
+        "Sme rodina": 3.1,
+        "Pravo na pravdu": 2.3,
+        "Za ludi": 1.9,
+        "SNS": 1.5,
+        "LSNS": 0.9,
+        "Krestanska unia": 0.6,
+        "Strana vidieka": 0.5
+      },
+      "declared_turnout": 58.7,
+      "source": "https://nms.global/sk/volebny-model-oktober-2026/",
+      "source_alt": "https://volbynrsr.sk/prieskumy/agentura/nms"
+    },
+    {
+      "pollster": "AKO",
+      "fieldwork": "published 2026-10-01 (aggregator lists poll date 2026-09-21)",
+      "n": null,
+      "results": {
+        "PS": 18.9,
+        "Smer-SD": 17.1,
+        "Republika": 9.7,
+        "Hlas-SD": 8.6,
+        "Hnutie Slovensko": 8.1,
+        "SaS": 8.1,
+        "KDH": 6.9,
+        "SNS": 4.8,
+        "Demokrati": 4.4,
+        "Madarska aliancia": 3.3,
+        "Sme rodina": 3.2,
+        "Pravo na pravdu": 2.7
+      },
+      "source": "https://volebneprieskumy.sk/archiv/ako-oktober-2026-287/",
+      "source_alt": "https://www.nrsr24.sk/"
+    },
+    {
+      "pollster": "Ipsos (for Dennik N)",
+      "fieldwork": "2026-09-18/2026-09-22",
+      "n": 1030,
+      "method": "online",
+      "results": {
+        "PS": 19.0,
+        "Smer-SD": 16.9,
+        "Republika": 12.8,
+        "Hnutie Slovensko": 10.7,
+        "SaS": 8.4,
+        "KDH": 7.0,
+        "Hlas-SD": 6.6,
+        "Demokrati": 5.5,
+        "Madarska aliancia": 3.9,
+        "SNS": 2.2,
+        "Sme rodina": 2.0
+      },
+      "source": "https://www.nrsr24.sk/",
+      "source_alt": "https://www.ipsos.com/sk-sk/ipsos-dennik-n-prieskum-volebnych-preferencii-september-2026"
+    },
+    {
+      "pollster": "SANEP (for ta3)",
+      "fieldwork": "2026-09-11/2026-09-21",
+      "n": 2100,
+      "method": "CAWI",
+      "results": {
+        "Smer-SD": 19.8,
+        "PS": 18.6,
+        "Republika": 12.9,
+        "Hnutie Slovensko": 8.7,
+        "SaS": 7.6,
+        "Hlas-SD": 7.2,
+        "KDH": 6.2,
+        "Demokrati": 4.6,
+        "SNS": 4.1,
+        "Madarska aliancia": 4.1,
+        "Sme rodina": 3.4
+      },
+      "source": "https://www.ta3.com/clanok/1072945/smer-sd-kraluje-preferenciam-premier-dovere-septembrovy-prieskum-sanep-priniesol-ficovi-dvojite-prvenstvo"
+    },
+    {
+      "pollster": "NMS",
+      "fieldwork": "2026-09-02/2026-09-07",
+      "n": 1004,
+      "method": "online panel",
+      "results": {
+        "PS": 21.6,
+        "Smer-SD": 16.2,
+        "Republika": 15.6,
+        "Hnutie Slovensko": 9.0,
+        "SaS": 6.7,
+        "Hlas-SD": 6.4,
+        "KDH": 5.8,
+        "Demokrati": 4.8,
+        "Madarska aliancia": 3.2,
+        "Sme rodina": 3.0,
+        "Pravo na pravdu": 2.1,
+        "Za ludi": 1.6,
+        "SNS": 1.9
+      },
+      "note": "SNS 1.9 derived from Oct value 1.5 and reported change -0.4 p.b.",
+      "source": "https://www.aktuality.sk/clanok/rgP9yw9/prieskum-smer-dobieha-ps-republika-klesla/",
+      "source_alt": "https://volbynrsr.sk/prieskumy/agentura/nms"
+    },
+    {
+      "pollster": "Focus",
+      "fieldwork": "2026-09-01/2026-09-07",
+      "n": 1012,
+      "results": {
+        "PS": 17.3,
+        "Smer-SD": 17.3,
+        "Republika": 12.4,
+        "Hnutie Slovensko": 8.9,
+        "Hlas-SD": 8.4,
+        "SaS": 7.5,
+        "KDH": 6.4,
+        "Demokrati": 5.0,
+        "SNS": 4.0,
+        "Madarska aliancia": 3.8,
+        "Sme rodina": 3.2
+      },
+      "source": "https://www.nrsr24.sk/",
+      "source_alt": "https://volby.sme.sk/pref/1/politicke-strany/p/focus"
+    }
+  ],
+  "national_polls_average_note": {
+    "text": "nrsr24.sk average of latest NMS (5.10.), Ipsos (22.9.), AKO (21.9.), Focus (7.9.): PS 18.7, Smer 17.3, Republika 12.3, Slovensko 9.2, SaS 8.0, Hlas 7.4, KDH 6.6, Demokrati 5.0, Aliancia 3.6, SNS 3.1, Sme rodina 2.9.",
+    "source": "https://www.nrsr24.sk/"
+  },
+  "national_polls_2022": [
+    {
+      "pollster": "Ipsos",
+      "fieldwork": "2022-10-18/2022-10-21",
+      "n": 1018,
+      "results": {
+        "OLaNO": 7.9,
+        "Smer-SD": 14.8,
+        "Sme rodina": 7.5,
+        "LSNS": 2.6,
+        "PS": 10.9,
+        "Spolu": 1.0,
+        "SaS": 8.5,
+        "Za ludi": 2.8,
+        "KDH": 6.5,
+        "Madarske forum": 1.0,
+        "Aliancia": 2.9,
+        "SNS": 3.0,
+        "Dobra volba": 1.1,
+        "Hlas-SD": 20.2,
+        "Republika": 6.8
+      },
+      "source": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2023_Slovak_parliamentary_election"
+    },
+    {
+      "pollster": "Median",
+      "fieldwork": "2022-10-25/2022-11-08",
+      "n": 1011,
+      "results": {
+        "OLaNO": 3.9,
+        "Smer-SD": 14.2,
+        "Sme rodina": 5.8,
+        "LSNS": 3.9,
+        "PS": 9.8,
+        "SaS": 6.5,
+        "Za ludi": 2.4,
+        "KDH": 5.8,
+        "Hlas-SD": 18.6,
+        "Republika": 11.8
+      },
+      "note": "Median reported 17.3 % 'others' incl. undecided-type categories; not directly comparable",
+      "source": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2023_Slovak_parliamentary_election"
+    },
+    {
+      "pollster": "AKO",
+      "fieldwork": "2022-11-08/2022-11-11",
+      "n": 1000,
+      "results": {
+        "OLaNO": 7.5,
+        "Smer-SD": 16.0,
+        "Sme rodina": 6.9,
+        "LSNS": 1.9,
+        "PS": 11.5,
+        "Spolu": 0.4,
+        "SaS": 10.8,
+        "Za ludi": 1.9,
+        "KDH": 6.1,
+        "Madarske forum": 1.8,
+        "Aliancia": 2.6,
+        "SNS": 4.2,
+        "Dobra volba": 1.5,
+        "Hlas-SD": 19.5,
+        "Republika": 6.3
+      },
+      "source": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2023_Slovak_parliamentary_election"
+    },
+    {
+      "pollster": "Ipsos",
+      "fieldwork": "2022-09-14/2022-09-20",
+      "n": 1018,
+      "results": {
+        "OLaNO": 7.8,
+        "Smer-SD": 15.5,
+        "Sme rodina": 7.5,
+        "LSNS": 2.7,
+        "PS": 11.6,
+        "SaS": 9.3,
+        "Za ludi": 1.7,
+        "KDH": 6.5,
+        "Aliancia": 2.1,
+        "SNS": 2.8,
+        "Hlas-SD": 18.3,
+        "Republika": 7.0
+      },
+      "source": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2023_Slovak_parliamentary_election"
+    }
+  ],
+  "swing_note": "Rough swing Oct 2022 (Ipsos 18-21 Oct 2022) -> Oct 2026 (avg of NMS/Infostat/AKO/Ipsos): PS ~+8, Smer ~+3, Hlas ~-13, Republika ~+5, SaS ~-1, KDH ~+1. OLaNO's successor Hnutie Slovensko ~+1. Compute exactly from the rows above; this line is a convenience estimate.",
+  "turnout_history": [
+    {
+      "election": "municipal (OSO) 2022, combined with regional",
+      "date": "2022-10-29",
+      "turnout_pct": 46.19,
+      "source": "https://www.noviny.sk/slovensko/714850-online-mesta-a-obce-uz-poznaju-svojich-novych-primatorov-a-starostov",
+      "note": "SME/Aktuality round to 46.1 %"
+    },
+    {
+      "election": "regional (OSK) 2022, combined",
+      "date": "2022-10-29",
+      "turnout_pct": 43.74,
+      "source": "https://www.minv.sk/?tlacove-spravy&sprava=statna-komisia-pre-volby-a-kontrolu-financovania-politickych-stran-potvrdila-vysledky-spojenych-volieb",
+      "note": "+14 p.b. vs 2017 standalone regional election"
+    },
+    {
+      "election": "regional (OSK) 2017, standalone",
+      "date": "2017-11-04",
+      "turnout_pct": 29.95,
+      "source": "https://fsvucm.sk/wp-content/uploads/2023/12/PUBLICY-2022-I-Komunalne-a-regionalne-volby-2022.pdf"
+    },
+    {
+      "election": "municipal (OSO) 2018, standalone",
+      "date": "2018-11-10",
+      "turnout_pct": 48.67,
+      "source": "https://volby.aktuality.sk/komunalne-volby/"
+    },
+    {
+      "election": "municipal 2014",
+      "turnout_pct": 48.3,
+      "source": "https://volby.aktuality.sk/komunalne-volby/"
+    },
+    {
+      "election": "municipal 2010",
+      "turnout_pct": 49.7,
+      "source": "https://volby.aktuality.sk/komunalne-volby/"
+    },
+    {
+      "election": "Bratislava mayor 2022",
+      "turnout_pct": 36.88,
+      "source": "https://bratislava.sk/spravy/vysledky-komunalnych-volieb"
+    }
+  ],
+  "turnout_2026_declared_in_polls": [
+    {
+      "race": "ZSK",
+      "pollster": "SANEP/Kanal1",
+      "fieldwork": "2026-09-28/2026-10-01",
+      "will_vote": 45.8,
+      "considering": 24.3,
+      "wont": 29.9,
+      "source": "https://kanal1.sk/exkluzivny-prieskum-pre-kanal1-kto-by-vyhral-volby-v-zilinskom-kraji-keby-sa-konali-dnes-vyzera-to-na-tesny-suboj-dvoch-kandidatov/"
+    },
+    {
+      "race": "KSK",
+      "pollster": "SANEP/ta3",
+      "fieldwork": "2026-10-13/2026-10-18",
+      "will_vote": 39.2,
+      "considering": 23.1,
+      "wont": 37.7,
+      "source": "https://www.pravda.sk/spravy/regionalne-volby-2026/clanok/2062305-prieskum-sanep-kto-ovladne-kosice-a-kto-zupu-novy-prieskum-odhalil-favoritov-v-hre-su-aj-tesne-suboje"
+    },
+    {
+      "race": "Kosice mayor",
+      "pollster": "SANEP/ta3",
+      "fieldwork": "2026-10-13/2026-10-18",
+      "will_vote": 37.5,
+      "considering": 21.9,
+      "wont": 40.6,
+      "source": "https://www.pravda.sk/spravy/regionalne-volby-2026/clanok/2062305-prieskum-sanep-kto-ovladne-kosice-a-kto-zupu-novy-prieskum-odhalil-favoritov-v-hre-su-aj-tesne-suboje"
+    }
+  ],
+  "incumbency_evidence": [
+    {
+      "finding": "2022 regional chairs: 7 of 8 winners were incumbents (Droba BSK, Viskupic TTSK, Baska TSK, Jurinova ZSK, Lunter BBSK, Majersky PSK, Trnka KSK). The only incumbent defeated was Milan Belica (NSK, NEKA), beaten by Branislav Becik (Hlas-SD, Sme rodina) with 27.49 %.",
+      "sources": [
+        "https://www.aktuality.sk/clanok/RGCxQs8/volby-2022-vysledky-vacsinu-krajov-budu-viest-povodni-zupani/",
+        "https://sita.sk/komunalne-a-zupne-volby-do-vuc-2022-online/",
+        "https://sk.wikipedia.org/wiki/Vo%C4%BEby_do_org%C3%A1nov_samospr%C3%A1vnych_krajov_na_Slovensku_v_roku_2022"
+      ]
+    },
+    {
+      "finding": "2022 winning shares of incumbent zupani (plurality, single round): Droba 63.60, Baska 67.25, Trnka 51.31, Lunter 47.53, Majersky 42.01, Viskupic 38.56, Jurinova 32.04 %.",
+      "sources": [
+        "https://volby.sme.sk/volby-vuc/2026",
+        "https://www.aktuality.sk/udalost/volby-do-vuc-2026/"
+      ]
+    },
+    {
+      "finding": "2017 regional chairs (first single-round election, turnout 29.95 %): anti-incumbent wave against Smer - Smer lost four regions; incumbent Kotleba (BBSK, LSNS) lost to Lunter by >20 p.b.; Jurinova defeated incumbent Blanar (ZSK); Majersky defeated incumbent Chudik (PSK); Belica (NSK, Smer) retained. Exact count of re-elected incumbents not compiled here.",
+      "sources": [
+        "https://dennikn.sk/931509/volby-vyhrala-pravica-smer-prisiel-o-styri-kraje-a-kotleba-ako-zupan-skoncil/",
+        "https://sk.wikipedia.org/wiki/Vo%C4%BEby_do_org%C3%A1nov_samospr%C3%A1vnych_krajov_na_Slovensku_v_roku_2017",
+        "https://www.aktuality.sk/clanok/535998/volby-vuc-2017-novi-zupani-a-poslanci/"
+      ]
+    },
+    {
+      "finding": "2026 status: all 8 incumbent zupani (Droba, Viskupic, Baska, Becik, Jurinova, Lunter, Majersky, Trnka) appear as 2026 candidates in bookmaker markets and polls. Bookmakers make the incumbent favourite in all 8; in 7 at <=1.15 decimal, while KSK is near a toss-up (Trnka 1.75 vs Porvaznik 1.95 at Tipsport).",
+      "sources": [
+        "https://stavkynavolby.sk/informacie/kurzy-na-volby/"
+      ]
+    },
+    {
+      "finding": "2022 mayors: independent (NEKA) candidates won ~1,350 municipalities (~47 % of all).",
+      "sources": [
+        "https://dennikn.sk/minuta/live/15897/komunalne-a-zupne-volby-slovensko-29-10-2022"
+      ]
+    },
+    {
+      "finding": "Nationwide municipal incumbent re-election rate (share of running starostovia re-elected) for 2018/2022: NOT FOUND in this research pass; no SGI/Transparency figure located. Treat as unknown (null).",
+      "sources": []
+    }
+  ],
+  "poll_accuracy_2022": [
+    {
+      "race": "Bratislava mayor 2022",
+      "poll": {
+        "pollster": "Focus",
+        "fieldwork": "2022-10-10/2022-10-14",
+        "n": 604,
+        "published": "2022-10-21",
+        "results_text": "Vallo 'more than half' of votes, Rudolf Kusy 'more than a third', remaining six candidates together under 10 %",
+        "source": "https://hnonline.sk/slovensko/96047444-prieskum-primatorom-bratislavy-by-sa-suverenne-stal-vallo-volby-su-len-o-dvoch-kandidatoch"
+      },
+      "result": {
+        "Matus Vallo": 60.2,
+        "Rudolf Kusy": 27.72,
+        "Miroslav Heredos": 4.31,
+        "Andrej Trnovec": 2.38,
+        "Martin Mlynek": 2.07,
+        "Martin Jakubec": 1.39,
+        "Miroslav Vetrik": 0.8,
+        "Peter Polacek": 0.65,
+        "Milena Minichova": 0.43,
+        "turnout": 36.8,
+        "source": "https://volby.sme.sk/komunalne-volby/2022/vysledky/bratislavsky-kraj/bratislava/bratislava"
+      },
+      "assessment": "Direction correct; incumbent's lead understated: challenger Kusy ran >5 p.b. below the poll's '>1/3' and Vallo above '>1/2'. Exact poll percentages not found."
+    },
+    {
+      "race": "BSK 2022",
+      "poll": null,
+      "result": {
+        "Juraj Droba": 63.6,
+        "Jan Mazgut": 13.42,
+        "Ivan Bosnak": 8.56,
+        "Dusan Velic": 8.08,
+        "source": "https://volby.sme.sk/komunalne-volby/2022/vysledky/bratislavsky-kraj/bratislava/bratislava"
+      },
+      "assessment": "No published 2022 BSK poll found in this pass."
+    }
+  ],
+  "odds": [
+    {
+      "race": "Bratislava primator",
+      "bookmaker": "Tipsport",
+      "date": "2026-10-20",
+      "odds": {
+        "Matus Vallo": 1.04,
+        "Jozef Raz ml.": 9.0,
+        "Zuzana Subova": 40.0,
+        "Lubomir Geci": 200.0
+      },
+      "source": "https://stavkynavolby.sk/informacie/kurzy-na-volby/"
+    },
+    {
+      "race": "Bratislava primator",
+      "bookmaker": "Fortuna",
+      "date": "2026-10-20",
+      "odds": {
+        "Matus Vallo": 1.07,
+        "Jozef Raz ml.": 7.0,
+        "Zuzana Subova": 50.0,
+        "Lubomir Geci": 180.0
+      },
+      "source": "https://stavkynavolby.sk/informacie/kurzy-na-volby/"
+    },
+    {
+      "race": "Bratislava primator",
+      "bookmaker": "DOXXbet",
+      "date": "2026-10-20",
+      "odds": {
+        "Matus Vallo": 1.08,
+        "Jozef Raz ml.": 8.5,
+        "Zuzana Subova": 40.0
+      },
+      "source": "https://stavkynavolby.sk/informacie/kandidati-na-primatora-krajske-mesta/"
+    },
+    {
+      "race": "Bratislava primator",
+      "bookmaker": "Tipsport",
+      "date": "2026-07-17",
+      "odds": {
+        "Matus Vallo": 1.05,
+        "Jozef Raz": 7.0,
+        "Martin Winkler": 9.0,
+        "Zuzana Subova": 13.0,
+        "Dana Cahojova": 15.0,
+        "Miroslav Heredos": 25.0,
+        "Lubomir Geci": 25.0
+      },
+      "source": "https://sita.sk/tipsport-vypisal-prve-kurzy-na-volby-na-primatora-bratislavy-kto-je-v-ociach-bookmakerov-jasnym-vitazom/"
+    },
+    {
+      "race": "Bratislava primator",
+      "bookmaker": "Tipsport",
+      "date": "2026-09-29",
+      "odds": {
+        "Matus Vallo": 1.12,
+        "Jozef Raz": 4.5
+      },
+      "source": "https://sita.sk/odstupenie-winklera-zmenilo-stavkove-kurzy-kto-je-podla-tipsportu-favoritom-na-primatora-bratislavy/"
+    },
+    {
+      "race": "Kosice primator",
+      "bookmaker": "Tipsport",
+      "date": "2026-10-20",
+      "odds": {
+        "Ladislav Lorinc": 1.45,
+        "Jaroslav Polacek": 2.8,
+        "Martin Mudrak": 5.5,
+        "Lenka Kovacevicova": 12.0,
+        "Alexander Riabov": 120.0,
+        "Miroslav Sabol": 200.0
+      },
+      "source": "https://stavkynavolby.sk/informacie/kurzy-na-volby/"
+    },
+    {
+      "race": "Kosice primator",
+      "bookmaker": "Fortuna",
+      "date": "2026-10-20",
+      "odds": {
+        "Ladislav Lorinc": 1.55,
+        "Jaroslav Polacek": 2.6,
+        "Martin Mudrak": 6.0,
+        "Lenka Kovacevicova": 12.0,
+        "Alexander Riabov": 100.0,
+        "Miroslav Sabol": 200.0
+      },
+      "source": "https://stavkynavolby.sk/informacie/kurzy-na-volby/"
+    },
+    {
+      "race": "Kosice primator",
+      "bookmaker": "DOXXbet",
+      "date": "2026-10-20",
+      "odds": {
+        "Ladislav Lorinc": 1.45,
+        "Jaroslav Polacek": 2.5,
+        "Martin Mudrak": 4.0,
+        "Lenka Kovacevicova": 8.0
+      },
+      "source": "https://stavkynavolby.sk/informacie/kandidati-na-primatora-krajske-mesta/"
+    },
+    {
+      "race": "Banska Bystrica primator",
+      "bookmaker": "Tipsport",
+      "date": "2026-10-20",
+      "odds": {
+        "Diana Javorcikova": 1.65,
+        "Jan Nosko": 2.0,
+        "Matus Molitoris": 20.0,
+        "Marian Kotleba": 88.0,
+        "Ondrej Veres": 150.0
+      },
+      "source": "https://stavkynavolby.sk/informacie/kurzy-na-volby/"
+    },
+    {
+      "race": "Banska Bystrica primator",
+      "bookmaker": "Fortuna",
+      "date": "2026-10-20",
+      "odds": {
+        "Diana Javorcikova": 1.7,
+        "Jan Nosko": 1.9,
+        "Matus Molitoris": 25.0,
+        "Marian Kotleba": 90.0,
+        "Ondrej Veres": 120.0
+      },
+      "source": "https://stavkynavolby.sk/informacie/kurzy-na-volby/"
+    },
+    {
+      "race": "Banska Bystrica primator",
+      "bookmaker": "DOXXbet",
+      "date": "2026-10-20",
+      "odds": {
+        "Diana Javorcikova": 1.65,
+        "Jan Nosko": 1.92,
+        "Matus Molitoris": 20.0
+      },
+      "source": "https://stavkynavolby.sk/informacie/kandidati-na-primatora-krajske-mesta/"
+    },
+    {
+      "race": "Banska Bystrica primator",
+      "bookmaker": "Tipsport",
+      "date": "2026-10-14",
+      "odds": {
+        "Diana Javorcikova": 1.37,
+        "Jan Nosko": 2.4,
+        "Matus Molitoris": 30.0,
+        "Marian Kotleba": 88.0,
+        "Ondrej Veres": 100.0
+      },
+      "source": "https://kurzynavolby.sk/tipovanie/kurzy-na-volby/"
+    },
+    {
+      "race": "Nitra primator",
+      "bookmaker": "Tipsport",
+      "date": "2026-10-20",
+      "odds": {
+        "Marek Hattas": 1.25,
+        "Igor Krsiak": 3.5,
+        "Marek Illes": 7.5,
+        "Zuzana Uhrikova": 88.0
+      },
+      "source": "https://stavkynavolby.sk/informacie/kurzy-na-volby/"
+    },
+    {
+      "race": "Nitra primator",
+      "bookmaker": "Fortuna",
+      "date": "2026-10-20",
+      "odds": {
+        "Marek Hattas": 1.2,
+        "Igor Krsiak": 3.8,
+        "Marek Illes": 8.0,
+        "Zuzana Uhrikova": 80.0
+      },
+      "source": "https://stavkynavolby.sk/informacie/kurzy-na-volby/"
+    },
+    {
+      "race": "Nitra primator",
+      "bookmaker": "DOXXbet",
+      "date": "2026-10-20",
+      "odds": {
+        "Marek Hattas": 1.29,
+        "Igor Krsiak": 3.1,
+        "Marek Illes": 7.0
+      },
+      "source": "https://stavkynavolby.sk/informacie/kandidati-na-primatora-krajske-mesta/"
+    },
+    {
+      "race": "Presov primator",
+      "bookmaker": "Tipsport",
+      "date": "2026-10-20",
+      "odds": {
+        "Frantisek Olha": 1.08,
+        "Rastislav Mochnacky": 5.0,
+        "Pavel Hagyari": 8.0,
+        "Svetlana Pavlovicova": 40.0,
+        "Martin Estocak": 60.0,
+        "Artur Benes": 100.0
+      },
+      "source": "https://stavkynavolby.sk/informacie/kurzy-na-volby/"
+    },
+    {
+      "race": "Presov primator",
+      "bookmaker": "Fortuna",
+      "date": "2026-10-20",
+      "odds": {
+        "Frantisek Olha": 1.05,
+        "Rastislav Mochnacky": 7.0,
+        "Pavel Hagyari": 8.0,
+        "Martin Estocak": 15.0,
+        "Svetlana Pavlovicova": 25.0,
+        "Artur Benes": 40.0
+      },
+      "source": "https://stavkynavolby.sk/informacie/kurzy-na-volby/"
+    },
+    {
+      "race": "Presov primator",
+      "bookmaker": "DOXXbet",
+      "date": "2026-10-20",
+      "odds": {
+        "Frantisek Olha": 1.1,
+        "Rastislav Mochnacky": 5.5,
+        "Pavel Hagyari": 5.0,
+        "Svetlana Pavlovicova": 12.0
+      },
+      "source": "https://stavkynavolby.sk/informacie/kandidati-na-primatora-krajske-mesta/"
+    },
+    {
+      "race": "Trencin primator",
+      "bookmaker": "Tipsport",
+      "date": "2026-10-20",
+      "odds": {
+        "Jan Forgac": 1.1,
+        "Milos Micega": 6.0,
+        "Danica Birosova": 20.0,
+        "Michal Bratranec": 30.0
+      },
+      "source": "https://stavkynavolby.sk/informacie/kurzy-na-volby/"
+    },
+    {
+      "race": "Trencin primator",
+      "bookmaker": "Fortuna",
+      "date": "2026-10-20",
+      "odds": {
+        "Jan Forgac": 1.08,
+        "Milos Micega": 7.0,
+        "Danica Birosova": 18.0,
+        "Michal Bratranec": 30.0
+      },
+      "source": "https://stavkynavolby.sk/informacie/kurzy-na-volby/"
+    },
+    {
+      "race": "Trencin primator",
+      "bookmaker": "DOXXbet",
+      "date": "2026-10-20",
+      "odds": {
+        "Jan Forgac": 1.13,
+        "Milos Micega": 4.5,
+        "Danica Birosova": 17.0,
+        "Michal Bratranec": 20.0
+      },
+      "source": "https://stavkynavolby.sk/informacie/kandidati-na-primatora-krajske-mesta/"
+    },
+    {
+      "race": "Trnava primator",
+      "bookmaker": "Tipsport",
+      "date": "2026-10-20",
+      "odds": {
+        "Eva Nemcovska": 1.45,
+        "Branislav Baros": 2.45,
+        "Martin Pullmann": 10.0,
+        "Andrea Cajkova": 18.0,
+        "Jozef Obselka": 50.0
+      },
+      "source": "https://stavkynavolby.sk/informacie/kurzy-na-volby/"
+    },
+    {
+      "race": "Trnava primator",
+      "bookmaker": "Fortuna",
+      "date": "2026-10-20",
+      "odds": {
+        "Eva Nemcovska": 1.45,
+        "Branislav Baros": 2.5,
+        "Martin Pullmann": 10.0,
+        "Andrea Cajkova": 20.0,
+        "Jozef Obselka": 50.0
+      },
+      "source": "https://stavkynavolby.sk/informacie/kurzy-na-volby/"
+    },
+    {
+      "race": "Trnava primator",
+      "bookmaker": "DOXXbet",
+      "date": "2026-10-20",
+      "odds": {
+        "Eva Nemcovska": 1.45,
+        "Branislav Baros": 2.2,
+        "Martin Pullmann": 8.0,
+        "Andrea Cajkova": 15.0
+      },
+      "source": "https://stavkynavolby.sk/informacie/kandidati-na-primatora-krajske-mesta/"
+    },
+    {
+      "race": "Zilina primator",
+      "bookmaker": "Tipsport",
+      "date": "2026-10-20",
+      "odds": {
+        "Peter Fiabane": 1.2,
+        "Rastislav Johanes": 4.0,
+        "Peter Cibulka": 15.0,
+        "Michal Milo": 40.0,
+        "Ivan Magat": 45.0,
+        "Miroslav Sokol": 45.0,
+        "Bohumil Kostolny": 50.0,
+        "Anton Kozlik": 50.0
+      },
+      "source": "https://stavkynavolby.sk/informacie/kurzy-na-volby/"
+    },
+    {
+      "race": "Zilina primator",
+      "bookmaker": "Fortuna",
+      "date": "2026-10-20",
+      "odds": {
+        "Peter Fiabane": 1.2,
+        "Rastislav Johanes": 4.0,
+        "Peter Cibulka": 15.0,
+        "Anton Kozlik": 40.0,
+        "Miroslav Sokol": 50.0
+      },
+      "source": "https://stavkynavolby.sk/informacie/kurzy-na-volby/"
+    },
+    {
+      "race": "Zilina primator",
+      "bookmaker": "DOXXbet",
+      "date": "2026-10-20",
+      "odds": {
+        "Peter Fiabane": 1.18,
+        "Rastislav Johanes": 4.0,
+        "Peter Cibulka": 10.0,
+        "Miroslav Sokol": 30.0,
+        "Anton Kozlik": 40.0
+      },
+      "source": "https://stavkynavolby.sk/informacie/kandidati-na-primatora-krajske-mesta/"
+    },
+    {
+      "race": "BBSK predseda",
+      "bookmaker": "Tipsport",
+      "date": "2026-10-20",
+      "odds": {
+        "Ondrej Lunter": 1.01,
+        "Miroslav Suja": 17.0,
+        "Michal Albert": 35.0,
+        "Roman Malatinec": 35.0,
+        "Marian Kotleba": 88.0,
+        "Peter Plancik": 100.0,
+        "Jaroslav Rusina": 100.0
+      },
+      "source": "https://stavkynavolby.sk/informacie/kurzy-na-volby/"
+    },
+    {
+      "race": "BBSK predseda",
+      "bookmaker": "Fortuna",
+      "date": "2026-10-20",
+      "odds": {
+        "Ondrej Lunter": 1.01,
+        "Miroslav Suja": 15.0,
+        "Roman Malatinec": 30.0,
+        "Michal Albert": 30.0,
+        "Marian Kotleba": 80.0,
+        "Jaroslav Rusina": 100.0,
+        "Peter Plancik": 100.0
+      },
+      "source": "https://stavkynavolby.sk/informacie/kurzy-na-volby/"
+    },
+    {
+      "race": "BSK predseda",
+      "bookmaker": "Tipsport",
+      "date": "2026-10-20",
+      "odds": {
+        "Juraj Droba": 1.01,
+        "Zuzana Krajcovicova": 14.0,
+        "David Staruch": 16.0,
+        "Rastislav Gajarsky": 25.0,
+        "Jan Chalabala": 88.0,
+        "Ludovit Liska": 88.0,
+        "Peter Polacek": 88.0
+      },
+      "source": "https://stavkynavolby.sk/informacie/kurzy-na-volby/"
+    },
+    {
+      "race": "BSK predseda",
+      "bookmaker": "Fortuna",
+      "date": "2026-10-20",
+      "odds": {
+        "Juraj Droba": 1.01,
+        "Zuzana Krajcovicova": 15.0,
+        "David Staruch": 18.0,
+        "Rastislav Gajarsky": 25.0
+      },
+      "source": "https://stavkynavolby.sk/informacie/kurzy-na-volby/"
+    },
+    {
+      "race": "BSK predseda",
+      "bookmaker": "DOXXbet",
+      "date": "2026-10-20",
+      "odds": {
+        "Juraj Droba": 1.01,
+        "Zuzana Krajcovicova": 10.0,
+        "David Staruch": 15.0,
+        "Rastislav Gajarsky": 15.0
+      },
+      "source": "https://stavkynavolby.sk/informacie/kandidati-na-predsedu-vuc-2026-bsk/"
+    },
+    {
+      "race": "BSK predseda",
+      "bookmaker": "Tipsport",
+      "date": "2026-09-23",
+      "odds": {
+        "Juraj Droba": 1.04,
+        "Zuzana Krajcovicova": 6.5,
+        "Rastislav Gajarsky": 11.0,
+        "David Staruch": 15.0,
+        "Jan Chalabala": 55.0,
+        "Ludovit Liska": 55.0,
+        "Peter Polacek": 55.0
+      },
+      "source": "https://kurzynavolby.sk/ostatne/kandidati-do-vuc-2026/"
+    },
+    {
+      "race": "KSK predseda",
+      "bookmaker": "Tipsport",
+      "date": "2026-10-20",
+      "odds": {
+        "Rastislav Trnka": 1.75,
+        "Marian Porvaznik": 1.95,
+        "Igor Simko": 7.5,
+        "Monika Sofiya Sorocinova": 80.0,
+        "Dzemal Kodrazi": 500.0
+      },
+      "source": "https://stavkynavolby.sk/informacie/kurzy-na-volby/"
+    },
+    {
+      "race": "KSK predseda",
+      "bookmaker": "Fortuna",
+      "date": "2026-10-20",
+      "odds": {
+        "Rastislav Trnka": 1.8,
+        "Marian Porvaznik": 1.9,
+        "Igor Simko": 7.0,
+        "Monika Sofiya Sorocinova": 80.0,
+        "Dzemal Kodrazi": 400.0
+      },
+      "source": "https://stavkynavolby.sk/informacie/kurzy-na-volby/"
+    },
+    {
+      "race": "NSK predseda",
+      "bookmaker": "Tipsport",
+      "date": "2026-10-20",
+      "odds": {
+        "Branislav Becik": 1.1,
+        "Henrich Varga": 6.5,
+        "Tibor Csenger": 25.0,
+        "Karol Suchan": 40.0,
+        "Erik Blasko": 50.0,
+        "Robert Svec": 50.0,
+        "Jolana Culakova": 60.0
+      },
+      "source": "https://stavkynavolby.sk/informacie/kurzy-na-volby/"
+    },
+    {
+      "race": "NSK predseda",
+      "bookmaker": "Fortuna",
+      "date": "2026-10-20",
+      "odds": {
+        "Branislav Becik": 1.12,
+        "Henrich Varga": 6.0,
+        "Tibor Csenger": 30.0,
+        "Karol Suchan": 40.0,
+        "Erik Blasko": 50.0,
+        "Robert Svec": 50.0,
+        "Jolana Culakova": 50.0
+      },
+      "source": "https://stavkynavolby.sk/informacie/kurzy-na-volby/"
+    },
+    {
+      "race": "PSK predseda",
+      "bookmaker": "Tipsport",
+      "date": "2026-10-20",
+      "odds": {
+        "Milan Majersky": 1.11,
+        "Milan Mazurek": 6.0,
+        "Samuel Migal": 14.0,
+        "Jozef Istok": 77.0,
+        "Drahomir Cureja": 88.0,
+        "Marian Geci": 88.0,
+        "Lubomir Golias": 88.0,
+        "Zoltan Kaso": 88.0,
+        "Jan Stanko": 88.0
+      },
+      "source": "https://stavkynavolby.sk/informacie/kurzy-na-volby/"
+    },
+    {
+      "race": "PSK predseda",
+      "bookmaker": "Fortuna",
+      "date": "2026-10-20",
+      "odds": {
+        "Milan Majersky": 1.13,
+        "Milan Mazurek": 5.0,
+        "Samuel Migal": 15.0
+      },
+      "source": "https://stavkynavolby.sk/informacie/kurzy-na-volby/"
+    },
+    {
+      "race": "TSK predseda",
+      "bookmaker": "Tipsport",
+      "date": "2026-10-20",
+      "odds": {
+        "Jaroslav Baska": 1.08,
+        "Natalia Svitkova": 5.8,
+        "Daniel Galas": 60.0,
+        "Lubomir Choleva": 70.0
+      },
+      "source": "https://stavkynavolby.sk/informacie/kurzy-na-volby/"
+    },
+    {
+      "race": "TSK predseda",
+      "bookmaker": "Fortuna",
+      "date": "2026-10-20",
+      "odds": {
+        "Jaroslav Baska": 1.05,
+        "Natalia Svitkova": 8.0,
+        "Daniel Galas": 50.0,
+        "Lubomir Choleva": 70.0
+      },
+      "source": "https://stavkynavolby.sk/informacie/kurzy-na-volby/"
+    },
+    {
+      "race": "TTSK predseda",
+      "bookmaker": "Tipsport",
+      "date": "2026-10-20",
+      "odds": {
+        "Jozef Viskupic": 1.02,
+        "Peter Hambalek": 11.0,
+        "Jozsef Berenyi": 15.0,
+        "Matej Lancaric": 30.0,
+        "Robert Dohal": 45.0,
+        "Jaroslav Cehlarik": 50.0,
+        "Stefan Pollak": 75.0
+      },
+      "source": "https://stavkynavolby.sk/informacie/kurzy-na-volby/"
+    },
+    {
+      "race": "TTSK predseda",
+      "bookmaker": "Fortuna",
+      "date": "2026-10-20",
+      "odds": {
+        "Jozef Viskupic": 1.02,
+        "Peter Hambalek": 10.0,
+        "Jozsef Berenyi": 18.0,
+        "Matej Lancaric": 30.0,
+        "Robert Dohal": 50.0
+      },
+      "source": "https://stavkynavolby.sk/informacie/kurzy-na-volby/"
+    },
+    {
+      "race": "ZSK predseda",
+      "bookmaker": "Tipsport",
+      "date": "2026-10-20",
+      "odds": {
+        "Erika Jurinova": 1.15,
+        "Martin Kapitulik": 5.5,
+        "Igor Choma": 6.0,
+        "Jana Chlustinova": 88.0,
+        "Milan Pova": 88.0
+      },
+      "source": "https://stavkynavolby.sk/informacie/kurzy-na-volby/"
+    },
+    {
+      "race": "ZSK predseda",
+      "bookmaker": "Fortuna",
+      "date": "2026-10-20",
+      "odds": {
+        "Erika Jurinova": 1.12,
+        "Martin Kapitulik": 6.0,
+        "Igor Choma": 7.0
+      },
+      "source": "https://stavkynavolby.sk/informacie/kurzy-na-volby/"
+    },
+    {
+      "race": "special: higher vote share",
+      "bookmaker": "Fortuna",
+      "date": "2026-10-20",
+      "odds": {
+        "Matus Vallo": 1.35,
+        "Frantisek Olha": 2.68
+      },
+      "source": "https://stavkynavolby.sk/informacie/kurzy-na-volby/"
+    },
+    {
+      "race": "special: higher vote share",
+      "bookmaker": "Fortuna",
+      "date": "2026-10-20",
+      "odds": {
+        "Jozef Raz ml.": 1.9,
+        "Eva Nemcovska": 1.75
+      },
+      "source": "https://stavkynavolby.sk/informacie/kurzy-na-volby/"
+    },
+    {
+      "race": "special: higher vote share",
+      "bookmaker": "Fortuna",
+      "date": "2026-10-20",
+      "odds": {
+        "Diana Javorcikova": 1.67,
+        "Eva Nemcovska": 2.0
+      },
+      "source": "https://stavkynavolby.sk/informacie/kurzy-na-volby/"
+    },
+    {
+      "race": "special: higher vote share",
+      "bookmaker": "Fortuna",
+      "date": "2026-10-20",
+      "odds": {
+        "Jaroslav Polacek": 1.7,
+        "Martin Mudrak": 1.91
+      },
+      "source": "https://stavkynavolby.sk/informacie/kurzy-na-volby/"
+    },
+    {
+      "race": "special: higher vote share",
+      "bookmaker": "Fortuna",
+      "date": "2026-10-20",
+      "odds": {
+        "Ondrej Lunter": 1.6,
+        "Juraj Droba": 2.05
+      },
+      "source": "https://stavkynavolby.sk/informacie/kurzy-na-volby/"
+    },
+    {
+      "race": "special: higher vote share",
+      "bookmaker": "Fortuna",
+      "date": "2026-10-20",
+      "odds": {
+        "Rastislav Trnka": 2.05,
+        "Branislav Becik": 1.6
+      },
+      "source": "https://stavkynavolby.sk/informacie/kurzy-na-volby/"
+    },
+    {
+      "race": "special: higher vote share",
+      "bookmaker": "Fortuna",
+      "date": "2026-10-20",
+      "odds": {
+        "Marian Porvaznik": 1.75,
+        "Milan Mazurek": 1.9
+      },
+      "source": "https://stavkynavolby.sk/informacie/kurzy-na-volby/"
+    },
+    {
+      "race": "special: higher vote share",
+      "bookmaker": "Fortuna",
+      "date": "2026-10-20",
+      "odds": {
+        "Milan Majersky": 1.7,
+        "Erika Jurinova": 1.91
+      },
+      "source": "https://stavkynavolby.sk/informacie/kurzy-na-volby/"
+    }
+  ],
+  "extra_race_polls": [
+    {
+      "race": "Bratislava primator",
+      "pollster": "Ixactly (for TV Markiza; not SAVA member)",
+      "fieldwork": "unknown (published 2026-10-14)",
+      "n": null,
+      "results": {
+        "Matus Vallo": 47.3,
+        "Jozef Raz": 32.7,
+        "Zuzana Subova": 3.7,
+        "Lubomir Geci": 2.6
+      },
+      "note": "Shares do not sum to 100; likely of all respondents incl. undecided. Only post-Winkler-withdrawal poll per Dennik N.",
+      "source": "https://www.finreport.sk/agenturne-spravy/vallo-ma-pred-razom-naskok-prieskum-tiez-ukazal-akou-znamkou-by-bratislavcania-ohodnotili-jeho-pracu/",
+      "source_alt": "https://dennikn.sk/5621105/moze-raz-vyhrat-a-kto-su-favoriti-v-zupach-sefovia-ako-ipsosu-a-focusu-vysvetluju-ako-citat-prieskumy-pred-volbami/"
+    },
+    {
+      "race": "Kosice primator",
+      "pollster": "SANEP (for ta3)",
+      "fieldwork": "2026-10-13/2026-10-18",
+      "n": 650,
+      "method": "CAWI",
+      "results": {
+        "Ladislav Lorinc": 27.5,
+        "Jaroslav Polacek": 21.2,
+        "Lenka Kovacevicova": 20.8,
+        "Martin Mudrak": 18.1,
+        "Alexander Riabov": 5.4,
+        "Ladislav Lorincz": 3.1,
+        "Miroslav Sabol": 2.6,
+        "Alexander Szekely": 1.3
+      },
+      "note": "Declared MoE +/-2.5 p.b.; declared turnout: 37.5 % will vote, 21.9 % hesitating",
+      "source": "https://www.pravda.sk/spravy/regionalne-volby-2026/clanok/2062305-prieskum-sanep-kto-ovladne-kosice-a-kto-zupu-novy-prieskum-odhalil-favoritov-v-hre-su-aj-tesne-suboje"
+    },
+    {
+      "race": "KSK predseda",
+      "pollster": "SANEP (for ta3)",
+      "fieldwork": "2026-10-13/2026-10-18",
+      "n": 950,
+      "method": "CAWI",
+      "results": {
+        "Rastislav Trnka": 38.3,
+        "Marian Porvaznik": 32.2,
+        "Igor Simko": 19.4,
+        "Monika Sofiya Sorocinova": 7.7,
+        "Dzemal Kodrazi": 2.4
+      },
+      "note": "After Tibor Geci withdrew on 2026-10-12 and endorsed Simko",
+      "source": "https://www.pravda.sk/spravy/regionalne-volby-2026/clanok/2062305-prieskum-sanep-kto-ovladne-kosice-a-kto-zupu-novy-prieskum-odhalil-favoritov-v-hre-su-aj-tesne-suboje"
+    },
+    {
+      "race": "ZSK predseda",
+      "pollster": "SANEP (for Kanal1)",
+      "fieldwork": "2026-09-28/2026-10-01",
+      "n": 1050,
+      "results": {
+        "Erika Jurinova": 35.4,
+        "Igor Choma": 31.2,
+        "Martin Kapitulik": 21.3,
+        "Anna Belousovova": 10.1,
+        "Milan Pova": 1.1,
+        "Jana Chlustinova": 0.9
+      },
+      "source": "https://kanal1.sk/exkluzivny-prieskum-pre-kanal1-kto-by-vyhral-volby-v-zilinskom-kraji-keby-sa-konali-dnes-vyzera-to-na-tesny-suboj-dvoch-kandidatov/"
+    },
+    {
+      "race": "ZSK predseda",
+      "pollster": "unknown agency (for ta3)",
+      "fieldwork": "unknown (published 2026-09-17)",
+      "n": null,
+      "results": {
+        "Erika Jurinova": 31.1,
+        "Igor Choma": 29.3,
+        "Martin Kapitulik": 21.1,
+        "Anna Belousovova": 7.4,
+        "Adam Lucansky": 6.3,
+        "Milan Pova": 2.9,
+        "Jana Chlustinova": 1.9
+      },
+      "source": "https://www.ta3.com/clanok/1071773/prieskum-pre-ta3-o-kreslo-zupana-v-zilinskom-kraji-moze-byt-este-velka-bitka-do-hry-vstupuje-aj-treti-kandidat"
+    },
+    {
+      "race": "ZSK predseda",
+      "pollster": "AKO (for JOJ 24)",
+      "fieldwork": "September 2026 (exact dates not on page; published 2026-09-28)",
+      "n": null,
+      "results": {
+        "Erika Jurinova": 48.5,
+        "Igor Choma": 17.3,
+        "Anna Belousovova": 14.3,
+        "Martin Kapitulik": 11.8,
+        "Adam Lucansky": 6.2,
+        "Jana Chlustinova": 1.2,
+        "Milan Pova": 0.7
+      },
+      "note": "Lucansky (SNS) withdrew live at end of JOJ 24 debate (28.9.) in favour of Choma. Large house difference vs SANEP/ta3.",
+      "source": "https://my.sme.sk/zilina/c/jurinova-ma-vyraznu-podporu-ukazal-prieskum-ako-lucansky-sa-vzdal-v-priamom-prenose"
+    },
+    {
+      "race": "TTSK predseda",
+      "pollster": "AKO (for JOJ 24)",
+      "fieldwork": "2026-09-10/2026-09-17",
+      "n": null,
+      "results": {
+        "Jozef Viskupic": 51.8,
+        "Jozsef Berenyi": 18.1,
+        "Matej Lancaric": 11.7,
+        "Peter Hambalek": 9.6,
+        "Robert Dohal": 5.9,
+        "Jaroslav Cehlarik": 2.0,
+        "Stefan Pollak": 0.9
+      },
+      "undecided_pct": 29.4,
+      "wont_vote_pct": 14.3,
+      "source": "https://joj24.noviny.sk/prieskumy/1271485-viskupic-ma-pred-zupnymi-volbami-vyrazny-naskok-prieskum-ukazal-aj-prekvapenie-na-druhom-mieste"
+    },
+    {
+      "race": "PSK predseda",
+      "pollster": "AKO (for JOJ 24)",
+      "fieldwork": "2026-09-10/2026-09-21",
+      "n": null,
+      "results": {
+        "Milan Majersky": 44.8,
+        "Milan Mazurek": 28.8,
+        "Judita Lassakova": 6.5,
+        "Samuel Migal": 6.2,
+        "Marian Geci": 5.5,
+        "Drahomir Cureja": 2.3,
+        "Zoltan Kaso": 1.7,
+        "Monika Leskova": 1.4,
+        "Jan Stanko": 1.2,
+        "Jozef Istok": 1.2,
+        "Lubomir Golias": 0.4
+      },
+      "undecided_pct": 23.7,
+      "wont_vote_pct": 11.2,
+      "note": "Lassakova (Smer), Leskova and Kaso withdrew after fieldwork.",
+      "source": "https://www.infozona.sk/spravodajstvo/aktualny-prieskum-preferencii-v-presovskom-kraji-majersky-to-nema-iste-niektore-okresy-vas-prekvapia/",
+      "source_alt": "https://www.presovak.sk/clanky/15833/prieskum-kto-bude-novym-zupanom-v-presovskom-kraji-takto-by-rozhodli-volici-naskok-ma-sucasny-zupan"
+    },
+    {
+      "race": "TSK predseda",
+      "pollster": "AKO (for JOJ 24)",
+      "fieldwork": "2026-09-10/2026-09-16",
+      "n": null,
+      "results": {
+        "Jaroslav Baska": 57.5,
+        "Natalia Svitkova": 38.6,
+        "Lubomir Choleva": 2.8,
+        "Daniel Galas": 1.1
+      },
+      "undecided_pct": 24.8,
+      "wont_vote_pct": 9.1,
+      "source": "https://joj24.noviny.sk/prieskumy/1268562-kto-bude-zupanom-trencianskeho-kraja-takmer-stvrtina-opytanych-este-nevie-komu-da-hlas"
+    },
+    {
+      "race": "BBSK predseda",
+      "pollster": "AKO (for JOJ 24)",
+      "fieldwork": "2026-09-10/2026-09-16",
+      "n": null,
+      "results": {
+        "Ondrej Lunter": 63.2,
+        "Miroslav Suja": 16.8,
+        "Marian Kotleba": 8.6,
+        "Roman Malatinec": 8.5,
+        "Jaroslav Rusina": 2.0
+      },
+      "note": "Albert and Plancik values not captured (remaining ~0.9 %).",
+      "source": "https://joj24.noviny.sk/prieskumy/1266317-kde-ma-lunter-najsilnejsiu-podporu-a-kde-suja-prieskum-joj-24-odhalil-velke-rozdiely-medzi-okresmi",
+      "source_alt": "https://bbonline.sk/kratke-spravy/volby-2026-prieskum-ukazuje-vo-volbach-predsedu-bbsk-naskok-sucasneho-zupana/"
+    },
+    {
+      "race": "NSK predseda",
+      "pollster": "AKO (for JOJ 24)",
+      "fieldwork": "September 2026 (exact dates not on page)",
+      "n": null,
+      "results": {
+        "Branislav Becik": 45.5,
+        "Henrich Varga": 25.5,
+        "Jolana Culakova": 10.2,
+        "Tibor Csenger": 10.1,
+        "Robert Svec": 5.5,
+        "Erik Blasko": 3.2,
+        "Karol Suchan": 0.0
+      },
+      "note": "~44 % of respondents undecided or would not vote",
+      "source": "https://joj24.noviny.sk/prieskumy/1269439-najmladsi-by-volili-inak-volebny-model-v-nitrianskom-kraji-priniesol-zaujimave-rozdiely"
+    },
+    {
+      "race": "NSK predseda",
+      "pollster": "Ipsos",
+      "fieldwork": "unknown",
+      "n": null,
+      "results": {
+        "Branislav Becik": 34.1,
+        "Henrich Varga": 24.6
+      },
+      "note": "Only two values visible in snippet (TV Nitricka Facebook video); treat as low-confidence.",
+      "source": "https://www.facebook.com/tvnitricka.sk/videos/prieskum-agent%C3%BAry-ipsosv-nitrianskom-kraji-sa-schy%C4%BEuje-k-tesn%C3%A9mu-s%C3%BAboju-henrich-/1644967023814328/"
+    },
+    {
+      "race": "all 8 regions (indicative, national sample)",
+      "pollster": "SCIO",
+      "fieldwork": "2026-09-25/2026-09-30",
+      "n": 1025,
+      "results": null,
+      "note": "Indicative zupan preferences from a national sample; numbers not extracted (in images).",
+      "source": "https://agenturascio.sk/indikativny-prieskum-preferencii-na-volbu-predsedov-predsedniciek-samospravnych-krajov-september-2026/"
+    },
+    {
+      "race": "Bratislava primator",
+      "pollster": "SCIO (for SITA), phone",
+      "fieldwork": "2026-04-30/2026-05-14",
+      "n": 1001,
+      "results": null,
+      "note": "Headline: Vallo benefits from fragmented opposition, Raz trails; numbers in image, not extracted. Pre-Winkler/Cahojova/Heredos withdrawal field.",
+      "source": "https://agenturascio.sk/prieskum-scio-vallo-profituje-z-roztriestenosti-superov-raz-zaostava/"
+    }
+  ],
+  "key_events": [
+    {
+      "date": "2025-10-11",
+      "text": "PM Fico (Smer) said he favours moving the municipal and regional elections to 2027; this did not happen, elections were called for 24 Oct 2026.",
+      "source": "https://www.noviny.sk/politika/1119884-robert-fico-nevidi-dovody-na-predcasne-parlamentne-volby"
+    },
+    {
+      "date": "2026-06-23",
+      "text": "Speaker Richard Rasi signed the decision calling the combined elections for 24 Oct 2026 (145/2026 Z. z., published 24 Jun); campaign officially started 24 Jun.",
+      "source": "https://www.tasr.sk/tasr-clanok/TASR:2026062400000061"
+    },
+    {
+      "date": "2026-09-29",
+      "text": "Parliament passed a no-confidence vote in Environment Minister Tomas Taraba (SNS nominee), with SNS MPs voting for it; SaS leader Grohling said it proves the coalition lacks a majority.",
+      "source": "https://www.aktuality.sk/clanok/uxs721L/online-v-parlamente-sa-zacina-odvolavanie-tomasa-tarabu/"
+    },
+    {
+      "date": "2026-09-30",
+      "text": "President Pellegrini dismissed Taraba; PM Fico temporarily runs the environment ministry. Open coalition crisis: Fico publicly floated early elections, Hlas (Sutaj Estok) rejects them; Smer admits governing will need 'enormous effort'.",
+      "source": "https://www.teraz.sk/najnovsie/prezident-odvolal-z-funkcie-ministra-zi/996247-clanok.html",
+      "source_alt": "https://www.aktuality.sk/clanok/4a2QEyW/predcasne-volby-ma-v-rukach-hrstka-poslancov-co-sa-bude-diat-po-prichode-tomasa-tarabu-do-parlamentu-otazky-a-odpovede/"
+    },
+    {
+      "date": "2026-10-07",
+      "text": "NMS: half of the population supports early elections, including half of Hlas voters; PS lead over Smer narrowed to 1.7 p.b.",
+      "source": "https://nms.global/sk/volebny-model-oktober-2026/"
+    },
+    {
+      "date": "2026-10-16",
+      "text": "Infostat (state statistical office affiliate) poll puts Smer first (19.0) ahead of PS (18.5); SANEP (Sept) also has Smer first, while NMS/AKO/Ipsos/Focus have PS first or tied. National race is roughly a PS-Smer tie.",
+      "source": "https://www.teraz.sk/najnovsie/prieskum-volby-by-v-oktobri-vyhral-sm/1000386-clanok.html"
+    },
+    {
+      "date": "2026-10-17",
+      "text": "Opposition planned joint rally on Namestie SNP in Bratislava; friction among opposition parties (SaS and Hnutie Slovensko criticised PS, KDH, Demokrati over a joint press conference).",
+      "source": "https://www.instagram.com/reel/DehJmQljws0/"
+    },
+    {
+      "date": "2026-09 (registration)",
+      "text": "Bloc pattern for zupani: opposition (PS, SaS, KDH, Demokrati, Hnutie Slovensko, OKS, Za ludi...) jointly back Droba (BSK), Viskupic (TTSK), Svitkova (TSK), Varga (NSK), Jurinova (ZSK), Majersky (PSK), Porvaznik (KSK). Coalition (Smer, Hlas, SNS, often Republika) jointly back Gajarsky (BSK), Hambalek (TTSK), Baska (TSK), Becik (NSK), Choma (ZSK), Simko (KSK). Lunter (BBSK) runs as NEKA and said he accepts Hlas support (aktuality interview). KSK and PSK both have incumbents running vs. a bloc challenger; in KSK incumbent Trnka is not the opposition bloc's candidate.",
+      "source": "https://www.noviny.sk/slovensko/1259807-kto-chce-byt-vasim-zupanom-velky-prehlad-kandidatov-vo-vsetkych-osmich-krajoch",
+      "source_alt": "https://www.aktuality.sk/clanok/pGWwtjf/kompletny-zoznam-kandidatov-na-predsedov-samospravnych-krajov-vo-volbach-do-vuc-2026/",
+      "source_lunter": "https://www.aktuality.sk/clanok/TcGerMt/lunter-ludia-uz-nechcu-hadky-beriem-podporu-hlasu-odidenci-zo-smeru-mi-neprekazaju-rozhovor/"
+    },
+    {
+      "date": "2026-09-28",
+      "text": "Bratislava: Martin Winkler (Dunaj) withdrew and endorsed Jozef Raz (Transport Minister, NEKA, backed by government parties; Fico said a Raz win would be a Smer success). Heredos withdrew for health reasons; Cahojova withdrew before registration. Race now Vallo (Team Bratislava, PS, SaS, Demokrati) vs Raz.",
+      "source": "https://sita.sk/odstupenie-winklera-zmenilo-stavkove-kurzy-kto-je-podla-tipsportu-favoritom-na-primatora-bratislavy/",
+      "source_alt": "https://dennikn.sk/5621105/moze-raz-vyhrat-a-kto-su-favoriti-v-zupach-sefovia-ako-ipsosu-a-focusu-vysvetluju-ako-citat-prieskumy-pred-volbami/"
+    },
+    {
+      "date": "2026-09-28",
+      "text": "ZSK: Adam Lucansky (SNS) withdrew live in JOJ 24 debate in favour of coalition candidate Igor Choma.",
+      "source": "https://my.sme.sk/zilina/c/jurinova-ma-vyraznu-podporu-ukazal-prieskum-ako-lucansky-sa-vzdal-v-priamom-prenose"
+    },
+    {
+      "date": "2026-10-12",
+      "text": "KSK: Tibor Geci withdrew and endorsed coalition candidate Igor Simko.",
+      "source": "https://www.pravda.sk/spravy/regionalne-volby-2026/clanok/2062305-prieskum-sanep-kto-ovladne-kosice-a-kto-zupu-novy-prieskum-odhalil-favoritov-v-hre-su-aj-tesne-suboje"
+    },
+    {
+      "date": "2026-09/10",
+      "text": "PSK: Judita Lassakova (Smer MEP), Monika Leskova and Zoltan Kaso withdrew from the zupan race.",
+      "source": "https://www.presovak.sk/clanky/15833/prieskum-kto-bude-novym-zupanom-v-presovskom-kraji-takto-by-rozhodli-volici-naskok-ma-sucasny-zupan"
+    },
+    {
+      "date": "2026-10-14",
+      "text": "Pollsters (Focus' Slosiarik): in Bratislava government-aligned parties (Smer, Hlas, SNS, Republika) won about a third of votes in the 2023 parliamentary election; outcome depends on relative mobilisation.",
+      "source": "https://dennikn.sk/5621105/moze-raz-vyhrat-a-kto-su-favoriti-v-zupach-sefovia-ako-ipsosu-a-focusu-vysvetluju-ako-citat-prieskumy-pred-volbami/"
+    },
+    {
+      "date": "2026-09-29",
+      "text": "Ministry of Interior published first central electronic register of all candidates in the combined elections.",
+      "source": "https://www.minv.sk/?volby-samosprava26="
+    }
+  ],
+  "odds_notes": "Niké and Synottip markets on these elections not found. Tipsport stake volumes (20.10.): Bratislava Vallo EUR 15,400 vs Raz EUR 5,370; BSK Droba EUR 1,770, Staruch EUR 80 (source stavkynavolby.sk pages). Withdrawn PSK candidates Kaso still quoted by Tipsport."
+}

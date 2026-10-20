@@ -1,0 +1,50 @@
+<div class="sec-num">Model</div>
+<h2>Ako vzniká predpoveď</h2>
+<p>Model vychádza z predpovede senátnych volieb 2026 od Josefa Šlerku (<a href="https://josefslerka.github.io/senat-2026-forecast/">senat-2026-forecast</a>) a je prispôsobený slovenským pravidlám: jedno kolo, vyhráva relatívna väčšina, aj pri predsedoch krajov. Má päť vrstiev a končí 20 000 simuláciami.</p>
+
+<h3>1. Fundamenty: čo hovoria dáta z 2 914 obcí</h3>
+<p>Podmienený logit podielov hlasov nafitovaný na komunálnych voľbách starostov a primátorov 2022. Rysy sú známe pred voľbami 2022 z volieb 2018 a z údajov na hlasovacom lístku. Zdrojom sú otvorené dáta ŠÚ SR, mená kandidátov 2018 a 2022 sme spárovali v rámci obce. Tréning zahŕňa {{n_races}} sporných volieb v obciach s aspoň 2 000 voličmi ({{n_candidates}} kandidátov).</p>
+<p class="formula">podiel<sub>i</sub> = exp(u<sub>i</sub>) / Σ<sub>j</sub> exp(u<sub>j</sub>),   u<sub>i</sub> = β · x<sub>i</sub></p>
+{{beta_table}}
+<p class="text-small">Ako čítať koeficienty: rozdiel +0,6 v log-skóre znamená zhruba 1,8-násobný relatívny podiel voči súperom. Obhajca tak získa +{{inc}} a k tomu +{{inc_size}} za každý rád veľkosti obce nad 30 000 voličov (veľkosť je orezaná na rozsah tréningu 2 000 – 400 000). Ďalej sa pripočíta {{prev}} × podiel z minulých volieb a +{{neka}}, ak kandiduje ako nezávislý. Rys „vládna strana 2022“ vyšiel takmer nulový, preto celoštátnu náladu riešime osobitne (vrstva 2).</p>
+
+<h3>Validácia (5-násobná krížová, vynechané obce)</h3>
+<div class="tbl-scroll"><table><thead><tr><th>Model / pravidlo</th><th class="num">Brier ↓</th></tr></thead><tbody>
+<tr><td>fundamentálny model</td><td class="num">{{brier}}</td></tr>
+<tr><td>vyhrá obhajca, inak rovnomerne</td><td class="num">{{brier_inc}}</td></tr>
+<tr><td>rovnomerne medzi kandidátov</td><td class="num">{{brier_uni}}</td></tr>
+</tbody></table></div>
+<p>Favorit modelu vyhral v {{fav}} volieb. Priemerná chyba odhadu podielu je {{mae}} percentuálneho bodu. Šum v simulácii (σ = {{sigma}} na log-škále) je nastavený tak, aby 80 % intervaly na odložených dátach naozaj pokrývali {{coverage}} výsledkov. Pravdepodobnosti výhry sú na odložených dátach dobre kalibrované:</p>
+{{calib_table}}
+
+<h3>2. Celoštátny posun strán</h3>
+<p>Kandidátom nominovaným parlamentnými stranami posúvame log-skóre o κ × ln(podpora strany dnes / podpora v čase volieb 2022). Podporu meriame priemerom celoštátnych prieskumov sep–okt 2026 (AKO, Focus, Ipsos, NMS, SANEP, Infostat) a sep–nov 2022 (Ipsos, Median, AKO). Pri viacerých stranách berieme priemer. Elasticita je κ = 0,25 pre obce a 0,5 pre kraje. Je to <strong>predpoklad</strong>, nie odhad z dát: krajské voľby sú stranícky viac polarizované ako komunálne.</p>
+{{swing_table}}
+
+<h3>3. Úpravy pri faktoch, ktoré model nevidí</h3>
+<p>Zdokumentované, hrubé a vždy so zdôvodnením na stránke voľby:</p>
+<ul>
+<li><strong>Bývalý držiteľ funkcie alebo nástupca,</strong> ktorého podporuje dlhoročný odchádzajúci primátor: +0,6.</li>
+<li><strong>Organizačná výhoda,</strong> ktorú počet strán nezachytí (zlúčené kandidátky, podpora odchádzajúceho starostu): +0,3.</li>
+<li><strong>Kandidát bez verejného profilu</strong> (žiadna funkcia, strana ani predchádzajúca kandidatúra): −0,5.</li>
+<li><strong>Odstúpenie v prospech iného kandidáta:</strong> polovica prieskumného podielu odstúpeného ide podporenému, zvyšok sa rozdelí pomerne.</li>
+<li><strong>Úradujúci starosta inej samosprávy</strong> (napr. mestskej časti) a <strong>miestny funkcionár</strong> (vicestarosta, poslanec zastupiteľstva) sú rysy s koeficientom z dát. Úsudok je len v tom, komu ich priradíme.</li>
+</ul>
+
+<h3>4. Prieskumy</h3>
+<p>Priemer prieskumov s polčasom rozpadu váhy 30 dní a váhou √(n/600). Prieskumy objednané kandidátom alebo ním zverejnené majú polovičnú váhu. Nerozhodnutých vynechávame a podiely prepočítavame medzi kandidátov uvedených v prieskume. S fundamentmi ich kombinujeme podľa presnosti: neistota fundamentov ≈ 14 bodov, neistota priemeru prieskumov = √(5² + 5²/n<sub>ef</sub>) bodov. Prvá zložka je spoločná chyba miestnych prieskumov (house efekty, nerozhodnutí, načasovanie), druhá sa priemerovaním zmenšuje. Kde sú prieskumy, šum v simulácii sa zodpovedajúco zúži (najmenej σ = 0,3).</p>
+<p class="text-small">Varovanie z roku 2022: v Bratislave prieskum Focus podhodnotil obhajcu Valla (prieskum „viac ako polovica“, výsledok 60,2 %). Je to jeden prípad, preto ho nekorigujeme, len ho uvádzame.</p>
+
+<h3>5. Monte Carlo a trh</h3>
+<p>20 000 simulácií. V každej sa ku každému kandidátovi pripočíta nezávislý šum a navyše jeden spoločný celoštátny šok (sd 0,12), ktorý posúva kandidátov vládnych strán (Smer, Hlas, SNS) jedným smerom a opozície (PS, SaS, KDH, Hnutie Slovensko, Demokrati) opačným, naprieč všetkými 33 voľbami naraz. Odhad podielu je medián simulácií, interval je 10. až 90. percentil a pravdepodobnosť výhry je podiel simulácií, v ktorých je kandidát prvý.</p>
+<p>Finálna pravdepodobnosť výhry mieša model s kurzmi (Tipsport, Fortuna, DOXXbet, Niké) po odpočítaní marže mocninovou metódou. Kurzy sa najprv spriemerujú medzi kanceláriami. Mix je v log-odds s váhou 0,5 a kandidáti bez kurzu si ponechajú modelovú pravdepodobnosť. Podiely hlasov ani intervaly trh nemení.</p>
+
+<h3>Poctivo o slabinách</h3>
+<ul>
+<li><strong>Tréning je na obciach, nie na krajoch.</strong> Pri predsedoch krajov preto viac rozhodujú prieskumy. Efekt obhajcu je extrapolovaný na najväčšiu veľkosť v dátach (Bratislava).</li>
+<li><strong>Bez prieskumov sú intervaly široké.</strong> V mestských častiach Bratislavy prieskumy nie sú, intervaly sú tam ±30 bodov. To je poctivá neistota modelu, ktorý vie o kandidátoch len to, čo je v štatistike.</li>
+<li><strong>Elasticita κ, sd spoločného šoku a váha trhu sú predpoklady.</strong> Nie sú nafitované.</li>
+<li><strong>Kvalita miestnych prieskumov je nízka.</strong> Často chýba veľkosť vzorky, dátumy zberu alebo objednávateľ. Niektoré sú online panely bez reprezentativity.</li>
+<li><strong>Kurzy pochádzajú z agregátora</strong> (stavkynavolby.sk), nie priamo od kancelárií.</li>
+</ul>
+<p class="text-small">Kód: <code>tools/</code>, vstupy: <code>data/inputs/</code>, výskum so zdrojmi: <code>data/research/</code>, snapshoty: <code>data/snapshots/</code>.</p>

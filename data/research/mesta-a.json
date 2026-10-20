@@ -1,0 +1,1349 @@
+[
+  {
+    "race_id": "mesto-bratislava",
+    "name": "Bratislava",
+    "office": "primator",
+    "incumbent": {
+      "name": "Matúš Vallo",
+      "since": 2018,
+      "party_2022": "Team Bratislava, Progresívne Slovensko, SaS",
+      "running_2026": true
+    },
+    "history": {
+      "2022": {
+        "turnout_pct": 36.9,
+        "registered_voters": 407992,
+        "valid_votes": 144486,
+        "results": [
+          {
+            "name": "Matúš Vallo",
+            "party": "Team Bratislava, PS, SaS",
+            "votes": 86981,
+            "pct": 60.2
+          },
+          {
+            "name": "Rudolf Kusý",
+            "party": "SME RODINA, KDH, ZA ĽUDÍ, DOBRÁ VOĽBA a Umiernení, SZÖVETSÉG - ALIANCIA",
+            "votes": 40063,
+            "pct": 27.7
+          },
+          {
+            "name": "Miroslav Heredoš",
+            "party": "NEKA",
+            "votes": 6239,
+            "pct": 4.3
+          },
+          {
+            "name": "Andrej Trnovec",
+            "party": "SĽS",
+            "votes": 3446,
+            "pct": 2.4
+          },
+          {
+            "name": "Martin Mlýnek",
+            "party": "NOVA, OKS, Zmena zdola, DÚ, OĽANO-NOVA-KÚ-ZMENA ZDOLA",
+            "votes": 3005,
+            "pct": 2.1
+          },
+          {
+            "name": "Martin Jakubec",
+            "party": "ĽS Naše Slovensko",
+            "votes": 2017,
+            "pct": 1.4
+          },
+          {
+            "name": "Miroslav Vetrík",
+            "party": "ŽIVOT",
+            "votes": 1162,
+            "pct": 0.8
+          },
+          {
+            "name": "Peter Poláček",
+            "party": "Hnutie ONÁS",
+            "votes": 942,
+            "pct": 0.7
+          },
+          {
+            "name": "Milena Minichová",
+            "party": "SMS",
+            "votes": 631,
+            "pct": 0.4
+          }
+        ],
+        "source": "https://www.topky.sk/cl/2005799/9524409/Komunalne-volby-2026---Bratislava--kandidati-na-primatora--poslanci-a-vysledky (cites ŠÚ SR); valid votes + turnout 36.88 % confirmed at https://bratislava.sk/spravy/vysledky-komunalnych-volieb"
+      },
+      "2018": {
+        "turnout_pct": 40.67,
+        "registered_voters": 402062,
+        "valid_votes": 160304,
+        "results": [
+          {
+            "name": "Matúš Vallo",
+            "party": "Progresívne Slovensko, SPOLU",
+            "votes": 58578,
+            "pct": 36.54
+          },
+          {
+            "name": "Václav Mika",
+            "party": "NEKA",
+            "votes": 36661,
+            "pct": 22.86
+          },
+          {
+            "name": "Ivo Nesrovnal",
+            "party": "NEKA",
+            "votes": 29531,
+            "pct": 18.42
+          },
+          {
+            "name": "Ján Mrva",
+            "party": "OĽANO, SaS, SME RODINA, KDH, OKS, NOVA, Zmena zdola, DÚ",
+            "votes": 27689,
+            "pct": 17.27
+          },
+          {
+            "name": "Iveta Plšeková",
+            "party": "NEKA",
+            "votes": 2445,
+            "pct": 1.52
+          },
+          {
+            "name": "Roman Ruhig",
+            "party": "SNJ-sv",
+            "votes": 2010,
+            "pct": 1.25
+          },
+          {
+            "name": "Miroslav Vetrík",
+            "party": "NEKA",
+            "votes": 1204,
+            "pct": 0.75
+          },
+          {
+            "name": "Andrej Trnovec",
+            "party": "SĽS",
+            "votes": 886,
+            "pct": 0.55
+          },
+          {
+            "name": "Viktor Béreš",
+            "party": "NAJ, Mladí ľudia",
+            "votes": 805,
+            "pct": 0.5
+          },
+          {
+            "name": "Jaroslav Brada",
+            "party": "SMS",
+            "votes": 495,
+            "pct": 0.3
+          }
+        ],
+        "source": "https://volby.statistics.sk/oso/oso2018/files/xlsx/OSO_2018_tab05.xlsx ; turnout/registered/valid: https://volby.statistics.sk/oso/oso2018/files/xlsx/OSO_2018_tab02bx.xlsx"
+      }
+    },
+    "candidates_2026": [
+      {
+        "name": "Ľubomír Geci",
+        "ballot_no": 1,
+        "party": "MySlovensko",
+        "endorsed_by": null,
+        "incumbent": false,
+        "withdrew": false,
+        "prior_runs": null,
+        "profile": "29-year-old software developer; also runs for Ružinov, city and BSK councils."
+      },
+      {
+        "name": "Miroslav Heredoš",
+        "ballot_no": 2,
+        "party": "Vlastenecký blok",
+        "endorsed_by": null,
+        "incumbent": false,
+        "withdrew": true,
+        "withdrew_date": "2026-09-27",
+        "prior_runs": "2022 Bratislava mayor 3rd, 4.3 % (NEKA)",
+        "profile": "44-year-old entrepreneur; withdrew citing serious health problems (FB post 27 Sep; topky gives 26 Sep). Name stays on ballot, votes not counted."
+      },
+      {
+        "name": "JUDr. Ing. Jozef Ráž",
+        "ballot_no": 3,
+        "party": "NEKA",
+        "endorsed_by": "Smer-SD support (informal; he is the Smer-nominated transport minister); Martin Winkler/Dunaj endorsed him on withdrawal",
+        "incumbent": false,
+        "withdrew": false,
+        "prior_runs": null,
+        "profile": "47, Minister of Transport since Oct 2023 (Smer nominee), son of Elán singer; announced June 2026; promises 6th bridge via PPP, PAAS parking-fine amnesty, 15-min ticket."
+      },
+      {
+        "name": "Ing. Zuzana Šubová",
+        "ballot_no": 4,
+        "party": "Pirátska strana - Slovensko",
+        "endorsed_by": null,
+        "incumbent": false,
+        "withdrew": false,
+        "prior_runs": "2024 EP list leader for Pirates",
+        "profile": "57, economist, chair of the extra-parliamentary Pirate Party; anti-corruption profile, former Devín local councillor."
+      },
+      {
+        "name": "Ing. arch. Matúš Vallo",
+        "ballot_no": 5,
+        "party": "Team Bratislava, Progresívne Slovensko, Sloboda a solidarita, Demokrati",
+        "endorsed_by": null,
+        "incumbent": true,
+        "withdrew": false,
+        "prior_runs": "2018 won 36.54 %; 2022 won 60.2 %",
+        "profile": "49, mayor since 2018, architect, seeking third term."
+      },
+      {
+        "name": "Mgr. Martin Winkler",
+        "ballot_no": 6,
+        "party": "Dunaj",
+        "endorsed_by": null,
+        "incumbent": false,
+        "withdrew": true,
+        "withdrew_date": "2026-09-28",
+        "prior_runs": null,
+        "profile": "51, city and BSK councillor, Hopin co-founder, founded city party Dunaj; withdrew in favour of Ráž, slated to be Ráž's 1st deputy mayor; still runs for city/BSK council."
+      }
+    ],
+    "candidates_source": [
+      "https://banm.sk/data/advertisement/banm.sk/532442/204469_Zoznam%20zaregistrovan%C3%BDch%20kandid%C3%A1tov%20pre%20vo%C4%BEby%20prim%C3%A1tora%20mesta%20Bratislava.pdf",
+      "https://www.aktuality.sk/clanok/xczK1TB/kompletny-zoznam-kandidatov-na-primatora-mesta-bratislava-vo-volbach-2026/",
+      "https://volby.sme.sk/komunalne-volby/2026/kandidati/bratislava-okres/bratislava/primatori",
+      "https://bratislavskevolby.sk/aktuality/co-ukazali-prieskumy-vallo-winkler-raz"
+    ],
+    "polls": [
+      {
+        "pollster": "SANEP",
+        "fieldwork": "2026-05 (exact dates unknown; published 2026-05-27)",
+        "n": null,
+        "sponsor": "TA3",
+        "results": {
+          "Matúš Vallo": 41.3,
+          "Dana Čahojová": 18.8,
+          "Martin Winkler": 14.4
+        },
+        "undecided_pct": null,
+        "note": "Ráž not offered; other candidates' numbers not published in source. Čahojová later did not file/withdrew (Aug 2026).",
+        "source": "https://bratislavskevolby.sk/aktuality/co-ukazali-prieskumy-vallo-winkler-raz"
+      },
+      {
+        "pollster": "Ixactly",
+        "fieldwork": "2026-05-26/2026-06-03",
+        "n": null,
+        "sponsor": "unknown (published via SITA 2026-06-05)",
+        "results": {
+          "Matúš Vallo": 39.5,
+          "Jozef Ráž": 17.9,
+          "Martin Winkler": 13.4
+        },
+        "undecided_pct": null,
+        "note": "Variant with Ráž; without Ráž Winkler had 16.9. Other names not published in source.",
+        "source": "https://bratislavskevolby.sk/aktuality/co-ukazali-prieskumy-vallo-winkler-raz"
+      },
+      {
+        "pollster": "Communications & Campaigns",
+        "fieldwork": "2026-06-29/2026-07-07",
+        "n": 1000,
+        "sponsor": "SITA",
+        "results": {
+          "Matúš Vallo": 37.4,
+          "Martin Winkler": 18.5,
+          "Jozef Ráž": 18.1,
+          "Dana Čahojová": 7.1,
+          "Zuzana Šubová": 4.3,
+          "Miroslav Heredoš": 1.7
+        },
+        "undecided_pct": 12.9,
+        "note": "CATI. Geci not reported. Head-to-heads: Vallo 53.7 vs Ráž 34.4; Vallo 46.9 vs Winkler 40.7.",
+        "source": "https://sita.sk/ma-v-bratislave-silnejsiu-poziciu-raz-alebo-winkler-prieskum-ukazal-kto-by-vyhral-volby/"
+      },
+      {
+        "pollster": "SCIO",
+        "fieldwork": "2026-09 (published 2026-09-11)",
+        "n": 92,
+        "sponsor": "Startitup (exclusive)",
+        "results": {
+          "Matúš Vallo": 26.09,
+          "Jozef Ráž": 11.96,
+          "Martin Winkler": 4.35,
+          "Miroslav Heredoš": 2.17,
+          "Dana Čahojová": 2.17
+        },
+        "undecided_pct": 50.0,
+        "note": "Bratislava sub-sample of national poll, n=92 — near-worthless; included for completeness.",
+        "source": "https://www.startitup.sk/exkluzivny-prieskum-81-slovakov-sa-zucastni-komunalnych-volieb-viac-ako-70-nevie-koho-bude-volit/"
+      },
+      {
+        "pollster": "SANEP",
+        "fieldwork": "2026-09-28/2026-10-04",
+        "n": 1000,
+        "sponsor": "Kanal1",
+        "results": {
+          "Matúš Vallo": 43.2,
+          "Jozef Ráž": 40.6,
+          "Zuzana Šubová": 11.6,
+          "Ľubomír Geci": 4.6
+        },
+        "undecided_pct": null,
+        "note": "CAWI quota sample; shares of decided voters (sum 100). Declared turnout: 42.1 % decided, 19.6 % considering.",
+        "source": "https://kanal1.sk/exkluzivny-prieskum-pre-kanal1-kto-by-sa-stal-primatorom-bratislavy-a-kto-by-viedol-bratislavsky-kraj-keby-sa-volby-konali-dnes/"
+      },
+      {
+        "pollster": "Ixactly",
+        "fieldwork": "2026-10 (exact dates unknown; published 2026-10-11)",
+        "n": 624,
+        "sponsor": "TV Markíza",
+        "results": {
+          "Matúš Vallo": 47.3,
+          "Jozef Ráž": 32.7,
+          "Zuzana Šubová": 3.7,
+          "Ľubomír Geci": 2.6
+        },
+        "undecided_pct": 13.8,
+        "note": "n = respondents who say they will vote in the mayoral election. Excluding undecided: Vallo ~54.9, Ráž ~37.9.",
+        "source": "https://regiony.zoznam.sk/budu-mat-bratislava-a-kosice-novych-primatorov-novy-prieskum-ukazal-pozoruhodne-cisla/"
+      },
+      {
+        "pollster": "AKO",
+        "fieldwork": "2026-10 early (exact dates unknown)",
+        "n": null,
+        "sponsor": "JOJ 24",
+        "results": {},
+        "undecided_pct": null,
+        "note": "Results to be published on JOJ 24 on the evening of 2026-10-20 — NOT yet available at research time. AKO head Hřích said Ráž is 'surprisingly breathing down Vallo's neck'.",
+        "source": "https://zamerane.sk/aktuality/vallo-vs-raz-tesnejsi-suboj-ako-sa-cakalo-duel-pred-moratoriom-aj-prieskum-301e7a9f72/"
+      }
+    ],
+    "odds": [
+      {
+        "bookmaker": "Tipsport",
+        "date": "2026-10-20",
+        "odds": {
+          "Matúš Vallo": 1.04,
+          "Jozef Ráž": 9.0,
+          "Zuzana Šubová": 40.0,
+          "Ľubomír Geci": 200.0
+        },
+        "source": "https://stavkynavolby.sk/informacie/kandidati-na-primatora-bratislavy-2026/",
+        "note": "Ráž was favourite when market opened; stakes as of 20.10: €15,400 on Vallo, €5,370 on Ráž."
+      },
+      {
+        "bookmaker": "Fortuna",
+        "date": "2026-10-20",
+        "odds": {
+          "Matúš Vallo": 1.07,
+          "Jozef Ráž": 7.0,
+          "Zuzana Šubová": 50.0,
+          "Ľubomír Geci": 180.0
+        },
+        "source": "https://stavkynavolby.sk/informacie/kandidati-na-primatora-bratislavy-2026/"
+      },
+      {
+        "bookmaker": "DOXXbet",
+        "date": "2026-10-20",
+        "odds": {
+          "Matúš Vallo": 1.05,
+          "Jozef Ráž": 8.5,
+          "Zuzana Šubová": 40.0
+        },
+        "source": "https://stavkynavolby.sk/informacie/kurzy-na-volby/"
+      }
+    ],
+    "key_events": [
+      {
+        "date": "2025-05",
+        "text": "Martin Winkler first to announce candidacy; founds city party Dunaj (registered Nov 2025).",
+        "source": "https://stavkynavolby.sk/informacie/kandidati-na-primatora-bratislavy-2026/"
+      },
+      {
+        "date": "2026-06",
+        "text": "Transport minister Jozef Ráž (Smer nominee) announces run as independent.",
+        "source": "https://stavkynavolby.sk/informacie/kandidati-na-primatora-bratislavy-2026/"
+      },
+      {
+        "date": "2026-08-25",
+        "text": "Dana Čahojová (long-time district mayor) drops out before filing deadline.",
+        "source": "https://www.startitup.sk/exkluzivny-prieskum-81-slovakov-sa-zucastni-komunalnych-volieb-viac-ako-70-nevie-koho-bude-volit/"
+      },
+      {
+        "date": "2026-09-01",
+        "text": "City election commission registers 6 candidates.",
+        "source": "https://banm.sk/data/advertisement/banm.sk/532442/204469_Zoznam%20zaregistrovan%C3%BDch%20kandid%C3%A1tov%20pre%20vo%C4%BEby%20prim%C3%A1tora%20mesta%20Bratislava.pdf"
+      },
+      {
+        "date": "2026-09-27",
+        "text": "Miroslav Heredoš withdraws for health reasons.",
+        "source": "https://bratislavskevolby.sk/aktuality/co-ukazali-prieskumy-vallo-winkler-raz"
+      },
+      {
+        "date": "2026-09-28",
+        "text": "Martin Winkler (Dunaj) withdraws in favour of Ráž; Ráž promises him 1st deputy mayor post. Race effectively Vallo vs Ráž.",
+        "source": "https://bratislavskevolby.sk/aktuality/co-ukazali-prieskumy-vallo-winkler-raz"
+      },
+      {
+        "date": "2026-10-18",
+        "text": "Vallo–Ráž TV duel on Markíza 'Na telo'; Vallo pre-election concert on Hlavné námestie; Vallo campaign framed as stopping 'Smer taking Bratislava'. Ráž reportedly avoided several debates.",
+        "source": "https://zamerane.sk/aktuality/vallo-vs-raz-tesnejsi-suboj-ako-sa-cakalo-duel-pred-moratoriom-aj-prieskum-301e7a9f72/"
+      }
+    ],
+    "notes": "6 registered, 2 withdrew after registration (Heredoš, Winkler) — names stay on ballot, votes not counted; effective field = 4 (Vallo, Ráž, Šubová, Geci). Polls diverge sharply: SANEP/Kanal1 (CAWI) has Vallo +2.6 among decided, Ixactly/Markíza has Vallo +14.6 (≈ +17 among decided). AKO/JOJ poll due 20.10 evening reportedly shows a close race — check before finalising. Bookmakers strongly favour Vallo (implied ~93–96 %). Winkler's July support (18.5 %) partially transfers to Ráž; C&C July head-to-head had Vallo 53.7 vs Ráž 34.4. Historical: Vallo 2022 60.2 % vs combined KDH/SR/ZĽ challenger 27.7 %; turnout 36.9 % (2022), 40.7 % (2018). Polls report 'declared turnout' 42–80 % — not credible as literal turnout. Ráž is formally NEKA but widely perceived as Smer candidate (Hlavný denník: 'nom. SMER-SD'). Vallo's 2026 coalition = Team BA + PS + SaS + Demokrati."
+  },
+  {
+    "race_id": "mesto-kosice",
+    "name": "Košice",
+    "office": "primator",
+    "incumbent": {
+      "name": "Jaroslav Polaček",
+      "since": 2018,
+      "party_2022": "KDH, SaS, SME RODINA, NOVA, SZÖVETSÉG - ALIANCIA, SRK, DOBRÁ VOĽBA a Umiernení, OĽANO-NOVA-KÚ-ZMENA ZDOLA",
+      "running_2026": true
+    },
+    "history": {
+      "2022": {
+        "turnout_pct": 30.9,
+        "registered_voters": 194674,
+        "valid_votes": 55884,
+        "results": [
+          {
+            "name": "Jaroslav Polaček",
+            "party": "KDH, SaS, SME RODINA, NOVA, SZÖVETSÉG - ALIANCIA, SRK, DOBRÁ VOĽBA a Umiernení, OĽANO-NOVA-KÚ-ZMENA ZDOLA",
+            "votes": 20561,
+            "pct": 36.8
+          },
+          {
+            "name": "Milan Lesňák",
+            "party": "ZA ĽUDÍ",
+            "votes": 11849,
+            "pct": 21.2
+          },
+          {
+            "name": "Miloslav Klíma",
+            "party": "NEKA",
+            "votes": 10655,
+            "pct": 19.1
+          },
+          {
+            "name": "Monika Kováčová",
+            "party": "NEKA",
+            "votes": 4322,
+            "pct": 7.7
+          },
+          {
+            "name": "Štefan Lasky",
+            "party": "NEKA",
+            "votes": 4178,
+            "pct": 7.5
+          },
+          {
+            "name": "Viliam Novotný",
+            "party": "SPOLU, DS, ŠANCA, ODS",
+            "votes": 2453,
+            "pct": 4.4
+          },
+          {
+            "name": "Jozef Karabin",
+            "party": "NEKA",
+            "votes": 1062,
+            "pct": 1.9
+          },
+          {
+            "name": "Jaroslav Džunko",
+            "party": "SMS",
+            "votes": 804,
+            "pct": 1.4
+          }
+        ],
+        "source": "https://www.topky.sk/cl/2005799/9529345/Komunalne-volby-2026---Kosice--kandidati-na-primatora--poslanci-a-vysledky (cites ŠÚ SR); valid_votes = sum of candidate votes"
+      },
+      "2018": {
+        "turnout_pct": 35.71,
+        "registered_voters": 197859,
+        "valid_votes": 67348,
+        "results": [
+          {
+            "name": "Jaroslav Polaček",
+            "party": "SaS, KDH, SMK-MKP, NOVA, OKS",
+            "votes": 29157,
+            "pct": 43.29
+          },
+          {
+            "name": "Martin Petruško",
+            "party": "SMER-SD, SNS",
+            "votes": 16044,
+            "pct": 23.82
+          },
+          {
+            "name": "Alena Bašistová",
+            "party": "NEKA",
+            "votes": 10001,
+            "pct": 14.84
+          },
+          {
+            "name": "Viliam Novotný",
+            "party": "ŠANCA",
+            "votes": 6084,
+            "pct": 9.03
+          },
+          {
+            "name": "Vladimír Vágási",
+            "party": "MOST - HÍD",
+            "votes": 1325,
+            "pct": 1.96
+          },
+          {
+            "name": "Džemal Kodrazi",
+            "party": "NEKA",
+            "votes": 1061,
+            "pct": 1.57
+          },
+          {
+            "name": "Štefan Horváth",
+            "party": "NÁRODNÁ KOALÍCIA",
+            "votes": 733,
+            "pct": 1.08
+          },
+          {
+            "name": "Miroslav Špak",
+            "party": "NEKA (withdrew)",
+            "votes": 645,
+            "pct": 0.95
+          },
+          {
+            "name": "Jaroslav Džunko",
+            "party": "NEKA",
+            "votes": 622,
+            "pct": 0.92
+          },
+          {
+            "name": "Milan Lesňák",
+            "party": "NEKA (withdrew)",
+            "votes": 493,
+            "pct": 0.73
+          },
+          {
+            "name": "Ján Dečo",
+            "party": "NEKA (withdrew)",
+            "votes": 432,
+            "pct": 0.64
+          },
+          {
+            "name": "Richard Havrilla",
+            "party": "NEKA (withdrew)",
+            "votes": 414,
+            "pct": 0.61
+          },
+          {
+            "name": "Ján Struk",
+            "party": "SMS",
+            "votes": 337,
+            "pct": 0.5
+          }
+        ],
+        "source": "https://volby.statistics.sk/oso/oso2018/files/xlsx/OSO_2018_tab05.xlsx ; turnout/registered/valid: https://volby.statistics.sk/oso/oso2018/files/xlsx/OSO_2018_tab02bx.xlsx (ŠÚ marks Špak, Lesňák, Dečo, Havrilla with 'X' = withdrawn)"
+      }
+    },
+    "candidates_2026": [
+      {
+        "name": "Ing. Mgr. Lenka Kovačevičová",
+        "ballot_no": 1,
+        "party": "Tím Košice, Starostovia a nezávislí kandidáti, Právo na pravdu",
+        "endorsed_by": null,
+        "incumbent": false,
+        "withdrew": false,
+        "prior_runs": null,
+        "profile": "50, mayor of Nad jazerom district since 2014, city and KSK councillor; security/illegal settlements focus."
+      },
+      {
+        "name": "Mgr., MPA Ladislav Lörinc",
+        "ballot_no": 2,
+        "party": "Košická strana",
+        "endorsed_by": null,
+        "incumbent": false,
+        "withdrew": false,
+        "prior_runs": null,
+        "profile": "37, mayor of Sídlisko KVP since 2018, founded Košická strana (2022), ex-KSK vice-chair (resigned before running); leads most polls and is bookmakers' favourite."
+      },
+      {
+        "name": "Ladislav Lörincz",
+        "ballot_no": 3,
+        "party": "Jednota Slovanov",
+        "endorsed_by": null,
+        "incumbent": false,
+        "withdrew": false,
+        "prior_runs": null,
+        "profile": "56, driver; fringe candidate with near-identical name to frontrunner Lörinc (ballot-confusion risk)."
+      },
+      {
+        "name": "Mgr. Martin Mudrák",
+        "ballot_no": 4,
+        "party": "Progresívne Slovensko, Demokrati, Za ľudí",
+        "endorsed_by": null,
+        "incumbent": false,
+        "withdrew": false,
+        "prior_runs": null,
+        "profile": "39, ex-city official, led Business Košice until end-2025; runs in tandem with PS KSK candidate Porvažník."
+      },
+      {
+        "name": "Ing. Jaroslav Polaček",
+        "ballot_no": 5,
+        "party": "KDH, Sloboda a solidarita, Magyar szövetség - Maďarská aliancia, Strana rómskej koalície - SRK, NOVA, Demokratická strana - Občianski demokrati Slovenska",
+        "endorsed_by": null,
+        "incumbent": true,
+        "withdrew": false,
+        "prior_runs": "2018 won 43.29 %; 2022 won 36.8 %",
+        "profile": "49, mayor since 2018, seeking third term."
+      },
+      {
+        "name": "Mgr. Ing. Alexander Riabov",
+        "ballot_no": 6,
+        "party": "NEKA",
+        "endorsed_by": null,
+        "incumbent": false,
+        "withdrew": false,
+        "prior_runs": null,
+        "profile": "40, lawyer/economist, activist; also runs for council."
+      },
+      {
+        "name": "Miroslav Sabol",
+        "ballot_no": 7,
+        "party": "NEKA",
+        "endorsed_by": null,
+        "incumbent": false,
+        "withdrew": false,
+        "prior_runs": null,
+        "profile": "36, EU lobbyist/consultant; also runs for council."
+      },
+      {
+        "name": "Alexander Székely",
+        "ballot_no": 8,
+        "party": "Slovenské hnutie obrody",
+        "endorsed_by": null,
+        "incumbent": false,
+        "withdrew": false,
+        "prior_runs": null,
+        "profile": "61, political activist; fringe."
+      }
+    ],
+    "candidates_source": [
+      "https://static.kosice.sk/files/manual/volby/volby2026_zoznam_zaregistrovanych_primator.pdf",
+      "https://www.kosice.sk/obcan/komunalne-volby-2026",
+      "https://www.aktuality.sk/clanok/W8n9gmb/kompletny-zoznam-kandidatov-na-primatorov-krajskych-miest-vo-volbach-2026/"
+    ],
+    "polls": [
+      {
+        "pollster": "KEE spol. s r.o.",
+        "fieldwork": "2026-09-07/2026-09-14",
+        "n": 754,
+        "sponsor": "published by KEE spol. s r.o. (paid 'informačný servis' on SITA; client unknown)",
+        "results": {
+          "Ladislav Lörinc": 23.21,
+          "Lenka Kovačevičová": 20.69,
+          "Jaroslav Polaček": 19.36,
+          "Martin Mudrák": 18.44,
+          "Ladislav Lörincz": 3.98,
+          "Alexander Riabov": 2.65,
+          "Miroslav Sabol": 1.19,
+          "Alexander Székely": 0.93
+        },
+        "undecided_pct": 9.55,
+        "note": "CATI. Mentions earlier KEE waves (numbers not found).",
+        "source": "https://sita.sk/prieskum-verejnej-mienky-a-pohlad-vyvoja-zvolitelnosti-na-kandidatov-na-primatora-mesta-kosice/"
+      },
+      {
+        "pollster": "Focus",
+        "fieldwork": "2026-09-14/2026-09-21",
+        "n": 611,
+        "sponsor": "Jaroslav Polaček campaign",
+        "results": {
+          "Jaroslav Polaček": 21.9,
+          "Ladislav Lörinc": 20.3,
+          "Martin Mudrák": 13.4,
+          "Lenka Kovačevičová": 10.0
+        },
+        "undecided_pct": 16.4,
+        "note": "Others <5 % each (not itemised). Second-preference: Kovačevičová 14.1, Lörinc 12.9, Polaček 12.7, Mudrák 10.7, Riabov 5.4.",
+        "source": "https://korzar.sme.sk/kosice/c/suboj-o-kosickeho-primatora-je-tesny-polacek-sa-v-novom-prieskume-dostal-pred-l-rinca"
+      },
+      {
+        "pollster": "Focus",
+        "fieldwork": "2026-09-24/2026-10-07",
+        "n": 517,
+        "sponsor": "Martin Mudrák campaign",
+        "results": {
+          "Ladislav Lörinc": 29.2,
+          "Martin Mudrák": 21.3,
+          "Jaroslav Polaček": 20.9,
+          "Lenka Kovačevičová": 15.1,
+          "Alexander Riabov": 7.3,
+          "Miroslav Sabol": 2.8,
+          "Ladislav Lörincz": 2.4,
+          "Alexander Székely": 0.8
+        },
+        "undecided_pct": 20.9,
+        "note": "Online; likely voters (6–10 on 10-pt scale, 76.1 % of sample); candidate shares among decided, undecided reported separately.",
+        "source": "https://maxivyber.sk/slovensko/favoritom-volieb-primatora-kosic-je-podla-najnovsieho-prieskumu-ladislav-lorinc-polacek-je-az-treti"
+      },
+      {
+        "pollster": "Ixactly",
+        "fieldwork": "2026-10 (exact dates unknown; published 2026-10-11)",
+        "n": 388,
+        "sponsor": "TV Markíza",
+        "results": {
+          "Ladislav Lörinc": 18.3,
+          "Martin Mudrák": 17.0,
+          "Jaroslav Polaček": 16.5,
+          "Lenka Kovačevičová": 9.0,
+          "Alexander Riabov": 4.6,
+          "Ladislav Lörincz": 2.8,
+          "Miroslav Sabol": 2.8,
+          "Alexander Székely": 1.8
+        },
+        "undecided_pct": 27.1,
+        "note": "Total sample 500, 388 likely mayoral voters. Aktuality.sk swapped Mudrák/Polaček (17/16.5); SITA and Regióny.sk give Mudrák 17.0, Polaček 16.5.",
+        "source": "https://regiony.zoznam.sk/budu-mat-bratislava-a-kosice-novych-primatorov-novy-prieskum-ukazal-pozoruhodne-cisla/"
+      },
+      {
+        "pollster": "SANEP",
+        "fieldwork": "2026-10-13/2026-10-18",
+        "n": 650,
+        "sponsor": "TA3",
+        "results": {
+          "Ladislav Lörinc": 27.5,
+          "Jaroslav Polaček": 21.2,
+          "Lenka Kovačevičová": 20.8,
+          "Martin Mudrák": 18.1,
+          "Alexander Riabov": 5.4,
+          "Ladislav Lörincz": 3.1,
+          "Miroslav Sabol": 2.6,
+          "Alexander Székely": 1.3
+        },
+        "undecided_pct": null,
+        "note": "CAWI quota sample; shares of decided (sum 100). Declared turnout: 37.5 % decided, 21.9 % hesitating.",
+        "source": "https://www.pravda.sk/spravy/regionalne-volby-2026/clanok/2062305-prieskum-sanep-kto-ovladne-kosice-a-kto-zupu-novy-prieskum-odhalil-favoritov-v-hre-su-aj-tesne-suboje"
+      }
+    ],
+    "odds": [
+      {
+        "bookmaker": "Tipsport",
+        "date": "2026-10-20",
+        "odds": {
+          "Ladislav Lörinc": 1.45,
+          "Jaroslav Polaček": 2.8,
+          "Martin Mudrák": 5.5,
+          "Lenka Kovačevičová": 12.0,
+          "Alexander Riabov": 120.0,
+          "Miroslav Sabol": 200.0
+        },
+        "source": "https://stavkynavolby.sk/informacie/kandidati-na-primatora-kosic-2026/",
+        "note": "Stakes as of 20.10: €3,800 on Lörinc, €2,530 on Polaček. Earlier Tipsport quote in same article: Lörinc 1.60, Polaček 2.30."
+      },
+      {
+        "bookmaker": "Fortuna",
+        "date": "2026-10-20",
+        "odds": {
+          "Ladislav Lörinc": 1.55,
+          "Jaroslav Polaček": 2.6,
+          "Martin Mudrák": 6.0,
+          "Lenka Kovačevičová": 12.0,
+          "Alexander Riabov": 100.0,
+          "Miroslav Sabol": 200.0
+        },
+        "source": "https://stavkynavolby.sk/informacie/kandidati-na-primatora-kosic-2026/",
+        "note": "Fortuna also offers head-to-head 'who gets higher %': Polaček 1.70 vs Mudrák 1.91 (source: https://stavkynavolby.sk/informacie/kurzy-na-volby/)."
+      },
+      {
+        "bookmaker": "DOXXbet",
+        "date": "2026-10-20",
+        "odds": {
+          "Ladislav Lörinc": 1.45,
+          "Jaroslav Polaček": 2.5,
+          "Martin Mudrák": 4.0,
+          "Lenka Kovačevičová": 8.0
+        },
+        "source": "https://stavkynavolby.sk/informacie/kandidati-na-primatora-kosic-2026/"
+      }
+    ],
+    "key_events": [
+      {
+        "date": "2026-08-25",
+        "text": "Candidate lists filed; 8 mayoral candidates (Smer/Hlas/SNS/Republika/PnP coalition fields council candidates but no own mayoral candidate; Právo na pravdu backs Kovačevičová).",
+        "source": "https://static.kosice.sk/files/manual/volby/zoznam-kandidatov-volby2026-v03-260828.pdf"
+      },
+      {
+        "date": "2026-09-09",
+        "text": "City election commission registers all 8 candidates.",
+        "source": "https://static.kosice.sk/files/manual/volby/volby2026_zoznam_zaregistrovanych_primator.pdf"
+      },
+      {
+        "date": "2026-10-08",
+        "text": "Polaček team releases Focus poll showing him narrowly ahead; Mudrák team answers with Focus poll (9 Oct) showing Lörinc +8.",
+        "source": "https://www.aktuality.sk/clanok/2s8pTm1/ladislav-lorinc-verzus-jaroslav-polacek-a-martin-mudrak-tri-prieskumy-naznacuju-napinavy-kosicky-suboj-o-primatorsky-post/"
+      },
+      {
+        "date": "2026-10-19",
+        "text": "Kanal1 live debate of Košice mayoral candidates.",
+        "source": "https://kanal1.sk/exkluzivny-prieskum-pre-kanal1-kto-by-sa-stal-primatorom-bratislavy-a-kto-by-viedol-bratislavsky-kraj-keby-sa-volby-konali-dnes/"
+      }
+    ],
+    "notes": "No withdrawals found as of 2026-10-20 (all 8 still in SANEP 13–18 Oct poll; stavkynavolby lists only 6 because it omits the two fringe candidates). Genuinely open 4-way race under plurality rule: Lörinc leads 4 of 5 polls (only Polaček-commissioned Focus has Polaček first); 2nd–4th within margin. Winning threshold likely ~25–30 %. Low turnout city (30.9 % in 2022). Name-confusion risk: Lörinc (#2, Košická strana) vs Lörincz (#3, Jednota Slovanov) — Lörincz polls 2.4–4 %, part may be misdirected Lörinc votes. Polaček's 2022 coalition included SME RODINA, now not. Mudrák (PS) and Kovačevičová split the anti-incumbent vote with Lörinc. Polls from campaigns (Focus x2) should be down-weighted."
+  },
+  {
+    "race_id": "mesto-banska-bystrica",
+    "name": "Banská Bystrica",
+    "office": "primator",
+    "incumbent": {
+      "name": "Ján Nosko",
+      "since": 2014,
+      "party_2022": "NEKA (supported by Hlas, Smer, SNS, Sme rodina per aktuality.sk)",
+      "running_2026": true
+    },
+    "history": {
+      "2022": {
+        "turnout_pct": 39.8,
+        "registered_voters": 63163,
+        "valid_votes": 24556,
+        "results": [
+          {
+            "name": "Ján Nosko",
+            "party": "NEKA",
+            "votes": 16248,
+            "pct": 66.2
+          },
+          {
+            "name": "Diana Javorčíková",
+            "party": "NEKA",
+            "votes": 6102,
+            "pct": 24.8
+          },
+          {
+            "name": "Daniel Karas",
+            "party": "SMER - SD, REPUBLIKA",
+            "votes": 1660,
+            "pct": 6.8
+          },
+          {
+            "name": "Peter Podhorský",
+            "party": "ĽS Naše Slovensko",
+            "votes": 331,
+            "pct": 1.3
+          },
+          {
+            "name": "Jozef Sásik",
+            "party": "SĽS",
+            "votes": 116,
+            "pct": 0.5
+          },
+          {
+            "name": "Anton Minárik",
+            "party": "NEKA",
+            "votes": 99,
+            "pct": 0.4
+          }
+        ],
+        "source": "https://www.topky.sk/cl/2005799/9526991/Komunalne-volby-2026---Banska-Bystrica--kandidati-na-primatora--poslanci-a-vysledky (cites ŠÚ SR); valid_votes = sum of candidate votes"
+      },
+      "2018": {
+        "turnout_pct": 37.93,
+        "registered_voters": 65485,
+        "valid_votes": 24312,
+        "results": [
+          {
+            "name": "Ján Nosko",
+            "party": "NEKA",
+            "votes": 18281,
+            "pct": 75.19
+          },
+          {
+            "name": "Igor Kašper",
+            "party": "SaS, OĽANO, KDH, SME RODINA, Progresívne Slovensko",
+            "votes": 5490,
+            "pct": 22.58
+          },
+          {
+            "name": "Jozef Sásik",
+            "party": "SĽS",
+            "votes": 401,
+            "pct": 1.64
+          },
+          {
+            "name": "Peter Peuker",
+            "party": "NAJ",
+            "votes": 140,
+            "pct": 0.57
+          }
+        ],
+        "source": "https://volby.statistics.sk/oso/oso2018/files/xlsx/OSO_2018_tab05.xlsx ; turnout/registered/valid: https://volby.statistics.sk/oso/oso2018/files/xlsx/OSO_2018_tab02bd.xlsx"
+      }
+    },
+    "candidates_2026": [
+      {
+        "name": "Mgr. Diana Javorčíková",
+        "ballot_no": 1,
+        "party": "Progresívne Slovensko, Sloboda a solidarita, Demokrati, Hnutie Slovensko, Občianska konzervatívna strana",
+        "endorsed_by": "Tomáš Sobota (withdrew in her favour, KDH had backed Sobota)",
+        "incumbent": false,
+        "withdrew": false,
+        "prior_runs": "2022 BB mayor 2nd, 24.8 % (NEKA)",
+        "profile": "40, project manager, opposition city councillor; slogan 'Rozhýbeme Banskú Bystricu'."
+      },
+      {
+        "name": "Ing. Mgr. Marian Kotleba",
+        "ballot_no": 2,
+        "party": "Kotlebovci - Ľudová strana Naše Slovensko",
+        "endorsed_by": null,
+        "incumbent": false,
+        "withdrew": false,
+        "prior_runs": "BBSK chair 2013–2017; 2024 presidential candidate",
+        "profile": "49, far-right party leader, simultaneously runs for BBSK chair; barred in 2022 after extremism conviction."
+      },
+      {
+        "name": "Mgr. Matúš Molitoris",
+        "ballot_no": 3,
+        "party": "NEKA",
+        "endorsed_by": null,
+        "incumbent": false,
+        "withdrew": false,
+        "prior_runs": "2022 council candidate on Tím Nosko",
+        "profile": "40, project manager, non-aligned city councillor (ex-Nosko team); refused to step aside."
+      },
+      {
+        "name": "MUDr. Ján Nosko",
+        "ballot_no": 4,
+        "party": "NEKA",
+        "endorsed_by": "Hlas leader Šutaj Eštok declared readiness to support him (not formally requested)",
+        "incumbent": true,
+        "withdrew": false,
+        "prior_runs": "won 2014, 2018 (75.19 %), 2022 (66.2 %)",
+        "profile": "65, physician, mayor since 2014 seeking 4th term."
+      },
+      {
+        "name": "Ing. arch. Tomáš Sobota",
+        "ballot_no": 5,
+        "party": "NEKA",
+        "endorsed_by": "KDH (support)",
+        "incumbent": false,
+        "withdrew": true,
+        "withdrew_date": "2026-10-08",
+        "prior_runs": null,
+        "profile": "52, architect/urbanist, city & BBSK councillor; withdrew in favour of Javorčíková; name may remain on ballot, votes not counted."
+      },
+      {
+        "name": "Ondrej Vereš",
+        "ballot_no": 6,
+        "party": "Strana vidieka",
+        "endorsed_by": null,
+        "incumbent": false,
+        "withdrew": false,
+        "prior_runs": null,
+        "profile": "51, shunter (zoraďovač), regional rep of Huliak's Strana vidieka."
+      }
+    ],
+    "candidates_source": [
+      "https://www.topky.sk/cl/2005799/9526991/Komunalne-volby-2026---Banska-Bystrica--kandidati-na-primatora--poslanci-a-vysledky",
+      "https://www.aktuality.sk/clanok/CtAKOP1/kompletny-zoznam-kandidatov-na-primatora-mesta-banska-bystrica-vo-volbach-2026/",
+      "https://www.banskabystrica.sk/samosprava/volby-2026/"
+    ],
+    "polls": [
+      {
+        "pollster": "Focus",
+        "fieldwork": "2026-08-05/2026-08-11",
+        "n": 502,
+        "sponsor": "Diana Javorčíková campaign",
+        "results": {
+          "Ján Nosko": 38.3,
+          "Diana Javorčíková": 36.7,
+          "Matúš Molitoris": 13.0,
+          "Tomáš Sobota": 12.0
+        },
+        "undecided_pct": 17.0,
+        "note": "CATI; shares appear to be of decided respondents; Kotleba/Vereš not reported.",
+        "source": "https://www.bystricak.sk/clanky/12698/suboj-o-primatora-banskej-bystrice-moze-byt-tesny-prieskum-ukazal-rozdiel-necele-dve-percenta"
+      },
+      {
+        "pollster": "SANEP",
+        "fieldwork": "2026-09 (exact dates unknown)",
+        "n": null,
+        "sponsor": "TA3",
+        "results": {
+          "Ján Nosko": 40.8,
+          "Diana Javorčíková": 29.4,
+          "Matúš Molitoris": 14.8,
+          "Tomáš Sobota": 8.2
+        },
+        "undecided_pct": null,
+        "note": "Reconstructed from October SANEP article (Molitoris = 18.6 − 3.8). Kotleba/Vereš September values not published in source.",
+        "source": "https://www.ta3.com/clanok/1077195/prieskum-pre-ta3-suboj-o-bansku-bystricu-sa-zamotava-jeden-z-kandidatov-vyrazne-stiahol-naskok-lidra"
+      },
+      {
+        "pollster": "AKO",
+        "fieldwork": "2026-09-25/2026-09-29",
+        "n": 500,
+        "sponsor": "BBonline.sk + BB FM rádio",
+        "results": {
+          "Ján Nosko": 38.7,
+          "Diana Javorčíková": 35.5,
+          "Matúš Molitoris": 12.9,
+          "Tomáš Sobota": 10.0,
+          "Marian Kotleba": 2.4,
+          "Ondrej Vereš": 0.5
+        },
+        "undecided_pct": 13.9,
+        "note": "CATI; model on 396 decided. Bystricoviny.sk (pro-Nosko outlet) criticised age structure (18–33 = 27.3 %, 66+ = 15.4 %) and claims reweighting gives Nosko ~40.2, Javorčíková ~32.",
+        "source": "https://bbonline.sk/prieskum-ako-pre-bbonline-sk-volby-primatora-banskej-bystrice-prinesu-tesny-suboj-jana-noska-a-diany-javorcikovej/"
+      },
+      {
+        "pollster": "SANEP",
+        "fieldwork": "2026-10-09/2026-10-14",
+        "n": 600,
+        "sponsor": "TA3",
+        "results": {
+          "Ján Nosko": 40.9,
+          "Diana Javorčíková": 34.1,
+          "Matúš Molitoris": 18.6,
+          "Marian Kotleba": 5.0,
+          "Ondrej Vereš": 1.4
+        },
+        "undecided_pct": null,
+        "note": "CAWI; shares of decided (sum 100). After Sobota's withdrawal. Declared turnout 32.6 % + 19.8 % considering.",
+        "source": "https://www.ta3.com/clanok/1077195/prieskum-pre-ta3-suboj-o-bansku-bystricu-sa-zamotava-jeden-z-kandidatov-vyrazne-stiahol-naskok-lidra"
+      }
+    ],
+    "odds": [
+      {
+        "bookmaker": "Tipsport",
+        "date": "2026-10-20",
+        "odds": {
+          "Diana Javorčíková": 1.65,
+          "Ján Nosko": 2.0,
+          "Matúš Molitoris": 20.0,
+          "Marian Kotleba": 88.0,
+          "Ondrej Vereš": 150.0
+        },
+        "source": "https://stavkynavolby.sk/informacie/kurzy-na-volby/",
+        "note": "Tipsport 13.10: Javorčíková 1.37, Nosko 2.40 (same source, search snippet) — market moved toward Nosko after SANEP poll."
+      },
+      {
+        "bookmaker": "Fortuna",
+        "date": "2026-10-20",
+        "odds": {
+          "Diana Javorčíková": 1.7,
+          "Ján Nosko": 1.9,
+          "Matúš Molitoris": 25.0,
+          "Marian Kotleba": 90.0,
+          "Ondrej Vereš": 120.0
+        },
+        "source": "https://stavkynavolby.sk/informacie/kurzy-na-volby/"
+      },
+      {
+        "bookmaker": "DOXXbet",
+        "date": "2026-10-20",
+        "odds": {
+          "Diana Javorčíková": 1.65,
+          "Ján Nosko": 1.92,
+          "Matúš Molitoris": 20.0
+        },
+        "source": "https://stavkynavolby.sk/informacie/kurzy-na-volby/"
+      }
+    ],
+    "key_events": [
+      {
+        "date": "2026-01",
+        "text": "Tomáš Sobota (KDH-backed) first to announce candidacy.",
+        "source": "https://www.aktuality.sk/clanok/CtAKOP1/kompletny-zoznam-kandidatov-na-primatora-mesta-banska-bystrica-vo-volbach-2026/"
+      },
+      {
+        "date": "2026-08-14",
+        "text": "Javorčíková publishes Focus poll (Nosko +1.6) and invites Molitoris and Sobota to talks on joint approach (17 Aug); Molitoris refuses to step aside.",
+        "source": "https://www.bystricak.sk/clanky/12698/suboj-o-primatora-banskej-bystrice-moze-byt-tesny-prieskum-ukazal-rozdiel-necele-dve-percenta"
+      },
+      {
+        "date": "2026-10-08",
+        "text": "Sobota withdraws and endorses Javorčíková (polled 8–12 %).",
+        "source": "https://www.topky.sk/cl/2005799/9526991/Komunalne-volby-2026---Banska-Bystrica--kandidati-na-primatora--poslanci-a-vysledky"
+      },
+      {
+        "date": "2026-10-15",
+        "text": "STVR debate of mayoral candidates (Nosko, Javorčíková, Kotleba). Nosko skipped a civil-society debate (per Javorčíková FB).",
+        "source": "https://spravy.stvr.sk/2026/10/volby-2026-diskusia-kandidatov-na-post-primatora-banskej-bystrice/"
+      }
+    ],
+    "notes": "6 registered; Sobota withdrew 8 Oct (ballot no. 5, votes not counted) → 5 effective. Polls: Nosko leads all four (by 1.6–11.4 pts), lead narrowed to 6.8 in SANEP Oct after Sobota's exit; but all three bookmakers make Javorčíková slight favourite (implied ~55–58 %) — a notable polls-vs-market divergence. Nosko won 2022 with 66 % vs Javorčíková 25 % on 39.8 % turnout; he is formally independent but drew support from the governing coalition (Hlas, Smer, SNS, Sme rodina in 2022) — national anti-government mood could hurt him. Molitoris (12–19 %) splits the change vote. Ballot numbers inferred from alphabetical registration order (topky table shows 1–4 and 6 with Sobota as 5); official city PDF not read directly."
+  },
+  {
+    "race_id": "mesto-nitra",
+    "name": "Nitra",
+    "office": "primator",
+    "incumbent": {
+      "name": "Marek Hattas",
+      "since": 2018,
+      "party_2022": "Tím Kraj Nitra",
+      "running_2026": true
+    },
+    "history": {
+      "2022": {
+        "turnout_pct": 40.4,
+        "registered_voters": 66697,
+        "valid_votes": 26534,
+        "results": [
+          {
+            "name": "Marek Hattas",
+            "party": "Tím Kraj Nitra",
+            "votes": 8175,
+            "pct": 30.8
+          },
+          {
+            "name": "Igor Kršiak",
+            "party": "Hlas-SD, SME RODINA, DOBRÁ VOĽBA a Umiernení, Demokrati Slovenska",
+            "votes": 7220,
+            "pct": 27.2
+          },
+          {
+            "name": "Štefan Štefek",
+            "party": "NEKA",
+            "votes": 5299,
+            "pct": 20.0
+          },
+          {
+            "name": "Pavol Obertáš",
+            "party": "NEKA",
+            "votes": 4640,
+            "pct": 17.5
+          },
+          {
+            "name": "Erik Blaško",
+            "party": "NEKA",
+            "votes": 603,
+            "pct": 2.3
+          },
+          {
+            "name": "Dalimír Solčanský",
+            "party": "REPUBLIKA",
+            "votes": 597,
+            "pct": 2.2
+          }
+        ],
+        "source": "https://www.topky.sk/cl/2005799/9525965/Komunalne-volby-2026---Nitra--kandidati-na-primatora--poslanci-a-vysledky (cites ŠÚ SR); valid_votes = sum of candidate votes"
+      },
+      "2018": {
+        "turnout_pct": 43.11,
+        "registered_voters": 68698,
+        "valid_votes": 29289,
+        "results": [
+          {
+            "name": "Marek Hattas",
+            "party": "NEKA",
+            "votes": 12385,
+            "pct": 42.28
+          },
+          {
+            "name": "Jozef Dvonč",
+            "party": "SMER-SD, SNS",
+            "votes": 6453,
+            "pct": 22.03
+          },
+          {
+            "name": "Štefan Štefek",
+            "party": "NEKA",
+            "votes": 4235,
+            "pct": 14.45
+          },
+          {
+            "name": "Peter Oremus",
+            "party": "NEKA",
+            "votes": 2174,
+            "pct": 7.42
+          },
+          {
+            "name": "Ján Greššo",
+            "party": "OĽANO, SaS, ŠANCA, SME RODINA, KDH",
+            "votes": 2154,
+            "pct": 7.35
+          },
+          {
+            "name": "Ján Kecskés",
+            "party": "ĽS Pevnosť Slovensko",
+            "votes": 692,
+            "pct": 2.36
+          },
+          {
+            "name": "Ľubomír Martinka",
+            "party": "NEKA",
+            "votes": 476,
+            "pct": 1.62
+          },
+          {
+            "name": "Renáta Kolenčíková",
+            "party": "NEKA",
+            "votes": 473,
+            "pct": 1.61
+          },
+          {
+            "name": "Michal Ivan",
+            "party": "NEKA",
+            "votes": 118,
+            "pct": 0.4
+          },
+          {
+            "name": "Róbert Sitár",
+            "party": "NEKA (withdrew)",
+            "votes": 83,
+            "pct": 0.28
+          },
+          {
+            "name": "Ladislav Németh",
+            "party": "STS",
+            "votes": 46,
+            "pct": 0.15
+          }
+        ],
+        "source": "https://volby.statistics.sk/oso/oso2018/files/xlsx/OSO_2018_tab05.xlsx ; turnout/registered/valid: https://volby.statistics.sk/oso/oso2018/files/xlsx/OSO_2018_tab02bd.xlsx"
+      }
+    },
+    "candidates_2026": [
+      {
+        "name": "Marek Hattas",
+        "ballot_no": 1,
+        "party": "Tím kraj Nitra - združenie kandidátov Nitrianskeho kraja, Progresívne Slovensko, KDH, Sloboda a solidarita, Demokrati, Hnutie Slovensko, Občianska konzervatívna strana",
+        "endorsed_by": null,
+        "incumbent": true,
+        "withdrew": false,
+        "prior_runs": "2018 won 42.28 %; 2022 won 30.8 %",
+        "profile": "39, mayor since 2018; now backed by the whole parliamentary opposition."
+      },
+      {
+        "name": "Ing. Marek Illéš, PhD.",
+        "ballot_no": 2,
+        "party": "Smer - sociálna demokracia, Hlas - sociálna demokracia, Sme rodina",
+        "endorsed_by": null,
+        "incumbent": false,
+        "withdrew": false,
+        "prior_runs": null,
+        "profile": "52, general director; governing-coalition candidate; also runs for council."
+      },
+      {
+        "name": "JUDr. Igor Kršiak",
+        "ballot_no": 3,
+        "party": "NEKA",
+        "endorsed_by": null,
+        "incumbent": false,
+        "withdrew": false,
+        "prior_runs": "2022 Nitra mayor 2nd, 27.2 % (Hlas, Sme rodina, Dobrá voľba, DS)",
+        "profile": "50, lawyer, city councillor; main challenger, now independent."
+      },
+      {
+        "name": "Ing. Zuzana Uhríková",
+        "ballot_no": 4,
+        "party": "Republika, Slovenská národná strana",
+        "endorsed_by": null,
+        "incumbent": false,
+        "withdrew": false,
+        "prior_runs": null,
+        "profile": "40, economist; also runs for council."
+      }
+    ],
+    "candidates_source": [
+      "https://www.topky.sk/cl/2005799/9525965/Komunalne-volby-2026---Nitra--kandidati-na-primatora--poslanci-a-vysledky",
+      "https://www.aktuality.sk/clanok/vw0vYr2/kompletny-zoznam-kandidatov-na-primatora-mesta-nitra-vo-volbach-2026/",
+      "https://spravy.stvr.sk/2026/10/kandidati-na-primatora-nitra-komunalne-volby-2026/"
+    ],
+    "polls": [
+      {
+        "pollster": "Infostat",
+        "fieldwork": "2026-07-20/2026-07-31",
+        "n": 400,
+        "sponsor": "published by Hattas (sponsor not stated)",
+        "results": {
+          "Marek Hattas": 33.0,
+          "Igor Kršiak": 23.1,
+          "others combined": 22.1
+        },
+        "undecided_pct": null,
+        "note": "Remaining ~21.8 % presumably undecided/no answer (not stated).",
+        "source": "https://www.nitrak.sk/clanky/11830/najnovsi-prieskum-v-nitre-priniesol-tesny-suboj-o-primatora-krsiak-ma-pred-hattasom-naskok-len-o-desatinu-bodu"
+      },
+      {
+        "pollster": "Focus",
+        "fieldwork": "2026-08-12/2026-08-21",
+        "n": 505,
+        "sponsor": "published by Igor Kršiak (sponsor not stated)",
+        "results": {
+          "Igor Kršiak": 35.5,
+          "Marek Hattas": 35.4,
+          "Zuzana Uhríková": 7.6,
+          "Marek Illéš": 6.4
+        },
+        "undecided_pct": 15.1,
+        "note": "CATI.",
+        "source": "https://www.nitrak.sk/clanky/11830/najnovsi-prieskum-v-nitre-priniesol-tesny-suboj-o-primatora-krsiak-ma-pred-hattasom-naskok-len-o-desatinu-bodu"
+      },
+      {
+        "pollster": "AKO",
+        "fieldwork": "2026-09-22/2026-09-24",
+        "n": 400,
+        "sponsor": "TV Nitrička",
+        "results": {
+          "Marek Hattas": 55.2,
+          "Igor Kršiak": 32.5,
+          "Zuzana Uhríková": 6.3,
+          "Marek Illéš": 6.0
+        },
+        "undecided_pct": 15.0,
+        "note": "CATI; shares among 317 decided. Illéš 6.0 = residual (Denník N: 'about 6 %'). Undecided ~15 % lean Kršiak ~2:1 vs Hattas.",
+        "source": "https://dennikn.sk/minuta/5615398/"
+      }
+    ],
+    "odds": [
+      {
+        "bookmaker": "Tipsport",
+        "date": "2026-10-20",
+        "odds": {
+          "Marek Hattas": 1.25,
+          "Igor Kršiak": 3.5,
+          "Marek Illéš": 7.5,
+          "Zuzana Uhríková": 88.0
+        },
+        "source": "https://stavkynavolby.sk/informacie/kurzy-na-volby/",
+        "note": "Early Tipsport market had Kršiak at 2.30 (regiony.zoznam.sk 'Kurzy na voľby sú vonku', date unknown)."
+      },
+      {
+        "bookmaker": "Fortuna",
+        "date": "2026-10-20",
+        "odds": {
+          "Marek Hattas": 1.2,
+          "Igor Kršiak": 3.8,
+          "Marek Illéš": 8.0,
+          "Zuzana Uhríková": 80.0
+        },
+        "source": "https://stavkynavolby.sk/informacie/kurzy-na-volby/"
+      },
+      {
+        "bookmaker": "DOXXbet",
+        "date": "2026-10-20",
+        "odds": {
+          "Marek Hattas": 1.29,
+          "Igor Kršiak": 3.1,
+          "Marek Illéš": 7.0
+        },
+        "source": "https://stavkynavolby.sk/informacie/kurzy-na-volby/"
+      }
+    ],
+    "key_events": [
+      {
+        "date": "2026-09-09",
+        "text": "Hattas publishes Infostat (July) poll; next day Kršiak publishes Focus (August) poll showing a tie — campaign 'poll war'.",
+        "source": "https://www.nitrak.sk/clanky/11830/najnovsi-prieskum-v-nitre-priniesol-tesny-suboj-o-primatora-krsiak-ma-pred-hattasom-naskok-len-o-desatinu-bodu"
+      },
+      {
+        "date": "2026-09-29",
+        "text": "Independent AKO poll for TV Nitrička shows Hattas 55 vs Kršiak 32.5 (published ~end Sept).",
+        "source": "https://dennikn.sk/minuta/5615398/"
+      },
+      {
+        "date": "2026-10",
+        "text": "Student debate with fact-checking (Hattas, Kršiak, Illéš).",
+        "source": "https://www.instagram.com/reel/DecCf_viDJy/"
+      }
+    ],
+    "notes": "4 candidates, no withdrawals. Structural change vs 2022: Hattas consolidated the opposition parties (PS, KDH, SaS, Demokrati, HS, OKS) behind his regional party; Kršiak lost his 2022 coalition backing (Hlas/Sme rodina) and the government parties field Illéš (Smer/Hlas/SR) and Uhríková (Republika/SNS) separately, splitting the anti-Hattas vote. 2022 Hattas won only 30.8 % with Štefek (20.0) and Obertáš (17.5) not running now. Only one independent poll (AKO) — Hattas +22.7; campaign-released polls: Infostat Hattas +9.9, Focus tie. Bookmakers imply Hattas ~75–80 %. ballot_no for Nitra from topky 'v poradí podľa hlasovacieho lístka'."
+  }
+]
