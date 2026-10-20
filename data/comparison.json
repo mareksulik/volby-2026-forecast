@@ -7,11 +7,11 @@
   "locked_at": "2026-10-20T15:39:29+02:00",
   "cutoff": "2026-10-20T15:20:15+02:00"
  },
- "claude_snapshot": "draft4",
- "claude_generated": "2026-10-20T16:04:25",
+ "claude_snapshot": "draft5",
+ "claude_generated": "2026-10-20T21:39:27",
  "n_races": 33,
  "same_favourite": 31,
- "mean_abs_share_diff_pp": 4.18,
+ "mean_abs_share_diff_pp": 4.17,
  "mean_abs_pwin_diff": 0.066,
  "races": [
   {
@@ -1815,10 +1815,10 @@
      "name": "Matúš Vallo",
      "inc": true,
      "claude": {
-      "share": 53.5,
+      "share": 53.0,
       "lo80": 37.1,
-      "hi80": 68.9,
-      "p_win": 0.8822
+      "hi80": 68.2,
+      "p_win": 0.8771
      },
      "codex": {
       "share": 53.6,
@@ -1831,10 +1831,10 @@
      "name": "Jozef Ráž",
      "inc": false,
      "claude": {
-      "share": 33.3,
-      "lo80": 19.8,
-      "hi80": 49.4,
-      "p_win": 0.1167
+      "share": 34.7,
+      "lo80": 21.1,
+      "hi80": 50.5,
+      "p_win": 0.1218
      },
      "codex": {
       "share": 35.5,
@@ -1847,9 +1847,9 @@
      "name": "Zuzana Šubová",
      "inc": false,
      "claude": {
-      "share": 7.6,
-      "lo80": 4.3,
-      "hi80": 13.0,
+      "share": 7.0,
+      "lo80": 4.1,
+      "hi80": 11.8,
       "p_win": 0.0008
      },
      "codex": {
@@ -1863,9 +1863,9 @@
      "name": "Ľubomír Geci",
      "inc": false,
      "claude": {
-      "share": 4.1,
-      "lo80": 2.3,
-      "hi80": 7.2,
+      "share": 3.9,
+      "lo80": 2.2,
+      "hi80": 6.7,
       "p_win": 0.0003
      },
      "codex": {
@@ -1879,7 +1879,7 @@
    "fav_claude": "Matúš Vallo",
    "fav_codex": "Matúš Vallo",
    "same_favourite": true,
-   "max_dp": 0.0643,
+   "max_dp": 0.0694,
    "unmatched_codex": []
   },
   {

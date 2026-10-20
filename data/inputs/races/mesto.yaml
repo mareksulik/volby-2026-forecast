@@ -251,6 +251,18 @@
     others_pct: null
     source: https://regiony.zoznam.sk/budu-mat-bratislava-a-kosice-novych-primatorov-novy-prieskum-ukazal-pozoruhodne-cisla/
     partisan: false
+  - pollster: AKO
+    fieldwork_end: '2026-10-10'
+    n: null
+    sponsor: JOJ 24
+    results:
+      Matúš Vallo: 49.3
+      Jozef Ráž: 42.3
+      Zuzana Šubová: 5.4
+      Ľubomír Geci: 3.0
+    others_pct: null
+    source: https://www.sme.sk/domov/c/vallo-vs-raz-moze-to-byt-tesnejsi-suboj-ako-sa-cakalo-do-moratoria-sa-stretnu-v-dueli-vyjde-aj-prieskum
+    partisan: false
   odds:
   - bookmaker: Tipsport
     date: '2026-10-20'
