@@ -197,6 +197,7 @@ def fill_model(src):
     fm = json.loads((ROOT / "data/model/fundamentals.json").read_text())
     nat = __import__("yaml").safe_load((ROOT / "data/inputs/national.yaml").read_text())
     b, cv, bl = fm["beta"], fm["cv"], fm["baselines"]
+    reg = json.loads((ROOT / "data/model/regional.json").read_text())
     num = lambda x, d=2: f"{x:.{d}f}".replace(".", ",")
     beta = "".join(f'<tr><td>{e(FEATURE_SK.get(k, k))}</td><td class="num">{num(v)}</td></tr>' for k, v in b.items())
     calib = "".join(f'<tr><td class="num">{e(c["bin"])}</td><td class="num">{c["n"]}</td><td class="num">{num(100 * c["mean_p"], 0)} %</td>'
@@ -207,6 +208,7 @@ def fill_model(src):
     rep = {
         "n_races": str(fm["n_races"]), "n_candidates": str(fm["n_candidates"]),
         "inc": num(b["inc"]), "inc_size": num(b["inc_x_size"]), "prev": num(b["prev_share"]), "neka": num(b["neka"]),
+        "gamma": num(reg["gamma"]), "reg_loo": num(reg["loo_mae_pp"], 1), "reg_base": num(reg["mae_without_base_pp"], 1),
         "brier": num(cv["brier"], 3), "brier_inc": num(bl["incumbent_wins_else_uniform_brier"], 3),
         "brier_uni": num(bl["uniform_brier"], 3), "fav": f'{round(100 * cv["favourite_hit_rate"])} %',
         "mae": num(cv["share_mae_pp"], 1), "sigma": num(fm["sigma"]), "coverage": f'{round(100 * cv["coverage_80"])} %',

@@ -17,8 +17,9 @@
 <p>Favorit modelu vyhral v {{fav}} volieb. Priemerná chyba odhadu podielu je {{mae}} percentuálneho bodu. Šum v simulácii (σ = {{sigma}} na log-škále) je nastavený tak, aby 80 % intervaly na odložených dátach naozaj pokrývali {{coverage}} výsledkov. Pravdepodobnosti výhry sú na odložených dátach dobre kalibrované:</p>
 {{calib_table}}
 
-<h3>2. Celoštátny posun strán</h3>
-<p>Kandidátom nominovaným parlamentnými stranami posúvame log-skóre o κ × ln(podpora strany dnes / podpora v čase volieb 2022). Podporu meriame priemerom celoštátnych prieskumov sep–okt 2026 (AKO, Focus, Ipsos, NMS, SANEP, Infostat) a sep–nov 2022 (Ipsos, Median, AKO). Pri viacerých stranách berieme priemer. Elasticita je κ = 0,25 pre obce a 0,5 pre kraje. Je to <strong>predpoklad</strong>, nie odhad z dát: krajské voľby sú stranícky viac polarizované ako komunálne.</p>
+<h3>2. Strany: celoštátny posun a krajská základňa</h3>
+<p><strong>Obce a mestské časti.</strong> Kandidátom nominovaným parlamentnými stranami posúvame log-skóre o κ × ln(podpora strany dnes / podpora v čase volieb 2022). Podporu meriame priemerom celoštátnych prieskumov sep–okt 2026 (AKO, Focus, Ipsos, NMS, SANEP, Infostat) a sep–nov 2022 (Ipsos, Median, AKO). Pri viacerých stranách berieme priemer. Elasticita κ = 0,25 je <strong>predpoklad</strong>, nie odhad z dát.</p>
+<p><strong>Kraje.</strong> Spätný test ukázal, že samotné fundamenty z obcí v krajoch systematicky podceňujú vyzývateľov s podporou celého bloku: v roku 2022 dali Becíkovi 7 % (výsledok 27 %) a Kaliňákovi 8 % (výsledok 31 %). Pre predsedov krajov preto pridávame člen γ × ln(1 + súčet celoštátnej podpory nominujúcich strán v %). Koeficient γ = {{gamma}} je nafitovaný na 8 krajských voľbách 2022 s rysmi z roku 2017 a podporou strán z jesene 2022. Chyba odhadu podielu pri vynechaní jednej voľby klesla zo {{reg_base}} na {{reg_loo}} bodu. Pri predpovedi sa použije podpora strán z jesene 2026, preto sa pri krajoch posun κ už nepridáva.</p>
 {{swing_table}}
 
 <h3>3. Úpravy pri faktoch, ktoré model nevidí</h3>
@@ -41,7 +42,7 @@
 
 <h3>Poctivo o slabinách</h3>
 <ul>
-<li><strong>Tréning je na obciach, nie na krajoch.</strong> Pri predsedoch krajov preto viac rozhodujú prieskumy. Efekt obhajcu je extrapolovaný na najväčšiu veľkosť v dátach (Bratislava).</li>
+<li><strong>Tréning je na obciach, nie na krajoch.</strong> Krajskú vrstvu fitujeme len na 8 voľbách z roku 2022. Efekt obhajcu je extrapolovaný na najväčšiu veľkosť v dátach (Bratislava). Pri predsedoch krajov preto rozhodujú najmä prieskumy, ktoré sú pri všetkých ôsmich k dispozícii.</li>
 <li><strong>Bez prieskumov sú intervaly široké.</strong> V mestských častiach Bratislavy prieskumy nie sú, intervaly sú tam ±30 bodov. To je poctivá neistota modelu, ktorý vie o kandidátoch len to, čo je v štatistike.</li>
 <li><strong>Elasticita κ, sd spoločného šoku a váha trhu sú predpoklady.</strong> Nie sú nafitované.</li>
 <li><strong>Kvalita miestnych prieskumov je nízka.</strong> Často chýba veľkosť vzorky, dátumy zberu alebo objednávateľ. Niektoré sú online panely bez reprezentativity.</li>

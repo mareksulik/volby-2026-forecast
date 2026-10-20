@@ -17,13 +17,15 @@ N_SIMS = 20000
 SEED = 20261024
 
 # Assumptions (documented on the Model page). Not fitted — no Slovak data to fit them on in time.
-KAPPA = {"starosta": 0.25, "primator": 0.25, "predseda VUC": 0.5}  # elasticity of local share to national party swing
+KAPPA = {"starosta": 0.25, "primator": 0.25, "predseda VUC": 0.0}  # elasticity of local share to national party swing
+# regions use the fitted party-base term instead (tools/fit_regional.py), which already reflects current support
 BLOC_SHOCK_SD = 0.12      # common national shock (log-utility) gov vs opposition bloc, shared by all races
 POLL_HOUSE_SD = 0.05      # share-scale error common to all local polls (house effects, undecided, timing)
 POLL_SAMPLE_SD = 0.05     # share-scale error of one poll that averages out across independent polls
 POLL_HALF_LIFE_DAYS = 30
 SHARE_SD_FUNDAMENTALS = 0.14  # ~ CV MAE 11.2 pp of the fundamentals model, expressed as sd
 TRANSFER_SHARE = 0.5      # share of a withdrawn candidate's poll support that follows their endorsement
+REGIONAL_GAMMA = 0.0      # loaded from data/model/regional.json
 MARKET_WEIGHT = 0.5       # log-odds weight of de-vigged bookmaker odds in the final win probability
 SIZE_RANGE_LOG10 = (3.3, 5.6)  # clamp log10(voters) to the training range (2,000 voters .. Bratislava)
 
@@ -58,6 +60,10 @@ def party_swing(c: dict, national: dict, kappa: float) -> float:
         if n and n.get("y2022") and n.get("y2026"):
             vals.append(math.log(n["y2026"] / n["y2022"]))
     return kappa * float(np.mean(vals)) if vals else 0.0
+
+
+def party_base(c: dict, national: dict) -> float:
+    return math.log1p(sum((national["parties"].get(p) or {}).get("y2026") or 0.0 for p in c.get("parties") or []))
 
 
 def softmax(u: np.ndarray) -> np.ndarray:
@@ -149,6 +155,8 @@ def forecast_race(race: dict, beta: dict, sigma_f: float, national: dict, asof: 
     kappa = KAPPA[race["office"]]
     u_fund = np.array([sum(beta[k] * v for k, v in features(c, race).items()) for c in cands])
     swing = np.array([party_swing(c, national, kappa) for c in cands])
+    if race["office"] == "predseda VUC":
+        swing = swing + REGIONAL_GAMMA * np.array([party_base(c, national) for c in cands])
     adj = np.array([float(c.get("adj") or 0.0) if use_adj else 0.0 for c in cands])
     u = u_fund + swing + adj
     f_share = softmax(u)
@@ -183,6 +191,8 @@ def forecast_race(race: dict, beta: dict, sigma_f: float, national: dict, asof: 
 
 
 def run(asof: dt.date, label: str) -> dict:
+    global REGIONAL_GAMMA
+    REGIONAL_GAMMA = json.loads((ROOT / "data/model/regional.json").read_text())["gamma"]
     fm = json.loads((ROOT / "data/model/fundamentals.json").read_text())
     beta, sigma_f = fm["beta"], fm["sigma"]
     national = load_yaml(ROOT / "data/inputs/national.yaml")

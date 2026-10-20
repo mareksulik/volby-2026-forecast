@@ -1,0 +1,8 @@
+{
+ "gamma": 0.289,
+ "n_races": 8,
+ "loo_mae_pp": 5.46,
+ "mae_without_base_pp": 6.07,
+ "loo_favourite_hits": 6,
+ "note": "base = sum of national poll % of nominating parties (Sep-Nov 2022 polls for the fit; Sep-Oct 2026 for the forecast)"
+}
