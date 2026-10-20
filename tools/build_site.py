@@ -402,7 +402,9 @@ def comparison_page(status):
                     f'<td class="gs">{e(r["fav_codex"])}</td><td class="num">{prob(fx["codex"]["p_win"])}</td>'
                     f'<td class="num gs">{round(100 * r["max_dp"])} b.</td></tr>')
     gaps = [f'{", ".join(r["unmatched_codex"])} ({r["name"]})' for r in c["races"] if r["unmatched_codex"]]
-    inputs = (f'Codex uzavrel vstupy {stamp(cx["cutoff"])}, Claude ich uzatvára 21. 10. večer. '
+    lk = json.loads((ROOT / "data/lock.json").read_text()) if (ROOT / "data/lock.json").exists() else None
+    claude_lock = f'Claude zamkol predpoveď {stamp(lk["locked_at"])}' if lk else 'Claude predpoveď ešte nezamkol'
+    inputs = (f'Codex uzavrel vstupy {stamp(cx["cutoff"])}. {claude_lock}; zahŕňa aj prieskum AKO pre Bratislavu zverejnený 20. 10. večer. '
               + (f'Codex počíta ako aktívnych kandidátov, ktorí podľa našich zdrojov odstúpili: {e("; ".join(gaps))}.' if gaps else ""))
     cards = []
     for g, _ in GROUPS:

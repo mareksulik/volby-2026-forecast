@@ -7,8 +7,8 @@
   "locked_at": "2026-10-20T15:39:29+02:00",
   "cutoff": "2026-10-20T15:20:15+02:00"
  },
- "claude_snapshot": "draft5",
- "claude_generated": "2026-10-20T21:39:27",
+ "claude_snapshot": "final",
+ "claude_generated": "2026-10-20T21:44:28",
  "n_races": 33,
  "same_favourite": 31,
  "mean_abs_share_diff_pp": 4.17,

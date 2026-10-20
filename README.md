@@ -5,7 +5,7 @@ Pravdepodobnostná predpoveď 33 volieb zo spojených komunálnych a krajských 
 Pre každého kandidáta zverejňujeme odhad podielu hlasov, 80 % interval a pravdepodobnosť výhry.
 
 - Web: https://mareksulik.github.io/volby-2026-forecast/
-- Pravidlá a zamknutie: `docs/pravidla.html`. Hodnotená je verzia zamknutá 21. 10. 2026 o 23:59 (tag `forecast-lock-2026-10-21`).
+- Pravidlá a zamknutie: `docs/pravidla.html`. Hodnotená je verzia zamknutá 20. 10. 2026 (tag `forecast-lock-2026-10-20`, `data/lock.json`).
 - Snapshoty (append-only): `data/snapshots/`, posledný: `data/latest.json`
 - Porovnanie s nezávislým modelom Codex: `docs/porovnanie.html` (Codexova predpoveď je zamrazená v `data/codex/`, kontrolné súčty overuje `tools/compare.py` voči jeho `LOCK.json`)
 

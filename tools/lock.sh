@@ -4,7 +4,7 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 source venv/bin/activate
 DAY="${1:-2026-10-21}"
-TAG="forecast-lock-2026-10-21"
+TAG="forecast-lock-${DAY}"
 SNAP="data/snapshots/${DAY}-final.json"
 
 python tools/prepare_inputs.py
