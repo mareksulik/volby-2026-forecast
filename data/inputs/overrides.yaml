@@ -1,4 +1,4 @@
-# Judgement layer ("AI s modelom"): only facts the fundamentals model cannot see.
+# Judgement layer: only facts that are not in the fundamentals model data.
 # Keys: race id -> candidates -> ascii surname (or "firstname surname") -> fields.
 #   adj         log-utility shift (+0.4 ~ +40 % relative share before normalisation); always with adj_reason
 #   transfer_to withdrawn candidate's endorsement: half of their poll support moves to this candidate
@@ -35,7 +35,7 @@ mesto-trnava:
     obselka: {adj: -0.5, adj_reason: "Bez verejného profilu (vedúci spoločnosti, prvá kandidatúra, žiadna funkcia ani strana)."}
 mesto-trencin:
   candidates:
-    forgac: {adj: 0.6, adj_reason: "Prvý viceprimátor od 2014, ktorého podporuje odchádzajúci primátor Rybníček (16 rokov vo funkcii, 2022 jasne zvolený). Model pozná len to, že je miestny funkcionár."}
+    forgac: {adj: 0.6, adj_reason: "Prvý viceprimátor od 2014, ktorého podporuje odchádzajúci primátor Rybníček (16 rokov vo funkcii, v roku 2022 získal 72,94 %). Model má o ňom len údaj, že je miestny funkcionár."}
     bratranec: {adj: -0.5, adj_reason: "Bez verejného profilu (šofér, 20 rokov v zahraničí, prvá kandidatúra)."}
 mesto-zilina:
   candidates:
@@ -46,10 +46,10 @@ mesto-zilina:
 # ---------- Bratislava districts ----------
 mc-podunajske-biskupice:
   candidates:
-    cinovska: {adj: 0.3, adj_reason: "Spojená kandidatúra SaNK, KDH, Nova a Maďarskej aliancie s podporou exstarostu Péka na jej kandidátke. Tieto prúdy mali v roku 2022 spolu okolo 40 %."}
+    cinovska: {adj: 0.3, adj_reason: "Spojená kandidatúra SaNK, KDH, Nova a Maďarskej aliancie s podporou exstarostu Péka na jej kandidátke. Tieto strany mali v roku 2022 spolu približne 40 %."}
 mc-nove-mesto:
   candidates:
-    kusy: {adj: 0.4, adj_reason: "Bývalý starosta (2014–2022). V roku 2018 porazil Čupku 58,5 % : 37,5 %. Model vidí len posledné voľby, kde nekandidoval. Úprava je nižšia ako +0,6 kvôli obvineniu z úplatku (2025)."}
+    kusy: {adj: 0.4, adj_reason: "Bývalý starosta (do roku 2022). V roku 2018 porazil Čupku 58,5 % : 37,5 %. Model používa len posledné voľby a v tých nekandidoval. Úprava je nižšia ako +0,6 kvôli obvineniu z úplatku (2025)."}
 mc-karlova-ves:
   candidates:
     zahradnik: {adj: 0.3, adj_reason: "Vicestarosta, ktorého verejne podporuje odchádzajúca starostka Čahojová (2022: 85,5 %)."}
@@ -58,12 +58,12 @@ mc-petrzalka:
     mravec: {prev_share: 0.214, adj_reason: "V doplňujúcich voľbách 6. 9. 2025 získal asi 21,4 % proti Hrčkovi (dopočet 100 − 78,58)."}
 mc-cunovo:
   candidates:
-    krist: {adj: 0.3, adj_reason: "V roku 2018 získal proti dnešnej starostke 36,98 %. V roku 2022 nekandidoval, takže to model nevidí."}
+    krist: {adj: 0.3, adj_reason: "V roku 2018 získal proti dnešnej starostke 36,98 %. V roku 2022 nekandidoval, preto tento výsledok v modeli nie je."}
 
 mesto-bratislava:
   candidates:
     winkler: {transfer_to: Jozef Ráž}
-    raz: {bloc: gov, adj_reason: "Formálne nezávislý, ale minister dopravy nominovaný Smerom. V simulácii nesie spoločný šok vládneho bloku (bez úpravy podielu)."}
+    raz: {bloc: gov, adj_reason: "Formálne nezávislý, ale minister dopravy nominovaný Smerom. V simulácii ho zaraďujeme k vládnemu bloku pre spoločnú odchýlku; podiel neupravujeme."}
 mesto-kosice:
   candidates:
     lorinc: {exec_office: true, adj_reason: "Starosta mestskej časti Sídlisko KVP od 2018: rys 'úradujúci starosta inej samosprávy' (koeficient z dát)."}

@@ -211,6 +211,8 @@ def merge_context(r: dict, extra: dict | None) -> dict:
 
 def main() -> None:
     overrides = yaml.safe_load((ROOT / "data/inputs/overrides.yaml").read_text()) or {}
+    notes_path = ROOT / "data/inputs/notes_sk.yaml"
+    notes_sk = yaml.safe_load(notes_path.read_text()) if notes_path.exists() else {}
     out = ROOT / "data/inputs/races"
     out.mkdir(parents=True, exist_ok=True)
     groups: dict[str, list] = {}
@@ -227,7 +229,9 @@ def main() -> None:
             continue
         for r in json.loads(p.read_text()):
             r = merge_context(r, extra.get(r["race_id"]))
-            groups.setdefault(r["race_id"].split("-")[0], []).append(build_race(r, overrides.get(r["race_id"], {})))
+            race = build_race(r, overrides.get(r["race_id"], {}))
+            race["notes"] = notes_sk.get(r["race_id"], race["notes"])
+            groups.setdefault(r["race_id"].split("-")[0], []).append(race)
     for g, races in groups.items():
         (out / f"{g}.yaml").write_text(yaml.safe_dump(races, allow_unicode=True, sort_keys=False, width=140))
         print(g, len(races), "races,", sum(len(r["candidates"]) for r in races), "candidates")

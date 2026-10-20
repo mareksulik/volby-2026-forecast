@@ -1,0 +1,448 @@
+[
+  {
+    "race_id": "city-bratislava",
+    "observed_date": "2026-10-20",
+    "source_url": "https://stavkynavolby.sk/informacie/kandidati-na-primatora-krajske-mesta/",
+    "source_kind": "secondary-aggregator",
+    "direct_bookmaker_verified": false,
+    "quotes": {
+      "city-bratislava-5": {
+        "Tipsport": 1.04,
+        "Fortuna": 1.07,
+        "DOXXbet": 1.08
+      },
+      "city-bratislava-3": {
+        "Tipsport": 9.0,
+        "Fortuna": 7.0,
+        "DOXXbet": 8.5
+      },
+      "city-bratislava-4": {
+        "Tipsport": 40.0,
+        "Fortuna": 50.0,
+        "DOXXbet": 40.0
+      },
+      "city-bratislava-1": {
+        "Tipsport": 200.0,
+        "Fortuna": 180.0
+      }
+    },
+    "notes": "Citované kurzy tretej strany; neboli overené priamo v účte stávkovej kancelárie. Neúplné trhy sa nenormalizujú."
+  },
+  {
+    "race_id": "city-trnava",
+    "observed_date": "2026-10-20",
+    "source_url": "https://stavkynavolby.sk/informacie/kandidati-na-primatora-krajske-mesta/",
+    "source_kind": "secondary-aggregator",
+    "direct_bookmaker_verified": false,
+    "quotes": {
+      "city-trnava-4": {
+        "Tipsport": 1.45,
+        "Fortuna": 1.45,
+        "DOXXbet": 1.45
+      },
+      "city-trnava-1": {
+        "Tipsport": 2.45,
+        "Fortuna": 2.5,
+        "DOXXbet": 2.2
+      },
+      "city-trnava-6": {
+        "Tipsport": 10.0,
+        "Fortuna": 10.0,
+        "DOXXbet": 8.0
+      },
+      "city-trnava-2": {
+        "Tipsport": 18.0,
+        "Fortuna": 20.0,
+        "DOXXbet": 15.0
+      },
+      "city-trnava-5": {
+        "Tipsport": 50.0,
+        "Fortuna": 50.0
+      }
+    },
+    "notes": "Citované kurzy tretej strany; neboli overené priamo v účte stávkovej kancelárie. Neúplné trhy sa nenormalizujú."
+  },
+  {
+    "race_id": "city-trencin",
+    "observed_date": "2026-10-20",
+    "source_url": "https://stavkynavolby.sk/informacie/kandidati-na-primatora-krajske-mesta/",
+    "source_kind": "secondary-aggregator",
+    "direct_bookmaker_verified": false,
+    "quotes": {
+      "city-trencin-3": {
+        "Tipsport": 1.1,
+        "Fortuna": 1.08,
+        "DOXXbet": 1.13
+      },
+      "city-trencin-4": {
+        "Tipsport": 6.0,
+        "Fortuna": 7.0,
+        "DOXXbet": 4.5
+      },
+      "city-trencin-1": {
+        "Tipsport": 20.0,
+        "Fortuna": 18.0,
+        "DOXXbet": 17.0
+      },
+      "city-trencin-2": {
+        "Tipsport": 30.0,
+        "Fortuna": 30.0,
+        "DOXXbet": 20.0
+      }
+    },
+    "notes": "Citované kurzy tretej strany; neboli overené priamo v účte stávkovej kancelárie. Neúplné trhy sa nenormalizujú."
+  },
+  {
+    "race_id": "city-nitra",
+    "observed_date": "2026-10-20",
+    "source_url": "https://stavkynavolby.sk/informacie/kandidati-na-primatora-krajske-mesta/",
+    "source_kind": "secondary-aggregator",
+    "direct_bookmaker_verified": false,
+    "quotes": {
+      "city-nitra-1": {
+        "Tipsport": 1.25,
+        "Fortuna": 1.2,
+        "DOXXbet": 1.29
+      },
+      "city-nitra-3": {
+        "Tipsport": 3.5,
+        "Fortuna": 3.8,
+        "DOXXbet": 3.1
+      },
+      "city-nitra-2": {
+        "Tipsport": 7.5,
+        "Fortuna": 8.0,
+        "DOXXbet": 7.0
+      },
+      "city-nitra-4": {
+        "Tipsport": 88.0,
+        "Fortuna": 80.0
+      }
+    },
+    "notes": "Citované kurzy tretej strany; neboli overené priamo v účte stávkovej kancelárie. Neúplné trhy sa nenormalizujú."
+  },
+  {
+    "race_id": "city-zilina",
+    "observed_date": "2026-10-20",
+    "source_url": "https://stavkynavolby.sk/informacie/kandidati-na-primatora-krajske-mesta/",
+    "source_kind": "secondary-aggregator",
+    "direct_bookmaker_verified": false,
+    "quotes": {
+      "city-zilina-2": {
+        "Tipsport": 1.2,
+        "Fortuna": 1.2,
+        "DOXXbet": 1.18
+      },
+      "city-zilina-3": {
+        "Tipsport": 4.0,
+        "Fortuna": 4.0,
+        "DOXXbet": 4.0
+      },
+      "city-zilina-1": {
+        "Tipsport": 15.0,
+        "Fortuna": 15.0,
+        "DOXXbet": 10.0
+      },
+      "city-zilina-7": {
+        "Tipsport": 40.0
+      },
+      "city-zilina-6": {
+        "Tipsport": 45.0
+      },
+      "city-zilina-8": {
+        "Tipsport": 45.0,
+        "Fortuna": 50.0,
+        "DOXXbet": 30.0
+      },
+      "city-zilina-4": {
+        "Tipsport": 50.0
+      },
+      "city-zilina-5": {
+        "Tipsport": 50.0,
+        "Fortuna": 40.0,
+        "DOXXbet": 40.0
+      }
+    },
+    "notes": "Citované kurzy tretej strany; neboli overené priamo v účte stávkovej kancelárie. Neúplné trhy sa nenormalizujú."
+  },
+  {
+    "race_id": "city-banska-bystrica",
+    "observed_date": "2026-10-20",
+    "source_url": "https://stavkynavolby.sk/informacie/kandidati-na-primatora-krajske-mesta/",
+    "source_kind": "secondary-aggregator",
+    "direct_bookmaker_verified": false,
+    "quotes": {
+      "city-banska-bystrica-1": {
+        "Tipsport": 1.65,
+        "Fortuna": 1.7,
+        "DOXXbet": 1.65
+      },
+      "city-banska-bystrica-4": {
+        "Tipsport": 2.0,
+        "Fortuna": 1.9,
+        "DOXXbet": 1.92
+      },
+      "city-banska-bystrica-3": {
+        "Tipsport": 20.0,
+        "Fortuna": 25.0,
+        "DOXXbet": 20.0
+      },
+      "city-banska-bystrica-2": {
+        "Tipsport": 88.0,
+        "Fortuna": 90.0
+      },
+      "city-banska-bystrica-6": {
+        "Tipsport": 150.0,
+        "Fortuna": 120.0
+      }
+    },
+    "notes": "Citované kurzy tretej strany; neboli overené priamo v účte stávkovej kancelárie. Neúplné trhy sa nenormalizujú."
+  },
+  {
+    "race_id": "city-presov",
+    "observed_date": "2026-10-20",
+    "source_url": "https://stavkynavolby.sk/informacie/kandidati-na-primatora-krajske-mesta/",
+    "source_kind": "secondary-aggregator",
+    "direct_bookmaker_verified": false,
+    "quotes": {
+      "city-presov-5": {
+        "Tipsport": 1.08,
+        "Fortuna": 1.05,
+        "DOXXbet": 1.1
+      },
+      "city-presov-4": {
+        "Tipsport": 5.0,
+        "Fortuna": 7.0,
+        "DOXXbet": 5.5
+      },
+      "city-presov-3": {
+        "Tipsport": 8.0,
+        "Fortuna": 8.0,
+        "DOXXbet": 5.0
+      },
+      "city-presov-6": {
+        "Tipsport": 40.0,
+        "Fortuna": 25.0,
+        "DOXXbet": 12.0
+      },
+      "city-presov-2": {
+        "Tipsport": 60.0,
+        "Fortuna": 15.0
+      },
+      "city-presov-1": {
+        "Tipsport": 100.0,
+        "Fortuna": 40.0
+      }
+    },
+    "notes": "Citované kurzy tretej strany; neboli overené priamo v účte stávkovej kancelárie. Neúplné trhy sa nenormalizujú."
+  },
+  {
+    "race_id": "city-kosice",
+    "observed_date": "2026-10-20",
+    "source_url": "https://stavkynavolby.sk/informacie/kandidati-na-primatora-krajske-mesta/",
+    "source_kind": "secondary-aggregator",
+    "direct_bookmaker_verified": false,
+    "quotes": {
+      "city-kosice-2": {
+        "Tipsport": 1.45,
+        "Fortuna": 1.55,
+        "DOXXbet": 1.45
+      },
+      "city-kosice-5": {
+        "Tipsport": 2.8,
+        "Fortuna": 2.6,
+        "DOXXbet": 2.5
+      },
+      "city-kosice-4": {
+        "Tipsport": 5.5,
+        "Fortuna": 6.0,
+        "DOXXbet": 4.0
+      },
+      "city-kosice-1": {
+        "Tipsport": 12.0,
+        "Fortuna": 12.0,
+        "DOXXbet": 8.0
+      },
+      "city-kosice-6": {
+        "Tipsport": 120.0,
+        "Fortuna": 100.0
+      },
+      "city-kosice-7": {
+        "Tipsport": 200.0,
+        "Fortuna": 200.0
+      }
+    },
+    "notes": "Citované kurzy tretej strany; neboli overené priamo v účte stávkovej kancelárie. Neúplné trhy sa nenormalizujú."
+  },
+  {
+    "race_id": "region-trenciansky-kraj",
+    "observed_date": "2026-10-20",
+    "source_url": "https://www.betarena.sk/rubriky/spolocenske-stavky/komunalne-volby-slovensko-kandidati-kurzy_11593.html",
+    "source_kind": "secondary-aggregator",
+    "direct_bookmaker_verified": false,
+    "quotes": {
+      "region-trenciansky-kraj-1": {
+        "Tipsport": 1.08
+      },
+      "region-trenciansky-kraj-4": {
+        "Tipsport": 5.8
+      },
+      "region-trenciansky-kraj-2": {
+        "Tipsport": 60
+      },
+      "region-trenciansky-kraj-3": {
+        "Tipsport": 70
+      }
+    },
+    "notes": "Článok môže obsahovať staršie alebo neúplné ponuky. Len benchmark, bez vplyvu na model."
+  },
+  {
+    "race_id": "region-zilinsky-kraj",
+    "observed_date": "2026-10-20",
+    "source_url": "https://www.betarena.sk/rubriky/spolocenske-stavky/komunalne-volby-slovensko-kandidati-kurzy_11593.html",
+    "source_kind": "secondary-aggregator",
+    "direct_bookmaker_verified": false,
+    "quotes": {
+      "region-zilinsky-kraj-4": {
+        "Tipsport": 1.15
+      },
+      "region-zilinsky-kraj-5": {
+        "Tipsport": 5.5
+      },
+      "region-zilinsky-kraj-3": {
+        "Tipsport": 6
+      },
+      "region-zilinsky-kraj-7": {
+        "Tipsport": 88
+      },
+      "region-zilinsky-kraj-2": {
+        "Tipsport": 88
+      }
+    },
+    "notes": "Článok môže obsahovať staršie alebo neúplné ponuky. Len benchmark, bez vplyvu na model."
+  },
+  {
+    "race_id": "region-presovsky-kraj",
+    "observed_date": "2026-10-20",
+    "source_url": "https://www.betarena.sk/rubriky/spolocenske-stavky/komunalne-volby-slovensko-kandidati-kurzy_11593.html",
+    "source_kind": "secondary-aggregator",
+    "direct_bookmaker_verified": false,
+    "quotes": {
+      "region-presovsky-kraj-8": {
+        "Tipsport": 1.11
+      },
+      "region-presovsky-kraj-9": {
+        "Tipsport": 6
+      },
+      "region-presovsky-kraj-10": {
+        "Tipsport": 14
+      },
+      "region-presovsky-kraj-4": {
+        "Tipsport": 77
+      },
+      "region-presovsky-kraj-3": {
+        "Tipsport": 88
+      },
+      "region-presovsky-kraj-1": {
+        "Tipsport": 88
+      },
+      "region-presovsky-kraj-5": {
+        "Tipsport": 88
+      },
+      "region-presovsky-kraj-11": {
+        "Tipsport": 88
+      },
+      "region-presovsky-kraj-2": {
+        "Tipsport": 88
+      }
+    },
+    "notes": "Článok môže obsahovať staršie alebo neúplné ponuky. Len benchmark, bez vplyvu na model."
+  },
+  {
+    "race_id": "region-banskobystricky-kraj",
+    "observed_date": "2026-10-20",
+    "source_url": "https://www.betarena.sk/rubriky/spolocenske-stavky/komunalne-volby-slovensko-kandidati-kurzy_11593.html",
+    "source_kind": "secondary-aggregator",
+    "direct_bookmaker_verified": false,
+    "quotes": {
+      "region-banskobystricky-kraj-3": {
+        "Tipsport": 1.01
+      },
+      "region-banskobystricky-kraj-7": {
+        "Tipsport": 17
+      },
+      "region-banskobystricky-kraj-1": {
+        "Tipsport": 35
+      },
+      "region-banskobystricky-kraj-4": {
+        "Tipsport": 35
+      },
+      "region-banskobystricky-kraj-2": {
+        "Tipsport": 88
+      },
+      "region-banskobystricky-kraj-5": {
+        "Tipsport": 100
+      },
+      "region-banskobystricky-kraj-6": {
+        "Tipsport": 100
+      }
+    },
+    "notes": "Článok môže obsahovať staršie alebo neúplné ponuky. Len benchmark, bez vplyvu na model."
+  },
+  {
+    "race_id": "region-kosicky-kraj",
+    "observed_date": "2026-10-20",
+    "source_url": "https://www.betarena.sk/rubriky/spolocenske-stavky/komunalne-volby-slovensko-kandidati-kurzy_11593.html",
+    "source_kind": "secondary-aggregator",
+    "direct_bookmaker_verified": false,
+    "quotes": {
+      "region-kosicky-kraj-6": {
+        "Tipsport": 1.75
+      },
+      "region-kosicky-kraj-3": {
+        "Tipsport": 1.95
+      },
+      "region-kosicky-kraj-5": {
+        "Tipsport": 7.5
+      },
+      "region-kosicky-kraj-4": {
+        "Tipsport": 80
+      },
+      "region-kosicky-kraj-2": {
+        "Tipsport": 500
+      }
+    },
+    "notes": "Článok môže obsahovať staršie alebo neúplné ponuky. Len benchmark, bez vplyvu na model."
+  },
+  {
+    "race_id": "region-bratislavsky-kraj",
+    "observed_date": "2026-10-20",
+    "source_url": "https://www.betarena.sk/rubriky/spolocenske-stavky/komunalne-volby-slovensko-kandidati-kurzy_11593.html",
+    "source_kind": "secondary-aggregator",
+    "direct_bookmaker_verified": false,
+    "quotes": {
+      "region-bratislavsky-kraj-1": {
+        "Tipsport": 1.01
+      },
+      "region-bratislavsky-kraj-4": {
+        "Tipsport": 14
+      },
+      "region-bratislavsky-kraj-7": {
+        "Tipsport": 16
+      },
+      "region-bratislavsky-kraj-2": {
+        "Tipsport": 25
+      },
+      "region-bratislavsky-kraj-3": {
+        "Tipsport": 88
+      },
+      "region-bratislavsky-kraj-5": {
+        "Tipsport": 88
+      },
+      "region-bratislavsky-kraj-6": {
+        "Tipsport": 88
+      }
+    },
+    "notes": "Článok môže obsahovať staršie alebo neúplné ponuky. Len benchmark, bez vplyvu na model."
+  }
+]

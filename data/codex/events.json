@@ -1,0 +1,92 @@
+[
+  {
+    "race_id": "city-bratislava",
+    "name": "Miroslav Heredoš",
+    "source_url": "https://hnonline.sk/volby-2026/komunalne-volby-2026/96304578-miroslav-heredos-po-vaznych-zdravotnych-problemoch-odstupuje-z-kandidatury-na-post-primatora-bratislavy",
+    "event_date": "2026-09-27",
+    "observed_date": "2026-10-20",
+    "type": "withdrawal",
+    "verification": "reported",
+    "note": "Odstúpenie uvádza citovaný zdroj; model je podmienený týmto stavom kandidátky."
+  },
+  {
+    "race_id": "city-bratislava",
+    "name": "Martin Winkler",
+    "source_url": "https://stavkynavolby.sk/informacie/kandidati-na-primatora-krajske-mesta/",
+    "event_date": null,
+    "observed_date": "2026-10-20",
+    "type": "withdrawal",
+    "verification": "reported",
+    "note": "Odstúpenie uvádza citovaný zdroj; model je podmienený týmto stavom kandidátky."
+  },
+  {
+    "race_id": "city-trnava",
+    "name": "Ľubica Horváthová",
+    "source_url": "https://dennikn.sk/5633751/trnava-po-12-rokoch-meni-primatora-favoriti-su-viceprimatorka-ktora-nechce-byt-brocka-2-a-podnikatel-ktory-mu-vycita-komunikaciu/",
+    "event_date": null,
+    "observed_date": "2026-10-20",
+    "type": "withdrawal",
+    "verification": "reported",
+    "note": "Odstúpenie uvádza citovaný zdroj; model je podmienený týmto stavom kandidátky."
+  },
+  {
+    "race_id": "city-banska-bystrica",
+    "name": "Tomáš Sobota",
+    "source_url": "https://www.ta3.com/clanok/1077195/prieskum-pre-ta3-suboj-o-bansku-bystricu-sa-zamotava-jeden-z-kandidatov-vyrazne-stiahol-naskok-lidra",
+    "event_date": "2026-10-08",
+    "observed_date": "2026-10-20",
+    "type": "withdrawal",
+    "verification": "reported",
+    "note": "Odstúpenie uvádza citovaný zdroj; model je podmienený týmto stavom kandidátky."
+  },
+  {
+    "race_id": "borough-bratislava-nove-mesto",
+    "name": "Tomáš Čajda",
+    "source_url": "https://www.aktuality.sk/clanok/qXyfW7d/kompletny-zoznam-kandidatov-na-starostov-mestskych-casti-v-bratislave-vo-volbach-2026/",
+    "event_date": "2026-10-01",
+    "observed_date": "2026-10-20",
+    "type": "withdrawal",
+    "verification": "reported",
+    "note": "Odstúpenie uvádza citovaný zdroj; model je podmienený týmto stavom kandidátky."
+  },
+  {
+    "race_id": "region-zilinsky-kraj",
+    "name": "Adam Lučanský",
+    "source_url": "https://www.aktuality.sk/clanok/HvrN26N/adam-lucansky-sa-v-zivom-vysielani-vzdal-kandidatury-na-predsedu-zilinskeho-kraja-v-prospech-igora-chomu/",
+    "event_date": null,
+    "observed_date": "2026-10-20",
+    "type": "withdrawal",
+    "verification": "reported",
+    "note": "Odstúpenie uvádza citovaný zdroj; model je podmienený týmto stavom kandidátky."
+  },
+  {
+    "race_id": "region-presovsky-kraj",
+    "name": "Zoltán Kašo",
+    "source_url": "https://www.noviny.sk/slovensko/1271936-po-lassakovej-sa-aj-monika-leskova-vzdala-sa-kandidatury-na-post-predsednicky-psk",
+    "event_date": null,
+    "observed_date": "2026-10-20",
+    "type": "withdrawal",
+    "verification": "reported",
+    "note": "Odstúpenie uvádza citovaný zdroj; model je podmienený týmto stavom kandidátky."
+  },
+  {
+    "race_id": "region-presovsky-kraj",
+    "name": "Judita Laššáková",
+    "source_url": "https://www.noviny.sk/slovensko/1271936-po-lassakovej-sa-aj-monika-leskova-vzdala-sa-kandidatury-na-post-predsednicky-psk",
+    "event_date": null,
+    "observed_date": "2026-10-20",
+    "type": "withdrawal",
+    "verification": "reported",
+    "note": "Odstúpenie uvádza citovaný zdroj; model je podmienený týmto stavom kandidátky."
+  },
+  {
+    "race_id": "region-presovsky-kraj",
+    "name": "Monika Lešková",
+    "source_url": "https://www.noviny.sk/slovensko/1271936-po-lassakovej-sa-aj-monika-leskova-vzdala-sa-kandidatury-na-post-predsednicky-psk",
+    "event_date": null,
+    "observed_date": "2026-10-20",
+    "type": "withdrawal",
+    "verification": "reported",
+    "note": "Odstúpenie uvádza citovaný zdroj; model je podmienený týmto stavom kandidátky."
+  }
+]

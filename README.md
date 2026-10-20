@@ -7,6 +7,7 @@ Pre každého kandidáta zverejňujeme odhad podielu hlasov, 80 % interval a pra
 - Web: https://mareksulik.github.io/volby-2026-forecast/
 - Pravidlá a zamknutie: `docs/pravidla.html`. Hodnotená je verzia zamknutá 21. 10. 2026 o 23:59 (tag `forecast-lock-2026-10-21`).
 - Snapshoty (append-only): `data/snapshots/`, posledný: `data/latest.json`
+- Porovnanie s nezávislým modelom Codex: `docs/porovnanie.html` (Codexova predpoveď je zamrazená v `data/codex/`, kontrolné súčty overuje `tools/compare.py` voči jeho `LOCK.json`)
 
 Inšpirované predpoveďou senátnych volieb 2026 od Josefa Šlerku ([senat-2026-forecast](https://github.com/josefslerka/senat-2026-forecast)), prispôsobené slovenským pravidlám: jedno kolo, vyhráva relatívna väčšina, aj pri županoch.
 
@@ -28,10 +29,11 @@ python tools/fundamentals.py       # fit + validácia -> data/model/fundamentals
 python tools/national.py           # celoštátny posun strán
 python tools/prepare_inputs.py     # výskum + overrides -> data/inputs/races/*.yaml
 python tools/forecast.py --date 2026-10-21 --label final
+python tools/compare.py            # Claude vs Codex -> data/comparison.json
 python tools/build_site.py         # -> docs/
 python tools/score.py              # po voľbách (data/results/2026.json)
 ```
 
-Výskum so zdrojmi: `data/research/*.json` (každé číslo má URL). Predpoveď zostavila AI pipeline (Claude) s človekom v slučke. Nie sú to tipy na stávkovanie.
+Výskum so zdrojmi: `data/research/*.json` (každé číslo má URL). Predpoveď pripravil model Claude, postup kontroloval človek. Nie sú to tipy na stávkovanie.
 
 Licencia: kód MIT (`LICENSE`), obsah a dáta CC BY 4.0 (`LICENSE-CONTENT`).

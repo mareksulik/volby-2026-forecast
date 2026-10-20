@@ -1,4 +1,4 @@
-<div class="sec-num">Pravidlá</div>
+<div class="sec-num">Pravidlá · Claude</div>
 <h2>Čo predpovedáme a ako to vyhodnotíme</h2>
 
 <h3>Čo predpovedáme</h3>
@@ -11,34 +11,34 @@
 <p>Všetky voľby majú jedno kolo a vyhráva kandidát s najvyšším počtom platných hlasov (relatívna väčšina). Platí to od roku 2017 aj pre predsedov krajov. Pre každého kandidáta zverejňujeme tri čísla:</p>
 <ul>
 <li><strong>odhad podielu platných hlasov</strong> (medián simulácií),</li>
-<li><strong>80 % interval</strong> (10. až 90. percentil simulácií; skutočný výsledok by mal padnúť dovnútra zhruba v 4 z 5 prípadov),</li>
+<li><strong>80 % interval</strong> (10. až 90. percentil simulácií; skutočný výsledok by mal byť v intervale približne v 4 z 5 prípadov),</li>
 <li><strong>pravdepodobnosť výhry.</strong></li>
 </ul>
-<p>Rozhoduje oficiálny výsledok Štatistického úradu SR (volby.statistics.sk). Kandidáti, ktorí sa vzdali kandidatúry, sú z predpovede vyradení. Hlasy pre nich sa nezapočítavajú, aj keď na lístku zostali.</p>
+<p>Rozhoduje oficiálny výsledok Štatistického úradu SR (volby.statistics.sk). Kandidátov, ktorí sa vzdali kandidatúry, v predpovedi nemáme: na lístku zostávajú, ale hlasy pre nich sa nerátajú.</p>
 
 <h3>Zamknutie</h3>
-<p>Hodnotená je <strong>posledná verzia zverejnená pred stredou 21. 10. 2026 o 23:59</strong>. Od štvrtka 22. 10. platí moratórium na zverejňovanie prieskumov. Zamknutú verziu označuje git tag <code>forecast-lock-2026-10-21</code> a súbor <code>data/lock.json</code> s hashom commitu. Kópiu webu ukladáme aj do archive.org. Snapshoty v <code>data/snapshots/</code> sa nikdy neprepisujú. Prípadná oprava chyby sa zverejní ako nová verzia s vysvetlením a do hodnotenia nevstupuje.</p>
+<p>Hodnotená je <strong>posledná verzia zverejnená pred stredou 21. 10. 2026 o 23:59</strong>. Od štvrtka 22. 10. platí zákaz zverejňovania prieskumov. Zamknutú verziu označuje git tag <code>forecast-lock-2026-10-21</code> a súbor <code>data/lock.json</code> s hashom commitu. Kópiu webu ukladáme aj do archive.org. Snapshoty v <code>data/snapshots/</code> neprepisujeme. Opravu chyby zverejníme ako novú verziu s vysvetlením; do hodnotenia nevstupuje.</p>
 
 <h3>Série</h3>
 <dl class="spec">
-<dt>Fundamenty</dt><dd>Čisto štatistický model z oficiálnych dát ŠÚ SR: efekt obhajcu, predchádzajúci výsledok, nominácia, celoštátny posun strán. Bez prieskumov, bez ručných úprav a bez kurzov.</dd>
-<dt>Bez trhu</dt><dd>Fundamenty doplnené o prieskumy a o zdokumentované úpravy pri faktoch, ktoré model nevidí, napríklad známy nováčik, kauza alebo odstúpenie súpera. Kurzy nevstupujú.</dd>
+<dt>Fundamenty</dt><dd>Štatistický model z oficiálnych dát ŠÚ SR: obhajca, predchádzajúci výsledok, nominácia a zmena podpory strán. Bez prieskumov, ručných úprav a kurzov.</dd>
+<dt>Bez trhu</dt><dd>Fundamenty, prieskumy a ručné úpravy pri faktoch, ktoré model nemá v dátach (napríklad známy nový kandidát alebo odstúpenie súpera). Bez kurzov.</dd>
 <dt>Trh</dt><dd>Kurzy stávkových kancelárií po odpočítaní marže (mocninová metóda). Len pri voľbách, kde sú kurzy vypísané.</dd>
-<dt>Finálna</dt><dd>Hlavná zverejnená séria. Podiely hlasov a intervaly sú zo série Bez trhu. Pravdepodobnosť výhry je mechanický mix série Bez trhu a Trhu v log-odds s váhou 0,5. Kde kurzy nie sú, finálna = Bez trhu.</dd>
+<dt>Finálna</dt><dd>Hlavná séria. Podiely hlasov a intervaly sú zo série Bez trhu. Pravdepodobnosť výhry je vážený priemer série Bez trhu a Trhu v log-odds s váhou 0,5. Kde kurzy nie sú, finálna séria sa rovná sérii Bez trhu.</dd>
 </dl>
-<p class="text-small">Poctivo: na rozdiel od vzoru (Šlerkova predpoveď Senátu 2026) séria Bez trhu nie je striktne „slepá“. Kurzy sme zbierali v tom istom výskume ako kandidátov, takže sme ich videli skôr, ako sme robili ručné úpravy. Ako vstup ich však nepoužívame a každá úprava má uvedený dôvod.</p>
+<p class="text-small">Rozdiel oproti vzoru (Šlerkova predpoveď Senátu 2026): kurzy sme zbierali spolu s ostatnými údajmi, takže sme ich poznali pred ručnými úpravami. Séria Bez trhu ich ako vstup nepoužíva a pri každej úprave je uvedený dôvod.</p>
 
 <h3>Čo vyhodnotíme po voľbách</h3>
 <p>Na stránke <a href="skore.html">Skóre</a> po zverejnení oficiálnych výsledkov porovnáme každú sériu:</p>
 <ul>
 <li><strong>Multi-outcome Brier skóre</strong> Σ(p<sub>i</sub> − o<sub>i</sub>)² cez všetkých kandidátov, priemer cez voľby. Nižšie je lepšie.</li>
 <li><strong>Log skóre víťaza</strong>, ln p(víťaz). Bližšie k nule je lepšie.</li>
-<li><strong>Trafené favority:</strong> v koľkých voľbách vyhral náš favorit.</li>
+<li><strong>Úspešnosť favoritov:</strong> v koľkých voľbách vyhral kandidát s najvyššou pravdepodobnosťou výhry.</li>
 <li><strong>Priemerná absolútna chyba podielu</strong> v percentuálnych bodoch.</li>
-<li><strong>Pokrytie 80 % intervalov:</strong> aký podiel skutočných výsledkov padol do intervalu (cieľ okolo 80 %).</li>
+<li><strong>Pokrytie 80 % intervalov:</strong> podiel skutočných výsledkov, ktoré sú v intervale (cieľ je približne 80 %).</li>
 </ul>
 <p>Voľby s jediným kandidátom sa do skóre nezapočítavajú. Porovnávacie pravidlá: „vyhrá obhajca, inak rovnomerne“ a rovnomerné rozdelenie medzi kandidátov.</p>
-<div class="note"><strong>Voľby nie sú nezávislé pokusy.</strong> Celoštátna nálada (vláda verzus opozícia) posúva veľa volieb naraz. V simulácii to modelujeme spoločným šokom, no 33 volieb je pri vyhodnotení skôr niekoľko korelovaných stávok než 33 nezávislých.</div>
+<div class="note"><strong>Výsledky volieb sú navzájom závislé.</strong> Zmena podpory vlády a opozície ovplyvní veľa volieb naraz. V simulácii to zohľadňujeme spoločnou odchýlkou. Vyhodnotenie 33 volieb má preto menšiu výpovednú hodnotu ako 33 nezávislých pozorovaní.</div>
 
-<h3>Čo to nie je</h3>
-<p>Nie sú to tipy na stávkovanie. Predpoveď zostavila AI pipeline (Claude) s človekom v slučke. Každé tvrdenie vo výskume má zdrojovú URL; zdroje sú na stránke každej voľby.</p>
+<h3>Upozornenie</h3>
+<p>Nie sú to tipy na stávkovanie. Predpoveď pripravil model Claude, postup kontroloval človek. Každý údaj vo výskume má zdrojovú URL; zdroje sú na stránke každej voľby.</p>

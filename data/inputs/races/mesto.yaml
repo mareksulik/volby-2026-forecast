@@ -137,7 +137,8 @@
       parking-fine amnesty, 15-min ticket.
     prior_runs: null
     local_official: false
-    adj_reason: Formálne nezávislý, ale minister dopravy nominovaný Smerom. V simulácii nesie spoločný šok vládneho bloku (bez úpravy podielu).
+    adj_reason: Formálne nezávislý, ale minister dopravy nominovaný Smerom. V simulácii ho zaraďujeme k vládnemu bloku pre spoločnú odchýlku;
+      podiel neupravujeme.
   - name: Zuzana Šubová
     ballot_no: 4
     party: Pirátska strana - Slovensko
@@ -274,13 +275,10 @@
       Jozef Ráž: 8.5
       Zuzana Šubová: 40.0
     source: https://stavkynavolby.sk/informacie/kurzy-na-volby/
-  notes: '6 registered, 2 withdrew after registration (Heredoš, Winkler) — names stay on ballot, votes not counted; effective field = 4 (Vallo,
-    Ráž, Šubová, Geci). Polls diverge sharply: SANEP/Kanal1 (CAWI) has Vallo +2.6 among decided, Ixactly/Markíza has Vallo +14.6 (≈ +17 among
-    decided). AKO/JOJ poll due 20.10 evening reportedly shows a close race — check before finalising. Bookmakers strongly favour Vallo (implied
-    ~93–96 %). Winkler''s July support (18.5 %) partially transfers to Ráž; C&C July head-to-head had Vallo 53.7 vs Ráž 34.4. Historical: Vallo
-    2022 60.2 % vs combined KDH/SR/ZĽ challenger 27.7 %; turnout 36.9 % (2022), 40.7 % (2018). Polls report ''declared turnout'' 42–80 % — not
-    credible as literal turnout. Ráž is formally NEKA but widely perceived as Smer candidate (Hlavný denník: ''nom. SMER-SD''). Vallo''s 2026
-    coalition = Team BA + PS + SaS + Demokrati.'
+  notes: 'Primátor Matúš Vallo vyhral v roku 2022 so 60,2 % a teraz ho nominujú Team Bratislava, PS, SaS a Demokrati. Hlavný vyzývateľ, minister
+    dopravy Jozef Ráž, kandiduje ako nezávislý, no je vnímaný ako kandidát Smeru. V jeho prospech odstúpil Martin Winkler (Dunaj) a Miroslav Heredoš
+    odstúpil zo zdravotných dôvodov. Prieskumy sa rozchádzajú: SANEP dáva Vallovi náskok 2,6 percentuálneho bodu medzi rozhodnutými, Ixactly 14,6
+    bodu. Stávkové kancelárie dávajú Vallovi pravdepodobnosť výhry približne 93 až 96 %.'
   key_events:
   - date: 2025-05
     text: Martin Winkler first to announce candidacy; founds city party Dunaj (registered Nov 2025).
@@ -637,11 +635,11 @@
       Martin Mudrák: 4.0
       Lenka Kovačevičová: 8.0
     source: https://stavkynavolby.sk/informacie/kandidati-na-primatora-kosic-2026/
-  notes: 'No withdrawals found as of 2026-10-20 (all 8 still in SANEP 13–18 Oct poll; stavkynavolby lists only 6 because it omits the two fringe
-    candidates). Genuinely open 4-way race under plurality rule: Lörinc leads 4 of 5 polls (only Polaček-commissioned Focus has Polaček first);
-    2nd–4th within margin. Winning threshold likely ~25–30 %. Low turnout city (30.9 % in 2022). Name-confusion risk: Lörinc (#2, Košická strana)
-    vs Lörincz (#3, Jednota Slovanov) — Lörincz polls 2.4–4 %, part may be misdirected Lörinc votes. Polaček''s 2022 coalition included SME RODINA,
-    now not. Mudrák (PS) and Kovačevičová split the anti-incumbent vote with Lörinc. Polls from campaigns (Focus x2) should be down-weighted.'
+  notes: Primátor Jaroslav Polaček (KDH, SaS, Maďarská aliancia a ďalší) vyhral v roku 2018 so 43,29 % a v roku 2022 s 36,8 %. Ladislav Lörinc
+    (Košická strana), starosta Sídliska KVP, vedie v štyroch z piatich prieskumov a stávkové kancelárie ho považujú za favorita. Polaček je prvý
+    len v prieskume agentúry Focus, ktorý si objednal jeho tím. Ďalšími kandidátmi sú Martin Mudrák (PS, Demokrati, Za ľudí) a Lenka Kovačevičová
+    (Tím Košice, SaNK, Právo na pravdu); poradie na druhom až štvrtom mieste je v rámci štatistickej chyby. Vládne strany vlastného kandidáta
+    nemajú.
   key_events:
   - date: '2026-08-25'
     text: Candidate lists filed; 8 mayoral candidates (Smer/Hlas/SNS/Republika/PnP coalition fields council candidates but no own mayoral candidate;
@@ -872,12 +870,10 @@
       Ján Nosko: 1.92
       Matúš Molitoris: 20.0
     source: https://stavkynavolby.sk/informacie/kurzy-na-volby/
-  notes: '6 registered; Sobota withdrew 8 Oct (ballot no. 5, votes not counted) → 5 effective. Polls: Nosko leads all four (by 1.6–11.4 pts),
-    lead narrowed to 6.8 in SANEP Oct after Sobota''s exit; but all three bookmakers make Javorčíková slight favourite (implied ~55–58 %) — a
-    notable polls-vs-market divergence. Nosko won 2022 with 66 % vs Javorčíková 25 % on 39.8 % turnout; he is formally independent but drew support
-    from the governing coalition (Hlas, Smer, SNS, Sme rodina in 2022) — national anti-government mood could hurt him. Molitoris (12–19 %) splits
-    the change vote. Ballot numbers inferred from alphabetical registration order (topky table shows 1–4 and 6 with Sobota as 5); official city
-    PDF not read directly.'
+  notes: Primátor Ján Nosko je vo funkcii od roku 2014 a v roku 2022 vyhral so 66,2 % nad Dianou Javorčíkovou (24,8 %). Kandiduje ako nezávislý,
+    predseda Hlasu Matúš Šutaj Eštok vyjadril ochotu ho podporiť. Javorčíkovú nominujú PS, SaS, Demokrati, Hnutie Slovensko a OKS a 8. októbra
+    v jej prospech odstúpil Tomáš Sobota, ktorého podporovalo KDH. Nosko vedie vo všetkých štyroch prieskumoch o 1,6 až 11,4 bodu, no všetky tri
+    stávkové kancelárie považujú za miernu favoritku Javorčíkovú. Hlasy odporcov primátora delí aj Matúš Molitoris s 12 až 19 %.
   key_events:
   - date: 2026-01
     text: Tomáš Sobota (KDH-backed) first to announce candidacy.
@@ -1110,11 +1106,10 @@
       Igor Kršiak: 3.1
       Marek Illéš: 7.0
     source: https://stavkynavolby.sk/informacie/kurzy-na-volby/
-  notes: '4 candidates, no withdrawals. Structural change vs 2022: Hattas consolidated the opposition parties (PS, KDH, SaS, Demokrati, HS, OKS)
-    behind his regional party; Kršiak lost his 2022 coalition backing (Hlas/Sme rodina) and the government parties field Illéš (Smer/Hlas/SR)
-    and Uhríková (Republika/SNS) separately, splitting the anti-Hattas vote. 2022 Hattas won only 30.8 % with Štefek (20.0) and Obertáš (17.5)
-    not running now. Only one independent poll (AKO) — Hattas +22.7; campaign-released polls: Infostat Hattas +9.9, Focus tie. Bookmakers imply
-    Hattas ~75–80 %. ballot_no for Nitra from topky ''v poradí podľa hlasovacieho lístka''.'
+  notes: 'Primátor Marek Hattas vyhral v roku 2018 so 42,28 % a v roku 2022 s 30,8 %, teraz ho okrem Tímu kraj Nitra podporuje celá parlamentná
+    opozícia. Hlavný vyzývateľ Igor Kršiak bol v roku 2022 druhý s 27,2 % s podporou Hlasu a Sme rodiny, teraz kandiduje ako nezávislý. Vládne
+    strany majú dvoch kandidátov: Mareka Illéša (Smer, Hlas, Sme rodina) a Zuzanu Uhríkovú (Republika, SNS). Nezávislý prieskum AKO dáva Hattasovi
+    55 % a Kršiakovi 32,5 %. Stávkové kancelárie dávajú Hattasovi pravdepodobnosť výhry približne 75 až 80 %.'
   key_events:
   - date: '2026-09-09'
     text: Hattas publishes Infostat (July) poll; next day Kršiak publishes Focus (August) poll showing a tie — campaign 'poll war'.
@@ -1409,15 +1404,11 @@
       Rastislav Mochnacký: 11.7
       Pavel Hagyari: 3.3
     source: https://polymarkettrader.com/odds/presov-mayoral-election-winner-2026/
-  notes: 'Coalition map 2026: governing Smer+SNS+Sme rodina+Bratia Slovenska back Pavlovičová; Hlas has NO mayoral candidate in Prešov (Hlas runs
-    own council list; Hlas''s Micheľ got 11.65 % in 2022) and, per Denník N (15.10.), Hlas and Republika endorsed no mayoral candidate - where
-    Hlas voters go is a key unknown. Opposition split: PS+Demokrati+DS back incumbent Oľha; KDH+SaS+Hnutie Slovensko+KÚ+Za ľudí+Nova back Mochnacký
-    (in 2022 SaS backed Oľha and KDH ran Bednárová 5.63 %). Hagyari (2nd in 2014/2018/2022) runs as NEKA this time (2022 STANK+Sme rodina). Markets:
-    all bookmakers make Oľha a heavy favourite (1.08-1.10); Mochnacký has overtaken Hagyari as 2nd favourite at Tipsport by 20.10 and on Polymarket.
-    Polls: only a sponsor-released NMS poll (12-16 Oct, n=510: Oľha 46, Hagyari 30, Mochnacký 11) and an older Policy Insights/Focus figure (Oľha
-    ~24, Hagyari ~17, Mochnacký ~1, undecided >27) - both put Hagyari, not Mochnacký, 2nd, contradicting the late market move to Mochnacký. Hagyari
-    is running for the 6th time (2nd in last three). Turnout 2022 42.66 %, 2018 43.2 %. Relative majority, one round: fragmented field (6) means
-    winner can win with ~35 %.'
+  notes: Primátor František Oľha (PS, Demokrati, DS) vyhral v roku 2022 s 37,26 %. Pavel Hagyari, primátor v rokoch 2006 až 2014, skončil druhý
+    v rokoch 2014, 2018 aj 2022 a teraz kandiduje ako nezávislý. Rastislava Mochnackého nominujú KDH, SaS, Hnutie Slovensko a ďalšie strany, Svetlanu
+    Pavlovičovú Smer, SNS, Sme rodina a Bratia Slovenska; Hlas a Republika nepodporili nikoho. Prieskum NMS, ktorý zverejnil Oľhov tím, mu dáva
+    46 %, Hagyarimu 30 % a Mochnackému 11 %. Stávkové kancelárie dávajú na Oľhu kurz 1,08 až 1,10 a Tipsport aj Polymarket uvádzajú ako druhého
+    Mochnackého.
   key_events:
   - date: '2026-08-25'
     text: 'Candidate filing closed: 6 mayoral candidates (12 in 2022). Benes, Eštočák, Hagyari, Oľha repeat runs; Mochnacký and Pavlovičová first-time.'
@@ -1685,11 +1676,10 @@
       Martin Pullmann: 8.0
       Andrea Čajková: 15.0
     source: https://stavkynavolby.sk/informacie/kandidati-na-primatora-krajske-mesta/
-  notes: 'Open seat (Bročka retiring after 3 terms; won 2022 with 44.7 % vs Baroš 33.62 %). Two-horse race Baroš (Trnava pre každého + KDH) vs.
-    vice-mayor Nemčovská (NEKA, backed by PS and after 9.10 by Demokrati). Poll pre-withdrawal: 32.4 vs 31.9; if Horváthová''s 12.4 % transfers
-    mostly to Nemčovská she leads clearly - bookmakers price her favourite (1.45-1.65) vs Baroš (1.90-2.45). Pullmann carries Smer+Hlas+SNS+Republika
-    label in a liberal-leaning city (2018 Smer+SNS candidate Válek got 5.77 %). Horváthová stays on ballot - votes for her invalid. Whether Bročka
-    endorsed anyone: not found (SME: ''his shadow felt over every candidate''). Turnout 2022 41.87 %, 2018 37.74 %.'
+  notes: Primátor Peter Bročka po troch obdobiach nekandiduje; v roku 2022 porazil Branislava Baroša (Trnava pre každého, KDH), ktorý získal 33,62
+    %. Viceprimátorku Evu Nemčovskú podporujú PS a od 9. októbra aj Demokrati, ktorých kandidátka Ľubica Horváthová v jej prospech odstúpila.
+    Prieskum Trnavskej univerzity pred odstúpením dával Barošovi 32,4 %, Nemčovskej 31,9 % a Horváthovej 12,4 %. Stávkové kancelárie považujú
+    za favoritku Nemčovskú (kurz 1,45 až 1,65 oproti 1,90 až 2,45 pre Baroša). Martin Pullmann je kandidátom Smeru, Hlasu, SNS a Republiky.
   key_events:
   - date: '2026-09-04'
     text: City election commission registered 6 mayoral candidates (first time equal number of men and women). Bročka (mayor since 2014) not running.
@@ -1818,8 +1808,8 @@
     prior_runs: first mayoral run
     local_official: true
     adj: 0.6
-    adj_reason: Prvý viceprimátor od 2014, ktorého podporuje odchádzajúci primátor Rybníček (16 rokov vo funkcii, 2022 jasne zvolený). Model pozná
-      len to, že je miestny funkcionár.
+    adj_reason: Prvý viceprimátor od 2014, ktorého podporuje odchádzajúci primátor Rybníček (16 rokov vo funkcii, v roku 2022 získal 72,94 %).
+      Model má o ňom len údaj, že je miestny funkcionár.
   - name: Miloš Mičega
     ballot_no: 4
     party: NEKA
@@ -1859,11 +1849,10 @@
       Danica Birošová: 17.0
       Michal Bratranec: 20.0
     source: https://stavkynavolby.sk/informacie/kandidati-na-primatora-krajske-mesta/
-  notes: 'Open seat after 16 years of Rybníček. Effectively Forgáč (continuity, Rybníček-endorsed) vs Mičega (two-time runner-up with ~27 %, the
-    anti-Rybníček pole). No party formally nominates any mayoral candidate; no Smer/Hlas mayoral candidate, so where government-leaning voters
-    go (likely Mičega?) is unknown - no source found on party endorsements. Birošová (withdrew in favour of Mičega in 2018 and 2022) stays in
-    this time, splitting the opposition vote. No public poll found. Bookmakers: Forgáč 1.10-1.19, Mičega 4.0-6.0. Turnout 2022 37.0 %, 2018 42.03
-    %. Mičega''s 27 % ceiling was vs. a popular incumbent; open-seat dynamics are different.'
+  notes: Primátor Richard Rybníček po 16 rokoch nekandiduje a podporuje svojho prvého viceprimátora Jána Forgáča. Hlavný vyzývateľ Miloš Mičega
+    bol v rokoch 2018 a 2022 druhý s 27,32 % a 27,05 %. Danica Birošová, ktorá v rokoch 2018 a 2022 odstúpila v prospech Mičegu, tentoraz podľa
+    vlastných slov neodstúpi. Všetci štyria kandidáti sú nezávislí a žiadna strana nikoho nenominovala. Stávkové kancelárie dávajú na Forgáča
+    kurz 1,10 až 1,19 a na Mičegu 4,0 až 6,0.
   key_events:
   - date: 2025-10
     text: Richard Rybníček (mayor since 2010, 72.94 % in 2022) announced he will not run again; he backs his first deputy Ján Forgáč.
@@ -2142,11 +2131,10 @@
       Miroslav Sokol: 30.0
       Anton Kozlík: 40.0
     source: https://stavkynavolby.sk/informacie/kandidati-na-primatora-krajske-mesta/
-  notes: 'Incumbent Fiabáne (48.06 % 2018, 45.53 % 2022) faces fragmented field of 7. Main challengers: Johanes (doctor, ŽSK councillor) and Cibulka
-    (3rd in 2022 with 15.51 %). In 2022 the 2nd place Groma (Hlas+KDH, 19.01 %) - this time KDH backs Fiabáne and Hlas/Smer/SNS/Domov run joint
-    council lists but NO mayoral candidate; no source found on whether they informally back Johanes. Republika (Milo) is the only party-nominated
-    challenger. Odds drifted from Fiabáne 1.04 / Johanes 7.0 (12.8.) to 1.18-1.20 / 3.8-4.0 (mid-Oct) - tightening but Fiabáne clear favourite.
-    No scientific poll found (komunalne-volby.sk runs a self-selected web vote - not usable). Turnout 2022 38.16 %, 2018 41.3 %.'
+  notes: Primátor Peter Fiabáne vyhral v rokoch 2018 (48,06 %) a 2022 (45,53 %), kandiduje ako nezávislý s podporou PS, SaS, KDH a Demokratov
+    a uviedol, že ide o jeho poslednú kandidatúru. Hlavnými vyzývateľmi sú chirurg a krajský poslanec Rastislav Johanes a Peter Cibulka, ktorý
+    bol v roku 2022 tretí s 15,51 %. Hlas, Smer, SNS a Domov kandidáta na primátora nemajú, Republika nominovala Michala Mila. Kurz na Fiabáneho
+    sa od augusta zmenil z 1,04 na 1,18 až 1,20 a na Johanesa zo 7,0 na 3,8 až 4,0.
   key_events:
   - date: '2026-06-08'
     text: Fiabáne officially announced third (and, he says, last) candidacy as NEKA with support of PS, SaS, KDH and Demokrati. Long-running conflict

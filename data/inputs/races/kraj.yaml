@@ -271,11 +271,11 @@
       Martin Kapitulík: 5.5
       Igor Choma: 7.0
     source: https://stavkynavolby.sk/informacie/kurzy-na-volby/
-  notes: Effective field reduced to 5 (Jurinová, Choma, Kapitulík, Chlustinová, Pova); Lučanský and Belousovová stay on ballot but their votes
-    are not counted. If Lučanský+Belousovová Sept shares (20.5 pp) transferred fully to Choma he would reach ~38 % of Sept decided base vs Jurinová
-    48.5 % – still behind; bookmakers (Jurinová 1.10-1.15) agree. Kapitulík is priced 2nd by bookmakers (5.5-6.0) ahead of Choma despite lower
-    poll share. Ballot numbers follow MV SR/STVR list order (alphabetical, as on SU SR ballots); confirm against official ŽSK PDF. Official ŽSK
-    candidate PDF not fetched directly (Exa out of credits; Firecrawl rate-limited).
+  notes: Úradujúca predsedníčka Erika Jurinová vyhrala v rokoch 2017 (43,67 %) a 2022 (32,04 %) a nominuje ju široká opozičná koalícia vrátane
+    PS, SaS, KDH a Demokratov. Hlavný vyzývateľ Igor Choma (Smer, Hlas, DOMOV-NS) bol v roku 2022 druhý s 22,24 %. V jeho prospech odstúpil Adam
+    Lučanský (SNS) a 15. októbra odstúpila Anna Belousovová (Republika), aby nedelila hlasy proti Jurinovej. Septembrový prieskum AKO dával Jurinovej
+    48,5 %, Chomovi 17,3 %, Belousovovej 14,3 % a nezávislému Martinovi Kapitulíkovi 11,8 %. Stávkové kancelárie dávajú na Jurinovú kurz 1,10
+    až 1,15.
   key_events:
   - date: '2026-09-16'
     text: 'AKO/JOJ 24 poll: Jurinová 48.5 %, Choma 17.3 %, Belousovová 14.3 %, Kapitulík 11.8 % (decided).'
@@ -565,10 +565,10 @@
       Miroslav Suja: 15.0
       Roman Malatinec: 20.0
     source: https://stavkynavolby.sk/informacie/kurzy-na-volby/
-  notes: No withdrawals found in BB as of 2026-10-20. Lunter runs as NEKA with cross-camp support (incl. governing Hlas-SD) -> landslide expected;
-    bookmakers 1.01. Anti-Lunter vote split between Suja (Republika), Kotleba (ĽSNS), Malatinec (Strana vidieka), Albert (Bratia Slovenska). An
-    Instagram post cited 'Lunter 55.4 %' from an unidentified poll – unverified, not included. Ballot numbers follow MV SR/STVR list order (alphabetical);
-    confirm against official BBSK list.
+  notes: Úradujúci predseda Ondrej Lunter vyhral v roku 2022 so 47,53 %. Kandiduje ako nezávislý s podporou SaS, Aliancie, Hlasu, KDH, PS a Demokratov;
+    Smer ani SNS kandidáta nenominovali. Prieskum AKO pre JOJ 24 mu dáva 63,2 % rozhodnutých voličov, Miroslavovi Sujovi (Republika) 16,8 %, Marianovi
+    Kotlebovi (ĽSNS) 8,6 % a Romanovi Malatincovi (Strana vidieka) 8,5 %. Suja je spájaný s kauzou techniky za 1 euro z obdobia Kotlebu, vinu
+    popiera. Stávkové kancelárie dávajú na Luntera kurz 1,01.
   key_events:
   - date: '2026-09-08'
     text: BBSK election commission registered 7 candidates; no Smer-SD or SNS nominee; Hlas-SD backs incumbent Lunter alongside opposition parties.
@@ -925,11 +925,10 @@
       Judita Laššáková: 15.0
       Samuel Migaľ: 35.0
     source: https://korzar.sme.sk/kosice/c/kurzy-otocili-poradie-favoritov-volieb-kosickeho-primatora-aj-zupana-majersky-sa-este-balit-nemusi
-  notes: Effective field 8 (Čureja, Geci, Goliaš, Ištok, Majerský, Mazurek, Migaľ, Stanko); Kašo, Laššáková, Lešková remain on ballot but votes
-    not counted. Consolidation of nationalist/government vote toward Mazurek (SNS endorsement, Smer withdrawal) is the main risk to Majerský;
-    2022 Kaliňák (Hlas+Smer) got 31.4 % + Mazurek 10.9 % = 42.3 % vs Majerský 42.0 %, so a fully consolidated anti-Majerský vote would be competitive
-    – but Migaľ (sitting government minister running as independent) splits it. Bookmakers still price Majerský ~1.11-1.13. Ballot numbers follow
-    MV SR/STVR list order (alphabetical); official PSK PDF not parsed.
+  notes: Úradujúci predseda Milan Majerský (KDH) vyhral v rokoch 2017 (40,36 %) a 2022 (42,01 %) a nominujú ho KDH, Hnutie Slovensko, SaS, Za
+    ľudí, Konzervatívci a PS. Kandidátka Smeru Judita Laššáková odstúpila po dohode s vedením strany a Monika Lešková (SNS) odstúpila v prospech
+    Milana Mazureka (Republika). Zoltán Kašo odstúpil v prospech ministra Samuela Migaľa, ktorý kandiduje ako nezávislý. Prieskum AKO dáva Majerskému
+    49,2 %, Mazurekovi 32,4 % a Migaľovi 7,8 % rozhodnutých. Stávkové kancelárie dávajú na Majerského kurz 1,11 až 1,13.
   key_events:
   - date: '2026-08-26'
     text: 11 candidates filed, the most of any region; Majerský backed by KDH, Hnutie Slovensko, SaS, Za ľudí, Konzervatívci, PS.
@@ -1241,13 +1240,10 @@
       Igor Šimko: 7.5
       Monika Sofiya Soročinová: 15.0
     source: https://korzar.sme.sk/kosice/c/kurzy-otocili-poradie-favoritov-volieb-kosickeho-primatora-aj-zupana-majersky-sa-este-balit-nemusi
-  notes: 'Most competitive of the four. Effective field 5 (Kodrazi, Porvažník, Soročinová, Šimko, Trnka); Géci stays on ballot, votes not counted.
-    Polls (AKO: Trnka +16.7 pp) and bookmakers (near coin-flip, Trnka 1.65-1.80 vs Porvažník 1.90-1.95) diverge strongly. Trnka draws cross-camp
-    support (in AKO leads among SNS, Aliancia, Sme rodina, KDH, Hlas voters; strong in Trebišov, Spišská Nová Ves, Gelnica and among Hungarians);
-    Porvažník leads in Košice I/II and Rožňava and among university-educated. Trnka won 2022 with KDH+Aliancia backing that he no longer has formally
-    (KDH now backs Porvažník). Fortuna specials (2026-10-20): ''who gets higher %'' Trnka 2.05 vs Becík (NR) 1.60; Porvažník 1.75 vs Mazurek 1.90.
-    Ballot numbers follow MV SR/STVR list order (alphabetical); official KSK PDF (static.kosice.sk link) not parsed. The STVR table did not flag
-    Géci''s withdrawal with X in all views – rely on news/KSK notice.'
+  notes: Úradujúci predseda Rastislav Trnka vyhral v roku 2022 s 51,31 % s podporou KDH a Aliancie, teraz kandiduje ako nezávislý. Opozícia vrátane
+    KDH podporuje Mariána Porvažníka (PS), vládne strany a Republika nominujú Igora Šimka (Hlas). Prieskum AKO z 20. októbra dáva Trnkovi 42,4
+    %, Porvažníkovi 25,7 % a Šimkovi 19,7 % rozhodnutých. Stávkové kancelárie hodnotia Trnku a Porvažníka takmer rovnako (Tipsport 1,75 a 1,95).
+    Trnka je obžalovaný v kauze obstarávania Valentín a vinu popiera.
   key_events:
   - date: '2026-01-29'
     text: Supreme Court moved Trnka's 'Valentín' procurement case from Košice courts to Okresný súd Námestovo; indictment pending >1 year, Trnka
@@ -1540,13 +1536,10 @@
       Dávid Staruch: 15.0
       Rastislav Gajarský: 15.0
     source: https://stavkynavolby.sk/informacie/kandidati-na-predsedu-vuc-2026-kraj-po-kraji/
-  notes: 'Safest race of the four: incumbent Droba backed by the whole liberal opposition (SaS, PS, Demokrati, Team Bratislava); won 2022 with
-    63.6 %. Government coalition (Smer, Hlas, SNS) unites behind low-profile Gajarský (4.3 % in only poll) - in 2022 Smer+SNS candidate got 13.4
-    %. Krajčovičová (Právo na pravdu + SaNK) is the populist/anti-establishment option; Staruch is an ex-SaS independent splitting the liberal
-    vote marginally. KDH and Hnutie Slovensko do not formally nominate anyone (not on Droba''s nomination). Bookmakers price Droba at 1.01 everywhere.
-    No AKO/JOJ24 BSK poll found (JOJ24 published AKO regional polls for TT, TN, NR, PSK, KSK). No withdrawals known as of 2026-10-20 (national
-    withdrawals so far: Laššáková PSK, Lučanský ŽSK, Belousovová ŽSK). Turnout 2022 was combined-election turnout (38.60 %); 2017 standalone regional
-    election 31.34 %.'
+  notes: Úradujúci predseda Juraj Droba vyhral v roku 2022 so ziskom 63,6 % a teraz ho nominujú SaS, PS, Demokrati a Team Bratislava. Vládne strany
+    Smer, Hlas a SNS spoločne nominovali Rastislava Gajarského, ktorý mal v prieskume 4,3 %; kandidát Smeru a SNS získal v roku 2022 13,4 %. Prieskum
+    Politologických prieskumov z 5. októbra dáva Drobovi 68,9 % rozhodnutých voličov, druhá je Zuzana Krajčovičová (Právo na pravdu, SaNK). Stávkové
+    kancelárie dávajú na Drobu kurz 1,01.
   key_events:
   - date: '2026-08-25'
     text: Deadline for filing candidacies (nationwide).
@@ -1812,13 +1805,10 @@
       József Berényi: 13.0
       Matej Lančarič: 15.0
     source: https://stavkynavolby.sk/informacie/kandidati-na-predsedu-vuc-2026-kraj-po-kraji/
-  notes: 'Viskupič (now PS) has the broadest coalition of any opposition-camp candidate (PS, SaS, KDH, Demokrati, Hnutie Slovensko, Maďarské fórum,
-    OKS); both polls give him ~50-52 % of decided. Main structural challenger is Berényi (Maďarská aliancia) whose vote is concentrated among
-    Hungarian voters in Dunajská Streda/Galanta (AKO: Berényi 53 % vs Viskupič 29 % in DS district; 64 % among Hungarian-nationality respondents).
-    Polls disagree on 2nd-4th order: AKO has Lančarič 3rd (11.7 %), Politologické prieskumy has Hambálek 3rd (13.4 %). Government coalition vote
-    is weak here (2022 Smer+SNS 11.8 %). In 2022 Viskupič won with only 38.6 % thanks to fragmentation; independent Červenka (16.1 % in 2022)
-    is not running. Pollák (SOS) is from Veľké Blahovo (Dunajská Streda district) and is reported as SOS regional chair for Nitra region. No withdrawals
-    known as of 2026-10-20. AKO n not published.'
+  notes: Úradujúci predseda Jozef Viskupič vyhral v roku 2022 s 38,56 % a teraz ho nominujú PS, SaS, KDH, Demokrati, Hnutie Slovensko, Maďarské
+    fórum a OKS. Prieskum AKO pre JOJ 24 mu dáva 51,8 % rozhodnutých voličov, József Berényi (Maďarská aliancia) má 18,1 %, nezávislý Matej Lančarič
+    11,7 % a Peter Hambálek (Smer, Hlas, SNS, Republika) 9,6 %. Berényi má podporu najmä medzi maďarskými voličmi, v okrese Dunajská Streda vedie
+    s 53 % pred Viskupičom s 29 %. Politologické prieskumy dávajú tretie miesto Hambálkovi s 13,4 %.
   key_events:
   - date: '2026-06-22'
     text: Matej Lančarič announced independent candidacy (team 'Za lepší Trnavský kraj').
@@ -2030,11 +2020,10 @@
       Jaroslav Baška: 1.07
       Natália Svítková: 5.5
     source: https://stavkynavolby.sk/informacie/kandidati-na-predsedu-vuc-2026-kraj-po-kraji/
-  notes: 'Only head-to-head race among the four: unified government coalition (Smer, Hlas, Republika, SNS) behind 13-year incumbent Baška vs unified
-    opposition (PS, SaS, KDH, Demokrati, Hnutie Slovensko, OKS) behind Svítková. Two polls agree Baška ~56-58 % of decided, Svítková ~39-43 %;
-    minor candidates <3 % combined. 2022: Baška 67.3 % vs opposition 16.6 % - Svítková polls far above the 2022 opposition baseline, so swing
-    is large but Baška still favoured (Tipsport 1.08). Curiosity: 2022 opposition candidate Peter Máťoš now runs for TSK council on the Hlas/Smer/SNS/Republika
-    list, while 2022 Republika candidate Magdech runs on KDH/PS/SaS list (hnonline council list). No withdrawals known as of 2026-10-20.'
+  notes: Úradujúci predseda Jaroslav Baška je vo funkcii od roku 2013 a v roku 2022 získal 67,25 %; nominujú ho Smer, Hlas, Republika a SNS. Opozičné
+    strany PS, SaS, KDH, Demokrati, Hnutie Slovensko a OKS podporujú Natáliu Svítkovú, ostatní dvaja kandidáti sú okrajoví. Prieskum AKO dáva
+    Baškovi 57,5 % a Svítkovej 38,6 % rozhodnutých voličov, Politologické prieskumy 56,0 % a 43,3 %. Opozičný kandidát mal v roku 2022 16,6 %.
+    Tipsport dáva na Bašku kurz 1,08.
   key_events:
   - date: '2026-09-07'
     text: 'TSK election commission list: only 4 chair candidates (smallest field in SK); de facto two-way race Baška vs Svítková.'
@@ -2313,12 +2302,10 @@
       Karol Suchan: 30.0
       Erik Blaško: 40.0
     source: https://stavkynavolby.sk/informacie/kandidati-na-predsedu-vuc-2026-kraj-po-kraji/
-  notes: Most competitive of the four in polls but bookmakers drifted toward Becík (Tipsport Varga 3.2 on 2026-10-08 -> 6.5 on 2026-10-20). Becík
-    now has the full government coalition plus Právo na pravdu and Bratia Slovenska (in 2022 he won with 27.5 % against Smer-backed Belica 21.9
-    %; Smer+Hlas combined 2022 ~49 %). Varga = unified opposition incl. Tím kraj Nitra (2022 Holečková 15.7 % + Kyselica 5.1 %). Csenger (MA)
-    holds the Hungarian south (16.7 % in 2022) - polls give him only 8-10 %, possibly underestimating ethnic-Hungarian turnout (AKO and online
-    samples). Polls diverge strongly on Varga (25.5 % AKO vs 38.9 % Politologické prieskumy, decided) and Čuláková (10.2 % AKO; not offered in
-    the other). Radava land-swap allegation surfaced 5 days before the vote. Single round, plurality wins. No withdrawals known as of 2026-10-20.
+  notes: 'Úradujúci predseda Branislav Becík (Hlas) vyhral v roku 2022 s 27,49 % a teraz ho podporujú Hlas, Smer, SNS, Republika, Právo na pravdu
+    a Bratia Slovenska. Henrich Varga je spoločný kandidát opozície a Tímu kraj Nitra. Prieskumy sa rozchádzajú: AKO dáva Becíkovi 45,5 % a Vargovi
+    25,5 %, Politologické prieskumy Vargovi 38,9 % rozhodnutých; kurz Tipsportu na Vargu stúpol z 3,2 na 6,5. Poslankyňa Martina Holečková 19.
+    októbra oznámila trestné oznámenie na Becíka pre zámenu pozemkov v Radave; ide o podozrenie, nie o obvinenie.'
   key_events:
   - date: 2026-02
     text: Henrich Varga announced candidacy (among the first); later gathered PS, SaS, KDH, Hnutie Slovensko, Demokrati, OKS, Maďarské fórum and

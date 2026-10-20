@@ -33,18 +33,23 @@ def race_id(codex_id: str) -> str:
     raise ValueError(codex_id)
 
 
+FROZEN = ["forecast", "polls", "odds", "events", "sources"]
+
+
 def freeze_codex() -> dict:
-    src = CODEX / "docs/data/forecast.json"
+    """Copy Codex's locked data files; refuse if any checksum differs from its LOCK.json."""
     lock = json.loads((CODEX / "data/LOCK.json").read_text())
-    raw = src.read_bytes()
-    sha = hashlib.sha256(raw).hexdigest()
-    if sha != lock["files"]["docs/data/forecast.json"]:
-        raise SystemExit("Codex forecast.json does not match its LOCK.json checksum")
-    commit = subprocess.run(["git", "-C", str(CODEX), "log", "-1", "--format=%H", "--", "docs/data/forecast.json"],
-                            capture_output=True, text=True).stdout.strip()
     out = ROOT / "data/codex"
     out.mkdir(parents=True, exist_ok=True)
-    (out / "forecast.json").write_bytes(raw)
+    for name in FROZEN:
+        rel = f"docs/data/{name}.json"
+        raw = (CODEX / rel).read_bytes()
+        if hashlib.sha256(raw).hexdigest() != lock["files"][rel]:
+            raise SystemExit(f"Codex {rel} does not match its LOCK.json checksum")
+        (out / f"{name}.json").write_bytes(raw)
+    sha = lock["files"]["docs/data/forecast.json"]
+    commit = subprocess.run(["git", "-C", str(CODEX), "log", "-1", "--format=%H", "--", "docs/data/forecast.json"],
+                            capture_output=True, text=True).stdout.strip()
     meta = {"source": "https://github.com/mareksulik/volebny-model-codex/blob/%s/docs/data/forecast.json" % commit,
             "site": CODEX_URL, "commit": commit, "sha256": sha, "locked_at": lock["locked_at"], "cutoff": lock["cutoff"]}
     (out / "meta.json").write_text(json.dumps(meta, indent=1))

@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-20T15:50:17",
+ "generated": "2026-10-20T16:04:25",
  "asof": "2026-10-24",
- "label": "draft3",
+ "label": "draft4",
  "n_sims": 20000,
  "races": [
   {
@@ -247,7 +247,7 @@
     "poll_sd": 0.064,
     "n_polls": 3
    },
-   "notes": "Effective field reduced to 5 (Jurinová, Choma, Kapitulík, Chlustinová, Pova); Lučanský and Belousovová stay on ballot but their votes are not counted. If Lučanský+Belousovová Sept shares (20.5 pp) transferred fully to Choma he would reach ~38 % of Sept decided base vs Jurinová 48.5 % – still behind; bookmakers (Jurinová 1.10-1.15) agree. Kapitulík is priced 2nd by bookmakers (5.5-6.0) ahead of Choma despite lower poll share. Ballot numbers follow MV SR/STVR list order (alphabetical, as on SU SR ballots); confirm against official ŽSK PDF. Official ŽSK candidate PDF not fetched directly (Exa out of credits; Firecrawl rate-limited).",
+   "notes": "Úradujúca predsedníčka Erika Jurinová vyhrala v rokoch 2017 (43,67 %) a 2022 (32,04 %) a nominuje ju široká opozičná koalícia vrátane PS, SaS, KDH a Demokratov. Hlavný vyzývateľ Igor Choma (Smer, Hlas, DOMOV-NS) bol v roku 2022 druhý s 22,24 %. V jeho prospech odstúpil Adam Lučanský (SNS) a 15. októbra odstúpila Anna Belousovová (Republika), aby nedelila hlasy proti Jurinovej. Septembrový prieskum AKO dával Jurinovej 48,5 %, Chomovi 17,3 %, Belousovovej 14,3 % a nezávislému Martinovi Kapitulíkovi 11,8 %. Stávkové kancelárie dávajú na Jurinovú kurz 1,10 až 1,15.",
    "sources": [
     "https://joj24.noviny.sk/prieskumy/1265252-volebny-prieskum-joj-24-v-zilinskom-kraji-jedno-meno-ziskalo-takmer-polovicu-volicov",
     "https://spravy.stvr.sk/volby-2026/volby-do-vuc/?kraj=SK5",
@@ -634,7 +634,7 @@
     "poll_sd": 0.092,
     "n_polls": 1
    },
-   "notes": "No withdrawals found in BB as of 2026-10-20. Lunter runs as NEKA with cross-camp support (incl. governing Hlas-SD) -> landslide expected; bookmakers 1.01. Anti-Lunter vote split between Suja (Republika), Kotleba (ĽSNS), Malatinec (Strana vidieka), Albert (Bratia Slovenska). An Instagram post cited 'Lunter 55.4 %' from an unidentified poll – unverified, not included. Ballot numbers follow MV SR/STVR list order (alphabetical); confirm against official BBSK list.",
+   "notes": "Úradujúci predseda Ondrej Lunter vyhral v roku 2022 so 47,53 %. Kandiduje ako nezávislý s podporou SaS, Aliancie, Hlasu, KDH, PS a Demokratov; Smer ani SNS kandidáta nenominovali. Prieskum AKO pre JOJ 24 mu dáva 63,2 % rozhodnutých voličov, Miroslavovi Sujovi (Republika) 16,8 %, Marianovi Kotlebovi (ĽSNS) 8,6 % a Romanovi Malatincovi (Strana vidieka) 8,5 %. Suja je spájaný s kauzou techniky za 1 euro z obdobia Kotlebu, vinu popiera. Stávkové kancelárie dávajú na Luntera kurz 1,01.",
    "sources": [
     "https://my.sme.sk/banska-bystrica/c/kandidati-na-zupana-banskobystricky-kraj-2026-kompletny-zoznam-a-profily-vuc-volby-2026",
     "https://spravy.stvr.sk/volby-2026/volby-do-vuc/?kraj=SK6",
@@ -1061,7 +1061,7 @@
     "poll_sd": 0.071,
     "n_polls": 2
    },
-   "notes": "Effective field 8 (Čureja, Geci, Goliaš, Ištok, Majerský, Mazurek, Migaľ, Stanko); Kašo, Laššáková, Lešková remain on ballot but votes not counted. Consolidation of nationalist/government vote toward Mazurek (SNS endorsement, Smer withdrawal) is the main risk to Majerský; 2022 Kaliňák (Hlas+Smer) got 31.4 % + Mazurek 10.9 % = 42.3 % vs Majerský 42.0 %, so a fully consolidated anti-Majerský vote would be competitive – but Migaľ (sitting government minister running as independent) splits it. Bookmakers still price Majerský ~1.11-1.13. Ballot numbers follow MV SR/STVR list order (alphabetical); official PSK PDF not parsed.",
+   "notes": "Úradujúci predseda Milan Majerský (KDH) vyhral v rokoch 2017 (40,36 %) a 2022 (42,01 %) a nominujú ho KDH, Hnutie Slovensko, SaS, Za ľudí, Konzervatívci a PS. Kandidátka Smeru Judita Laššáková odstúpila po dohode s vedením strany a Monika Lešková (SNS) odstúpila v prospech Milana Mazureka (Republika). Zoltán Kašo odstúpil v prospech ministra Samuela Migaľa, ktorý kandiduje ako nezávislý. Prieskum AKO dáva Majerskému 49,2 %, Mazurekovi 32,4 % a Migaľovi 7,8 % rozhodnutých. Stávkové kancelárie dávajú na Majerského kurz 1,11 až 1,13.",
    "sources": [
     "https://psk.sk/domov/samosprava/zpsk/volby-do-organov-samospravy/volby-2026/kandidati-na-predsedu-psk-2026/",
     "https://spravy.stvr.sk/volby-2026/volby-do-vuc/?kraj=SK7",
@@ -1538,7 +1538,7 @@
     "poll_sd": 0.062,
     "n_polls": 2
    },
-   "notes": "Most competitive of the four. Effective field 5 (Kodrazi, Porvažník, Soročinová, Šimko, Trnka); Géci stays on ballot, votes not counted. Polls (AKO: Trnka +16.7 pp) and bookmakers (near coin-flip, Trnka 1.65-1.80 vs Porvažník 1.90-1.95) diverge strongly. Trnka draws cross-camp support (in AKO leads among SNS, Aliancia, Sme rodina, KDH, Hlas voters; strong in Trebišov, Spišská Nová Ves, Gelnica and among Hungarians); Porvažník leads in Košice I/II and Rožňava and among university-educated. Trnka won 2022 with KDH+Aliancia backing that he no longer has formally (KDH now backs Porvažník). Fortuna specials (2026-10-20): 'who gets higher %' Trnka 2.05 vs Becík (NR) 1.60; Porvažník 1.75 vs Mazurek 1.90. Ballot numbers follow MV SR/STVR list order (alphabetical); official KSK PDF (static.kosice.sk link) not parsed. The STVR table did not flag Géci's withdrawal with X in all views – rely on news/KSK notice.",
+   "notes": "Úradujúci predseda Rastislav Trnka vyhral v roku 2022 s 51,31 % s podporou KDH a Aliancie, teraz kandiduje ako nezávislý. Opozícia vrátane KDH podporuje Mariána Porvažníka (PS), vládne strany a Republika nominujú Igora Šimka (Hlas). Prieskum AKO z 20. októbra dáva Trnkovi 42,4 %, Porvažníkovi 25,7 % a Šimkovi 19,7 % rozhodnutých. Stávkové kancelárie hodnotia Trnku a Porvažníka takmer rovnako (Tipsport 1,75 a 1,95). Trnka je obžalovaný v kauze obstarávania Valentín a vinu popiera.",
    "sources": [
     "https://spravy.stvr.sk/volby-2026/volby-do-vuc/?kraj=SK8",
     "https://static.kosice.sk/files/manual/volby/volby2026_vuc_zoznam_zaregistrovanych_predseda.pdf",
@@ -1913,7 +1913,7 @@
     "poll_sd": 0.085,
     "n_polls": 1
    },
-   "notes": "Safest race of the four: incumbent Droba backed by the whole liberal opposition (SaS, PS, Demokrati, Team Bratislava); won 2022 with 63.6 %. Government coalition (Smer, Hlas, SNS) unites behind low-profile Gajarský (4.3 % in only poll) - in 2022 Smer+SNS candidate got 13.4 %. Krajčovičová (Právo na pravdu + SaNK) is the populist/anti-establishment option; Staruch is an ex-SaS independent splitting the liberal vote marginally. KDH and Hnutie Slovensko do not formally nominate anyone (not on Droba's nomination). Bookmakers price Droba at 1.01 everywhere. No AKO/JOJ24 BSK poll found (JOJ24 published AKO regional polls for TT, TN, NR, PSK, KSK). No withdrawals known as of 2026-10-20 (national withdrawals so far: Laššáková PSK, Lučanský ŽSK, Belousovová ŽSK). Turnout 2022 was combined-election turnout (38.60 %); 2017 standalone regional election 31.34 %.",
+   "notes": "Úradujúci predseda Juraj Droba vyhral v roku 2022 so ziskom 63,6 % a teraz ho nominujú SaS, PS, Demokrati a Team Bratislava. Vládne strany Smer, Hlas a SNS spoločne nominovali Rastislava Gajarského, ktorý mal v prieskume 4,3 %; kandidát Smeru a SNS získal v roku 2022 13,4 %. Prieskum Politologických prieskumov z 5. októbra dáva Drobovi 68,9 % rozhodnutých voličov, druhá je Zuzana Krajčovičová (Právo na pravdu, SaNK). Stávkové kancelárie dávajú na Drobu kurz 1,01.",
    "sources": [
     "https://bratislavskykraj.sk/volby-do-vuc-2026/",
     "https://bratislavskykraj.sk/wp-content/uploads/2026/09/ZOZNAM-ZAREGISTROVANYCH-KANDIDATOV-pre-volby-predsedu-BSK.pdf",
@@ -2285,7 +2285,7 @@
     "poll_sd": 0.071,
     "n_polls": 2
    },
-   "notes": "Viskupič (now PS) has the broadest coalition of any opposition-camp candidate (PS, SaS, KDH, Demokrati, Hnutie Slovensko, Maďarské fórum, OKS); both polls give him ~50-52 % of decided. Main structural challenger is Berényi (Maďarská aliancia) whose vote is concentrated among Hungarian voters in Dunajská Streda/Galanta (AKO: Berényi 53 % vs Viskupič 29 % in DS district; 64 % among Hungarian-nationality respondents). Polls disagree on 2nd-4th order: AKO has Lančarič 3rd (11.7 %), Politologické prieskumy has Hambálek 3rd (13.4 %). Government coalition vote is weak here (2022 Smer+SNS 11.8 %). In 2022 Viskupič won with only 38.6 % thanks to fragmentation; independent Červenka (16.1 % in 2022) is not running. Pollák (SOS) is from Veľké Blahovo (Dunajská Streda district) and is reported as SOS regional chair for Nitra region. No withdrawals known as of 2026-10-20. AKO n not published.",
+   "notes": "Úradujúci predseda Jozef Viskupič vyhral v roku 2022 s 38,56 % a teraz ho nominujú PS, SaS, KDH, Demokrati, Hnutie Slovensko, Maďarské fórum a OKS. Prieskum AKO pre JOJ 24 mu dáva 51,8 % rozhodnutých voličov, József Berényi (Maďarská aliancia) má 18,1 %, nezávislý Matej Lančarič 11,7 % a Peter Hambálek (Smer, Hlas, SNS, Republika) 9,6 %. Berényi má podporu najmä medzi maďarskými voličmi, v okrese Dunajská Streda vedie s 53 % pred Viskupičom s 29 %. Politologické prieskumy dávajú tretie miesto Hambálkovi s 13,4 %.",
    "sources": [
     "https://osam.trnava-vuc.sk/OSamApi/fileDownloadEUT/d32d2e09-f347-4a73-80ee-20f1cd2c2ab1",
     "https://sk.wikipedia.org/wiki/Vo%C4%BEby_do_org%C3%A1nov_samospr%C3%A1vnych_krajov_na_Slovensku_v_roku_2017",
@@ -2627,7 +2627,7 @@
     "poll_sd": 0.073,
     "n_polls": 2
    },
-   "notes": "Only head-to-head race among the four: unified government coalition (Smer, Hlas, Republika, SNS) behind 13-year incumbent Baška vs unified opposition (PS, SaS, KDH, Demokrati, Hnutie Slovensko, OKS) behind Svítková. Two polls agree Baška ~56-58 % of decided, Svítková ~39-43 %; minor candidates <3 % combined. 2022: Baška 67.3 % vs opposition 16.6 % - Svítková polls far above the 2022 opposition baseline, so swing is large but Baška still favoured (Tipsport 1.08). Curiosity: 2022 opposition candidate Peter Máťoš now runs for TSK council on the Hlas/Smer/SNS/Republika list, while 2022 Republika candidate Magdech runs on KDH/PS/SaS list (hnonline council list). No withdrawals known as of 2026-10-20.",
+   "notes": "Úradujúci predseda Jaroslav Baška je vo funkcii od roku 2013 a v roku 2022 získal 67,25 %; nominujú ho Smer, Hlas, Republika a SNS. Opozičné strany PS, SaS, KDH, Demokrati, Hnutie Slovensko a OKS podporujú Natáliu Svítkovú, ostatní dvaja kandidáti sú okrajoví. Prieskum AKO dáva Baškovi 57,5 % a Svítkovej 38,6 % rozhodnutých voličov, Politologické prieskumy 56,0 % a 43,3 %. Opozičný kandidát mal v roku 2022 16,6 %. Tipsport dáva na Bašku kurz 1,08.",
    "sources": [
     "https://cuet.slovensko.sk/sk/dokument/96c05892-6ec3-40b3-9224-9a639a1f013f",
     "https://hnonline.sk/volby-2026/volby-do-vuc-2026/96307638-vuc-volby-2026-trencin-zoznam-kandidatov-zupan-a-poslanci",
@@ -2954,7 +2954,7 @@
     "poll_sd": 0.073,
     "n_polls": 2
    },
-   "notes": "Most competitive of the four in polls but bookmakers drifted toward Becík (Tipsport Varga 3.2 on 2026-10-08 -> 6.5 on 2026-10-20). Becík now has the full government coalition plus Právo na pravdu and Bratia Slovenska (in 2022 he won with 27.5 % against Smer-backed Belica 21.9 %; Smer+Hlas combined 2022 ~49 %). Varga = unified opposition incl. Tím kraj Nitra (2022 Holečková 15.7 % + Kyselica 5.1 %). Csenger (MA) holds the Hungarian south (16.7 % in 2022) - polls give him only 8-10 %, possibly underestimating ethnic-Hungarian turnout (AKO and online samples). Polls diverge strongly on Varga (25.5 % AKO vs 38.9 % Politologické prieskumy, decided) and Čuláková (10.2 % AKO; not offered in the other). Radava land-swap allegation surfaced 5 days before the vote. Single round, plurality wins. No withdrawals known as of 2026-10-20.",
+   "notes": "Úradujúci predseda Branislav Becík (Hlas) vyhral v roku 2022 s 27,49 % a teraz ho podporujú Hlas, Smer, SNS, Republika, Právo na pravdu a Bratia Slovenska. Henrich Varga je spoločný kandidát opozície a Tímu kraj Nitra. Prieskumy sa rozchádzajú: AKO dáva Becíkovi 45,5 % a Vargovi 25,5 %, Politologické prieskumy Vargovi 38,9 % rozhodnutých; kurz Tipsportu na Vargu stúpol z 3,2 na 6,5. Poslankyňa Martina Holečková 19. októbra oznámila trestné oznámenie na Becíka pre zámenu pozemkov v Radave; ide o podozrenie, nie o obvinenie.",
    "sources": [
     "https://cuet.slovensko.sk/sk/priloha/uloz/47e14565-8007-4760-87f3-b844064ebbf8",
     "https://hnonline.sk/volby-2026/volby-do-vuc-2026/96307533-vuc-volby-2026-nitriansky-kraj-zoznam-kandidatov-zupan-a-poslanci",
@@ -3261,7 +3261,7 @@
    "polls": [],
    "odds": [],
    "poll_info": null,
-   "notes": "This is a 2022 rematch between Vagač and Aufrichtová. In 2022 Vagač won with 50.3 % against a split field (Aufrichtová 22.2 % plus Števčík, SaNK, 16.2 %, together 38.4 %). In 2026 the anti-Vallo vote is again split, now between Aufrichtová (Krajina/KDH/KÚ/Nova, plus Dunaj) and Hitková (SaNK, the party that ran Števčík in 2022). Vetrík is the only government-party (Smer/Hlas/SNS) candidate in a very liberal district, so expect a low single-digit share (his 2022 primátor run got 0.8 % citywide). SaS backed Aufrichtová in 2022 but now nominates Vagač. Turnout trend: 43.4 % (2018), then 38.1 % (2022). No district-level polls or betting odds found. The withdrawal deadline is 22 Oct 07:00, and no withdrawals are known.",
+   "notes": "Starosta Matej Vagač (PS, Team Bratislava, SaS, Demokrati) vyhral v roku 2022 s 50,30 %. Bývalá starostka Zuzana Aufrichtová (Krajina, KDH, KÚ, Nova) bola vtedy druhá s 22,23 % a teraz ju podporuje aj strana Dunaj, ktorej kandidát v jej prospech odstúpil. Hlasy kritikov primátora Matúša Valla delí aj Petra Hitková (SaNK), Miroslav Vetrík kandiduje za Smer, Hlas a SNS. Aufrichtová podala podnet na prokuratúru pre Vagačov postup pri koncesnej zmluve na diaľkové vykurovanie; ide o jej tvrdenie.",
    "sources": [
     "https://data.moderneobce.sk/data/uploads/staremesto.sk/volby2026/KL_Starosta_2026.pdf",
     "https://volby.statistics.sk/opendata/oso/2022/OSO2022_SK_tab05d.csv ; turnout/registered/valid: https://volby.statistics.sk/opendata/oso/2022/OSO2022_SK_tab02bd.csv",
@@ -3463,7 +3463,7 @@
    "polls": [],
    "odds": [],
    "poll_info": null,
-   "notes": "Chren is the overwhelming favourite. He won 2022 with 78.1 %, and the 2026 field is the same minor challengers as 2022 minus the Smer candidate (Jányová, 4.9 %) and Biksadská. No government-party or štvorkoalícia candidate is running. Expect a result similar to or better than 2022. No polls or odds.",
+   "notes": "Starosta Martin Chren (Tím Ružinov) vyhral v roku 2018 s 34,21 % a v roku 2022 so 78,13 %. Koalícia Team Bratislava, PS, SaS a Demokrati proti nemu kandidáta nepostavila a deklaruje spoluprácu, kandidáta nemá ani žiadna vládna strana. Vyzývateľmi sú nezávislí Peter Strapák, ktorý bol v roku 2022 druhý s 10,93 %, a Ivor Švihran, ktorý mal v roku 2022 3,73 %.",
    "sources": [
     "https://volby.statistics.sk/opendata/oso/2022/OSO2022_SK_tab05d.csv ; turnout/registered/valid: https://volby.statistics.sk/opendata/oso/2022/OSO2022_SK_tab02bd.csv",
     "https://volby.statistics.sk/oso/oso2018/files/OSO_2018_xlsx.zip (OSO_2018_tab05.xlsx results; OSO_2018_tab02bd.xlsx turnout)",
@@ -3589,7 +3589,7 @@
    "polls": [],
    "odds": [],
    "poll_info": null,
-   "notes": "Kuruc is a very safe incumbent. He took 94 % in 2018 and was unopposed in 2022. This is the first time he carries a party label (štvorkoalícia), which could cost a little among anti-Vallo voters, but both challengers are minor. Vrakuňa had the lowest turnout in Bratislava in 2022 (30.6 %). Ballot numbers follow alphabetical order of surnames, which is how Slovak law orders candidates on the ballot (confirmed against official lists for Staré Mesto and Nové Mesto, and in 2022 ŠÚ SR data). Here the ballot numbers were not checked against the official Vrakuňa list. No polls or odds.",
+   "notes": "Starosta Martin Kuruc je vo funkcii od roku 2014, v roku 2018 získal 94,19 % a v roku 2022 nemal protikandidáta. Prvýkrát kandiduje s nomináciou strán Team Bratislava, PS, SaS a Demokrati, predtým kandidoval ako nezávislý. Protikandidátmi sú Dušan Burdy (Právo na pravdu) a Katarína Lukáčová (DS-ODS).",
    "sources": [
     "https://volby.statistics.sk/opendata/oso/2022/OSO2022_SK_tab05d.csv ; turnout/registered/valid: https://volby.statistics.sk/opendata/oso/2022/OSO2022_SK_tab02bd.csv (Kuruc was the sole candidate)",
     "https://volby.statistics.sk/oso/oso2018/files/OSO_2018_xlsx.zip (OSO_2018_tab05.xlsx results; OSO_2018_tab02bd.xlsx turnout)",
@@ -3798,7 +3798,7 @@
    "polls": [],
    "odds": [],
    "poll_info": null,
-   "notes": "This is the most competitive of the štvorkoalícia-held seats in this group. In 2022 Lamoš won with 44.8 % against a fragmented field. In 2026 the opposition is more consolidated: Frőhlich Činovská's coalition merges the 2022 Pék (Hungarian Aliancia, 21.8 %), SaNK (9.3 %) and KDH/Vereš (8.8 %) bases, together about 40 % in 2022 terms, although vote transfer is not automatic. Méry (Dunaj) splits the anti-Vallo vote. The 15 Oct stalking story may generate sympathy for Lamoš. Ballot numbers follow alphabetical order of surnames, which is how Slovak law orders candidates on the ballot (confirmed against official lists for Staré Mesto and Nové Mesto, and in 2022 ŠÚ SR data). Here the ballot numbers were not checked against the official PB list. No polls or odds.",
+   "notes": "Starosta Roman Lamoš (Team Bratislava, PS, SaS, Demokrati) vyhral v roku 2022 so 44,82 %. Martinu Frőhlich Činovskú nominujú SaNK, KDH, Nova a Maďarská aliancia; v roku 2022 bola tretia s 9,34 % a na jej kandidátke do zastupiteľstva je bývalý starosta Zoltán Pék, ktorý bol v roku 2022 druhý s 21,8 %. Ladislav Méry kandiduje za stranu Dunaj. Lamoš 15. októbra podal trestné oznámenie po tom, čo pod autom našiel sledovacie zariadenie GPS, a polícia začala trestné stíhanie pre nebezpečné prenasledovanie.",
    "sources": [
     "https://volby.statistics.sk/opendata/oso/2022/OSO2022_SK_tab05d.csv ; turnout/registered/valid: https://volby.statistics.sk/opendata/oso/2022/OSO2022_SK_tab02bd.csv",
     "https://volby.statistics.sk/oso/oso2018/files/OSO_2018_xlsx.zip (OSO_2018_tab05.xlsx results; OSO_2018_tab02bd.xlsx turnout)",
@@ -3844,7 +3844,7 @@
      "fund_p_win": 0.1653,
      "swing": 0.059,
      "adj": 0.3,
-     "adj_reason": "Spojená kandidatúra SaNK, KDH, Nova a Maďarskej aliancie s podporou exstarostu Péka na jej kandidátke. Tieto prúdy mali v roku 2022 spolu okolo 40 %.",
+     "adj_reason": "Spojená kandidatúra SaNK, KDH, Nova a Maďarskej aliancie s podporou exstarostu Péka na jej kandidátke. Tieto strany mali v roku 2022 spolu približne 40 %.",
      "exec_office": false,
      "local_official": false,
      "prev_share": 0.0934
@@ -3959,7 +3959,7 @@
    "polls": [],
    "odds": [],
    "poll_info": null,
-   "notes": "This is effectively a Čupka vs Kusý rematch of 2018, when Kusý won 58.5 % to 37.5 %. Čupka won the open seat in 2022 with 55.4 %. In 2022 Kusý polled 27.7 % citywide for primátor, and Bratislavský Večerník (Oct 2025) reported he faces a 150,000 EUR bribery charge and lost the backing of the Dunaj party. Čajda's withdrawal leaves 3 effective candidates. Under Slovak rules votes for Čajda are invalid but the ballot is unchanged. Note that ŠÚ SR in 2022 still listed withdrawn candidates' votes with an 'X' and computed shares over all valid ballots. No polls or odds. The Kusý bribery-charge status (indicted? trial?) was not verified beyond the Večerník report.",
+   "notes": "Starosta Matúš Čupka (Team Bratislava, PS, SaS, Demokrati) vyhral v roku 2022 s 55,39 %. Hlavný vyzývateľ Rudolf Kusý, bývalý starosta (do roku 2022), ho v roku 2018 porazil pomerom 58,49 % ku 37,54 %. Podľa Bratislavského Večerníka Kusý čelí obvineniu z úplatkárstva vo výške 150 000 eur a stratil podporu strany Dunaj. Tomáš Čajda (SaNK) 1. októbra odstúpil a nikoho nepodporil.",
    "sources": [
     "https://banm.sk/novinka/139682/zoznam-zaregistrovanych-kandidatov-pre-volby-do-organov-samospravy-obci-a-do-organov-samospravnych-krajov",
     "https://data.moderneobce.sk/data/uploads/banm.sk/Zoznam_registrovan%C3%BDch_kandid%C3%A1tov_pre_vo%C4%BEby_do_org%C3%A1nov_obc%C3%AD_na_starostu_mestskej_%C4%8Dasti_Bratislava-Nov%C3%A9_Mesto.pdf",
@@ -4012,7 +4012,7 @@
      "fund_p_win": 0.181,
      "swing": 0.0,
      "adj": 0.4,
-     "adj_reason": "Bývalý starosta (2014–2022). V roku 2018 porazil Čupku 58,5 % : 37,5 %. Model vidí len posledné voľby, kde nekandidoval. Úprava je nižšia ako +0,6 kvôli obvineniu z úplatku (2025).",
+     "adj_reason": "Bývalý starosta (do roku 2022). V roku 2018 porazil Čupku 58,5 % : 37,5 %. Model používa len posledné voľby a v tých nekandidoval. Úprava je nižšia ako +0,6 kvôli obvineniu z úplatku (2025).",
      "exec_office": false,
      "local_official": true,
      "prev_share": 0.0
@@ -4115,7 +4115,7 @@
    "polls": [],
    "odds": [],
    "poll_info": null,
-   "notes": "This is a straight 2022 rematch (68.6 % vs 25.9 %), now head-to-head with no minor candidates. Drotován is a strong favourite. Polakovič's ceiling is roughly 30–35 % unless something changes. No known štvorkoalícia candidate (SME's May table listed both under 'Nezávislí'). Ballot order is confirmed by the topky.sk numbered table and the official raca.sk list. No polls or odds.",
+   "notes": "Starosta Michal Drotován (nezávislý) vyhral v roku 2018 so 43,45 % a v roku 2022 so 68,56 %. Jediným protikandidátom je Ján Polakovič (Spoločný cieľ), ktorý bol v roku 2022 druhý s 25,85 %. Kandidujú teda tí istí dvaja ako v roku 2022, tentoraz bez ďalších kandidátov.",
    "sources": [
     "https://volby.statistics.sk/opendata/oso/2022/OSO2022_SK_tab05d.csv ; turnout/registered/valid: https://volby.statistics.sk/opendata/oso/2022/OSO2022_SK_tab02bd.csv",
     "https://volby.statistics.sk/oso/oso2018/files/OSO_2018_xlsx.zip (OSO_2018_tab05.xlsx results; OSO_2018_tab02bd.xlsx turnout)",
@@ -4238,7 +4238,7 @@
    "polls": [],
    "odds": [],
    "poll_info": null,
-   "notes": "This is a small electorate (about 4,900 voters) with high turnout (55.6 % in 2018, 47.8 % in 2022). Vlček is a two-term incumbent who grew from 50.9 % to 61.1 %. Ondruška ran close in 2018 (43.9 %) but fell to 18.5 % in 2022. Zeman is new. The challengers split the anti-incumbent vote, which favours Vlček. Ballot numbers follow alphabetical order of surnames, which is how Slovak law orders candidates on the ballot (confirmed against official lists for Staré Mesto and Nové Mesto, and in 2022 ŠÚ SR data). Here the ballot numbers were not checked against the official Vajnory list. No polls or odds.",
+   "notes": "Starosta Michal Vlček (nezávislý) vyhral v roku 2018 s 50,90 % a v roku 2022 so 61,10 %. Koalícia Team Bratislava, PS, SaS a Demokrati proti nemu kandidáta nepostavila. Juraj Ondruška bol v roku 2018 druhý so 43,92 % a v roku 2022 tretí s 18,47 %. Tretím kandidátom je nováčik Juraj Zeman; obaja vyzývatelia kandidujú ako nezávislí a delia si hlasy odporcov starostu.",
    "sources": [
     "https://volby.statistics.sk/opendata/oso/2022/OSO2022_SK_tab05d.csv ; turnout/registered/valid: https://volby.statistics.sk/opendata/oso/2022/OSO2022_SK_tab02bd.csv",
     "https://volby.statistics.sk/oso/oso2018/files/OSO_2018_xlsx.zip (OSO_2018_tab05.xlsx results; OSO_2018_tab02bd.xlsx turnout)",
@@ -4387,7 +4387,7 @@
    "polls": [],
    "odds": [],
    "poll_info": null,
-   "notes": "This is an open seat and a head-to-head proxy of Vallo vs anti-Vallo. Čahojová dominated (69.0 % in 2018, 85.5 % in 2022) and transfers her machine to Záhradník. Vallo's štvorkoalícia holds the district council majority and did not field a mayoral candidate in 2022. Long-running conflict: Čahojová vs the TB council club led by Vician, including a 2025 budget provisional regime and the Jurigovo námestie dispute. Expect a genuinely competitive two-way race. Čahojová's personal vote suggests an edge for Záhradník, while Bratislava-wide štvorkoalícia strength helps Vician. No polls found; an unscientific Facebook 'online poll' was ignored. No odds.",
+   "notes": "Starostka Dana Čahojová, ktorá vyhrala v roku 2018 s 69,0 % a v roku 2022 s 85,5 %, nekandiduje a podporuje svojho zástupcu Branislava Záhradníka (SaNK). Martina Viciana nominujú Team Bratislava, PS, SaS a Demokrati a osobne ho podporuje primátor Matúš Vallo. Kandidujú len títo dvaja. Čahojová je v dlhodobom spore s klubom Team Bratislava v miestnom zastupiteľstve, ktorý vedie Vician.",
    "sources": [
     "https://volby.statistics.sk/opendata/oso/2022/OSO2022_SK_tab05d.csv ; turnout/registered/valid: https://volby.statistics.sk/opendata/oso/2022/OSO2022_SK_tab02bd.csv",
     "https://volby.statistics.sk/oso/oso2018/files/OSO_2018_xlsx.zip (OSO_2018_tab05.xlsx results; OSO_2018_tab02bd.xlsx turnout)",
@@ -4500,7 +4500,7 @@
    "polls": [],
    "odds": [],
    "poll_info": null,
-   "notes": "UNCONTESTED: only the incumbent is on the ballot, so he wins with 100 % of valid votes (any valid vote elects him). Model note: winner certain; turnout reference 2022 35.91 %, 2018 39.93 % (ŠÚ SR). Zaťovič's 'since' = 2018 is the earliest year verified in ŠÚ SR data used here (earlier terms not checked). POLLS/ODDS: no public scientific poll and no bookmaker odds found for this district as of 2026-10-20.",
+   "notes": "Starosta Martin Zaťovič (Som Slovensko) je jediným kandidátom, takže voľbu vyhrá. V roku 2018 získal 90,78 % a v roku 2022 81,04 %.",
    "sources": [
     "https://volby.statistics.sk/oso/oso2018/sk/data02.html (JSON: https://volby.statistics.sk/oso/oso2018/json/tab05/529389.json, graph01/529389.json)",
     "https://volby.statistics.sk/oso/oso2022/sk/vysledky_obce.html (JSON: https://volby.statistics.sk/oso/oso2022/json/tab05/529389.json, graph01/529389.json)",
@@ -4622,7 +4622,7 @@
    "polls": [],
    "odds": [],
    "poll_info": null,
-   "notes": "Head-to-head. 2022 was fragmented: Polakovič 39.34 %, Baňacký (SOM Slovensko, then-incumbent) 30.02 %, Olekšák (Hlas/Smer/SNS) 17.72 %, Šimončičová 12.91 %. In 2026 neither Som Slovensko nor Smer/Hlas field a candidate, so ~48 % of the 2022 vote (Baňacký+Olekšák) is up for grabs; Šimončičová is the only alternative for non-PS voters. Lamač turnout is high (48.13 % in 2022). POLLS/ODDS: no public scientific poll and no bookmaker odds found for this district as of 2026-10-20.",
+   "notes": "Starosta Igor Polakovič (Team Bratislava, PS, SaS, Demokrati) vyhral v roku 2022 s 39,34 % spomedzi štyroch kandidátov. Jedinou protikandidátkou je nezávislá Mária Šimončičová, ktorá bola v roku 2022 štvrtá s 12,91 %. Bývalý starosta Baňacký (30,02 %) ani kandidát Hlasu, Smeru a SNS Olekšák (17,72 %) tentoraz nekandidujú, takže približne 48 % hlasov z roku 2022 nemá vlastného kandidáta.",
    "sources": [
     "https://volby.statistics.sk/oso/oso2018/sk/data02.html (JSON: https://volby.statistics.sk/oso/oso2018/json/tab05/529419.json, graph01/529419.json)",
     "https://volby.statistics.sk/oso/oso2022/sk/vysledky_obce.html (JSON: https://volby.statistics.sk/oso/oso2022/json/tab05/529419.json, graph01/529419.json)",
@@ -4753,7 +4753,7 @@
    "polls": [],
    "odds": [],
    "poll_info": null,
-   "notes": "OPEN SEAT. Very small electorate (1,541 registered in 2022) with high turnout (55.35 % 2022). 2022: Jakubkovič (NEKA) 43.48 %, Prieložný 30.10 %, Lőrinc (NEKA) 15.77 %, Martvoň (Hlas) 6.45 %, Kunst 4.18 %. Prieložný is the only candidate with a prior-run base; Galát carries continuity of the outgoing administration as deputy mayor (no source found that Jakubkovič formally endorsed him). Independents historically win Devín (2018 two independents only). POLLS/ODDS: no public scientific poll and no bookmaker odds found for this district as of 2026-10-20.",
+   "notes": "Starostka Jana Jakubkovič po jednom období nekandiduje. Igor Prieložný (Team Bratislava, PS, SaS, Demokrati) bol v roku 2022 druhý s 30,10 % a je jediným kandidátom s výsledkom z minulých volieb. Martin Galát je zástupcom starostky a kandiduje ako nezávislý; nie je známe, či ho Jakubkovič podporila. Tretím kandidátom je nezávislý podnikateľ Pavol Maruščák.",
    "sources": [
     "https://volby.statistics.sk/oso/oso2018/sk/data02.html (JSON: https://volby.statistics.sk/oso/oso2018/json/tab05/529401.json, graph01/529401.json)",
     "https://volby.statistics.sk/oso/oso2022/sk/vysledky_obce.html (JSON: https://volby.statistics.sk/oso/oso2022/json/tab05/529401.json, graph01/529401.json)",
@@ -4905,7 +4905,7 @@
    "polls": [],
    "odds": [],
    "poll_info": null,
-   "notes": "Strong incumbent (79.93 % in 2022 vs a broad SME RODINA/KDH/Za ľudí/SPOLU candidate). No candidate from Vallo's coalition or Smer/Hlas. Two candidates named Krajčír on the ballot (Dárius = incumbent, #1; Ľuboš = challenger, #2) - possible voter confusion. Turnout 2022 39.50 %. POLLS/ODDS: no public scientific poll and no bookmaker odds found for this district as of 2026-10-20.",
+   "notes": "Starosta Dárius Krajčír (Som Slovensko) vyhral v roku 2018 s 50,67 % a v roku 2022 so 79,93 %. Proti nemu kandidujú nezávislý Ľuboš Krajčír s rovnakým priezviskom a Denis Ružovič (Strana vidieka), ktorý mal v roku 2018 4,76 %. Kandidáta nemá koalícia primátora Matúša Valla ani Smer či Hlas.",
    "sources": [
     "https://volby.statistics.sk/oso/oso2018/sk/data02.html (JSON: https://volby.statistics.sk/oso/oso2018/json/tab05/529371.json, graph01/529371.json)",
     "https://volby.statistics.sk/oso/oso2022/sk/vysledky_obce.html (JSON: https://volby.statistics.sk/oso/oso2022/json/tab05/529371.json, graph01/529371.json)",
@@ -5038,7 +5038,7 @@
    "polls": [],
    "odds": [],
    "poll_info": null,
-   "notes": "UNCONTESTED: winner certain (Krúpa). Turnout 2022 52.67 %. 'since' = 2018 is earliest verified in ŠÚ SR data used here. POLLS/ODDS: no public scientific poll and no bookmaker odds found for this district as of 2026-10-20.",
+   "notes": "Starosta Jozef Krúpa (Som Slovensko) je jediným kandidátom, takže voľbu vyhrá. V roku 2018 získal 60,61 % a v roku 2022 84,88 %.",
    "sources": [
     "https://volby.statistics.sk/oso/oso2018/sk/data02.html (JSON: https://volby.statistics.sk/oso/oso2018/json/tab05/529427.json, graph01/529427.json)",
     "https://volby.statistics.sk/oso/oso2022/sk/vysledky_obce.html (JSON: https://volby.statistics.sk/oso/oso2022/json/tab05/529427.json, graph01/529427.json)",
@@ -5183,7 +5183,7 @@
    "polls": [],
    "odds": [],
    "poll_info": null,
-   "notes": "Hrčka is a heavy favourite on track record (77.19 % in 2022, 78.58 % in 2025 by-election) but 2026 is the first time he faces a Vallo-coalition nominee directly (in 2022 the coalition did not field a starosta candidate against him; PS/SaS/TB then won 33 of 35 council seats per ŠÚ SR, https://volby.statistics.sk/oso/oso2022/json/tab07/529460.json). The coalition now frames the race as anti-Smer; Krajina positions centre-right. Petržalka turnout is low (32.23 % in 2022, ~16 % in 2025 by-election); same-day local referendum and BA mayor race (Vallo vs Ráž) may lift turnout and help the coalition nominee. Non-scientific online vote on komunalne-volby.sk (20 self-selected votes, 2026-10-09) is NOT a poll and is excluded. 2018 result: Greksa flagged 'X' by ŠÚ SR (candidacy lapsed/withdrew). Mravec's 2025 share is derived (100 - 78.58), not officially sourced. POLLS/ODDS: no public scientific poll and no bookmaker odds found for this district as of 2026-10-20.",
+   "notes": "Starosta Ján Hrčka vyhral v roku 2022 so 77,19 %, v roku 2025 sa vzdal mandátu po sprenevere približne 2,7 milióna eur zamestnancom miestneho úradu a v doplňujúcich voľbách ho obhájil so 78,58 %. Teraz kandiduje za novú stranu Krajina, ktorú podporujú aj predstavitelia KDH, KÚ, Za ľudí a NOVA. Prvýkrát proti nemu stojí kandidát koalície Team Bratislava, PS, SaS a Demokrati, politológ Daniel Klimovský. Tretím kandidátom je Juraj Mravec, ktorého Hrčka porazil v roku 2025.",
    "sources": [
     "https://volby.statistics.sk/oso/oso2018/sk/data02.html (JSON: https://volby.statistics.sk/oso/oso2018/json/tab05/529460.json, graph01/529460.json)",
     "https://volby.statistics.sk/oso/oso2022/sk/vysledky_obce.html (JSON: https://volby.statistics.sk/oso/oso2022/json/tab05/529460.json, graph01/529460.json)",
@@ -5318,7 +5318,7 @@
    "polls": [],
    "odds": [],
    "poll_info": null,
-   "notes": "UNCONTESTED (as in 2022): winner certain. Official MČ PDF not retrieved; list from aktuality.sk and bratislavskevolby.sk (based on MČ lists/TASR). Turnout 2022 53.32 %. POLLS/ODDS: no public scientific poll and no bookmaker odds found for this district as of 2026-10-20.",
+   "notes": "Starosta Jozef Uhler (nezávislý) je jediným kandidátom, takže voľbu vyhrá. V roku 2018 získal 71,40 % a v roku 2022 nemal protikandidáta.",
    "sources": [
     "https://bratislavskevolby.sk/aktuality/kandidati-na-starostu-v-deviatich-mestskych-castiach",
     "https://volby.statistics.sk/oso/oso2018/sk/data02.html (JSON: https://volby.statistics.sk/oso/oso2018/json/tab05/529443.json, graph01/529443.json)",
@@ -5410,7 +5410,7 @@
    "polls": [],
    "odds": [],
    "poll_info": null,
-   "notes": "UNCONTESTED: winner certain. 2018 was a near tie (Tuleková Henčelová 50.76 % vs Antoš 49.23 %). Official MČ PDF not retrieved; list from aktuality.sk, HN and bratislavskevolby.sk. Turnout 2022 55.98 %. POLLS/ODDS: no public scientific poll and no bookmaker odds found for this district as of 2026-10-20.",
+   "notes": "Starosta Radovan Jenčík (nezávislý) je jediným kandidátom, takže voľbu vyhrá. V roku 2022 získal 59,96 % proti vtedajšej starostke Lucii Tulekovej Henčelovej, ktorá teraz kandiduje len do miestneho zastupiteľstva.",
    "sources": [
     "https://bratislavskevolby.sk/aktuality/kandidati-na-starostu-v-deviatich-mestskych-castiach",
     "https://hnonline.sk/volby-2026/komunalne-volby-2026/96308738-komunalne-volby-2026-bratislava-rusovce-kompletny-zoznam-kandidatov-na-primatora-a-poslancov",
@@ -5508,7 +5508,7 @@
    "polls": [],
    "odds": [],
    "poll_info": null,
-   "notes": "Smallest electorate in scope (1,259 registered 2022) and highest turnout (62.82 % 2022, 72.86 % 2018), so ~700-900 valid votes decide. Incumbent won 2022 with 71.09 % (vs 20.41 % and 8.49 %). Four-way split of the anti-incumbent vote favours Ferenčáková under plurality rule; Krist is the only challenger with a proven base (36.98 % in 2018 head-to-head). Incumbent age 72. Official MČ PDF not retrieved; ballot order from topky.sk (Boška, Ferenčáková, Kausich, Krist, Šimunek). POLLS/ODDS: no public scientific poll and no bookmaker odds found for this district as of 2026-10-20.",
+   "notes": "Starostka Gabriela Ferenčáková (Som Slovensko) vyhrala v roku 2018 s 63,01 % a v roku 2022 so 71,09 %. Proti nej kandidujú štyria nezávislí: Ivan Boška, Marek Kausich, Marián Krist a Michal Šimunek. Výsledok z minulých volieb má len Krist, ktorý bol v roku 2018 druhý s 36,98 %. Pri relatívnej väčšine rozdelenie hlasov medzi štyroch vyzývateľov pomáha starostke.",
    "sources": [
     "https://bratislavskevolby.sk/aktuality/kandidati-na-starostu-v-deviatich-mestskych-castiach",
     "https://volby.statistics.sk/oso/oso2018/sk/data02.html (JSON: https://volby.statistics.sk/oso/oso2018/json/tab05/529435.json, graph01/529435.json)",
@@ -5555,7 +5555,7 @@
      "fund_p_win": 0.1609,
      "swing": 0.0,
      "adj": 0.3,
-     "adj_reason": "V roku 2018 získal proti dnešnej starostke 36,98 %. V roku 2022 nekandidoval, takže to model nevidí.",
+     "adj_reason": "V roku 2018 získal proti dnešnej starostke 36,98 %. V roku 2022 nekandidoval, preto tento výsledok v modeli nie je.",
      "exec_office": false,
      "local_official": false,
      "prev_share": 0.0
@@ -5898,7 +5898,7 @@
     "poll_sd": 0.062,
     "n_polls": 6
    },
-   "notes": "6 registered, 2 withdrew after registration (Heredoš, Winkler) — names stay on ballot, votes not counted; effective field = 4 (Vallo, Ráž, Šubová, Geci). Polls diverge sharply: SANEP/Kanal1 (CAWI) has Vallo +2.6 among decided, Ixactly/Markíza has Vallo +14.6 (≈ +17 among decided). AKO/JOJ poll due 20.10 evening reportedly shows a close race — check before finalising. Bookmakers strongly favour Vallo (implied ~93–96 %). Winkler's July support (18.5 %) partially transfers to Ráž; C&C July head-to-head had Vallo 53.7 vs Ráž 34.4. Historical: Vallo 2022 60.2 % vs combined KDH/SR/ZĽ challenger 27.7 %; turnout 36.9 % (2022), 40.7 % (2018). Polls report 'declared turnout' 42–80 % — not credible as literal turnout. Ráž is formally NEKA but widely perceived as Smer candidate (Hlavný denník: 'nom. SMER-SD'). Vallo's 2026 coalition = Team BA + PS + SaS + Demokrati.",
+   "notes": "Primátor Matúš Vallo vyhral v roku 2022 so 60,2 % a teraz ho nominujú Team Bratislava, PS, SaS a Demokrati. Hlavný vyzývateľ, minister dopravy Jozef Ráž, kandiduje ako nezávislý, no je vnímaný ako kandidát Smeru. V jeho prospech odstúpil Martin Winkler (Dunaj) a Miroslav Heredoš odstúpil zo zdravotných dôvodov. Prieskumy sa rozchádzajú: SANEP dáva Vallovi náskok 2,6 percentuálneho bodu medzi rozhodnutými, Ixactly 14,6 bodu. Stávkové kancelárie dávajú Vallovi pravdepodobnosť výhry približne 93 až 96 %.",
    "sources": [
     "https://banm.sk/data/advertisement/banm.sk/532442/204469_Zoznam%20zaregistrovan%C3%BDch%20kandid%C3%A1tov%20pre%20vo%C4%BEby%20prim%C3%A1tora%20mesta%20Bratislava.pdf",
     "https://bratislavskevolby.sk/aktuality/co-ukazali-prieskumy-vallo-winkler-raz",
@@ -5955,7 +5955,7 @@
      "fund_p_win": 0.0696,
      "swing": 0.0,
      "adj": 0.0,
-     "adj_reason": "Formálne nezávislý, ale minister dopravy nominovaný Smerom. V simulácii nesie spoločný šok vládneho bloku (bez úpravy podielu).",
+     "adj_reason": "Formálne nezávislý, ale minister dopravy nominovaný Smerom. V simulácii ho zaraďujeme k vládnemu bloku pre spoločnú odchýlku; podiel neupravujeme.",
      "exec_office": false,
      "local_official": false,
      "prev_share": 0.0
@@ -6297,7 +6297,7 @@
     "poll_sd": 0.059,
     "n_polls": 5
    },
-   "notes": "No withdrawals found as of 2026-10-20 (all 8 still in SANEP 13–18 Oct poll; stavkynavolby lists only 6 because it omits the two fringe candidates). Genuinely open 4-way race under plurality rule: Lörinc leads 4 of 5 polls (only Polaček-commissioned Focus has Polaček first); 2nd–4th within margin. Winning threshold likely ~25–30 %. Low turnout city (30.9 % in 2022). Name-confusion risk: Lörinc (#2, Košická strana) vs Lörincz (#3, Jednota Slovanov) — Lörincz polls 2.4–4 %, part may be misdirected Lörinc votes. Polaček's 2022 coalition included SME RODINA, now not. Mudrák (PS) and Kovačevičová split the anti-incumbent vote with Lörinc. Polls from campaigns (Focus x2) should be down-weighted.",
+   "notes": "Primátor Jaroslav Polaček (KDH, SaS, Maďarská aliancia a ďalší) vyhral v roku 2018 so 43,29 % a v roku 2022 s 36,8 %. Ladislav Lörinc (Košická strana), starosta Sídliska KVP, vedie v štyroch z piatich prieskumov a stávkové kancelárie ho považujú za favorita. Polaček je prvý len v prieskume agentúry Focus, ktorý si objednal jeho tím. Ďalšími kandidátmi sú Martin Mudrák (PS, Demokrati, Za ľudí) a Lenka Kovačevičová (Tím Košice, SaNK, Právo na pravdu); poradie na druhom až štvrtom mieste je v rámci štatistickej chyby. Vládne strany vlastného kandidáta nemajú.",
    "sources": [
     "https://static.kosice.sk/files/manual/volby/volby2026_zoznam_zaregistrovanych_primator.pdf",
     "https://volby.statistics.sk/oso/oso2018/files/xlsx/OSO_2018_tab05.xlsx ; turnout/registered/valid: https://volby.statistics.sk/oso/oso2018/files/xlsx/OSO_2018_tab02bx.xlsx (ŠÚ marks Špak, Lesňák, Dečo, Havrilla with 'X' = withdrawn)",
@@ -6658,7 +6658,7 @@
     "poll_sd": 0.066,
     "n_polls": 3
    },
-   "notes": "6 registered; Sobota withdrew 8 Oct (ballot no. 5, votes not counted) → 5 effective. Polls: Nosko leads all four (by 1.6–11.4 pts), lead narrowed to 6.8 in SANEP Oct after Sobota's exit; but all three bookmakers make Javorčíková slight favourite (implied ~55–58 %) — a notable polls-vs-market divergence. Nosko won 2022 with 66 % vs Javorčíková 25 % on 39.8 % turnout; he is formally independent but drew support from the governing coalition (Hlas, Smer, SNS, Sme rodina in 2022) — national anti-government mood could hurt him. Molitoris (12–19 %) splits the change vote. Ballot numbers inferred from alphabetical registration order (topky table shows 1–4 and 6 with Sobota as 5); official city PDF not read directly.",
+   "notes": "Primátor Ján Nosko je vo funkcii od roku 2014 a v roku 2022 vyhral so 66,2 % nad Dianou Javorčíkovou (24,8 %). Kandiduje ako nezávislý, predseda Hlasu Matúš Šutaj Eštok vyjadril ochotu ho podporiť. Javorčíkovú nominujú PS, SaS, Demokrati, Hnutie Slovensko a OKS a 8. októbra v jej prospech odstúpil Tomáš Sobota, ktorého podporovalo KDH. Nosko vedie vo všetkých štyroch prieskumoch o 1,6 až 11,4 bodu, no všetky tri stávkové kancelárie považujú za miernu favoritku Javorčíkovú. Hlasy odporcov primátora delí aj Matúš Molitoris s 12 až 19 %.",
    "sources": [
     "https://volby.statistics.sk/oso/oso2018/files/xlsx/OSO_2018_tab05.xlsx ; turnout/registered/valid: https://volby.statistics.sk/oso/oso2018/files/xlsx/OSO_2018_tab02bd.xlsx",
     "https://www.aktuality.sk/clanok/CtAKOP1/kompletny-zoznam-kandidatov-na-primatora-mesta-banska-bystrica-vo-volbach-2026/",
@@ -6996,7 +6996,7 @@
     "poll_sd": 0.083,
     "n_polls": 3
    },
-   "notes": "4 candidates, no withdrawals. Structural change vs 2022: Hattas consolidated the opposition parties (PS, KDH, SaS, Demokrati, HS, OKS) behind his regional party; Kršiak lost his 2022 coalition backing (Hlas/Sme rodina) and the government parties field Illéš (Smer/Hlas/SR) and Uhríková (Republika/SNS) separately, splitting the anti-Hattas vote. 2022 Hattas won only 30.8 % with Štefek (20.0) and Obertáš (17.5) not running now. Only one independent poll (AKO) — Hattas +22.7; campaign-released polls: Infostat Hattas +9.9, Focus tie. Bookmakers imply Hattas ~75–80 %. ballot_no for Nitra from topky 'v poradí podľa hlasovacieho lístka'.",
+   "notes": "Primátor Marek Hattas vyhral v roku 2018 so 42,28 % a v roku 2022 s 30,8 %, teraz ho okrem Tímu kraj Nitra podporuje celá parlamentná opozícia. Hlavný vyzývateľ Igor Kršiak bol v roku 2022 druhý s 27,2 % s podporou Hlasu a Sme rodiny, teraz kandiduje ako nezávislý. Vládne strany majú dvoch kandidátov: Mareka Illéša (Smer, Hlas, Sme rodina) a Zuzanu Uhríkovú (Republika, SNS). Nezávislý prieskum AKO dáva Hattasovi 55 % a Kršiakovi 32,5 %. Stávkové kancelárie dávajú Hattasovi pravdepodobnosť výhry približne 75 až 80 %.",
    "sources": [
     "https://spravy.stvr.sk/2026/10/kandidati-na-primatora-nitra-komunalne-volby-2026/",
     "https://volby.statistics.sk/oso/oso2018/files/xlsx/OSO_2018_tab05.xlsx ; turnout/registered/valid: https://volby.statistics.sk/oso/oso2018/files/xlsx/OSO_2018_tab02bd.xlsx",
@@ -7349,7 +7349,7 @@
     "poll_sd": 0.095,
     "n_polls": 1
    },
-   "notes": "Coalition map 2026: governing Smer+SNS+Sme rodina+Bratia Slovenska back Pavlovičová; Hlas has NO mayoral candidate in Prešov (Hlas runs own council list; Hlas's Micheľ got 11.65 % in 2022) and, per Denník N (15.10.), Hlas and Republika endorsed no mayoral candidate - where Hlas voters go is a key unknown. Opposition split: PS+Demokrati+DS back incumbent Oľha; KDH+SaS+Hnutie Slovensko+KÚ+Za ľudí+Nova back Mochnacký (in 2022 SaS backed Oľha and KDH ran Bednárová 5.63 %). Hagyari (2nd in 2014/2018/2022) runs as NEKA this time (2022 STANK+Sme rodina). Markets: all bookmakers make Oľha a heavy favourite (1.08-1.10); Mochnacký has overtaken Hagyari as 2nd favourite at Tipsport by 20.10 and on Polymarket. Polls: only a sponsor-released NMS poll (12-16 Oct, n=510: Oľha 46, Hagyari 30, Mochnacký 11) and an older Policy Insights/Focus figure (Oľha ~24, Hagyari ~17, Mochnacký ~1, undecided >27) - both put Hagyari, not Mochnacký, 2nd, contradicting the late market move to Mochnacký. Hagyari is running for the 6th time (2nd in last three). Turnout 2022 42.66 %, 2018 43.2 %. Relative majority, one round: fragmented field (6) means winner can win with ~35 %.",
+   "notes": "Primátor František Oľha (PS, Demokrati, DS) vyhral v roku 2022 s 37,26 %. Pavel Hagyari, primátor v rokoch 2006 až 2014, skončil druhý v rokoch 2014, 2018 aj 2022 a teraz kandiduje ako nezávislý. Rastislava Mochnackého nominujú KDH, SaS, Hnutie Slovensko a ďalšie strany, Svetlanu Pavlovičovú Smer, SNS, Sme rodina a Bratia Slovenska; Hlas a Republika nepodporili nikoho. Prieskum NMS, ktorý zverejnil Oľhov tím, mu dáva 46 %, Hagyarimu 30 % a Mochnackému 11 %. Stávkové kancelárie dávajú na Oľhu kurz 1,08 až 1,10 a Tipsport aj Polymarket uvádzajú ako druhého Mochnackého.",
    "sources": [
     "https://oznamypresov.sk/download/10648",
     "https://sita.sk/presov-pozna-kandidatov-na-primatora-aj-zupana-o-kreslo-v-krajskom-zastupitelstve-zabojuje-476-ludi/",
@@ -7695,7 +7695,7 @@
     "poll_sd": 0.072,
     "n_polls": 1
    },
-   "notes": "Open seat (Bročka retiring after 3 terms; won 2022 with 44.7 % vs Baroš 33.62 %). Two-horse race Baroš (Trnava pre každého + KDH) vs. vice-mayor Nemčovská (NEKA, backed by PS and after 9.10 by Demokrati). Poll pre-withdrawal: 32.4 vs 31.9; if Horváthová's 12.4 % transfers mostly to Nemčovská she leads clearly - bookmakers price her favourite (1.45-1.65) vs Baroš (1.90-2.45). Pullmann carries Smer+Hlas+SNS+Republika label in a liberal-leaning city (2018 Smer+SNS candidate Válek got 5.77 %). Horváthová stays on ballot - votes for her invalid. Whether Bročka endorsed anyone: not found (SME: 'his shadow felt over every candidate'). Turnout 2022 41.87 %, 2018 37.74 %.",
+   "notes": "Primátor Peter Bročka po troch obdobiach nekandiduje; v roku 2022 porazil Branislava Baroša (Trnava pre každého, KDH), ktorý získal 33,62 %. Viceprimátorku Evu Nemčovskú podporujú PS a od 9. októbra aj Demokrati, ktorých kandidátka Ľubica Horváthová v jej prospech odstúpila. Prieskum Trnavskej univerzity pred odstúpením dával Barošovi 32,4 %, Nemčovskej 31,9 % a Horváthovej 12,4 %. Stávkové kancelárie považujú za favoritku Nemčovskú (kurz 1,45 až 1,65 oproti 1,90 až 2,45 pre Baroša). Martin Pullmann je kandidátom Smeru, Hlasu, SNS a Republiky.",
    "sources": [
     "https://volby.statistics.sk/oso/oso2018/files/xlsx/OSO_2018_tab05.xlsx (candidates) + https://volby.statistics.sk/oso/oso2018/files/xlsx/OSO_2018_tab02bd.xlsx (turnout/registered)",
     "https://volby.statistics.sk/oso/oso2022/files/xlsx/OSO2022_SK_tab05d.xlsx (candidates) + https://volby.statistics.sk/oso/oso2022/files/xlsx/OSO2022_SK_tab02bd.xlsx (turnout/registered)",
@@ -7937,7 +7937,7 @@
     }
    ],
    "poll_info": null,
-   "notes": "Open seat after 16 years of Rybníček. Effectively Forgáč (continuity, Rybníček-endorsed) vs Mičega (two-time runner-up with ~27 %, the anti-Rybníček pole). No party formally nominates any mayoral candidate; no Smer/Hlas mayoral candidate, so where government-leaning voters go (likely Mičega?) is unknown - no source found on party endorsements. Birošová (withdrew in favour of Mičega in 2018 and 2022) stays in this time, splitting the opposition vote. No public poll found. Bookmakers: Forgáč 1.10-1.19, Mičega 4.0-6.0. Turnout 2022 37.0 %, 2018 42.03 %. Mičega's 27 % ceiling was vs. a popular incumbent; open-seat dynamics are different.",
+   "notes": "Primátor Richard Rybníček po 16 rokoch nekandiduje a podporuje svojho prvého viceprimátora Jána Forgáča. Hlavný vyzývateľ Miloš Mičega bol v rokoch 2018 a 2022 druhý s 27,32 % a 27,05 %. Danica Birošová, ktorá v rokoch 2018 a 2022 odstúpila v prospech Mičegu, tentoraz podľa vlastných slov neodstúpi. Všetci štyria kandidáti sú nezávislí a žiadna strana nikoho nenominovala. Stávkové kancelárie dávajú na Forgáča kurz 1,10 až 1,19 a na Mičegu 4,0 až 6,0.",
    "sources": [
     "https://my.sme.sk/trencin/c/kandidati-na-primatora-mesta-trencin-2026-kompletny-zoznam-a-profily-komunalne-volby-2026",
     "https://trencin.sk/aktuality/pozname-mena-kandidatov-a-kandidatok-na-primatorsky-post-a-do-mestskeho-zastupitelstva/",
@@ -7963,7 +7963,7 @@
      "fund_p_win": 0.2399,
      "swing": 0.0,
      "adj": 0.6,
-     "adj_reason": "Prvý viceprimátor od 2014, ktorého podporuje odchádzajúci primátor Rybníček (16 rokov vo funkcii, 2022 jasne zvolený). Model pozná len to, že je miestny funkcionár.",
+     "adj_reason": "Prvý viceprimátor od 2014, ktorého podporuje odchádzajúci primátor Rybníček (16 rokov vo funkcii, v roku 2022 získal 72,94 %). Model má o ňom len údaj, že je miestny funkcionár.",
      "exec_office": false,
      "local_official": true,
      "prev_share": 0.0
@@ -8237,7 +8237,7 @@
     }
    ],
    "poll_info": null,
-   "notes": "Incumbent Fiabáne (48.06 % 2018, 45.53 % 2022) faces fragmented field of 7. Main challengers: Johanes (doctor, ŽSK councillor) and Cibulka (3rd in 2022 with 15.51 %). In 2022 the 2nd place Groma (Hlas+KDH, 19.01 %) - this time KDH backs Fiabáne and Hlas/Smer/SNS/Domov run joint council lists but NO mayoral candidate; no source found on whether they informally back Johanes. Republika (Milo) is the only party-nominated challenger. Odds drifted from Fiabáne 1.04 / Johanes 7.0 (12.8.) to 1.18-1.20 / 3.8-4.0 (mid-Oct) - tightening but Fiabáne clear favourite. No scientific poll found (komunalne-volby.sk runs a self-selected web vote - not usable). Turnout 2022 38.16 %, 2018 41.3 %.",
+   "notes": "Primátor Peter Fiabáne vyhral v rokoch 2018 (48,06 %) a 2022 (45,53 %), kandiduje ako nezávislý s podporou PS, SaS, KDH a Demokratov a uviedol, že ide o jeho poslednú kandidatúru. Hlavnými vyzývateľmi sú chirurg a krajský poslanec Rastislav Johanes a Peter Cibulka, ktorý bol v roku 2022 tretí s 15,51 %. Hlas, Smer, SNS a Domov kandidáta na primátora nemajú, Republika nominovala Michala Mila. Kurz na Fiabáneho sa od augusta zmenil z 1,04 na 1,18 až 1,20 a na Johanesa zo 7,0 na 3,8 až 4,0.",
    "sources": [
     "https://hnonline.sk/volby-2026/komunalne-volby-2026/96307650-komunalne-volby-2026-zilina-zoznam-kandidatov-primator-a-poslanci",
     "https://volby.statistics.sk/oso/oso2018/files/xlsx/OSO_2018_tab05.xlsx (candidates) + https://volby.statistics.sk/oso/oso2018/files/xlsx/OSO_2018_tab02bd.xlsx (turnout/registered)",

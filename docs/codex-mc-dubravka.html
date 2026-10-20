@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="sk"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dúbravka · Codex · Voľby 2026</title><link rel="icon" href="data:,">
+<link rel="stylesheet" href="ds.css"><script src="ds.js"></script>
+<style>
+.iv{vertical-align:middle} .race-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(520px,1fr));gap:16px}
+.race-grid>*{min-width:0} .race-grid .card h3{margin:0 0 4px} .race-grid table td,.race-grid table th{padding:6px 8px}
+td.nm{min-width:200px;max-width:280px} td.ivc{min-width:140px} .muted{color:var(--mu-gray-900)}
+.topmenu{display:flex;gap:4px;align-items:center;margin-left:auto}
+.topmenu a{font-size:14px;line-height:20px;font-weight:500;padding:6px 12px;border-radius:var(--mu-radius-sm);color:var(--mu-gray-900);text-decoration:none}
+.topmenu a:hover{background:var(--mu-gray-100);color:var(--mu-gray-1000)}
+.topmenu a.active{background:var(--mu-gray-1000);color:var(--mu-background-100)}
+.stats-row{display:flex;flex-wrap:wrap;gap:16px 32px} .stats-row .stat{flex:1 1 160px}
+footer.site{flex-wrap:wrap;gap:8px 24px} footer.site .status{display:flex;flex-wrap:wrap;gap:4px 16px;text-transform:uppercase;letter-spacing:.06em;font-size:12px}
+@media (max-width:600px){.race-grid{grid-template-columns:1fr} td.nm{min-width:150px}}
+</style></head><body>
+<header class="topbar"><div class="wrap"><div class="brand">
+<svg viewBox="0 0 110 22" height="22" aria-hidden="true"><text x="0" y="17" font-family="Geist, sans-serif" font-weight="600" font-size="18" fill="currentColor">Voľby 2026</text></svg>
+<span class="slash"></span><span class="app">Predpoveď samosprávnych volieb</span><h1 class="sr-only">Dúbravka · Codex · Voľby 2026</h1></div>
+<div class="topmenu" role="navigation" aria-label="Model"><a href="index.html">Claude</a><a href="codex.html" class=active aria-current=page>Codex</a><a href="porovnanie.html">Porovnanie</a></div></div></header>
+<nav aria-label="Sekcie"><div class="wrap"><a href="codex.html">Prehľad</a><a href="codex-model.html">Model</a><a href="https://github.com/mareksulik/volebny-model-codex" class="right">GitHub</a></div></nav>
+<section><div class="wrap">
+<div class="sec-num">starosta · Codex</div><h2>Dúbravka</h2>
+<p class="muted">Zapísaní voliči: 30 999. Jedno kolo, vyhráva relatívna väčšina. <a href="mc-dubravka.html">Predpoveď modelu Claude</a> · <a href="porovnanie.html#mc-dubravka">porovnanie</a></p>
+<figure><figcaption>Predpoveď</figcaption><div class="fig-sub">odhad = priemer 50 000 simulácií · interval = 10. až 90. percentil · P(výhra) = podiel simulácií, v ktorých je kandidát prvý</div>
+<div class="tbl-scroll"><table><thead><tr><th>Kandidát</th><th class="num">Odhad</th><th class="num">80 % interval</th><th>0–100 %</th><th class="num">P(výhra)</th><th class="num gs">Fundamenty</th><th class="num">P fund.</th></tr></thead><tbody><tr><td class="nm">Martin Zaťovič <span class="chip chip-neutral">obhajca</span><div class="text-small muted">Som Slovensko - strana obcí a miest</div></td><td class="num">100,0 %</td><td class="num">100–100 %</td><td class="ivc"><svg class="iv" width="180" height="16" viewBox="0 0 180 16" aria-hidden="true"><line x1="0" y1="8" x2="180" y2="8" stroke="var(--mu-gray-200)"/><rect x="180.0" y="4" width="1" height="8" rx="4" fill="var(--mu-blue-200)"/><circle cx="180.0" cy="8" r="4" fill="var(--mu-blue-700)"/></svg></td><td class="num"><span class="chip chip-ok">> 99 %</span></td><td class="num gs">100,0 %</td><td class="num">> 99 %</td></tr></tbody></table></div></figure>
+<div class="grid2"><figure><figcaption>Prieskumy</figcaption><p class="muted">Žiadny prieskum.</p></figure>
+<figure><figcaption>Stávkové kurzy</figcaption><p class="muted">Kurzy nie sú k dispozícii.</p></figure></div>
+
+<figure><figcaption>Poznámky</figcaption><p>Bez zaradeného miestneho prieskumu. Slabší fundamentálny odhad; široké intervaly sú podstatnou súčasťou výsledku. Jediný aktívny kandidát: 100 % podmienené platným konaním volieb a aspoň jedným platným hlasom. Model neodhaduje zrušenie volieb ani volebnú účasť.</p></figure>
+<h3>Výsledky predchádzajúcich volieb (ŠÚ SR)</h3><div class="grid2"><figure><figcaption>Voľby 2022</figcaption><div class="fig-sub">účasť 35,91 % · <a href="https://volby.statistics.sk/oso/oso2022/sk/vysledky_obce.html (JSON: https://volby.statistics.sk/oso/oso2022/json/tab05/529389.json, graph01/529389.json)">zdroj</a></div><div class="tbl-scroll"><table><thead><tr><th>Kandidát</th><th>Strana</th><th class="num">Podiel</th></tr></thead><tbody><tr><td>Martin Zaťovič</td><td>SOM Slovensko</td><td class="num">81,04 %</td></tr><tr><td>Marek Dinuš</td><td>NEKA</td><td class="num">18,95 %</td></tr></tbody></table></div></figure><figure><figcaption>Voľby 2018</figcaption><div class="fig-sub">účasť 39,93 % · <a href="https://volby.statistics.sk/oso/oso2018/sk/data02.html (JSON: https://volby.statistics.sk/oso/oso2018/json/tab05/529389.json, graph01/529389.json)">zdroj</a></div><div class="tbl-scroll"><table><thead><tr><th>Kandidát</th><th>Strana</th><th class="num">Podiel</th></tr></thead><tbody><tr><td>Martin Zaťovič</td><td>SaS, OBYČAJNÍ ĽUDIA a nezávislé osobnosti (OĽANO), KDH, SME RODINA - Boris Kollár, OKS, NOVA, Zmena zdola, DÚ</td><td class="num">90,78 %</td></tr><tr><td>Iveta Petrušková</td><td>SMER-SD, SNS</td><td class="num">9,21 %</td></tr></tbody></table></div></figure></div>
+<figure><figcaption>Zdroje</figcaption><ul class="text-small"><li><a href="https://www.minv.sk/swift_data/source/verejna_sprava/volby_a_referendum/150_oso/OSO26_ZZK-Starosta.xlsx">https://www.minv.sk/swift_data/source/verejna_sprava/volby_a_referendum/150_oso/OSO26_ZZK-Starosta.xlsx</a></li></ul></figure>
+</div></section>
+<footer class="site"><span class="status"><span>Codex</span><span>zamknuté 2026-10-20 15:39</span><span>uzáver vstupov 2026-10-20 15:20</span></span><span>Marek Šulík · obsah CC BY 4.0, kód MIT · predpovede pripravili Claude a Codex, nie sú to tipy na stávkovanie</span></footer>
+</body></html>
