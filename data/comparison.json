@@ -1,0 +1,2610 @@
+{
+ "codex": {
+  "source": "https://github.com/mareksulik/volebny-model-codex/blob/2bb314d5aca388965ec21ece91dd11b858b8f210/docs/data/forecast.json",
+  "site": "https://mareksulik.github.io/volebny-model-codex/",
+  "commit": "2bb314d5aca388965ec21ece91dd11b858b8f210",
+  "sha256": "683a024057c556e5c1fdbde372f060ed8f054ae2ccd6f766ca0a27499ea3506c",
+  "locked_at": "2026-10-20T15:39:29+02:00",
+  "cutoff": "2026-10-20T15:20:15+02:00"
+ },
+ "claude_snapshot": "draft3",
+ "claude_generated": "2026-10-20T15:50:17",
+ "n_races": 33,
+ "same_favourite": 31,
+ "mean_abs_share_diff_pp": 4.18,
+ "mean_abs_pwin_diff": 0.066,
+ "races": [
+  {
+   "id": "kraj-za",
+   "name": "Žilinský samosprávny kraj",
+   "group": "kraj",
+   "candidates": [
+    {
+     "name": "Erika Jurinová",
+     "inc": true,
+     "claude": {
+      "share": 45.8,
+      "lo80": 30.0,
+      "hi80": 61.9,
+      "p_win": 0.8145
+     },
+     "codex": {
+      "share": 46.4,
+      "lo80": 35.8,
+      "hi80": 57.0,
+      "p_win": 0.9699
+     }
+    },
+    {
+     "name": "Igor Choma",
+     "inc": false,
+     "claude": {
+      "share": 31.6,
+      "lo80": 19.0,
+      "hi80": 47.6,
+      "p_win": 0.1445
+     },
+     "codex": {
+      "share": 17.3,
+      "lo80": 9.7,
+      "hi80": 25.7,
+      "p_win": 0.0113
+     }
+    },
+    {
+     "name": "Martin Kapitulík",
+     "inc": false,
+     "claude": {
+      "share": 16.8,
+      "lo80": 9.9,
+      "hi80": 27.1,
+      "p_win": 0.0401
+     },
+     "codex": {
+      "share": 12.3,
+      "lo80": 5.9,
+      "hi80": 19.5,
+      "p_win": 0.0022
+     }
+    },
+    {
+     "name": "Milan Pova",
+     "inc": false,
+     "claude": {
+      "share": 1.7,
+      "lo80": 1.0,
+      "hi80": 3.1,
+      "p_win": 0.0005
+     },
+     "codex": {
+      "share": 2.5,
+      "lo80": 0.2,
+      "hi80": 5.8,
+      "p_win": 0.0
+     }
+    },
+    {
+     "name": "Jana Chlustinová",
+     "inc": false,
+     "claude": {
+      "share": 1.6,
+      "lo80": 0.9,
+      "hi80": 2.8,
+      "p_win": 0.0005
+     },
+     "codex": {
+      "share": 2.7,
+      "lo80": 0.3,
+      "hi80": 6.1,
+      "p_win": 0.0
+     }
+    }
+   ],
+   "fav_claude": "Erika Jurinová",
+   "fav_codex": "Erika Jurinová",
+   "same_favourite": true,
+   "max_dp": 0.1554,
+   "unmatched_codex": [
+    "Anna Belousovová"
+   ]
+  },
+  {
+   "id": "kraj-bb",
+   "name": "Banskobystrický samosprávny kraj",
+   "group": "kraj",
+   "candidates": [
+    {
+     "name": "Ondrej Lunter",
+     "inc": true,
+     "claude": {
+      "share": 57.1,
+      "lo80": 38.5,
+      "hi80": 73.9,
+      "p_win": 0.9736
+     },
+     "codex": {
+      "share": 54.0,
+      "lo80": 40.4,
+      "hi80": 67.5,
+      "p_win": 0.9848
+     }
+    },
+    {
+     "name": "Miroslav Suja",
+     "inc": false,
+     "claude": {
+      "share": 16.5,
+      "lo80": 7.9,
+      "hi80": 30.8,
+      "p_win": 0.0214
+     },
+     "codex": {
+      "share": 15.6,
+      "lo80": 6.7,
+      "hi80": 26.0,
+      "p_win": 0.0106
+     }
+    },
+    {
+     "name": "Marian Kotleba",
+     "inc": false,
+     "claude": {
+      "share": 7.2,
+      "lo80": 3.3,
+      "hi80": 14.6,
+      "p_win": 0.0011
+     },
+     "codex": {
+      "share": 10.1,
+      "lo80": 3.1,
+      "hi80": 18.8,
+      "p_win": 0.0024
+     }
+    },
+    {
+     "name": "Roman Malatinec",
+     "inc": false,
+     "claude": {
+      "share": 7.1,
+      "lo80": 3.3,
+      "hi80": 14.5,
+      "p_win": 0.0029
+     },
+     "codex": {
+      "share": 7.5,
+      "lo80": 1.7,
+      "hi80": 15.1,
+      "p_win": 0.0008
+     }
+    },
+    {
+     "name": "Jaroslav Rusina",
+     "inc": false,
+     "claude": {
+      "share": 3.7,
+      "lo80": 1.7,
+      "hi80": 7.9,
+      "p_win": 0.0002
+     },
+     "codex": {
+      "share": 3.6,
+      "lo80": 0.2,
+      "hi80": 8.9,
+      "p_win": 0.0002
+     }
+    },
+    {
+     "name": "Michal Albert",
+     "inc": false,
+     "claude": {
+      "share": 1.9,
+      "lo80": 0.9,
+      "hi80": 4.0,
+      "p_win": 0.0005
+     },
+     "codex": {
+      "share": 6.8,
+      "lo80": 1.4,
+      "hi80": 14.0,
+      "p_win": 0.0011
+     }
+    },
+    {
+     "name": "Peter Plančík",
+     "inc": false,
+     "claude": {
+      "share": 1.8,
+      "lo80": 0.8,
+      "hi80": 3.7,
+      "p_win": 0.0002
+     },
+     "codex": {
+      "share": 2.4,
+      "lo80": 0.0,
+      "hi80": 6.4,
+      "p_win": 0.0
+     }
+    }
+   ],
+   "fav_claude": "Ondrej Lunter",
+   "fav_codex": "Ondrej Lunter",
+   "same_favourite": true,
+   "max_dp": 0.0112,
+   "unmatched_codex": []
+  },
+  {
+   "id": "kraj-po",
+   "name": "Prešovský samosprávny kraj",
+   "group": "kraj",
+   "candidates": [
+    {
+     "name": "Milan Majerský",
+     "inc": true,
+     "claude": {
+      "share": 52.2,
+      "lo80": 35.8,
+      "hi80": 68.0,
+      "p_win": 0.8606
+     },
+     "codex": {
+      "share": 47.0,
+      "lo80": 40.1,
+      "hi80": 54.0,
+      "p_win": 0.9396
+     }
+    },
+    {
+     "name": "Milan Mazurek",
+     "inc": false,
+     "claude": {
+      "share": 28.0,
+      "lo80": 16.0,
+      "hi80": 43.6,
+      "p_win": 0.1352
+     },
+     "codex": {
+      "share": 32.2,
+      "lo80": 25.7,
+      "hi80": 38.8,
+      "p_win": 0.0604
+     }
+    },
+    {
+     "name": "Samuel Migaľ",
+     "inc": false,
+     "claude": {
+      "share": 6.7,
+      "lo80": 3.6,
+      "hi80": 12.2,
+      "p_win": 0.0016
+     },
+     "codex": {
+      "share": 8.5,
+      "lo80": 4.8,
+      "hi80": 12.6,
+      "p_win": 0.0
+     }
+    },
+    {
+     "name": "Marián Geci",
+     "inc": false,
+     "claude": {
+      "share": 4.6,
+      "lo80": 2.4,
+      "hi80": 8.4,
+      "p_win": 0.0005
+     },
+     "codex": {
+      "share": 4.4,
+      "lo80": 1.8,
+      "hi80": 7.5,
+      "p_win": 0.0
+     }
+    },
+    {
+     "name": "Drahomír Čureja",
+     "inc": false,
+     "claude": {
+      "share": 2.5,
+      "lo80": 1.3,
+      "hi80": 4.7,
+      "p_win": 0.0005
+     },
+     "codex": {
+      "share": 3.0,
+      "lo80": 0.9,
+      "hi80": 5.5,
+      "p_win": 0.0
+     }
+    },
+    {
+     "name": "Jozef Ištok",
+     "inc": false,
+     "claude": {
+      "share": 1.5,
+      "lo80": 0.8,
+      "hi80": 2.9,
+      "p_win": 0.0005
+     },
+     "codex": {
+      "share": 2.0,
+      "lo80": 0.4,
+      "hi80": 4.2,
+      "p_win": 0.0
+     }
+    },
+    {
+     "name": "Ján Stanko",
+     "inc": false,
+     "claude": {
+      "share": 1.1,
+      "lo80": 0.6,
+      "hi80": 2.1,
+      "p_win": 0.0005
+     },
+     "codex": {
+      "share": 2.0,
+      "lo80": 0.3,
+      "hi80": 4.3,
+      "p_win": 0.0
+     }
+    },
+    {
+     "name": "Ľubomír Goliaš",
+     "inc": false,
+     "claude": {
+      "share": 0.6,
+      "lo80": 0.3,
+      "hi80": 1.2,
+      "p_win": 0.0005
+     },
+     "codex": {
+      "share": 1.0,
+      "lo80": 0.0,
+      "hi80": 2.7,
+      "p_win": 0.0
+     }
+    }
+   ],
+   "fav_claude": "Milan Majerský",
+   "fav_codex": "Milan Majerský",
+   "same_favourite": true,
+   "max_dp": 0.079,
+   "unmatched_codex": []
+  },
+  {
+   "id": "kraj-ke",
+   "name": "Košický samosprávny kraj",
+   "group": "kraj",
+   "candidates": [
+    {
+     "name": "Rastislav Trnka",
+     "inc": true,
+     "claude": {
+      "share": 40.0,
+      "lo80": 27.2,
+      "hi80": 54.2,
+      "p_win": 0.5889
+     },
+     "codex": {
+      "share": 38.6,
+      "lo80": 25.6,
+      "hi80": 52.1,
+      "p_win": 0.7127
+     }
+    },
+    {
+     "name": "Marián Porvažník",
+     "inc": false,
+     "claude": {
+      "share": 27.9,
+      "lo80": 17.3,
+      "hi80": 41.7,
+      "p_win": 0.3391
+     },
+     "codex": {
+      "share": 26.9,
+      "lo80": 15.4,
+      "hi80": 39.5,
+      "p_win": 0.2267
+     }
+    },
+    {
+     "name": "Igor Šimko",
+     "inc": false,
+     "claude": {
+      "share": 19.2,
+      "lo80": 11.3,
+      "hi80": 30.6,
+      "p_win": 0.0705
+     },
+     "codex": {
+      "share": 17.8,
+      "lo80": 8.3,
+      "hi80": 28.6,
+      "p_win": 0.0556
+     }
+    },
+    {
+     "name": "Monika Sofiya Soročinová",
+     "inc": false,
+     "claude": {
+      "share": 7.0,
+      "lo80": 4.1,
+      "hi80": 11.7,
+      "p_win": 0.0013
+     },
+     "codex": {
+      "share": 6.8,
+      "lo80": 1.3,
+      "hi80": 14.0,
+      "p_win": 0.0028
+     }
+    },
+    {
+     "name": "Džemal Kodrazi",
+     "inc": false,
+     "claude": {
+      "share": 2.9,
+      "lo80": 1.6,
+      "hi80": 4.9,
+      "p_win": 0.0002
+     },
+     "codex": {
+      "share": 4.4,
+      "lo80": 0.4,
+      "hi80": 10.1,
+      "p_win": 0.0007
+     }
+    }
+   ],
+   "fav_claude": "Rastislav Trnka",
+   "fav_codex": "Rastislav Trnka",
+   "same_favourite": true,
+   "max_dp": 0.1238,
+   "unmatched_codex": [
+    "Tibor Géci"
+   ]
+  },
+  {
+   "id": "kraj-ba",
+   "name": "Bratislavský samosprávny kraj",
+   "group": "kraj",
+   "candidates": [
+    {
+     "name": "Juraj Droba",
+     "inc": true,
+     "claude": {
+      "share": 67.8,
+      "lo80": 50.4,
+      "hi80": 81.4,
+      "p_win": 0.991
+     },
+     "codex": {
+      "share": 60.8,
+      "lo80": 47.4,
+      "hi80": 74.0,
+      "p_win": 0.9975
+     }
+    },
+    {
+     "name": "Zuzana Krajčovičová",
+     "inc": false,
+     "claude": {
+      "share": 9.2,
+      "lo80": 4.3,
+      "hi80": 18.2,
+      "p_win": 0.0049
+     },
+     "codex": {
+      "share": 6.4,
+      "lo80": 1.2,
+      "hi80": 13.4,
+      "p_win": 0.0002
+     }
+    },
+    {
+     "name": "Rastislav Gajarský",
+     "inc": false,
+     "claude": {
+      "share": 7.4,
+      "lo80": 3.3,
+      "hi80": 15.4,
+      "p_win": 0.0022
+     },
+     "codex": {
+      "share": 11.0,
+      "lo80": 3.6,
+      "hi80": 19.9,
+      "p_win": 0.0015
+     }
+    },
+    {
+     "name": "Dávid Staruch",
+     "inc": false,
+     "claude": {
+      "share": 6.0,
+      "lo80": 2.8,
+      "hi80": 12.3,
+      "p_win": 0.0014
+     },
+     "codex": {
+      "share": 4.5,
+      "lo80": 0.5,
+      "hi80": 10.5,
+      "p_win": 0.0001
+     }
+    },
+    {
+     "name": "Ján Chalabala",
+     "inc": false,
+     "claude": {
+      "share": 3.0,
+      "lo80": 1.4,
+      "hi80": 6.2,
+      "p_win": 0.0002
+     },
+     "codex": {
+      "share": 3.3,
+      "lo80": 0.2,
+      "hi80": 8.1,
+      "p_win": 0.0
+     }
+    },
+    {
+     "name": "Ľudovít Líška",
+     "inc": false,
+     "claude": {
+      "share": 2.0,
+      "lo80": 0.9,
+      "hi80": 4.2,
+      "p_win": 0.0002
+     },
+     "codex": {
+      "share": 8.8,
+      "lo80": 2.4,
+      "hi80": 17.0,
+      "p_win": 0.0006
+     }
+    },
+    {
+     "name": "Peter Poláček",
+     "inc": false,
+     "claude": {
+      "share": 1.2,
+      "lo80": 0.6,
+      "hi80": 2.6,
+      "p_win": 0.0002
+     },
+     "codex": {
+      "share": 5.1,
+      "lo80": 0.7,
+      "hi80": 11.2,
+      "p_win": 0.0001
+     }
+    }
+   ],
+   "fav_claude": "Juraj Droba",
+   "fav_codex": "Juraj Droba",
+   "same_favourite": true,
+   "max_dp": 0.0065,
+   "unmatched_codex": []
+  },
+  {
+   "id": "kraj-tt",
+   "name": "Trnavský samosprávny kraj",
+   "group": "kraj",
+   "candidates": [
+    {
+     "name": "Jozef Viskupič",
+     "inc": true,
+     "claude": {
+      "share": 52.6,
+      "lo80": 36.4,
+      "hi80": 68.2,
+      "p_win": 0.9638
+     },
+     "codex": {
+      "share": 51.0,
+      "lo80": 40.1,
+      "hi80": 62.0,
+      "p_win": 0.9939
+     }
+    },
+    {
+     "name": "József Berényi",
+     "inc": false,
+     "claude": {
+      "share": 18.5,
+      "lo80": 10.2,
+      "hi80": 30.6,
+      "p_win": 0.0219
+     },
+     "codex": {
+      "share": 13.1,
+      "lo80": 6.3,
+      "hi80": 20.9,
+      "p_win": 0.0019
+     }
+    },
+    {
+     "name": "Peter Hambálek",
+     "inc": false,
+     "claude": {
+      "share": 11.1,
+      "lo80": 5.8,
+      "hi80": 19.9,
+      "p_win": 0.0119
+     },
+     "codex": {
+      "share": 15.7,
+      "lo80": 8.3,
+      "hi80": 24.0,
+      "p_win": 0.004
+     }
+    },
+    {
+     "name": "Matej Lančarič",
+     "inc": false,
+     "claude": {
+      "share": 7.6,
+      "lo80": 4.1,
+      "hi80": 13.6,
+      "p_win": 0.0015
+     },
+     "codex": {
+      "share": 8.4,
+      "lo80": 3.1,
+      "hi80": 14.7,
+      "p_win": 0.0002
+     }
+    },
+    {
+     "name": "Róbert Dohál",
+     "inc": false,
+     "claude": {
+      "share": 3.6,
+      "lo80": 1.9,
+      "hi80": 6.7,
+      "p_win": 0.0004
+     },
+     "codex": {
+      "share": 5.0,
+      "lo80": 1.1,
+      "hi80": 10.0,
+      "p_win": 0.0
+     }
+    },
+    {
+     "name": "Jaroslav Cehlárik",
+     "inc": false,
+     "claude": {
+      "share": 1.8,
+      "lo80": 0.9,
+      "hi80": 3.4,
+      "p_win": 0.0004
+     },
+     "codex": {
+      "share": 2.8,
+      "lo80": 0.3,
+      "hi80": 6.5,
+      "p_win": 0.0
+     }
+    },
+    {
+     "name": "Štefan Pollák",
+     "inc": false,
+     "claude": {
+      "share": 1.3,
+      "lo80": 0.7,
+      "hi80": 2.4,
+      "p_win": 0.0003
+     },
+     "codex": {
+      "share": 3.9,
+      "lo80": 0.7,
+      "hi80": 8.5,
+      "p_win": 0.0
+     }
+    }
+   ],
+   "fav_claude": "Jozef Viskupič",
+   "fav_codex": "Jozef Viskupič",
+   "same_favourite": true,
+   "max_dp": 0.0301,
+   "unmatched_codex": []
+  },
+  {
+   "id": "kraj-tn",
+   "name": "Trenčiansky samosprávny kraj",
+   "group": "kraj",
+   "candidates": [
+    {
+     "name": "Jaroslav Baška",
+     "inc": true,
+     "claude": {
+      "share": 61.8,
+      "lo80": 41.5,
+      "hi80": 78.5,
+      "p_win": 0.8711
+     },
+     "codex": {
+      "share": 50.7,
+      "lo80": 37.0,
+      "hi80": 64.4,
+      "p_win": 0.7394
+     }
+    },
+    {
+     "name": "Natália Svítková",
+     "inc": false,
+     "claude": {
+      "share": 35.0,
+      "lo80": 19.0,
+      "hi80": 55.3,
+      "p_win": 0.1277
+     },
+     "codex": {
+      "share": 38.0,
+      "lo80": 25.1,
+      "hi80": 51.6,
+      "p_win": 0.2601
+     }
+    },
+    {
+     "name": "Lubomír Choleva",
+     "inc": false,
+     "claude": {
+      "share": 1.7,
+      "lo80": 0.8,
+      "hi80": 3.3,
+      "p_win": 0.0006
+     },
+     "codex": {
+      "share": 4.2,
+      "lo80": 0.4,
+      "hi80": 9.9,
+      "p_win": 0.0001
+     }
+    },
+    {
+     "name": "Daniel Galas",
+     "inc": false,
+     "claude": {
+      "share": 1.0,
+      "lo80": 0.5,
+      "hi80": 1.9,
+      "p_win": 0.0007
+     },
+     "codex": {
+      "share": 7.0,
+      "lo80": 1.5,
+      "hi80": 14.3,
+      "p_win": 0.0004
+     }
+    }
+   ],
+   "fav_claude": "Jaroslav Baška",
+   "fav_codex": "Jaroslav Baška",
+   "same_favourite": true,
+   "max_dp": 0.1324,
+   "unmatched_codex": []
+  },
+  {
+   "id": "kraj-nr",
+   "name": "Nitriansky samosprávny kraj",
+   "group": "kraj",
+   "candidates": [
+    {
+     "name": "Branislav Becík",
+     "inc": true,
+     "claude": {
+      "share": 45.9,
+      "lo80": 29.4,
+      "hi80": 62.8,
+      "p_win": 0.8285
+     },
+     "codex": {
+      "share": 44.1,
+      "lo80": 30.6,
+      "hi80": 57.8,
+      "p_win": 0.8832
+     }
+    },
+    {
+     "name": "Henrich Varga",
+     "inc": false,
+     "claude": {
+      "share": 27.0,
+      "lo80": 15.1,
+      "hi80": 43.4,
+      "p_win": 0.1627
+     },
+     "codex": {
+      "share": 22.7,
+      "lo80": 12.0,
+      "hi80": 34.7,
+      "p_win": 0.1017
+     }
+    },
+    {
+     "name": "Tibor Csenger",
+     "inc": false,
+     "claude": {
+      "share": 8.3,
+      "lo80": 4.5,
+      "hi80": 14.9,
+      "p_win": 0.004
+     },
+     "codex": {
+      "share": 9.3,
+      "lo80": 2.7,
+      "hi80": 17.5,
+      "p_win": 0.0056
+     }
+    },
+    {
+     "name": "Jolana Čuláková",
+     "inc": false,
+     "claude": {
+      "share": 8.0,
+      "lo80": 4.3,
+      "hi80": 14.3,
+      "p_win": 0.0023
+     },
+     "codex": {
+      "share": 9.5,
+      "lo80": 2.7,
+      "hi80": 17.8,
+      "p_win": 0.0059
+     }
+    },
+    {
+     "name": "Róbert Švec",
+     "inc": false,
+     "claude": {
+      "share": 3.6,
+      "lo80": 1.9,
+      "hi80": 6.5,
+      "p_win": 0.0008
+     },
+     "codex": {
+      "share": 3.2,
+      "lo80": 0.1,
+      "hi80": 7.9,
+      "p_win": 0.0003
+     }
+    },
+    {
+     "name": "Erik Blaško",
+     "inc": false,
+     "claude": {
+      "share": 2.8,
+      "lo80": 1.5,
+      "hi80": 5.3,
+      "p_win": 0.0008
+     },
+     "codex": {
+      "share": 8.1,
+      "lo80": 2.0,
+      "hi80": 16.0,
+      "p_win": 0.0031
+     }
+    },
+    {
+     "name": "Karol Suchan",
+     "inc": false,
+     "claude": {
+      "share": 0.6,
+      "lo80": 0.3,
+      "hi80": 1.1,
+      "p_win": 0.001
+     },
+     "codex": {
+      "share": 3.2,
+      "lo80": 0.1,
+      "hi80": 7.9,
+      "p_win": 0.0003
+     }
+    }
+   ],
+   "fav_claude": "Branislav Becík",
+   "fav_codex": "Branislav Becík",
+   "same_favourite": true,
+   "max_dp": 0.061,
+   "unmatched_codex": []
+  },
+  {
+   "id": "mc-stare-mesto",
+   "name": "Staré Mesto",
+   "group": "mc",
+   "candidates": [
+    {
+     "name": "Matej Vagač",
+     "inc": true,
+     "claude": {
+      "share": 52.6,
+      "lo80": 20.7,
+      "hi80": 82.4,
+      "p_win": 0.7093
+     },
+     "codex": {
+      "share": 41.9,
+      "lo80": 17.7,
+      "hi80": 67.6,
+      "p_win": 0.5728
+     }
+    },
+    {
+     "name": "Zuzana Aufrichtová",
+     "inc": false,
+     "claude": {
+      "share": 14.5,
+      "lo80": 3.6,
+      "hi80": 42.9,
+      "p_win": 0.1381
+     },
+     "codex": {
+      "share": 18.9,
+      "lo80": 2.9,
+      "hi80": 39.8,
+      "p_win": 0.1286
+     }
+    },
+    {
+     "name": "Miroslav Vetrík",
+     "inc": false,
+     "claude": {
+      "share": 11.5,
+      "lo80": 2.7,
+      "hi80": 36.3,
+      "p_win": 0.0953
+     },
+     "codex": {
+      "share": 15.0,
+      "lo80": 1.6,
+      "hi80": 34.5,
+      "p_win": 0.0898
+     }
+    },
+    {
+     "name": "Petra Hitková",
+     "inc": false,
+     "claude": {
+      "share": 8.6,
+      "lo80": 2.0,
+      "hi80": 28.7,
+      "p_win": 0.0574
+     },
+     "codex": {
+      "share": 24.2,
+      "lo80": 5.5,
+      "hi80": 47.5,
+      "p_win": 0.2088
+     }
+    }
+   ],
+   "fav_claude": "Matej Vagač",
+   "fav_codex": "Matej Vagač",
+   "same_favourite": true,
+   "max_dp": 0.1514,
+   "unmatched_codex": []
+  },
+  {
+   "id": "mc-ruzinov",
+   "name": "Ružinov",
+   "group": "mc",
+   "candidates": [
+    {
+     "name": "Martin Chren",
+     "inc": true,
+     "claude": {
+      "share": 59.3,
+      "lo80": 23.9,
+      "hi80": 86.8,
+      "p_win": 0.7145
+     },
+     "codex": {
+      "share": 52.3,
+      "lo80": 26.9,
+      "hi80": 77.7,
+      "p_win": 0.6846
+     }
+    },
+    {
+     "name": "Peter Strapák",
+     "inc": false,
+     "claude": {
+      "share": 19.1,
+      "lo80": 4.6,
+      "hi80": 53.2,
+      "p_win": 0.1799
+     },
+     "codex": {
+      "share": 30.8,
+      "lo80": 9.4,
+      "hi80": 55.4,
+      "p_win": 0.2377
+     }
+    },
+    {
+     "name": "Ivor Švihran",
+     "inc": false,
+     "claude": {
+      "share": 13.3,
+      "lo80": 3.2,
+      "hi80": 42.0,
+      "p_win": 0.1056
+     },
+     "codex": {
+      "share": 16.9,
+      "lo80": 2.2,
+      "hi80": 37.1,
+      "p_win": 0.0777
+     }
+    }
+   ],
+   "fav_claude": "Martin Chren",
+   "fav_codex": "Martin Chren",
+   "same_favourite": true,
+   "max_dp": 0.0578,
+   "unmatched_codex": []
+  },
+  {
+   "id": "mc-vrakuna",
+   "name": "Vrakuňa",
+   "group": "mc",
+   "candidates": [
+    {
+     "name": "Martin Kuruc",
+     "inc": true,
+     "claude": {
+      "share": 78.0,
+      "lo80": 43.2,
+      "hi80": 94.2,
+      "p_win": 0.9041
+     },
+     "codex": {
+      "share": 73.7,
+      "lo80": 50.0,
+      "hi80": 93.3,
+      "p_win": 0.9397
+     }
+    },
+    {
+     "name": "Katarína Lukáčová",
+     "inc": false,
+     "claude": {
+      "share": 9.6,
+      "lo80": 2.1,
+      "hi80": 34.5,
+      "p_win": 0.0559
+     },
+     "codex": {
+      "share": 13.1,
+      "lo80": 1.0,
+      "hi80": 31.4,
+      "p_win": 0.0302
+     }
+    },
+    {
+     "name": "Dušan Burdy",
+     "inc": false,
+     "claude": {
+      "share": 8.0,
+      "lo80": 1.6,
+      "hi80": 29.9,
+      "p_win": 0.04
+     },
+     "codex": {
+      "share": 13.1,
+      "lo80": 1.0,
+      "hi80": 31.2,
+      "p_win": 0.0301
+     }
+    }
+   ],
+   "fav_claude": "Martin Kuruc",
+   "fav_codex": "Martin Kuruc",
+   "same_favourite": true,
+   "max_dp": 0.0356,
+   "unmatched_codex": []
+  },
+  {
+   "id": "mc-podunajske-biskupice",
+   "name": "Podunajské Biskupice",
+   "group": "mc",
+   "candidates": [
+    {
+     "name": "Roman Lamoš",
+     "inc": true,
+     "claude": {
+      "share": 56.7,
+      "lo80": 21.9,
+      "hi80": 85.9,
+      "p_win": 0.6824
+     },
+     "codex": {
+      "share": 58.4,
+      "lo80": 32.9,
+      "hi80": 82.6,
+      "p_win": 0.7897
+     }
+    },
+    {
+     "name": "Martina Frőhlich Činovská",
+     "inc": false,
+     "claude": {
+      "share": 23.8,
+      "lo80": 5.9,
+      "hi80": 59.6,
+      "p_win": 0.2352
+     },
+     "codex": {
+      "share": 23.3,
+      "lo80": 5.0,
+      "hi80": 46.0,
+      "p_win": 0.1273
+     }
+    },
+    {
+     "name": "Ladislav Méry",
+     "inc": false,
+     "claude": {
+      "share": 11.4,
+      "lo80": 2.7,
+      "hi80": 37.2,
+      "p_win": 0.0824
+     },
+     "codex": {
+      "share": 18.3,
+      "lo80": 2.7,
+      "hi80": 39.3,
+      "p_win": 0.083
+     }
+    }
+   ],
+   "fav_claude": "Roman Lamoš",
+   "fav_codex": "Roman Lamoš",
+   "same_favourite": true,
+   "max_dp": 0.1079,
+   "unmatched_codex": []
+  },
+  {
+   "id": "mc-nove-mesto",
+   "name": "Nové Mesto",
+   "group": "mc",
+   "candidates": [
+    {
+     "name": "Matúš Čupka",
+     "inc": true,
+     "claude": {
+      "share": 57.5,
+      "lo80": 21.7,
+      "hi80": 86.3,
+      "p_win": 0.6728
+     },
+     "codex": {
+      "share": 62.2,
+      "lo80": 36.5,
+      "hi80": 85.4,
+      "p_win": 0.8384
+     }
+    },
+    {
+     "name": "Rudolf Kusy",
+     "inc": false,
+     "claude": {
+      "share": 26.9,
+      "lo80": 6.8,
+      "hi80": 64.5,
+      "p_win": 0.2776
+     },
+     "codex": {
+      "share": 20.3,
+      "lo80": 3.6,
+      "hi80": 42.1,
+      "p_win": 0.09
+     }
+    },
+    {
+     "name": "Mária Martaus",
+     "inc": false,
+     "claude": {
+      "share": 8.5,
+      "lo80": 1.9,
+      "hi80": 30.1,
+      "p_win": 0.0495
+     },
+     "codex": {
+      "share": 17.5,
+      "lo80": 2.5,
+      "hi80": 38.2,
+      "p_win": 0.0716
+     }
+    }
+   ],
+   "fav_claude": "Matúš Čupka",
+   "fav_codex": "Matúš Čupka",
+   "same_favourite": true,
+   "max_dp": 0.1876,
+   "unmatched_codex": []
+  },
+  {
+   "id": "mc-raca",
+   "name": "Rača",
+   "group": "mc",
+   "candidates": [
+    {
+     "name": "Michal Drotován",
+     "inc": true,
+     "claude": {
+      "share": 80.2,
+      "lo80": 42.3,
+      "hi80": 95.8,
+      "p_win": 0.8534
+     },
+     "codex": {
+      "share": 63.8,
+      "lo80": 38.2,
+      "hi80": 86.8,
+      "p_win": 0.7666
+     }
+    },
+    {
+     "name": "Ján Polakovič",
+     "inc": false,
+     "claude": {
+      "share": 19.8,
+      "lo80": 4.2,
+      "hi80": 57.7,
+      "p_win": 0.1467
+     },
+     "codex": {
+      "share": 36.2,
+      "lo80": 13.2,
+      "hi80": 61.8,
+      "p_win": 0.2334
+     }
+    }
+   ],
+   "fav_claude": "Michal Drotován",
+   "fav_codex": "Michal Drotován",
+   "same_favourite": true,
+   "max_dp": 0.0868,
+   "unmatched_codex": []
+  },
+  {
+   "id": "mc-vajnory",
+   "name": "Vajnory",
+   "group": "mc",
+   "candidates": [
+    {
+     "name": "Michal Vlček",
+     "inc": true,
+     "claude": {
+      "share": 49.1,
+      "lo80": 17.3,
+      "hi80": 81.6,
+      "p_win": 0.5965
+     },
+     "codex": {
+      "share": 58.5,
+      "lo80": 32.8,
+      "hi80": 82.7,
+      "p_win": 0.79
+     }
+    },
+    {
+     "name": "Juraj Ondruška",
+     "inc": false,
+     "claude": {
+      "share": 24.9,
+      "lo80": 6.4,
+      "hi80": 60.4,
+      "p_win": 0.2579
+     },
+     "codex": {
+      "share": 22.7,
+      "lo80": 4.6,
+      "hi80": 45.2,
+      "p_win": 0.1218
+     }
+    },
+    {
+     "name": "Juraj Zeman",
+     "inc": false,
+     "claude": {
+      "share": 16.3,
+      "lo80": 4.0,
+      "hi80": 46.9,
+      "p_win": 0.1457
+     },
+     "codex": {
+      "share": 18.8,
+      "lo80": 2.9,
+      "hi80": 40.3,
+      "p_win": 0.0882
+     }
+    }
+   ],
+   "fav_claude": "Michal Vlček",
+   "fav_codex": "Michal Vlček",
+   "same_favourite": true,
+   "max_dp": 0.1935,
+   "unmatched_codex": []
+  },
+  {
+   "id": "mc-karlova-ves",
+   "name": "Karlova Ves",
+   "group": "mc",
+   "candidates": [
+    {
+     "name": "Martin Vician",
+     "inc": false,
+     "claude": {
+      "share": 52.3,
+      "lo80": 16.6,
+      "hi80": 86.1,
+      "p_win": 0.5264
+     },
+     "codex": {
+      "share": 36.7,
+      "lo80": 13.5,
+      "hi80": 62.3,
+      "p_win": 0.2398
+     }
+    },
+    {
+     "name": "Branislav Záhradník",
+     "inc": false,
+     "claude": {
+      "share": 47.7,
+      "lo80": 13.9,
+      "hi80": 83.4,
+      "p_win": 0.4736
+     },
+     "codex": {
+      "share": 63.3,
+      "lo80": 37.7,
+      "hi80": 86.5,
+      "p_win": 0.7602
+     }
+    }
+   ],
+   "fav_claude": "Martin Vician",
+   "fav_codex": "Branislav Záhradník",
+   "same_favourite": false,
+   "max_dp": 0.2866,
+   "unmatched_codex": []
+  },
+  {
+   "id": "mc-dubravka",
+   "name": "Dúbravka",
+   "group": "mc",
+   "candidates": [
+    {
+     "name": "Martin Zaťovič",
+     "inc": true,
+     "claude": {
+      "share": 100.0,
+      "lo80": 100.0,
+      "hi80": 100.0,
+      "p_win": 1.0
+     },
+     "codex": {
+      "share": 100.0,
+      "lo80": 100.0,
+      "hi80": 100.0,
+      "p_win": 1.0
+     }
+    }
+   ],
+   "fav_claude": "Martin Zaťovič",
+   "fav_codex": "Martin Zaťovič",
+   "same_favourite": true,
+   "max_dp": 0.0,
+   "unmatched_codex": []
+  },
+  {
+   "id": "mc-lamac",
+   "name": "Lamač",
+   "group": "mc",
+   "candidates": [
+    {
+     "name": "Igor Polakovič",
+     "inc": true,
+     "claude": {
+      "share": 66.6,
+      "lo80": 26.5,
+      "hi80": 91.8,
+      "p_win": 0.6953
+     },
+     "codex": {
+      "share": 69.5,
+      "lo80": 45.1,
+      "hi80": 90.7,
+      "p_win": 0.8542
+     }
+    },
+    {
+     "name": "Mária Šimončičová",
+     "inc": false,
+     "claude": {
+      "share": 33.4,
+      "lo80": 8.2,
+      "hi80": 73.5,
+      "p_win": 0.3047
+     },
+     "codex": {
+      "share": 30.5,
+      "lo80": 9.3,
+      "hi80": 54.9,
+      "p_win": 0.1458
+     }
+    }
+   ],
+   "fav_claude": "Igor Polakovič",
+   "fav_codex": "Igor Polakovič",
+   "same_favourite": true,
+   "max_dp": 0.1589,
+   "unmatched_codex": []
+  },
+  {
+   "id": "mc-devin",
+   "name": "Devín",
+   "group": "mc",
+   "candidates": [
+    {
+     "name": "Igor Prieložný",
+     "inc": false,
+     "claude": {
+      "share": 32.5,
+      "lo80": 9.5,
+      "hi80": 68.7,
+      "p_win": 0.3794
+     },
+     "codex": {
+      "share": 33.7,
+      "lo80": 11.4,
+      "hi80": 58.7,
+      "p_win": 0.3219
+     }
+    },
+    {
+     "name": "Martin Galát",
+     "inc": false,
+     "claude": {
+      "share": 31.1,
+      "lo80": 8.9,
+      "hi80": 67.4,
+      "p_win": 0.3614
+     },
+     "codex": {
+      "share": 42.7,
+      "lo80": 18.4,
+      "hi80": 68.3,
+      "p_win": 0.5136
+     }
+    },
+    {
+     "name": "Pavol Maruščák",
+     "inc": false,
+     "claude": {
+      "share": 24.3,
+      "lo80": 6.5,
+      "hi80": 59.7,
+      "p_win": 0.2591
+     },
+     "codex": {
+      "share": 23.6,
+      "lo80": 5.2,
+      "hi80": 46.7,
+      "p_win": 0.1645
+     }
+    }
+   ],
+   "fav_claude": "Igor Prieložný",
+   "fav_codex": "Martin Galát",
+   "same_favourite": false,
+   "max_dp": 0.1522,
+   "unmatched_codex": []
+  },
+  {
+   "id": "mc-devinska-nova-ves",
+   "name": "Devínska Nová Ves",
+   "group": "mc",
+   "candidates": [
+    {
+     "name": "Dárius Krajčír",
+     "inc": true,
+     "claude": {
+      "share": 60.0,
+      "lo80": 24.2,
+      "hi80": 87.1,
+      "p_win": 0.7198
+     },
+     "codex": {
+      "share": 63.7,
+      "lo80": 38.2,
+      "hi80": 86.7,
+      "p_win": 0.8547
+     }
+    },
+    {
+     "name": "Ľuboš Krajčír",
+     "inc": false,
+     "claude": {
+      "share": 19.8,
+      "lo80": 4.8,
+      "hi80": 54.5,
+      "p_win": 0.1888
+     },
+     "codex": {
+      "share": 19.5,
+      "lo80": 3.3,
+      "hi80": 41.2,
+      "p_win": 0.0831
+     }
+    },
+    {
+     "name": "Denis Ružovič",
+     "inc": false,
+     "claude": {
+      "share": 12.2,
+      "lo80": 2.9,
+      "hi80": 39.5,
+      "p_win": 0.0913
+     },
+     "codex": {
+      "share": 16.8,
+      "lo80": 2.2,
+      "hi80": 37.0,
+      "p_win": 0.0623
+     }
+    }
+   ],
+   "fav_claude": "Dárius Krajčír",
+   "fav_codex": "Dárius Krajčír",
+   "same_favourite": true,
+   "max_dp": 0.1349,
+   "unmatched_codex": []
+  },
+  {
+   "id": "mc-zahorska-bystrica",
+   "name": "Záhorská Bystrica",
+   "group": "mc",
+   "candidates": [
+    {
+     "name": "Jozef Krúpa",
+     "inc": true,
+     "claude": {
+      "share": 100.0,
+      "lo80": 100.0,
+      "hi80": 100.0,
+      "p_win": 1.0
+     },
+     "codex": {
+      "share": 100.0,
+      "lo80": 100.0,
+      "hi80": 100.0,
+      "p_win": 1.0
+     }
+    }
+   ],
+   "fav_claude": "Jozef Krúpa",
+   "fav_codex": "Jozef Krúpa",
+   "same_favourite": true,
+   "max_dp": 0.0,
+   "unmatched_codex": []
+  },
+  {
+   "id": "mc-petrzalka",
+   "name": "Petržalka",
+   "group": "mc",
+   "candidates": [
+    {
+     "name": "Ján Hrčka",
+     "inc": true,
+     "claude": {
+      "share": 56.0,
+      "lo80": 21.6,
+      "hi80": 85.3,
+      "p_win": 0.6788
+     },
+     "codex": {
+      "share": 47.9,
+      "lo80": 22.9,
+      "hi80": 73.5,
+      "p_win": 0.6237
+     }
+    },
+    {
+     "name": "Juraj Mravec",
+     "inc": false,
+     "claude": {
+      "share": 19.4,
+      "lo80": 4.8,
+      "hi80": 53.5,
+      "p_win": 0.1852
+     },
+     "codex": {
+      "share": 25.4,
+      "lo80": 6.2,
+      "hi80": 48.9,
+      "p_win": 0.1836
+     }
+    },
+    {
+     "name": "Daniel Klimovský",
+     "inc": false,
+     "claude": {
+      "share": 15.4,
+      "lo80": 3.7,
+      "hi80": 46.6,
+      "p_win": 0.1361
+     },
+     "codex": {
+      "share": 26.6,
+      "lo80": 6.8,
+      "hi80": 50.1,
+      "p_win": 0.1926
+     }
+    }
+   ],
+   "fav_claude": "Ján Hrčka",
+   "fav_codex": "Ján Hrčka",
+   "same_favourite": true,
+   "max_dp": 0.0565,
+   "unmatched_codex": []
+  },
+  {
+   "id": "mc-jarovce",
+   "name": "Jarovce",
+   "group": "mc",
+   "candidates": [
+    {
+     "name": "Jozef Uhler",
+     "inc": true,
+     "claude": {
+      "share": 100.0,
+      "lo80": 100.0,
+      "hi80": 100.0,
+      "p_win": 1.0
+     },
+     "codex": {
+      "share": 100.0,
+      "lo80": 100.0,
+      "hi80": 100.0,
+      "p_win": 1.0
+     }
+    }
+   ],
+   "fav_claude": "Jozef Uhler",
+   "fav_codex": "Jozef Uhler",
+   "same_favourite": true,
+   "max_dp": 0.0,
+   "unmatched_codex": []
+  },
+  {
+   "id": "mc-rusovce",
+   "name": "Rusovce",
+   "group": "mc",
+   "candidates": [
+    {
+     "name": "Radovan Jenčík",
+     "inc": true,
+     "claude": {
+      "share": 100.0,
+      "lo80": 100.0,
+      "hi80": 100.0,
+      "p_win": 1.0
+     },
+     "codex": {
+      "share": 100.0,
+      "lo80": 100.0,
+      "hi80": 100.0,
+      "p_win": 1.0
+     }
+    }
+   ],
+   "fav_claude": "Radovan Jenčík",
+   "fav_codex": "Radovan Jenčík",
+   "same_favourite": true,
+   "max_dp": 0.0,
+   "unmatched_codex": []
+  },
+  {
+   "id": "mc-cunovo",
+   "name": "Čunovo",
+   "group": "mc",
+   "candidates": [
+    {
+     "name": "Gabriela Ferenčáková",
+     "inc": true,
+     "claude": {
+      "share": 22.9,
+      "lo80": 6.9,
+      "hi80": 54.3,
+      "p_win": 0.3318
+     },
+     "codex": {
+      "share": 42.7,
+      "lo80": 18.6,
+      "hi80": 68.3,
+      "p_win": 0.6399
+     }
+    },
+    {
+     "name": "Marián Krist",
+     "inc": false,
+     "claude": {
+      "share": 17.4,
+      "lo80": 4.9,
+      "hi80": 45.7,
+      "p_win": 0.2303
+     },
+     "codex": {
+      "share": 14.3,
+      "lo80": 1.3,
+      "hi80": 33.4,
+      "p_win": 0.0921
+     }
+    },
+    {
+     "name": "Ivan Boška",
+     "inc": false,
+     "claude": {
+      "share": 12.8,
+      "lo80": 3.5,
+      "hi80": 37.0,
+      "p_win": 0.1441
+     },
+     "codex": {
+      "share": 14.3,
+      "lo80": 1.3,
+      "hi80": 33.1,
+      "p_win": 0.0898
+     }
+    },
+    {
+     "name": "Marek Kausich",
+     "inc": false,
+     "claude": {
+      "share": 12.8,
+      "lo80": 3.5,
+      "hi80": 37.4,
+      "p_win": 0.1484
+     },
+     "codex": {
+      "share": 14.3,
+      "lo80": 1.3,
+      "hi80": 33.0,
+      "p_win": 0.0881
+     }
+    },
+    {
+     "name": "Michal Šimunek",
+     "inc": false,
+     "claude": {
+      "share": 12.7,
+      "lo80": 3.5,
+      "hi80": 36.8,
+      "p_win": 0.1454
+     },
+     "codex": {
+      "share": 14.3,
+      "lo80": 1.3,
+      "hi80": 33.2,
+      "p_win": 0.0901
+     }
+    }
+   ],
+   "fav_claude": "Gabriela Ferenčáková",
+   "fav_codex": "Gabriela Ferenčáková",
+   "same_favourite": true,
+   "max_dp": 0.3081,
+   "unmatched_codex": []
+  },
+  {
+   "id": "mesto-bratislava",
+   "name": "Bratislava",
+   "group": "mesto",
+   "candidates": [
+    {
+     "name": "Matúš Vallo",
+     "inc": true,
+     "claude": {
+      "share": 53.5,
+      "lo80": 37.1,
+      "hi80": 68.9,
+      "p_win": 0.8822
+     },
+     "codex": {
+      "share": 53.6,
+      "lo80": 45.7,
+      "hi80": 61.6,
+      "p_win": 0.9465
+     }
+    },
+    {
+     "name": "Jozef Ráž",
+     "inc": false,
+     "claude": {
+      "share": 33.3,
+      "lo80": 19.8,
+      "hi80": 49.4,
+      "p_win": 0.1167
+     },
+     "codex": {
+      "share": 35.5,
+      "lo80": 28.4,
+      "hi80": 43.1,
+      "p_win": 0.0535
+     }
+    },
+    {
+     "name": "Zuzana Šubová",
+     "inc": false,
+     "claude": {
+      "share": 7.6,
+      "lo80": 4.3,
+      "hi80": 13.0,
+      "p_win": 0.0008
+     },
+     "codex": {
+      "share": 5.9,
+      "lo80": 2.4,
+      "hi80": 10.5,
+      "p_win": 0.0
+     }
+    },
+    {
+     "name": "Ľubomír Geci",
+     "inc": false,
+     "claude": {
+      "share": 4.1,
+      "lo80": 2.3,
+      "hi80": 7.2,
+      "p_win": 0.0003
+     },
+     "codex": {
+      "share": 4.9,
+      "lo80": 1.7,
+      "hi80": 9.3,
+      "p_win": 0.0
+     }
+    }
+   ],
+   "fav_claude": "Matúš Vallo",
+   "fav_codex": "Matúš Vallo",
+   "same_favourite": true,
+   "max_dp": 0.0643,
+   "unmatched_codex": []
+  },
+  {
+   "id": "mesto-kosice",
+   "name": "Košice",
+   "group": "mesto",
+   "candidates": [
+    {
+     "name": "Ladislav Lörinc",
+     "inc": false,
+     "claude": {
+      "share": 23.7,
+      "lo80": 15.3,
+      "hi80": 34.5,
+      "p_win": 0.4895
+     },
+     "codex": {
+      "share": 25.9,
+      "lo80": 19.9,
+      "hi80": 32.4,
+      "p_win": 0.5409
+     }
+    },
+    {
+     "name": "Jaroslav Polaček",
+     "inc": true,
+     "claude": {
+      "share": 23.6,
+      "lo80": 15.3,
+      "hi80": 34.6,
+      "p_win": 0.3262
+     },
+     "codex": {
+      "share": 22.4,
+      "lo80": 16.2,
+      "hi80": 29.0,
+      "p_win": 0.2509
+     }
+    },
+    {
+     "name": "Martin Mudrák",
+     "inc": false,
+     "claude": {
+      "share": 17.6,
+      "lo80": 11.0,
+      "hi80": 26.6,
+      "p_win": 0.1181
+     },
+     "codex": {
+      "share": 20.8,
+      "lo80": 15.3,
+      "hi80": 26.7,
+      "p_win": 0.1585
+     }
+    },
+    {
+     "name": "Lenka Kovačevičová",
+     "inc": false,
+     "claude": {
+      "share": 16.7,
+      "lo80": 10.5,
+      "hi80": 25.4,
+      "p_win": 0.0655
+     },
+     "codex": {
+      "share": 16.9,
+      "lo80": 11.6,
+      "hi80": 22.8,
+      "p_win": 0.0495
+     }
+    },
+    {
+     "name": "Alexander Riabov",
+     "inc": false,
+     "claude": {
+      "share": 5.5,
+      "lo80": 3.3,
+      "hi80": 9.0,
+      "p_win": 0.0005
+     },
+     "codex": {
+      "share": 6.4,
+      "lo80": 3.1,
+      "hi80": 10.5,
+      "p_win": 0.0002
+     }
+    },
+    {
+     "name": "Ladislav Lörincz",
+     "inc": false,
+     "claude": {
+      "share": 3.5,
+      "lo80": 2.1,
+      "hi80": 5.8,
+      "p_win": 0.0
+     },
+     "codex": {
+      "share": 2.9,
+      "lo80": 0.7,
+      "hi80": 5.9,
+      "p_win": 0.0
+     }
+    },
+    {
+     "name": "Miroslav Sabol",
+     "inc": false,
+     "claude": {
+      "share": 3.3,
+      "lo80": 2.0,
+      "hi80": 5.5,
+      "p_win": 0.0003
+     },
+     "codex": {
+      "share": 2.8,
+      "lo80": 0.6,
+      "hi80": 5.9,
+      "p_win": 0.0
+     }
+    },
+    {
+     "name": "Alexander Székely",
+     "inc": false,
+     "claude": {
+      "share": 2.0,
+      "lo80": 1.2,
+      "hi80": 3.2,
+      "p_win": 0.0
+     },
+     "codex": {
+      "share": 1.8,
+      "lo80": 0.2,
+      "hi80": 4.5,
+      "p_win": 0.0
+     }
+    }
+   ],
+   "fav_claude": "Ladislav Lörinc",
+   "fav_codex": "Ladislav Lörinc",
+   "same_favourite": true,
+   "max_dp": 0.0753,
+   "unmatched_codex": []
+  },
+  {
+   "id": "mesto-banska-bystrica",
+   "name": "Banská Bystrica",
+   "group": "mesto",
+   "candidates": [
+    {
+     "name": "Ján Nosko",
+     "inc": true,
+     "claude": {
+      "share": 42.1,
+      "lo80": 27.8,
+      "hi80": 57.6,
+      "p_win": 0.5451
+     },
+     "codex": {
+      "share": 41.6,
+      "lo80": 34.7,
+      "hi80": 48.5,
+      "p_win": 0.7276
+     }
+    },
+    {
+     "name": "Diana Javorčíková",
+     "inc": false,
+     "claude": {
+      "share": 33.6,
+      "lo80": 20.6,
+      "hi80": 49.0,
+      "p_win": 0.435
+     },
+     "codex": {
+      "share": 35.7,
+      "lo80": 29.1,
+      "hi80": 42.5,
+      "p_win": 0.272
+     }
+    },
+    {
+     "name": "Matúš Molitoris",
+     "inc": false,
+     "claude": {
+      "share": 15.3,
+      "lo80": 8.8,
+      "hi80": 25.2,
+      "p_win": 0.0188
+     },
+     "codex": {
+      "share": 16.7,
+      "lo80": 11.6,
+      "hi80": 22.0,
+      "p_win": 0.0004
+     }
+    },
+    {
+     "name": "Marian Kotleba",
+     "inc": false,
+     "claude": {
+      "share": 4.3,
+      "lo80": 2.4,
+      "hi80": 7.6,
+      "p_win": 0.0006
+     },
+     "codex": {
+      "share": 4.5,
+      "lo80": 1.8,
+      "hi80": 7.5,
+      "p_win": 0.0
+     }
+    },
+    {
+     "name": "Ondrej Vereš",
+     "inc": false,
+     "claude": {
+      "share": 2.0,
+      "lo80": 1.1,
+      "hi80": 3.6,
+      "p_win": 0.0005
+     },
+     "codex": {
+      "share": 1.6,
+      "lo80": 0.2,
+      "hi80": 3.5,
+      "p_win": 0.0
+     }
+    }
+   ],
+   "fav_claude": "Ján Nosko",
+   "fav_codex": "Ján Nosko",
+   "same_favourite": true,
+   "max_dp": 0.1825,
+   "unmatched_codex": []
+  },
+  {
+   "id": "mesto-nitra",
+   "name": "Nitra",
+   "group": "mesto",
+   "candidates": [
+    {
+     "name": "Marek Hattas",
+     "inc": true,
+     "claude": {
+      "share": 50.8,
+      "lo80": 32.0,
+      "hi80": 69.1,
+      "p_win": 0.7717
+     },
+     "codex": {
+      "share": 42.3,
+      "lo80": 32.7,
+      "hi80": 51.7,
+      "p_win": 0.6509
+     }
+    },
+    {
+     "name": "Igor Kršiak",
+     "inc": false,
+     "claude": {
+      "share": 30.7,
+      "lo80": 16.8,
+      "hi80": 48.9,
+      "p_win": 0.2168
+     },
+     "codex": {
+      "share": 37.1,
+      "lo80": 28.2,
+      "hi80": 46.3,
+      "p_win": 0.3487
+     }
+    },
+    {
+     "name": "Zuzana Uhríková",
+     "inc": false,
+     "claude": {
+      "share": 7.9,
+      "lo80": 3.8,
+      "hi80": 15.6,
+      "p_win": 0.0019
+     },
+     "codex": {
+      "share": 10.7,
+      "lo80": 5.2,
+      "hi80": 17.4,
+      "p_win": 0.0003
+     }
+    },
+    {
+     "name": "Marek Illéš",
+     "inc": false,
+     "claude": {
+      "share": 7.3,
+      "lo80": 3.4,
+      "hi80": 14.5,
+      "p_win": 0.0096
+     },
+     "codex": {
+      "share": 9.9,
+      "lo80": 4.5,
+      "hi80": 16.3,
+      "p_win": 0.0001
+     }
+    }
+   ],
+   "fav_claude": "Marek Hattas",
+   "fav_codex": "Marek Hattas",
+   "same_favourite": true,
+   "max_dp": 0.1319,
+   "unmatched_codex": []
+  },
+  {
+   "id": "mesto-presov",
+   "name": "Prešov",
+   "group": "mesto",
+   "candidates": [
+    {
+     "name": "František Oľha",
+     "inc": true,
+     "claude": {
+      "share": 40.0,
+      "lo80": 23.1,
+      "hi80": 59.4,
+      "p_win": 0.7307
+     },
+     "codex": {
+      "share": 30.4,
+      "lo80": 9.2,
+      "hi80": 54.9,
+      "p_win": 0.4293
+     }
+    },
+    {
+     "name": "Pavel Hagyari",
+     "inc": false,
+     "claude": {
+      "share": 23.6,
+      "lo80": 12.1,
+      "hi80": 40.7,
+      "p_win": 0.2093
+     },
+     "codex": {
+      "share": 15.9,
+      "lo80": 1.8,
+      "hi80": 35.9,
+      "p_win": 0.1437
+     }
+    },
+    {
+     "name": "Rastislav Mochnacký",
+     "inc": false,
+     "claude": {
+      "share": 10.7,
+      "lo80": 5.0,
+      "hi80": 20.6,
+      "p_win": 0.0496
+     },
+     "codex": {
+      "share": 14.0,
+      "lo80": 1.2,
+      "hi80": 32.5,
+      "p_win": 0.1134
+     }
+    },
+    {
+     "name": "Artúr Benes",
+     "inc": false,
+     "claude": {
+      "share": 7.0,
+      "lo80": 3.3,
+      "hi80": 13.9,
+      "p_win": 0.002
+     },
+     "codex": {
+      "share": 14.0,
+      "lo80": 1.2,
+      "hi80": 32.6,
+      "p_win": 0.1139
+     }
+    },
+    {
+     "name": "Svetlana Pavlovičová",
+     "inc": false,
+     "claude": {
+      "share": 6.3,
+      "lo80": 2.8,
+      "hi80": 13.1,
+      "p_win": 0.0048
+     },
+     "codex": {
+      "share": 13.1,
+      "lo80": 1.0,
+      "hi80": 31.1,
+      "p_win": 0.1021
+     }
+    },
+    {
+     "name": "Martin Eštočák",
+     "inc": false,
+     "claude": {
+      "share": 5.9,
+      "lo80": 2.7,
+      "hi80": 12.1,
+      "p_win": 0.0036
+     },
+     "codex": {
+      "share": 12.7,
+      "lo80": 0.9,
+      "hi80": 30.8,
+      "p_win": 0.0977
+     }
+    }
+   ],
+   "fav_claude": "František Oľha",
+   "fav_codex": "František Oľha",
+   "same_favourite": true,
+   "max_dp": 0.3014,
+   "unmatched_codex": []
+  },
+  {
+   "id": "mesto-trnava",
+   "name": "Trnava",
+   "group": "mesto",
+   "candidates": [
+    {
+     "name": "Eva Nemčovská",
+     "inc": false,
+     "claude": {
+      "share": 35.7,
+      "lo80": 22.4,
+      "hi80": 51.6,
+      "p_win": 0.5964
+     },
+     "codex": {
+      "share": 29.2,
+      "lo80": 8.4,
+      "hi80": 53.4,
+      "p_win": 0.3678
+     }
+    },
+    {
+     "name": "Branislav Baroš",
+     "inc": false,
+     "claude": {
+      "share": 31.8,
+      "lo80": 19.1,
+      "hi80": 47.7,
+      "p_win": 0.3734
+     },
+     "codex": {
+      "share": 21.5,
+      "lo80": 4.2,
+      "hi80": 43.9,
+      "p_win": 0.2183
+     }
+    },
+    {
+     "name": "Andrea Čajková",
+     "inc": false,
+     "claude": {
+      "share": 10.8,
+      "lo80": 6.0,
+      "hi80": 18.8,
+      "p_win": 0.0126
+     },
+     "codex": {
+      "share": 16.2,
+      "lo80": 1.9,
+      "hi80": 36.2,
+      "p_win": 0.1349
+     }
+    },
+    {
+     "name": "Martin Pullmann",
+     "inc": false,
+     "claude": {
+      "share": 9.6,
+      "lo80": 5.1,
+      "hi80": 17.1,
+      "p_win": 0.0151
+     },
+     "codex": {
+      "share": 16.9,
+      "lo80": 2.2,
+      "hi80": 37.1,
+      "p_win": 0.1433
+     }
+    },
+    {
+     "name": "Jozef Obselka",
+     "inc": false,
+     "claude": {
+      "share": 7.7,
+      "lo80": 4.2,
+      "hi80": 13.8,
+      "p_win": 0.0025
+     },
+     "codex": {
+      "share": 16.2,
+      "lo80": 1.9,
+      "hi80": 36.2,
+      "p_win": 0.1356
+     }
+    }
+   ],
+   "fav_claude": "Eva Nemčovská",
+   "fav_codex": "Eva Nemčovská",
+   "same_favourite": true,
+   "max_dp": 0.2286,
+   "unmatched_codex": []
+  },
+  {
+   "id": "mesto-trencin",
+   "name": "Trenčín",
+   "group": "mesto",
+   "candidates": [
+    {
+     "name": "Ján Forgáč",
+     "inc": false,
+     "claude": {
+      "share": 33.5,
+      "lo80": 10.6,
+      "hi80": 67.9,
+      "p_win": 0.7272
+     },
+     "codex": {
+      "share": 35.2,
+      "lo80": 12.7,
+      "hi80": 60.5,
+      "p_win": 0.4458
+     }
+    },
+    {
+     "name": "Miloš Mičega",
+     "inc": false,
+     "claude": {
+      "share": 24.1,
+      "lo80": 6.9,
+      "hi80": 57.1,
+      "p_win": 0.1788
+     },
+     "codex": {
+      "share": 25.8,
+      "lo80": 6.4,
+      "hi80": 49.4,
+      "p_win": 0.2501
+     }
+    },
+    {
+     "name": "Danica Birošová",
+     "inc": false,
+     "claude": {
+      "share": 18.1,
+      "lo80": 4.9,
+      "hi80": 48.5,
+      "p_win": 0.0669
+     },
+     "codex": {
+      "share": 19.5,
+      "lo80": 3.2,
+      "hi80": 41.1,
+      "p_win": 0.1525
+     }
+    },
+    {
+     "name": "Michal Bratranec",
+     "inc": false,
+     "claude": {
+      "share": 8.4,
+      "lo80": 2.1,
+      "hi80": 27.8,
+      "p_win": 0.0271
+     },
+     "codex": {
+      "share": 19.5,
+      "lo80": 3.2,
+      "hi80": 40.8,
+      "p_win": 0.1515
+     }
+    }
+   ],
+   "fav_claude": "Ján Forgáč",
+   "fav_codex": "Ján Forgáč",
+   "same_favourite": true,
+   "max_dp": 0.2814,
+   "unmatched_codex": []
+  },
+  {
+   "id": "mesto-zilina",
+   "name": "Žilina",
+   "group": "mesto",
+   "candidates": [
+    {
+     "name": "Peter Fiabáne",
+     "inc": true,
+     "claude": {
+      "share": 30.1,
+      "lo80": 9.9,
+      "hi80": 61.8,
+      "p_win": 0.7134
+     },
+     "codex": {
+      "share": 27.4,
+      "lo80": 7.4,
+      "hi80": 51.3,
+      "p_win": 0.3992
+     }
+    },
+    {
+     "name": "Peter Cibulka",
+     "inc": false,
+     "claude": {
+      "share": 10.2,
+      "lo80": 2.8,
+      "hi80": 30.5,
+      "p_win": 0.0684
+     },
+     "codex": {
+      "share": 12.1,
+      "lo80": 0.8,
+      "hi80": 29.6,
+      "p_win": 0.1074
+     }
+    },
+    {
+     "name": "Anton Kozlík",
+     "inc": false,
+     "claude": {
+      "share": 8.9,
+      "lo80": 2.4,
+      "hi80": 27.4,
+      "p_win": 0.0278
+     },
+     "codex": {
+      "share": 10.3,
+      "lo80": 0.4,
+      "hi80": 26.5,
+      "p_win": 0.0853
+     }
+    },
+    {
+     "name": "Rastislav Johanes",
+     "inc": false,
+     "claude": {
+      "share": 8.8,
+      "lo80": 2.4,
+      "hi80": 27.4,
+      "p_win": 0.1316
+     },
+     "codex": {
+      "share": 10.3,
+      "lo80": 0.4,
+      "hi80": 26.2,
+      "p_win": 0.0847
+     }
+    },
+    {
+     "name": "Michal Milo",
+     "inc": false,
+     "claude": {
+      "share": 6.1,
+      "lo80": 1.6,
+      "hi80": 19.5,
+      "p_win": 0.0201
+     },
+     "codex": {
+      "share": 8.9,
+      "lo80": 0.2,
+      "hi80": 24.2,
+      "p_win": 0.0699
+     }
+    },
+    {
+     "name": "Bohumil Kostolný",
+     "inc": false,
+     "claude": {
+      "share": 4.2,
+      "lo80": 1.1,
+      "hi80": 14.4,
+      "p_win": 0.0117
+     },
+     "codex": {
+      "share": 10.3,
+      "lo80": 0.4,
+      "hi80": 26.5,
+      "p_win": 0.0839
+     }
+    },
+    {
+     "name": "Ivan Magát",
+     "inc": false,
+     "claude": {
+      "share": 4.2,
+      "lo80": 1.1,
+      "hi80": 14.5,
+      "p_win": 0.0131
+     },
+     "codex": {
+      "share": 10.3,
+      "lo80": 0.4,
+      "hi80": 26.6,
+      "p_win": 0.0862
+     }
+    },
+    {
+     "name": "Miroslav Sokol",
+     "inc": false,
+     "claude": {
+      "share": 4.2,
+      "lo80": 1.1,
+      "hi80": 14.4,
+      "p_win": 0.0139
+     },
+     "codex": {
+      "share": 10.3,
+      "lo80": 0.4,
+      "hi80": 26.4,
+      "p_win": 0.0833
+     }
+    }
+   ],
+   "fav_claude": "Peter Fiabáne",
+   "fav_codex": "Peter Fiabáne",
+   "same_favourite": true,
+   "max_dp": 0.3142,
+   "unmatched_codex": []
+  }
+ ]
+}

@@ -53,6 +53,7 @@ def norm(s: str) -> str:
 
 
 def clean_name(s: str) -> str:
+    s = re.sub(r"\bM\.\s?A\.|\bM\.\s?Sc\.|\bB\.\s?A\.", "", s)
     s = TITLE_RE.sub("", s)
     s = re.sub(r"[,.]", " ", s)
     return re.sub(r"\s+", " ", s).strip()

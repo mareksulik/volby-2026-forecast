@@ -9,6 +9,7 @@ SNAP="data/snapshots/${DAY}-final.json"
 
 python tools/prepare_inputs.py
 python tools/forecast.py --date "$DAY" --label final >/dev/null
+python tools/compare.py
 python tools/build_site.py
 git add -A
 git commit -q -m "Final forecast ${DAY}" || true

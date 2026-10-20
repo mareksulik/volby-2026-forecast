@@ -1,0 +1,8 @@
+{
+ "source": "https://github.com/mareksulik/volebny-model-codex/blob/2bb314d5aca388965ec21ece91dd11b858b8f210/docs/data/forecast.json",
+ "site": "https://mareksulik.github.io/volebny-model-codex/",
+ "commit": "2bb314d5aca388965ec21ece91dd11b858b8f210",
+ "sha256": "683a024057c556e5c1fdbde372f060ed8f054ae2ccd6f766ca0a27499ea3506c",
+ "locked_at": "2026-10-20T15:39:29+02:00",
+ "cutoff": "2026-10-20T15:20:15+02:00"
+}

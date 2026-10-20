@@ -45,25 +45,37 @@ def interval_svg(c, scale):
             f'<circle cx="{x(c["share"])}" cy="8" r="4" fill="var(--mu-blue-700)"/></svg>')
 
 
-def page(title, body, active, meta):
-    nav = "".join(f'<a href="{h}"{" class=active" if h == active else ""}>{t}</a>' for h, t in NAV)
+CODEX_URL = "https://mareksulik.github.io/volebny-model-codex/"
+TOP = [("claude", "index.html", "Claude"), ("codex", CODEX_URL, "Codex ↗"), ("porovnanie", "porovnanie.html", "Porovnanie")]
+CMP_NAV = [("#suhrn", "Súhrn"), ("#rozdiely", "Kde sa líšia"), ("#vsetky", "Všetky voľby"), ("#metodiky", "Metodiky")]
+
+
+def page(title, body, active, meta, top="claude", subnav=None):
+    items = NAV if subnav is None else subnav
+    nav = "".join(f'<a href="{h}"{" class=active" if h == active else ""}>{t}</a>' for h, t in items)
+    topmenu = "".join(f'<a href="{h}"{" class=active aria-current=page" if k == top else ""}>{t}</a>' for k, h, t in TOP)
     return f"""<!DOCTYPE html>
 <html lang="sk"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{e(title)}</title><link rel="icon" href="data:,">
 <link rel="stylesheet" href="ds.css"><script src="ds.js"></script>
 <style>
 .iv{{vertical-align:middle}} .race-grid{{display:grid;grid-template-columns:repeat(auto-fill,minmax(520px,1fr));gap:16px}}
-.race-grid .card h3{{margin:0 0 4px}} .race-grid table td,.race-grid table th{{padding:6px 8px}}
+.race-grid>*{{min-width:0}} .race-grid .card h3{{margin:0 0 4px}} .race-grid table td,.race-grid table th{{padding:6px 8px}}
 .lock{{margin:16px 0}} td.nm{{max-width:220px}} .muted{{color:var(--mu-gray-900)}}
-@media (max-width:600px){{.race-grid{{grid-template-columns:1fr}} .iv{{width:110px}}}}
+.topmenu{{display:flex;gap:4px;align-items:center}}
+.topmenu a{{font-size:14px;line-height:20px;font-weight:500;padding:6px 12px;border-radius:var(--mu-radius-sm);color:var(--mu-gray-900);text-decoration:none}}
+.topmenu a:hover{{background:var(--mu-gray-100);color:var(--mu-gray-1000)}}
+.topmenu a.active{{background:var(--mu-gray-1000);color:var(--mu-background-100)}}
+@media (max-width:600px){{.race-grid{{grid-template-columns:1fr}} .iv{{width:110px}} .topbar .meta-row{{display:none}}}}
 </style></head><body>
 <header class="topbar"><div class="wrap"><div class="brand">
-<svg viewBox="0 0 150 22" height="22" aria-hidden="true"><text x="0" y="17" font-family="Geist, sans-serif" font-weight="600" font-size="18" fill="currentColor">Voľby 2026</text></svg>
-<span class="slash"></span><span class="app">Predpoveď komunálnych a krajských volieb</span><h1 class="sr-only">{e(title)}</h1></div>
+<svg viewBox="0 0 110 22" height="22" aria-hidden="true"><text x="0" y="17" font-family="Geist, sans-serif" font-weight="600" font-size="18" fill="currentColor">Voľby 2026</text></svg>
+<span class="slash"></span><span class="app">Predpoveď samosprávnych volieb</span><h1 class="sr-only">{e(title)}</h1></div>
+<div class="topmenu" role="navigation" aria-label="Model">{topmenu}</div>
 <div class="meta-row">{meta}</div></div></header>
-<nav><div class="wrap">{nav}<a href="{REPO}" class="right">GitHub</a></div></nav>
+<nav aria-label="Sekcie"><div class="wrap">{nav}<a href="{REPO}" class="right">GitHub</a></div></nav>
 {body}
-<footer class="site"><span>Marek Šulík · obsah CC BY 4.0, kód MIT</span><span>Predpoveď vytvorila AI pipeline (Claude) s človekom v slučke. Nie je to tip na stávkovanie.</span></footer>
+<footer class="site"><span>Marek Šulík · obsah CC BY 4.0, kód MIT</span><span>Predpovede vytvorili AI pipeline (Claude a Codex) s človekom v slučke. Nie sú to tipy na stávkovanie.</span></footer>
 </body></html>"""
 
 
@@ -269,6 +281,98 @@ def md_page(name, title, active, meta):
     return page(f"{title} · Voľby 2026", f'<section><div class="wrap">{src}</div></section>', active, meta)
 
 
+METHODS = [
+    ("Tréning fundamentov", "Podmienený logit na 2 914 voľbách starostov 2018 → 2022 (obce s aspoň 2 000 voličmi). Rysy: obhajca × veľkosť obce, minulý podiel, nezávislý, počet strán, povolanie.",
+     "Softmax na komunálnych súbojoch 2018 → 2022 s aspoň 1 000 platnými hlasmi. Rysy: minulý podiel, minulé víťazstvo, počet strán, funkcia z registrácie, nezávislý. Delenie na tréning, kalibráciu a test podľa hashu obce."),
+    ("Kraje", "Fundamenty z obcí plus straníckej základne γ = 0,29, nafitovanej na 8 krajských voľbách 2022 (leave-one-out chyba 5,5 b.).",
+     "Fundamenty z obcí; kraje 2017 → 2022 len ako samostatný test prenosu."),
+    ("Neistota", "Logistic-normal šum σ = 0,95 nastavený na 80 % pokrytie na odložených obciach a spoločný celoštátny šok vládneho a opozičného bloku naprieč voľbami.",
+     "Dirichletovo rozdelenie s koncentráciou vybranou na 80 % pokrytie na kalibračnej množine; voľby sa simulujú nezávisle."),
+    ("Prieskumy", "Priemer s polčasom 30 dní, váha √(n/600). Prieskumy kandidátov majú polovičnú váhu. Kombinácia s fundamentmi podľa presnosti (spoločná chyba 5 b.).",
+     "Bayesovská aktualizácia: pseudopozorovania min(200, n/2) × 2^(−vek/30) × kvalita, koncentrácia najviac 80. Neúplné polia vyradené."),
+    ("Odstúpenia", "Polovica prieskumného podielu odstúpeného ide kandidátovi, ktorého podporil, zvyšok sa rozdelí pomerne.",
+     "Masa odstúpených sa rozdelí podľa fundamentálneho základu (Dirichletov scenár); podporený kandidát nedostáva prednostný presun."),
+    ("Trh", "Kurzy bez marže sa miešajú s modelom v log-odds s váhou 0,5. Menia len pravdepodobnosť výhry, nie podiely.",
+     "Kurzy sú len porovnávací benchmark, do predpovede nevstupujú."),
+    ("Bodový odhad", "Medián 20 000 simulácií.", "Stredná hodnota (priemer) 50 000 simulácií."),
+    ("Ručné úpravy", "Zdokumentované úpravy pri faktoch mimo modelu (overrides.yaml, každá s dôvodom).", "Žiadne; len pravidlá zaradenia prieskumov a odstúpení."),
+]
+
+
+def num1(x):
+    return f"{x:.1f}".replace(".", ",")
+
+
+def cmp_cell(x):
+    if not x:
+        return '<td class="num gs">–</td><td class="num">–</td><td class="num">–</td>'
+    return (f'<td class="num gs">{pct(x["share"])}</td><td class="num">{x["lo80"]:.0f}–{x["hi80"]:.0f} %</td>'
+            f'<td class="num">{prob_chip(x["p_win"])}</td>')
+
+
+def comparison_page(meta):
+    c = json.loads((ROOT / "data/comparison.json").read_text())
+    cx = c["codex"]
+    n, same = c["n_races"], c["same_favourite"]
+    diff = [r for r in c["races"] if not r["same_favourite"]]
+    gaps = [r for r in c["races"] if r["unmatched_codex"]]
+    stats = (f'<div class="grid3"><div class="card"><div class="stat"><div class="label">Rovnaký favorit</div><div class="value">{same}/{n}</div>'
+             f'<div class="delta">volieb</div></div></div>'
+             f'<div class="card"><div class="stat"><div class="label">Priemerný rozdiel podielu</div><div class="value">{num1(c["mean_abs_share_diff_pp"])} b.</div>'
+             f'<div class="delta">percentuálne body, priemer cez kandidátov</div></div></div>'
+             f'<div class="card"><div class="stat"><div class="label">Priemerný rozdiel P(výhra)</div><div class="value">{num1(100 * c["mean_abs_pwin_diff"])} b.</div>'
+             f'<div class="delta">percentuálne body, priemer cez kandidátov</div></div></div></div>')
+    gap_li = "".join(f'<li><strong>{e(r["name"])}.</strong> Codex počíta ako aktívnych aj {e(", ".join(r["unmatched_codex"]))}. '
+                     'V našom výskume odstúpili (hlasy pre nich sa nerátajú), preto ich Claude nemá.</li>' for r in gaps)
+    diff_li = "".join(f'<li><strong><a href="#{r["id"]}">{e(r["name"])}</a>.</strong> Claude: {e(r["fav_claude"])}, Codex: {e(r["fav_codex"])}.</li>' for r in diff)
+    top = sorted(c["races"], key=lambda r: -r["max_dp"])[:12]
+    rows = []
+    for r in top:
+        cc = {x["name"]: x for x in r["candidates"]}
+        fc, fx = cc[r["fav_claude"]], cc[r["fav_codex"]]
+        rows.append(f'<tr><td><a href="#{r["id"]}">{e(r["name"])}</a></td><td>{e(r["fav_claude"])}</td><td class="num">{prob(fc["claude"]["p_win"])}</td>'
+                    f'<td class="gs">{e(r["fav_codex"])}</td><td class="num">{prob(fx["codex"]["p_win"])}</td>'
+                    f'<td class="num gs">{round(100 * r["max_dp"])} b.</td></tr>')
+    cards = []
+    for g, title in GROUPS:
+        for r in [r for r in c["races"] if r["group"] == g]:
+            trs = "".join(f'<tr><td class="nm">{e(x["name"])}{" <span class=\"chip chip-neutral\">obhajca</span>" if x["inc"] else ""}</td>'
+                          f'{cmp_cell(x["claude"])}{cmp_cell(x["codex"])}</tr>' for x in r["candidates"])
+            badge = '' if r["same_favourite"] else ' <span class="chip chip-warn">iný favorit</span>'
+            cards.append(f'<figure id="{r["id"]}"><figcaption><a href="{r["id"]}.html">{e(r["name"])}</a>{badge}</figcaption>'
+                         f'<div class="tbl-scroll"><table class="grouped"><thead><tr class="grp"><th></th><th colspan="3" class="gs">CLAUDE</th><th colspan="3" class="gs">CODEX</th></tr>'
+                         f'<tr><th>Kandidát</th><th class="num gs">Odhad</th><th class="num">80 %</th><th class="num">P(výhra)</th>'
+                         f'<th class="num gs">Odhad</th><th class="num">80 %</th><th class="num">P(výhra)</th></tr></thead><tbody>{trs}</tbody></table></div></figure>')
+    meth = "".join(f'<tr><td><strong>{e(a)}</strong></td><td class="gs">{e(b)}</td><td class="gs">{e(x)}</td></tr>' for a, b, x in METHODS)
+    scores = ""
+    if c.get("scores"):
+        sr = "".join(f'<tr><td>{k.capitalize()}</td><td class="num">{v["n"]}</td><td class="num">{v["brier"]:.3f}</td><td class="num">{v["log_score"]:.3f}</td>'
+                     f'<td class="num">{v["favourites_hit"]}</td><td class="num">{pct(v["share_mae_pp"])}</td><td class="num">{round(100 * v["coverage_80"])} %</td></tr>'
+                     for k, v in c["scores"].items() if v)
+        scores = (f'<section id="skore"><div class="wrap"><div class="sec-num">05 — Skóre</div><h2>Ktorý model bol presnejší</h2>'
+                  f'<div class="tbl-scroll"><table><thead><tr><th>Model</th><th class="num">Volieb</th><th class="num">Brier ↓</th><th class="num">Log skóre ↑</th>'
+                  f'<th class="num">Trafení favoriti</th><th class="num">Chyba podielu</th><th class="num">Pokrytie 80 %</th></tr></thead><tbody>{sr}</tbody></table></div></div></section>')
+    body = f"""<section id="suhrn"><div class="wrap"><div class="sec-num">01 — Súhrn</div>
+<h2>Claude a Codex: dva nezávislé modely tých istých 33 volieb</h2>
+<p>Obe predpovede vznikli na rovnaké zadanie (vzor: Šlerkova predpoveď Senátu 2026), ale každý model mal vlastný výskum, vlastné dáta a vlastnú metodiku. Porovnávame <a href="index.html">Claude</a> (snapshot <code>{e(c["claude_snapshot"])}</code>) a <a href="{CODEX_URL}">Codex</a> (zamknutý {e(cx["locked_at"][:16].replace("T", " "))}, uzáver vstupov {e(cx["cutoff"][:16].replace("T", " "))}, kópia overená cez SHA-256 voči jeho <code>LOCK.json</code>, <a href="{e(cx["source"])}">zdroj</a>).</p>
+{stats}
+<div class="grid2"><figure><figcaption>Iný favorit</figcaption><ul>{diff_li or "<li>Nikde.</li>"}</ul></figure>
+<figure><figcaption>Rozdiely vo vstupoch</figcaption><ul>{gap_li or "<li>Žiadne.</li>"}<li><strong>Uzáver vstupov.</strong> Codex zamkol predpoveď 20. 10. popoludní, Claude ju zamyká 21. 10. večer, takže môže zahrnúť aj neskoršie prieskumy (napríklad AKO pre Bratislavu z 20. 10. večer).</li></ul></figure></div>
+</div></section>
+<section id="rozdiely"><div class="wrap"><div class="sec-num">02 — Kde sa líšia</div><h2>Najväčšie rozdiely v pravdepodobnosti výhry</h2>
+<div class="fig-sub">max |ΔP| = najväčší rozdiel v pravdepodobnosti výhry jedného kandidáta medzi modelmi</div>
+<div class="tbl-scroll"><table class="grouped"><thead><tr class="grp"><th></th><th colspan="2">CLAUDE</th><th colspan="2" class="gs">CODEX</th><th class="gs"></th></tr>
+<tr><th>Voľba</th><th>Favorit</th><th class="num">P</th><th class="gs">Favorit</th><th class="num">P</th><th class="num gs">max |ΔP|</th></tr></thead><tbody>{"".join(rows)}</tbody></table></div>
+</div></section>
+<section id="vsetky"><div class="wrap"><div class="sec-num">03 — Všetky voľby</div><h2>Kandidát po kandidátovi</h2>
+<div class="race-grid">{"".join(cards)}</div></div></section>
+<section id="metodiky"><div class="wrap"><div class="sec-num">04 — Metodiky</div><h2>Čím sa modely líšia</h2>
+<div class="tbl-scroll"><table><thead><tr><th>Krok</th><th class="gs">Claude</th><th class="gs">Codex</th></tr></thead><tbody>{meth}</tbody></table></div>
+<p class="text-small">Opis Codexovej metodiky je zhrnutie jeho <a href="https://github.com/mareksulik/volebny-model-codex/blob/main/METHODOLOGY.md">METHODOLOGY.md</a>. Po voľbách obe predpovede oskórujeme rovnakými metrikami.</p>
+</div></section>{scores}"""
+    return page("Porovnanie Claude a Codex · Voľby 2026", body, "", meta, top="porovnanie", subnav=CMP_NAV)
+
+
 def main():
     data = json.loads((ROOT / "data/latest.json").read_text())
     DOCS.mkdir(exist_ok=True)
@@ -291,6 +395,10 @@ def main():
         (DOCS / f'{r["id"]}.html').write_text(race_page(r, meta))
     for name, title in [("model", "Model"), ("pravidla", "Pravidlá"), ("skore", "Skóre"), ("archiv", "Archív")]:
         (DOCS / f"{name}.html").write_text(md_page(name, title, f"{name}.html", meta))
+    if (ROOT / "data/comparison.json").exists():
+        (DOCS / "porovnanie.html").write_text(comparison_page(meta))
+        shutil.copytree(ROOT / "data/codex", DOCS / "data/codex", dirs_exist_ok=True)
+        shutil.copy(ROOT / "data/comparison.json", DOCS / "data/comparison.json")
     (DOCS / ".nojekyll").write_text("")
     print("site built:", len(data["races"]), "races")
 

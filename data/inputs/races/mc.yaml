@@ -499,7 +499,7 @@
         pct: 2.89
       source: https://volby.statistics.sk/oso/oso2018/files/OSO_2018_xlsx.zip (OSO_2018_tab05.xlsx results; OSO_2018_tab02bd.xlsx turnout)
   candidates:
-  - name: Martina Frőhlich Činovská M A
+  - name: Martina Frőhlich Činovská
     ballot_no: 1
     party: Starostovia a nezávislí kandidáti, KDH, Nova, Magyar Szövetség - Maďarská aliancia
     parties:
@@ -507,13 +507,16 @@
     - ALIANCIA
     bloc: opp
     inc: false
-    prev_share: 0.0
+    prev_share: 0.0934
     neka: false
     withdrew: false
     profile: Long-time journalist and public communication specialist, 46. Campaigning on environment (Slovnaft incinerator, Harbour Park, landfills)
       and transparency.
     prior_runs: 2022 3rd with 9.34 %
     local_official: false
+    adj: 0.3
+    adj_reason: Spojená kandidatúra SaNK, KDH, Nova a Maďarskej aliancie s podporou exstarostu Péka na jej kandidátke. Tieto prúdy mali v roku
+      2022 spolu okolo 40 %.
   - name: Roman Lamoš
     ballot_no: 2
     party: Team Bratislava, Progresívne Slovensko, Sloboda a solidarita, Demokrati

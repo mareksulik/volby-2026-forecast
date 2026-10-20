@@ -4,15 +4,20 @@
 <link rel="stylesheet" href="ds.css"><script src="ds.js"></script>
 <style>
 .iv{vertical-align:middle} .race-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(520px,1fr));gap:16px}
-.race-grid .card h3{margin:0 0 4px} .race-grid table td,.race-grid table th{padding:6px 8px}
+.race-grid>*{min-width:0} .race-grid .card h3{margin:0 0 4px} .race-grid table td,.race-grid table th{padding:6px 8px}
 .lock{margin:16px 0} td.nm{max-width:220px} .muted{color:var(--mu-gray-900)}
-@media (max-width:600px){.race-grid{grid-template-columns:1fr} .iv{width:110px}}
+.topmenu{display:flex;gap:4px;align-items:center}
+.topmenu a{font-size:14px;line-height:20px;font-weight:500;padding:6px 12px;border-radius:var(--mu-radius-sm);color:var(--mu-gray-900);text-decoration:none}
+.topmenu a:hover{background:var(--mu-gray-100);color:var(--mu-gray-1000)}
+.topmenu a.active{background:var(--mu-gray-1000);color:var(--mu-background-100)}
+@media (max-width:600px){.race-grid{grid-template-columns:1fr} .iv{width:110px} .topbar .meta-row{display:none}}
 </style></head><body>
 <header class="topbar"><div class="wrap"><div class="brand">
-<svg viewBox="0 0 150 22" height="22" aria-hidden="true"><text x="0" y="17" font-family="Geist, sans-serif" font-weight="600" font-size="18" fill="currentColor">Voľby 2026</text></svg>
-<span class="slash"></span><span class="app">Predpoveď komunálnych a krajských volieb</span><h1 class="sr-only">Košický samosprávny kraj · Voľby 2026</h1></div>
-<div class="meta-row"><span>SNAPSHOT DRAFT2</span><span>STAV K 2026-10-20 15:10</span><span>PRACOVNÁ VERZIA</span></div></div></header>
-<nav><div class="wrap"><a href="index.html">Prehľad</a><a href="model.html">Model</a><a href="pravidla.html">Pravidlá</a><a href="skore.html">Skóre</a><a href="archiv.html">Archív</a><a href="https://github.com/mareksulik/volby-2026-forecast" class="right">GitHub</a></div></nav>
+<svg viewBox="0 0 110 22" height="22" aria-hidden="true"><text x="0" y="17" font-family="Geist, sans-serif" font-weight="600" font-size="18" fill="currentColor">Voľby 2026</text></svg>
+<span class="slash"></span><span class="app">Predpoveď samosprávnych volieb</span><h1 class="sr-only">Košický samosprávny kraj · Voľby 2026</h1></div>
+<div class="topmenu" role="navigation" aria-label="Model"><a href="index.html" class=active aria-current=page>Claude</a><a href="https://mareksulik.github.io/volebny-model-codex/">Codex ↗</a><a href="porovnanie.html">Porovnanie</a></div>
+<div class="meta-row"><span>SNAPSHOT DRAFT3</span><span>STAV K 2026-10-20 15:50</span><span>PRACOVNÁ VERZIA</span></div></div></header>
+<nav aria-label="Sekcie"><div class="wrap"><a href="index.html">Prehľad</a><a href="model.html">Model</a><a href="pravidla.html">Pravidlá</a><a href="skore.html">Skóre</a><a href="archiv.html">Archív</a><a href="https://github.com/mareksulik/volby-2026-forecast" class="right">GitHub</a></div></nav>
 <section><div class="wrap">
 <div class="sec-num">predseda VÚC</div><h2>Košický samosprávny kraj</h2>
 <p class="muted">Zapísaní voliči: 627 195. Jedno kolo, vyhráva relatívna väčšina.</p><div class="note note-warn">Odstúpili, na lístku zostávajú, hlasy pre nich sa nerátajú: Tibor Géci (v prospech: Igor Šimko).</div>
@@ -25,5 +30,5 @@
 <h3>História</h3><div class="grid2"><figure><figcaption>Voľby 2022</figcaption><div class="fig-sub">účasť 39,70 % · <a href="https://volby.statistics.sk/osk/osk2022/files/OSK2022_SK_csv.zip">zdroj</a></div><div class="tbl-scroll"><table><thead><tr><th>Kandidát</th><th>Strana</th><th class="num">Podiel</th></tr></thead><tbody><tr><td>Rastislav Trnka</td><td>KDH, ALIANCIA, STAROSTOVIA A NEZÁVISLÍ KANDIDÁTI, ŠANCA, DS</td><td class="num">51,31 %</td></tr><tr><td>Viliam Zahorčák</td><td>SMER-SD, SME RODINA, SNS, ŽIVOT, SMS, NK/NEKA</td><td class="num">15,01 %</td></tr><tr><td>Róbert Suja</td><td>HLAS-SD</td><td class="num">6,99 %</td></tr><tr><td>Juraj Sinay</td><td>NEKA</td><td class="num">6,80 %</td></tr><tr><td>Erik Ňarjaš</td><td>OĽANO-NOVA-KÚ-ZMENA ZDOLA, ZA ĽUDÍ, ...</td><td class="num">5,55 %</td></tr><tr><td>Monika Sofiya Soročinová</td><td>NEKA</td><td class="num">4,71 %</td></tr><tr><td>Tomáš Janco</td><td>REPUBLIKA</td><td class="num">2,26 %</td></tr><tr><td>Juraj Ďurove</td><td>Socialisti.sk</td><td class="num">1,68 %</td></tr></tbody></table></div></figure><figure><figcaption>Voľby 2017</figcaption><div class="fig-sub">účasť 26,73 % · <a href="https://volby.statistics.sk/osk/osk2017/files/OSK_2017_xlsx.zip">zdroj</a></div><div class="tbl-scroll"><table><thead><tr><th>Kandidát</th><th>Strana</th><th class="num">Podiel</th></tr></thead><tbody><tr><td>Rastislav Trnka</td><td>KDH, NOVA, OĽANO, SaS, ŠANCA</td><td class="num">37,80 %</td></tr><tr><td>Richard Raši</td><td>STAROSTOVIA A NEZÁVISLÍ KANDIDÁTI, SMER-SD, SMK-MKP, SZS</td><td class="num">37,24 %</td></tr><tr><td>Karol Pataky</td><td>MOST - HÍD, SKOK - ELD</td><td class="num">9,41 %</td></tr><tr><td>Štefan Surmánek</td><td>ĽS Naše Slovensko</td><td class="num">4,67 %</td></tr><tr><td>Róbert Bačinský</td><td>NEKA</td><td class="num">3,11 %</td></tr><tr><td>Jarmila Tkáčová</td><td>SNS</td><td class="num">2,30 %</td></tr><tr><td>Oliver Petrík</td><td>JEDNOTA-ĽSS</td><td class="num">1,09 %</td></tr><tr><td>Jozef Bobík</td><td>NEKA</td><td class="num">0,77 %</td></tr></tbody></table></div></figure></div>
 <figure><figcaption>Zdroje</figcaption><ul class="text-small"><li><a href="https://spravy.stvr.sk/volby-2026/volby-do-vuc/?kraj=SK8">https://spravy.stvr.sk/volby-2026/volby-do-vuc/?kraj=SK8</a></li><li><a href="https://static.kosice.sk/files/manual/volby/volby2026_vuc_zoznam_zaregistrovanych_predseda.pdf">https://static.kosice.sk/files/manual/volby/volby2026_vuc_zoznam_zaregistrovanych_predseda.pdf</a></li><li><a href="https://volby.statistics.sk/osk/osk2017/files/OSK_2017_xlsx.zip">https://volby.statistics.sk/osk/osk2017/files/OSK_2017_xlsx.zip</a></li><li><a href="https://volby.statistics.sk/osk/osk2022/files/OSK2022_SK_csv.zip">https://volby.statistics.sk/osk/osk2022/files/OSK2022_SK_csv.zip</a></li><li><a href="https://www.kosickazupa.sk/uradna-tabula/volby-2026">https://www.kosickazupa.sk/uradna-tabula/volby-2026</a></li></ul></figure>
 </div></section>
-<footer class="site"><span>Marek Šulík · obsah CC BY 4.0, kód MIT</span><span>Predpoveď vytvorila AI pipeline (Claude) s človekom v slučke. Nie je to tip na stávkovanie.</span></footer>
+<footer class="site"><span>Marek Šulík · obsah CC BY 4.0, kód MIT</span><span>Predpovede vytvorili AI pipeline (Claude a Codex) s človekom v slučke. Nie sú to tipy na stávkovanie.</span></footer>
 </body></html>
