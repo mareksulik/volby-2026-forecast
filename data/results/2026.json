@@ -1,0 +1,204 @@
+{
+ "kraj-za": {
+  "Erika Jurinová": 56.38,
+  "Igor Choma": 27.94,
+  "Martin Kapitulík": 13.7,
+  "Milan Pova": 0.79,
+  "Jana Chlustinová": 1.18
+ },
+ "kraj-bb": {
+  "Ondrej Lunter": 64.82,
+  "Miroslav Suja": 15.0,
+  "Marian Kotleba": 9.12,
+  "Roman Malatinec": 5.32,
+  "Jaroslav Rusina": 1.23,
+  "Michal Albert": 3.44,
+  "Peter Plančík": 1.06
+ },
+ "kraj-po": {
+  "Milan Majerský": 49.47,
+  "Milan Mazurek": 35.68,
+  "Samuel Migaľ": 6.14,
+  "Marián Geci": 1.32,
+  "Drahomír Čureja": 3.41,
+  "Jozef Ištok": 0.65,
+  "Ján Stanko": 0.66,
+  "Ľubomír Goliaš": 0.77,
+  "Zoltán Kašo": 0.44,
+  "Monika Lešková": 1.45
+ },
+ "kraj-ke": {
+  "Rastislav Trnka": 32.46,
+  "Marián Porvažník": 31.13,
+  "Igor Šimko": 24.5,
+  "Monika Sofiya Soročinová": 9.94,
+  "Džemal Kodrazi": 1.97
+ },
+ "kraj-ba": {
+  "Juraj Droba": 70.97,
+  "Zuzana Krajčovičová": 9.61,
+  "Rastislav Gajarský": 11.54,
+  "Dávid Staruch": 4.62,
+  "Ján Chalabala": 1.27,
+  "Ľudovít Líška": 0.89,
+  "Peter Poláček": 1.1
+ },
+ "kraj-tt": {
+  "Jozef Viskupič": 54.05,
+  "József Berényi": 20.86,
+  "Peter Hambálek": 11.67,
+  "Matej Lančarič": 7.15,
+  "Róbert Dohál": 2.73,
+  "Jaroslav Cehlárik": 2.21,
+  "Štefan Pollák": 1.32
+ },
+ "kraj-tn": {
+  "Jaroslav Baška": 57.44,
+  "Natália Svítková": 39.02,
+  "Lubomír Choleva": 1.24,
+  "Daniel Galas": 2.29
+ },
+ "kraj-nr": {
+  "Branislav Becík": 50.47,
+  "Henrich Varga": 28.87,
+  "Tibor Csenger": 10.41,
+  "Jolana Čuláková": 3.44,
+  "Róbert Švec": 2.44,
+  "Erik Blaško": 3.5,
+  "Karol Suchan": 0.86
+ },
+ "mc-stare-mesto": {
+  "Matej Vagač": 62.18,
+  "Zuzana Aufrichtová": 19.81,
+  "Miroslav Vetrík": 10.46,
+  "Petra Hitková": 7.55
+ },
+ "mc-ruzinov": {
+  "Martin Chren": 82.37,
+  "Peter Strapák": 12.52,
+  "Ivor Švihran": 5.11
+ },
+ "mc-vrakuna": {
+  "Martin Kuruc": 85.33,
+  "Katarína Lukáčová": 5.49,
+  "Dušan Burdy": 9.18
+ },
+ "mc-podunajske-biskupice": {
+  "Roman Lamoš": 60.36,
+  "Martina Frőhlich Činovská": 23.03,
+  "Ladislav Méry": 16.61
+ },
+ "mc-nove-mesto": {
+  "Matúš Čupka": 56.19,
+  "Rudolf Kusy": 41.4,
+  "Mária Martaus": 2.41
+ },
+ "mc-raca": {
+  "Michal Drotován": 66.14,
+  "Ján Polakovič": 33.86
+ },
+ "mc-vajnory": {
+  "Michal Vlček": 54.46,
+  "Juraj Ondruška": 26.27,
+  "Juraj Zeman": 19.27
+ },
+ "mc-karlova-ves": {
+  "Martin Vician": 52.16,
+  "Branislav Záhradník": 47.84
+ },
+ "mc-dubravka": {
+  "Martin Zaťovič": 100.0
+ },
+ "mc-lamac": {
+  "Igor Polakovič": 59.34,
+  "Mária Šimončičová": 40.66
+ },
+ "mc-devin": {
+  "Igor Prieložný": 18.16,
+  "Martin Galát": 57.83,
+  "Pavol Maruščák": 24.01
+ },
+ "mc-devinska-nova-ves": {
+  "Dárius Krajčír": 77.09,
+  "Ľuboš Krajčír": 19.9,
+  "Denis Ružovič": 3.01
+ },
+ "mc-zahorska-bystrica": {
+  "Jozef Krúpa": 100.0
+ },
+ "mc-petrzalka": {
+  "Ján Hrčka": 54.37,
+  "Juraj Mravec": 11.26,
+  "Daniel Klimovský": 34.37
+ },
+ "mc-jarovce": {
+  "Jozef Uhler": 100.0
+ },
+ "mc-rusovce": {
+  "Radovan Jenčík": 100.0
+ },
+ "mc-cunovo": {
+  "Gabriela Ferenčáková": 43.66,
+  "Marián Krist": 34.82,
+  "Ivan Boška": 3.83,
+  "Marek Kausich": 17.68
+ },
+ "mesto-bratislava": {
+  "Matúš Vallo": 64.82,
+  "Jozef Ráž": 32.55,
+  "Zuzana Šubová": 1.84,
+  "Ľubomír Geci": 0.8
+ },
+ "mesto-kosice": {
+  "Ladislav Lörinc": 39.89,
+  "Jaroslav Polaček": 21.53,
+  "Martin Mudrák": 18.68,
+  "Lenka Kovačevičová": 12.41,
+  "Alexander Riabov": 4.63,
+  "Ladislav Lörincz": 2.04,
+  "Miroslav Sabol": 0.55,
+  "Alexander Székely": 0.26
+ },
+ "mesto-banska-bystrica": {
+  "Ján Nosko": 47.01,
+  "Diana Javorčíková": 43.15,
+  "Matúš Molitoris": 6.98,
+  "Marian Kotleba": 2.86
+ },
+ "mesto-nitra": {
+  "Marek Hattas": 50.67,
+  "Igor Kršiak": 39.07,
+  "Zuzana Uhríková": 3.92,
+  "Marek Illéš": 6.34
+ },
+ "mesto-presov": {
+  "František Oľha": 40.69,
+  "Pavel Hagyari": 24.12,
+  "Rastislav Mochnacký": 13.3,
+  "Artúr Benes": 8.54,
+  "Svetlana Pavlovičová": 6.54,
+  "Martin Eštočák": 6.8
+ },
+ "mesto-trnava": {
+  "Eva Nemčovská": 60.69,
+  "Branislav Baroš": 30.99,
+  "Andrea Čajková": 3.37,
+  "Martin Pullmann": 3.74,
+  "Jozef Obselka": 1.21
+ },
+ "mesto-trencin": {
+  "Ján Forgáč": 69.18,
+  "Miloš Mičega": 23.42,
+  "Danica Birošová": 4.87,
+  "Michal Bratranec": 2.54
+ },
+ "mesto-zilina": {
+  "Peter Fiabáne": 41.28,
+  "Peter Cibulka": 22.11,
+  "Anton Kozlík": 1.53,
+  "Rastislav Johanes": 28.57,
+  "Michal Milo": 2.9,
+  "Ivan Magát": 0.4,
+  "Miroslav Sokol": 3.21
+ }
+}

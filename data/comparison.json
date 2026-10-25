@@ -2606,5 +2606,23 @@
    "max_dp": 0.3142,
    "unmatched_codex": []
   }
- ]
+ ],
+ "scores": {
+  "claude": {
+   "n": 29,
+   "brier": 0.173,
+   "log_score": -0.364,
+   "favourites_hit": 28,
+   "share_mae_pp": 5.2,
+   "coverage_80": 0.797
+  },
+  "codex": {
+   "n": 29,
+   "brier": 0.186,
+   "log_score": -0.382,
+   "favourites_hit": 28,
+   "share_mae_pp": 6.9,
+   "coverage_80": 0.835
+  }
+ }
 }
