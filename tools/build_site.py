@@ -78,7 +78,7 @@ def page(title, body, active, status):
 td.nm{{min-width:200px;max-width:280px}} td.ivc{{min-width:140px}} .muted{{color:var(--mu-gray-900)}}
 .stats-row{{display:flex;flex-wrap:wrap;gap:16px 32px}} .stats-row .stat{{flex:1 1 160px}}
 nav a.hl{{color:var(--mu-blue-700);font-weight:600}} nav a.hl:hover{{color:var(--mu-blue-900)}} nav a.hl.active{{border-bottom-color:var(--mu-blue-700)}}
-.summary{{border-color:var(--mu-blue-300)}} .summary ul{{margin:0;padding-left:20px}} .summary li{{margin:8px 0}}
+.summary{{border-color:var(--mu-blue-300)}} .summary ul{{margin:0;padding-left:20px;max-width:none}} .summary li{{margin:8px 0}}
 footer.site{{flex-wrap:wrap;gap:8px 24px}} footer.site .status{{display:flex;flex-wrap:wrap;gap:4px 16px;text-transform:uppercase;letter-spacing:.06em;font-size:12px}}
 @media (max-width:600px){{.race-grid{{grid-template-columns:1fr}} td.nm{{min-width:150px}}}}
 </style></head><body>
