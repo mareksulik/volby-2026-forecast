@@ -15,14 +15,12 @@ CODEX_REPO = "https://github.com/mareksulik/volebny-model-codex"
 GROUPS = [("kraj", "Predsedovia samosprávnych krajov"), ("mesto", "Primátori krajských miest"),
           ("mc", "Starostovia mestských častí Bratislavy")]
 OFFICE = {"predseda VUC": "predseda VÚC", "primator": "primátor", "starosta": "starosta"}
-TOP = [("claude", "index.html", "Claude"), ("codex", "codex.html", "Codex"), ("porovnanie", "porovnanie.html", "Porovnanie")]
-SUBNAV = {
-    "claude": ([("index.html", "Prehľad"), ("model.html", "Model"), ("pravidla.html", "Pravidlá"),
-                ("skore.html", "Skóre"), ("archiv.html", "Archív")], REPO),
-    "codex": ([("codex.html", "Prehľad"), ("codex-model.html", "Model")], CODEX_REPO),
-    "porovnanie": ([("#suhrn", "Súhrn"), ("#vsetky", "Všetky voľby"), ("#metodiky", "Metodiky")], REPO),
-}
-PREFIX = {"claude": "", "codex": "codex-"}
+NAV = [("skore.html", "Výsledky"), ("volby.html", "Voľby"), ("model.html", "Modely"), ("pravidla.html", "Pravidlá"),
+       ("archiv.html", "Archív")]
+NAV_HIGHLIGHT = "skore.html"
+# old URL -> new URL; old pages stay as redirects so shared links keep working
+REDIRECTS = {"index.html": "skore.html", "codex.html": "volby.html", "porovnanie.html": "volby.html",
+             "codex-model.html": "model.html#codex"}
 
 e = lambda s: html.escape(str(s if s is not None else ""))
 
@@ -63,30 +61,30 @@ def interval_svg(c, scale):
             f'<circle cx="{x(c["share"])}" cy="8" r="4" fill="var(--mu-blue-700)"/></svg>')
 
 
-def page(title, body, top, active, status):
-    items, repo = SUBNAV[top]
-    nav = "".join(f'<a href="{h}"{" class=active" if h == active else ""}>{t}</a>' for h, t in items)
-    topmenu = "".join(f'<a href="{h}"{" class=active aria-current=page" if k == top else ""}>{t}</a>' for k, h, t in TOP)
+def page(title, body, active, status):
+    def link(h, t):
+        cls = " ".join(c for c, on in (("hl", h == NAV_HIGHLIGHT), ("active", h == active)) if on)
+        attrs = (f' class="{cls}"' if cls else "") + (' aria-current="page"' if h == active else "")
+        return f'<a href="{h}"{attrs}>{t}</a>'
+    nav = "".join(link(h, t) for h, t in NAV)
+    repo = REPO
     return f"""<!DOCTYPE html>
 <html lang="sk"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{e(title)}</title><link rel="icon" href="data:,">
 <link rel="stylesheet" href="ds.css"><script src="ds.js"></script>
 <style>
 .iv{{vertical-align:middle}} .race-grid{{display:grid;grid-template-columns:repeat(auto-fill,minmax(520px,1fr));gap:16px}}
-.race-grid>*{{min-width:0}} .race-grid .card h3{{margin:0 0 4px}} .race-grid table td,.race-grid table th{{padding:6px 8px}}
+.race-grid>*,.grid2>*{{min-width:0}} figure ul a,p code{{overflow-wrap:anywhere}} .race-grid .card h3{{margin:0 0 4px}} .race-grid table td,.race-grid table th{{padding:6px 8px}}
 td.nm{{min-width:200px;max-width:280px}} td.ivc{{min-width:140px}} .muted{{color:var(--mu-gray-900)}}
-.topmenu{{display:flex;gap:4px;align-items:center;margin-left:auto}}
-.topmenu a{{font-size:14px;line-height:20px;font-weight:500;padding:6px 12px;border-radius:var(--mu-radius-sm);color:var(--mu-gray-900);text-decoration:none}}
-.topmenu a:hover{{background:var(--mu-gray-100);color:var(--mu-gray-1000)}}
-.topmenu a.active{{background:var(--mu-gray-1000);color:var(--mu-background-100)}}
 .stats-row{{display:flex;flex-wrap:wrap;gap:16px 32px}} .stats-row .stat{{flex:1 1 160px}}
+nav a.hl{{color:var(--mu-blue-700);font-weight:600}} nav a.hl:hover{{color:var(--mu-blue-900)}} nav a.hl.active{{border-bottom-color:var(--mu-blue-700)}}
+.summary{{border-color:var(--mu-blue-300)}} .summary ul{{margin:0;padding-left:20px}} .summary li{{margin:8px 0}}
 footer.site{{flex-wrap:wrap;gap:8px 24px}} footer.site .status{{display:flex;flex-wrap:wrap;gap:4px 16px;text-transform:uppercase;letter-spacing:.06em;font-size:12px}}
 @media (max-width:600px){{.race-grid{{grid-template-columns:1fr}} td.nm{{min-width:150px}}}}
 </style></head><body>
 <header class="topbar"><div class="wrap"><div class="brand">
 <svg viewBox="0 0 110 22" height="22" aria-hidden="true"><text x="0" y="17" font-family="Geist, sans-serif" font-weight="600" font-size="18" fill="currentColor">Voľby 2026</text></svg>
-<span class="slash"></span><span class="app">Predpoveď samosprávnych volieb</span><h1 class="sr-only">{e(title)}</h1></div>
-<div class="topmenu" role="navigation" aria-label="Model">{topmenu}</div></div></header>
+<span class="slash"></span><span class="app">Predpoveď samosprávnych volieb</span><h1 class="sr-only">{e(title)}</h1></div></div></header>
 <nav aria-label="Sekcie"><div class="wrap">{nav}<a href="{repo}" class="right">GitHub</a></div></nav>
 {body}
 <footer class="site"><span class="status">{status}</span><span>Marek Šulík · obsah CC BY 4.0, kód MIT · predpovede pripravili Claude a Codex, nie sú to tipy na stávkovanie</span></footer>
@@ -181,56 +179,58 @@ def adjustments_html(r):
     return "<ul>" + "".join(li) + "</ul>"
 
 
-def race_page(r, model, status):
-    srcs = "".join(f'<li><a href="{e(s)}">{e(s)}</a></li>' for s in r.get("sources") or [])
+def result_table(cr, res):
+    """Official result next to both forecasts; cr = comparison.json race, res = {name: share} (empty if unknown)."""
+    names = [c["name"] for c in cr["candidates"]] + [n for n in res if n not in {c["name"] for c in cr["candidates"]}]
+    names.sort(key=lambda n: -res.get(n, -1))
+    cand = {c["name"]: c for c in cr["candidates"]}
+    winner = max(res, key=res.get) if res else None
+    rows = []
+    for n in names:
+        c = cand.get(n, {})
+        elected = "zvolená" if n.split()[-1].endswith("á") else "zvolený"
+        chips = (f' <span class="chip chip-ok">{elected}</span>' if n == winner else "") + \
+                (' <span class="chip chip-neutral">obhajca</span>' if c.get("inc") else "")
+        actual = pct(res[n]) if n in res else ('<span class="muted">vzdal sa</span>' if res else "–")
+        rows.append(f'<tr><td class="nm">{e(n)}{chips}</td><td class="num"><strong>{actual}</strong></td>'
+                    f'{cmp_cell(c.get("claude"))}{cmp_cell(c.get("codex"))}</tr>')
+    return ('<div class="tbl-scroll"><table class="grouped"><thead><tr class="grp"><th></th><th></th>'
+            '<th colspan="3" class="gs">CLAUDE</th><th colspan="3" class="gs">CODEX</th></tr>'
+            '<tr><th>Kandidát</th><th class="num">Výsledok</th><th class="num gs">Odhad</th><th class="num">80 %</th><th class="num">P(výhra)</th>'
+            f'<th class="num gs">Odhad</th><th class="num">80 %</th><th class="num">P(výhra)</th></tr></thead><tbody>{"".join(rows)}</tbody></table></div>')
+
+
+def race_page(r, xr, cr, res, status):
+    """One page per race: result, Claude (r) and Codex (xr) forecasts, inputs."""
+    sources = list(dict.fromkeys((r.get("sources") or []) + (xr.get("sources") or [])))
+    srcs = "".join(f'<li><a href="{e(s)}">{e(s)}</a></li>' for s in sources)
     wd = ""
     if r["withdrawn"]:
         names = ", ".join(w["name"] + (f' (v prospech: {w["transfer_to"]})' if w.get("transfer_to") else "") for w in r["withdrawn"])
         wd = f'<div class="note note-warn">Odstúpili (zostávajú na lístku, hlasy pre nich sa nerátajú): {e(names)}.</div>'
     voters = f'{r["voters"]:,}'.replace(",", " ")
-    other = "codex-" if model == "claude" else ""
-    other_name = "Codex" if model == "claude" else "Claude"
-    if model == "claude":
-        sub = "odhad = medián 20 000 simulácií · interval = 10. až 90. percentil · P(výhra) = podiel simulácií, v ktorých je kandidát prvý; zahŕňa kurzy"
-        adj = (f'<figure><figcaption>Úpravy nad rámec modelu</figcaption><div class="fig-sub">číslo = posun log-skóre kandidáta; '
-               f'+0,3 zvýši jeho relatívny podiel asi o 35 % pred normalizáciou</div>{adjustments_html(r)}</figure>')
-    else:
-        sub = "odhad = priemer 50 000 simulácií · interval = 10. až 90. percentil · P(výhra) = podiel simulácií, v ktorých je kandidát prvý"
-        adj = ""
+    result_src = ("Výsledok: ŠÚ SR, podiel platných hlasov bez kandidátov, ktorí sa vzdali kandidatúry · " if res else "")
     body = f"""<section><div class="wrap">
-<div class="sec-num">{e(OFFICE[r["office"]])} · {"Claude" if model == "claude" else "Codex"}</div><h2>{e(r["name"])}</h2>
-<p class="muted">Zapísaní voliči: {voters}. Jedno kolo, vyhráva relatívna väčšina. <a href="{other}{r["id"]}.html">Predpoveď modelu {other_name}</a> · <a href="porovnanie.html#{r["id"]}">porovnanie</a></p>{wd}
-<figure><figcaption>Predpoveď</figcaption><div class="fig-sub">{sub}</div>
-{race_table(r, full=True, model=model)}</figure>
-<div class="grid2"><figure><figcaption>Prieskumy</figcaption>{polls_html(r, model)}</figure>
-<figure><figcaption>Stávkové kurzy</figcaption>{odds_html(r, model)}</figure></div>
-{adj}
+<div class="sec-num">{e(OFFICE[r["office"]])}</div><h2>{e(r["name"])}</h2>
+<p class="muted">Zapísaní voliči: {voters}. Jedno kolo, vyhráva relatívna väčšina.</p>{wd}
+<figure><figcaption>Výsledok a predpovede</figcaption>
+<div class="fig-sub">{result_src}odhad = bodový odhad podielu (Claude medián 20 000 simulácií, Codex priemer 50 000) · 80 % = 10. až 90. percentil · P(výhra) = podiel simulácií, v ktorých je kandidát prvý</div>
+{result_table(cr, res)}</figure>
+<details><summary>Podrobnosti predpovede Claude</summary><div class="fig-sub">P(výhra) zahŕňa kurzy · fundamenty = odhad bez prieskumov a úprav</div>{race_table(r, full=True, model="claude")}
+<figure><figcaption>Úpravy nad rámec modelu</figcaption><div class="fig-sub">číslo = posun log-skóre kandidáta; +0,3 zvýši jeho relatívny podiel asi o 35 % pred normalizáciou</div>{adjustments_html(r)}</figure></details>
+<details><summary>Podrobnosti predpovede Codex</summary>{race_table(xr, full=True, model="codex")}
+<figure><figcaption>Prieskumy v modeli Codex</figcaption>{polls_html(xr, "codex")}</figure>
+<figure><figcaption>Poznámka Codexu</figcaption><p>{e(xr.get("notes") or "–")}</p></figure></details>
+<div class="grid2"><figure><figcaption>Prieskumy</figcaption>{polls_html(r, "claude")}</figure>
+<figure><figcaption>Stávkové kurzy</figcaption><div class="fig-sub">Claude ich použil pri pravdepodobnosti výhry, Codex nie</div>{odds_html(r, "claude")}</figure></div>
 <figure><figcaption>Poznámky</figcaption><p>{e(r.get("notes") or "–")}</p></figure>
 <h3>Výsledky predchádzajúcich volieb (ŠÚ SR)</h3><div class="grid2">{history_html(r)}</div>
 <figure><figcaption>Zdroje</figcaption><ul class="text-small">{srcs}</ul></figure>
 </div></section>"""
-    return page(f'{r["name"]} · {"Claude" if model == "claude" else "Codex"} · Voľby 2026', body, model, "", status)
+    return page(f'{r["name"]} · Voľby 2026', body, "volby.html", status)
 
 
-def overview(races, model):
-    prefix = PREFIX[model]
-    secs = []
-    for i, (g, title) in enumerate(GROUPS, 1):
-        cards = []
-        for r in [r for r in races if r["group"] == g]:
-            fav = max(r["candidates"], key=lambda c: c["p_win"])
-            top = dict(r, candidates=r["candidates"][:5])
-            more = len(r["candidates"]) - 5
-            more_txt = f' · ďalší kandidáti: {more}' if more > 0 else ""
-            cards.append(f'<div class="card"><h3><a href="{prefix}{r["id"]}.html">{e(r["name"])}</a></h3>'
-                         f'<div class="fig-sub">favorit: {e(fav["name"])} ({prob(fav["p_win"])}){more_txt}</div>'
-                         f'{race_table(top, model=model)}</div>')
-        secs.append(f'<section id="{g}"><div class="wrap"><div class="sec-num">0{i} — {e(title)}</div><h2>{e(title)}</h2>'
-                    f'<div class="race-grid">{"".join(cards)}</div></div></section>')
-    return "".join(secs)
-
-
-# ---------- Claude pages ----------
+# ---------- content pages ----------
 
 FEATURE_SK = {
     "inc": "obhajca (kandiduje úradujúci starosta/primátor)", "inc_x_size": "obhajca × (log10 počtu voličov − 4,5)",
@@ -301,7 +301,9 @@ def fill_skore(src):
     races = []
     for r in ev["races"]:
         cells = ""
-        for t in r["top"][:2]:
+        for i, t in enumerate(r["top"][:2]):
+            if i == 1:
+                cells += f'<td class="num gs">{prob(r["claude"]["p_winner"])}</td><td class="num">{prob(r["codex"]["p_winner"])}</td>'
             miss = lambda m: ' <span class="chip chip-warn">netrafil</span>' if t["pos"] == 1 and not r[m]["hit"] else ""
             cells += (f'<td class="gs">{e(t["name"])}</td><td class="num">{num(t["actual"])} %</td>'
                       f'<td class="num">{signed(t["claude"]["err"])}{miss("claude")}</td><td class="num">{signed(t["codex"]["err"])}{miss("codex")}</td>')
@@ -312,15 +314,16 @@ def fill_skore(src):
         "pos_table": table('<tr><th>Poradie kandidáta</th><th class="num">Claude</th><th class="num">Codex</th></tr>', pos),
         "model_table": table('<tr><th>Metrika</th><th class="num">Claude</th><th class="num">Codex</th></tr>',
                              [f'<tr><td>{a}</td><td class="num">{b}</td><td class="num">{d}</td></tr>' for a, b, d in metrics]),
-        "race_table": table(f'<tr class="grp"><th></th><th colspan="4" class="gs">VÍŤAZ</th><th colspan="4" class="gs">2. MIESTO</th></tr>'
-                            f'<tr><th>Voľba</th>{sub}{sub}</tr>', races, ' class="grouped"'),
+        "race_table": table(f'<tr class="grp"><th></th><th colspan="4" class="gs">VÍŤAZ</th><th colspan="2" class="gs">P(VÝHRA) VÍŤAZA</th>'
+                            f'<th colspan="4" class="gs">2. MIESTO</th></tr>'
+                            f'<tr><th>Voľba</th>{sub}<th class="num gs">Claude</th><th class="num">Codex</th>{sub}</tr>', races, ' class="grouped"'),
     }
     for k, v in rep.items():
         src = src.replace("{{" + k + "}}", v)
     return src
 
 
-def archive_html():
+def archive_html(cm):
     rows = []
     for p in sorted((ROOT / "data/snapshots").glob("*.json"), reverse=True):
         if p.name.startswith("test"):
@@ -329,50 +332,55 @@ def archive_html():
         rows.append(f'<tr><td><a href="data/snapshots/{p.name}"><code>{e(p.name)}</code></a></td><td>{e(d.get("label"))}</td>'
                     f'<td class="num">{stamp(d.get("generated", ""))}</td></tr>')
     lk = '<p>Zámok: <a href="data/lock.json"><code>data/lock.json</code></a></p>' if (ROOT / "data/lock.json").exists() else ""
-    return ('<div class="sec-num">Archív</div><h2>Snapshoty</h2><p>Každá verzia predpovede je samostatný JSON súbor. '
+    codex = (f'<h3>Codex</h3><p>Codex zamkol predpoveď {stamp(cm["locked_at"])} (vstupy uzavreté {stamp(cm["cutoff"])}). '
+             f'Zamknutý súbor <a href="{e(cm["source"])}">forecast.json</a> má SHA-256 <code>{e(cm["sha256"])}</code>; '
+             'overili sme ho voči <code>LOCK.json</code> v repozitári Codexu a jeho kópia je v <a href="data/codex/forecast.json"><code>data/codex/</code></a>.</p>')
+    return ('<div class="sec-num">Archív</div><h2>Snapshoty</h2><h3>Claude</h3><p>Každá verzia predpovede je samostatný JSON súbor. '
             'Staršie verzie neprepisujeme; celá história je aj v gite.</p>' + lk +
-            f'<div class="tbl-scroll"><table><thead><tr><th>Súbor</th><th>Séria</th><th class="num">Vytvorené</th></tr></thead><tbody>{"".join(rows)}</tbody></table></div>')
+            f'<div class="tbl-scroll"><table><thead><tr><th>Súbor</th><th>Séria</th><th class="num">Vytvorené</th></tr></thead><tbody>{"".join(rows)}</tbody></table></div>'
+            + codex)
 
 
-def content_page(name, title, active, status):
-    src = archive_html() if name == "archiv" else (ROOT / "content" / f"{name}.html").read_text()
-    if name == "model":
-        src = fill_model(src)
+def content_page(name, title, status, cm):
+    src = archive_html(cm) if name == "archiv" else (ROOT / "content" / f"{name}.html").read_text()
     if name == "skore":
         src = fill_skore(src)
-    return page(f"{title} · Claude · Voľby 2026", f'<section><div class="wrap">{src}</div></section>', "claude", active, status)
+    return page(f"{title} · Voľby 2026", f'<section><div class="wrap">{src}</div></section>', f"{name}.html", status)
 
 
-def claude_index(data, status, lock):
-    if lock:
-        note = (f'<div class="note note-ok"><strong>Predpoveď je zamknutá</strong> ({stamp(lock["locked_at"])}). Commit <code>{e(lock["commit"])}</code>, '
-                f'tag <code>{e(lock["tag"])}</code>. Prípadné opravy zverejníme ako novú verziu s vysvetlením.</div>')
-    else:
-        note = ('<div class="note note-warn"><strong>Pracovná verzia.</strong> Finálnu predpoveď zamkneme najneskôr v stredu 21. 10. 2026 o 23:59. '
-                'Od štvrtka platí zákaz zverejňovania prieskumov.</div>')
-    intro = f"""<section><div class="wrap"><div class="sec-num">Sobota 24. 10. 2026 · Claude</div>
-<h2>Predpoveď 33 volieb</h2>
-<p>8 predsedov samosprávnych krajov, 8 primátorov krajských miest a 17 starostov mestských častí Bratislavy. Pri každom kandidátovi uvádzame odhad podielu platných hlasov, 80 % interval a pravdepodobnosť výhry. Všetky voľby majú jedno kolo a vyhráva kandidát s najviac hlasmi.</p>
-{note}
-<p class="text-small muted">Vstupy: model nafitovaný na 2 914 komunálnych voľbách 2018 → 2022 (obhajca, minulý výsledok, nominácia), zmena podpory strán od roku 2022, prieskumy a stávkové kurzy. Výstup je z 20 000 simulácií. Podrobnosti sú na stránke <a href="model.html">Model</a>.</p>
-</div></section>"""
-    return page("Claude · Voľby 2026", intro + overview(data["races"], "claude"), "claude", "index.html", status)
+def volby_page(data, comp, results, lock, cm, status):
+    races = {r["id"]: r for r in comp["races"]}
+    lock_txt = (f'Claude zamkol predpoveď {stamp(lock["locked_at"])} (commit <code>{e(lock["commit"])}</code>, tag <code>{e(lock["tag"])}</code>). '
+                if lock else "")
+    intro = f"""<div class="sec-num">Voľby</div><h2>33 volieb 24. 10. 2026</h2>
+<p>8 predsedov samosprávnych krajov, 8 primátorov krajských miest a 17 starostov mestských častí Bratislavy. Všetky voľby majú jedno kolo a vyhráva kandidát s najviac hlasmi. Pri každej voľbe je víťaz a favorit oboch modelov; na stránke voľby sú výsledky všetkých kandidátov vedľa predpovedí Claude a Codex.</p>
+<p class="text-small muted">{lock_txt}Codex zamkol predpoveď {stamp(cm["locked_at"])}. Oba modely mali rovnakého favorita v {comp["same_favourite"]} z {comp["n_races"]} volieb. Ako modely počítajú, je na stránke <a href="model.html">Modely</a>.</p>"""
+    secs = []
+    for g, title in GROUPS:
+        rows = []
+        for r in [r for r in data["races"] if r["group"] == g]:
+            cr, res = races[r["id"]], results.get(r["id"], {})
+            winner = max(res, key=res.get) if res else None
+            result = ("jediný kandidát" if len(res) == 1 else pct(res[winner])) if winner else "–"
+            cells = ""
+            for m in ("claude", "codex"):
+                fav = cr[f"fav_{m}"]
+                p = next(c[m]["p_win"] for c in cr["candidates"] if c["name"] == fav)
+                miss = ' <span class="chip chip-warn">netrafil</span>' if winner and len(res) > 1 and fav != winner else ""
+                cells += f'<td class="gs">{e(fav)}{miss}</td><td class="num">{prob(p)}</td>'
+            rows.append(f'<tr id="{r["id"]}"><td><a href="{r["id"]}.html">{e(r["name"])}</a></td><td>{e(winner or "–")}</td>'
+                        f'<td class="num">{result}</td>{cells}</tr>')
+        secs.append(f'<h3 id="{g}">{e(title)}</h3><div class="tbl-scroll"><table class="grouped"><thead>'
+                    '<tr class="grp"><th></th><th></th><th></th><th colspan="2" class="gs">FAVORIT CLAUDE</th><th colspan="2" class="gs">FAVORIT CODEX</th></tr>'
+                    '<tr><th>Voľba</th><th>Víťaz</th><th class="num">Výsledok</th><th class="gs">Kandidát</th><th class="num">P(výhra)</th>'
+                    f'<th class="gs">Kandidát</th><th class="num">P(výhra)</th></tr></thead><tbody>{"".join(rows)}</tbody></table></div>')
+    body = f'<section><div class="wrap">{intro}{"".join(secs)}</div></section>'
+    return page("Voľby · Voľby 2026", body, "volby.html", status)
 
 
-# ---------- Codex pages ----------
-
-def codex_index(races, meta, status):
-    intro = f"""<section><div class="wrap"><div class="sec-num">Sobota 24. 10. 2026 · Codex</div>
-<h2>Predpoveď 33 volieb</h2>
-<p>Predpoveď modelu Codex pre tých istých 33 volieb. Codex mal vlastný výskum aj vlastnú metodiku a predpoveď zamkol {stamp(meta["locked_at"])} (vstupy uzavreté {stamp(meta["cutoff"])}). Čísla sú prevzaté zo zamknutého súboru <a href="{e(meta["source"])}">forecast.json</a>; jeho SHA-256 sme overili voči <code>LOCK.json</code> v repozitári Codexu.</p>
-<p class="text-small muted">Pôvodný web Codexu: <a href="https://mareksulik.github.io/volebny-model-codex/">mareksulik.github.io/volebny-model-codex</a>. Metodika je na stránke <a href="codex-model.html">Model</a>.</p>
-</div></section>"""
-    return page("Codex · Voľby 2026", intro + overview(races, "codex"), "codex", "codex.html", status)
-
-
-def codex_model(meta, status):
+def models_page(meta, status):
+    meth = "".join(f'<tr><td><strong>{e(a)}</strong></td><td class="gs">{e(b)}</td><td class="gs">{e(x)}</td></tr>' for a, b, x in METHODS)
     bt = meta.get("backtest") or {}
-    rows = "".join(f'<tr><td><strong>{e(a)}</strong></td><td>{e(x)}</td></tr>' for a, _, x in METHODS)
     test = ""
     if bt:
         test = (f'<h3>Spätný test (komunálne voľby 2022, odložená množina)</h3><div class="tbl-scroll"><table><tbody>'
@@ -383,11 +391,15 @@ def codex_model(meta, status):
                 f'<tr><td>Pokrytie 80 % intervalov</td><td class="num">{round(100 * bt["coverage80"])} %</td></tr>'
                 f'<tr><td>Priemerná šírka intervalu</td><td class="num">{num(bt["mean_interval_width_pp"])} b.</td></tr>'
                 '</tbody></table></div>')
-    body = f"""<section><div class="wrap"><div class="sec-num">Model · Codex</div><h2>Ako počíta Codex</h2>
-<p>Zhrnutie podľa <a href="{CODEX_REPO}/blob/main/METHODOLOGY.md">METHODOLOGY.md</a> v repozitári Codexu. Počet simulácií na voľbu: {e(meta.get("draws"))}.</p>
-<div class="tbl-scroll"><table><thead><tr><th>Krok</th><th>Postup</th></tr></thead><tbody>{rows}</tbody></table></div>
+    body = f"""<section><div class="wrap"><div class="sec-num">Modely</div><h2>Ako počítajú Claude a Codex</h2>
+<p>Dva samostatné modely tých istých 33 volieb, každý s vlastným výskumom a metodikou. Tabuľka ukazuje, v čom sa líšia; pod ňou je podrobný postup každého modelu.</p>
+<div class="tbl-scroll"><table><thead><tr><th>Krok</th><th class="gs">Claude</th><th class="gs">Codex</th></tr></thead><tbody>{meth}</tbody></table></div>
+</div></section>
+<section id="claude"><div class="wrap">{fill_model((ROOT / "content/model.html").read_text())}</div></section>
+<section id="codex"><div class="wrap"><div class="sec-num">Codex</div><h2>Ako počíta Codex</h2>
+<p>Zhrnutie podľa <a href="{CODEX_REPO}/blob/main/METHODOLOGY.md">METHODOLOGY.md</a> v repozitári Codexu. Pôvodný web Codexu: <a href="{e(meta["site"])}">{e(meta["site"])}</a>. Počet simulácií na voľbu: {e(meta.get("draws"))}.</p>
 {test}</div></section>"""
-    return page("Model · Codex · Voľby 2026", body, "codex", "codex-model.html", status)
+    return page("Modely · Voľby 2026", body, "model.html", status)
 
 
 # ---------- comparison ----------
@@ -416,64 +428,14 @@ def cmp_cell(x):
             f'<td class="num">{prob_chip(x["p_win"])}</td>')
 
 
-def comparison_page(status):
-    c = json.loads((ROOT / "data/comparison.json").read_text())
-    cx = c["codex"]
-    n, same = c["n_races"], c["same_favourite"]
-    stats = ('<div class="card stats-row">'
-             f'<div class="stat"><div class="label">Rovnaký favorit</div><div class="value">{same}/{n}</div><div class="delta">volieb</div></div>'
-             f'<div class="stat"><div class="label">Rozdiel podielu</div><div class="value">{num(c["mean_abs_share_diff_pp"])} b.</div><div class="delta">priemer cez kandidátov</div></div>'
-             f'<div class="stat"><div class="label">Rozdiel P(výhra)</div><div class="value">{num(100 * c["mean_abs_pwin_diff"])} b.</div><div class="delta">priemer cez kandidátov</div></div>'
-             '</div>')
-    rows = []
-    for r in sorted(c["races"], key=lambda r: (r["same_favourite"], -r["max_dp"]))[:12]:
-        cc = {x["name"]: x for x in r["candidates"]}
-        fc, fx = cc[r["fav_claude"]], cc[r["fav_codex"]]
-        chip = "" if r["same_favourite"] else ' <span class="chip chip-warn">iný favorit</span>'
-        rows.append(f'<tr><td><a href="#{r["id"]}">{e(r["name"])}</a>{chip}</td><td>{e(r["fav_claude"])}</td><td class="num">{prob(fc["claude"]["p_win"])}</td>'
-                    f'<td class="gs">{e(r["fav_codex"])}</td><td class="num">{prob(fx["codex"]["p_win"])}</td>'
-                    f'<td class="num gs">{round(100 * r["max_dp"])} b.</td></tr>')
-    gaps = [f'{", ".join(r["unmatched_codex"])} ({r["name"]})' for r in c["races"] if r["unmatched_codex"]]
-    lk = json.loads((ROOT / "data/lock.json").read_text()) if (ROOT / "data/lock.json").exists() else None
-    claude_lock = f'Claude zamkol predpoveď {stamp(lk["locked_at"])}' if lk else 'Claude predpoveď ešte nezamkol'
-    inputs = (f'Codex uzavrel vstupy {stamp(cx["cutoff"])}. {claude_lock}; zahŕňa aj prieskum AKO pre Bratislavu zverejnený 20. 10. večer. '
-              + (f'Codex počíta ako aktívnych kandidátov, ktorí podľa našich zdrojov odstúpili: {e("; ".join(gaps))}.' if gaps else ""))
-    cards = []
-    for g, _ in GROUPS:
-        for r in [r for r in c["races"] if r["group"] == g]:
-            trs = "".join(f'<tr><td class="nm">{e(x["name"])}{" <span class=\"chip chip-neutral\">obhajca</span>" if x["inc"] else ""}</td>'
-                          f'{cmp_cell(x["claude"])}{cmp_cell(x["codex"])}</tr>' for x in r["candidates"])
-            badge = '' if r["same_favourite"] else ' <span class="chip chip-warn">iný favorit</span>'
-            cards.append(f'<figure id="{r["id"]}"><figcaption>{e(r["name"])}{badge}</figcaption>'
-                         f'<div class="fig-sub"><a href="{r["id"]}.html">Claude</a> · <a href="codex-{r["id"]}.html">Codex</a></div>'
-                         f'<div class="tbl-scroll"><table class="grouped"><thead><tr class="grp"><th></th><th colspan="3" class="gs">CLAUDE</th><th colspan="3" class="gs">CODEX</th></tr>'
-                         f'<tr><th>Kandidát</th><th class="num gs">Odhad</th><th class="num">80 %</th><th class="num">P(výhra)</th>'
-                         f'<th class="num gs">Odhad</th><th class="num">80 %</th><th class="num">P(výhra)</th></tr></thead><tbody>{trs}</tbody></table></div></figure>')
-    meth = "".join(f'<tr><td><strong>{e(a)}</strong></td><td class="gs">{e(b)}</td><td class="gs">{e(x)}</td></tr>' for a, b, x in METHODS)
-    scores = ""
-    if c.get("scores"):
-        sr = "".join(f'<tr><td>{k.capitalize()}</td><td class="num">{v["n"]}</td><td class="num">{num(v["brier"], 3)}</td><td class="num">{num(v["log_score"], 3)}</td>'
-                     f'<td class="num">{v["favourites_hit"]}</td><td class="num">{num(v["share_mae_pp"])} b.</td><td class="num">{round(100 * v["coverage_80"])} %</td></tr>'
-                     for k, v in c["scores"].items() if v)
-        scores = (f'<section id="skore"><div class="wrap"><div class="sec-num">04 — Skóre</div><h2>Presnosť po voľbách</h2>'
-                  f'<div class="tbl-scroll"><table><thead><tr><th>Model</th><th class="num">Volieb</th><th class="num">Brier ↓</th><th class="num">Log skóre ↑</th>'
-                  f'<th class="num">Trafení favoriti</th><th class="num">Chyba podielu</th><th class="num">Pokrytie 80 %</th></tr></thead><tbody>{sr}</tbody></table></div></div></section>')
-    body = f"""<section id="suhrn"><div class="wrap"><div class="sec-num">01 — Súhrn</div>
-<h2>Claude a Codex</h2>
-<p>Dva samostatné modely tých istých 33 volieb, každý s vlastným výskumom a metodikou. Claude: snapshot <code>{e(c["claude_snapshot"])}</code>. Codex: zamknutý {stamp(cx["locked_at"])}.</p>
-{stats}
-<figure><figcaption>Kde sa modely líšia najviac</figcaption><div class="fig-sub">max |ΔP| = najväčší rozdiel v pravdepodobnosti výhry jedného kandidáta</div>
-<div class="tbl-scroll"><table class="grouped"><thead><tr class="grp"><th></th><th colspan="2">CLAUDE</th><th colspan="2" class="gs">CODEX</th><th class="gs"></th></tr>
-<tr><th>Voľba</th><th>Favorit</th><th class="num">P</th><th class="gs">Favorit</th><th class="num">P</th><th class="num gs">max |ΔP|</th></tr></thead><tbody>{"".join(rows)}</tbody></table></div>
-<p class="text-small muted">{inputs}</p></figure>
-</div></section>
-<section id="vsetky"><div class="wrap"><div class="sec-num">02 — Všetky voľby</div><h2>Kandidáti</h2>
-<div class="race-grid">{"".join(cards)}</div></div></section>
-<section id="metodiky"><div class="wrap"><div class="sec-num">03 — Metodiky</div><h2>Rozdiely v metodike</h2>
-<div class="tbl-scroll"><table><thead><tr><th>Krok</th><th class="gs">Claude</th><th class="gs">Codex</th></tr></thead><tbody>{meth}</tbody></table></div>
-<p class="text-small">Po voľbách obe predpovede vyhodnotíme rovnakými metrikami.</p>
-</div></section>{scores}"""
-    return page("Porovnanie · Voľby 2026", body, "porovnanie", "", status)
+def redirect_page(target, race_ids=()):
+    """Stub for a moved page. For porovnanie.html, #<race id> goes to that race page and #metodiky to Modely."""
+    hashes = {i: f"{i}.html" for i in race_ids} | ({"metodiky": "model.html", "skore": "skore.html"} if race_ids else {})
+    return f"""<!DOCTYPE html>
+<html lang="sk"><head><meta charset="UTF-8"><meta http-equiv="refresh" content="0; url={target}"><link rel="canonical" href="{target}">
+<title>Stránka sa presunula · Voľby 2026</title>
+<script>var m={json.dumps(hashes)};location.replace(m[location.hash.slice(1)]||"{target}")</script></head>
+<body><p>Stránka sa presunula: <a href="{target}">{target}</a></p></body></html>"""
 
 
 # ---------- build ----------
@@ -499,21 +461,23 @@ def main():
     st_codex = f'<span>Codex</span><span>zamknuté {stamp(cm["locked_at"])}</span><span>uzáver vstupov {stamp(cm["cutoff"])}</span>'
     st_both = f'{st_claude}<span>·</span>{st_codex}'
 
-    (DOCS / "index.html").write_text(claude_index(data, st_claude, lock))
+    comp = json.loads((ROOT / "data/comparison.json").read_text())
+    res_path = ROOT / "data/results/2026.json"
+    results = json.loads(res_path.read_text()) if res_path.exists() else {}
+    codex_races = {r["id"]: r for r in codex_view.races(data)}
+    comp_races = {r["id"]: r for r in comp["races"]}
     for r in data["races"]:
-        (DOCS / f'{r["id"]}.html').write_text(race_page(r, "claude", st_claude))
-    for name, title in [("model", "Model"), ("pravidla", "Pravidlá"), ("skore", "Skóre"), ("archiv", "Archív")]:
-        (DOCS / f"{name}.html").write_text(content_page(name, title, f"{name}.html", st_claude))
-
-    codex_races = codex_view.races(data)
-    (DOCS / "codex.html").write_text(codex_index(codex_races, cm, st_codex))
-    (DOCS / "codex-model.html").write_text(codex_model(cm, st_codex))
-    for r in codex_races:
-        (DOCS / f'codex-{r["id"]}.html').write_text(race_page(r, "codex", st_codex))
-
-    (DOCS / "porovnanie.html").write_text(comparison_page(st_both))
+        (DOCS / f'{r["id"]}.html').write_text(race_page(r, codex_races[r["id"]], comp_races[r["id"]], results.get(r["id"], {}), st_both))
+        (DOCS / f'codex-{r["id"]}.html').write_text(redirect_page(f'{r["id"]}.html'))
+    (DOCS / "volby.html").write_text(volby_page(data, comp, results, lock, cm, st_both))
+    (DOCS / "model.html").write_text(models_page(cm, st_both))
+    for name, title in [("pravidla", "Pravidlá"), ("skore", "Výsledky"), ("archiv", "Archív")]:
+        (DOCS / f"{name}.html").write_text(content_page(name, title, st_both, cm))
+    for old, new in REDIRECTS.items():
+        ids = [r["id"] for r in data["races"]] if old == "porovnanie.html" else ()
+        (DOCS / old).write_text(redirect_page(new, ids))
     (DOCS / ".nojekyll").write_text("")
-    print("site built:", len(data["races"]), "Claude races,", len(codex_races), "Codex races")
+    print("site built:", len(data["races"]), "races,", len(REDIRECTS) + len(data["races"]), "redirects")
 
 
 if __name__ == "__main__":

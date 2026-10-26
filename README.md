@@ -7,7 +7,7 @@ Pre každého kandidáta zverejňujeme odhad podielu hlasov, 80 % interval a pra
 - Web: https://mareksulik.github.io/volby-2026-forecast/
 - Pravidlá a zamknutie: `docs/pravidla.html`. Hodnotená je verzia zamknutá 20. 10. 2026 (tag `forecast-lock-2026-10-20`, `data/lock.json`).
 - Snapshoty (append-only): `data/snapshots/`, posledný: `data/latest.json`
-- Porovnanie s nezávislým modelom Codex: `docs/porovnanie.html` (Codexova predpoveď je zamrazená v `data/codex/`, kontrolné súčty overuje `tools/compare.py` voči jeho `LOCK.json`)
+- Výsledky a vyhodnotenie oboch modelov: `docs/skore.html`; pri každej voľbe je výsledok vedľa predpovede Claude aj nezávislého modelu Codex (Codexova predpoveď je zamrazená v `data/codex/`, kontrolné súčty overuje `tools/compare.py` voči jeho `LOCK.json`)
 
 Inšpirované predpoveďou senátnych volieb 2026 od Josefa Šlerku ([senat-2026-forecast](https://github.com/josefslerka/senat-2026-forecast)), prispôsobené slovenským pravidlám: jedno kolo, vyhráva relatívna väčšina, aj pri županoch.
 

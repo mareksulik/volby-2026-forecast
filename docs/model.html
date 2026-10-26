@@ -1,26 +1,27 @@
 <!DOCTYPE html>
 <html lang="sk"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Model · Claude · Voľby 2026</title><link rel="icon" href="data:,">
+<title>Modely · Voľby 2026</title><link rel="icon" href="data:,">
 <link rel="stylesheet" href="ds.css"><script src="ds.js"></script>
 <style>
 .iv{vertical-align:middle} .race-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(520px,1fr));gap:16px}
-.race-grid>*{min-width:0} .race-grid .card h3{margin:0 0 4px} .race-grid table td,.race-grid table th{padding:6px 8px}
+.race-grid>*,.grid2>*{min-width:0} figure ul a,p code{overflow-wrap:anywhere} .race-grid .card h3{margin:0 0 4px} .race-grid table td,.race-grid table th{padding:6px 8px}
 td.nm{min-width:200px;max-width:280px} td.ivc{min-width:140px} .muted{color:var(--mu-gray-900)}
-.topmenu{display:flex;gap:4px;align-items:center;margin-left:auto}
-.topmenu a{font-size:14px;line-height:20px;font-weight:500;padding:6px 12px;border-radius:var(--mu-radius-sm);color:var(--mu-gray-900);text-decoration:none}
-.topmenu a:hover{background:var(--mu-gray-100);color:var(--mu-gray-1000)}
-.topmenu a.active{background:var(--mu-gray-1000);color:var(--mu-background-100)}
 .stats-row{display:flex;flex-wrap:wrap;gap:16px 32px} .stats-row .stat{flex:1 1 160px}
+nav a.hl{color:var(--mu-blue-700);font-weight:600} nav a.hl:hover{color:var(--mu-blue-900)} nav a.hl.active{border-bottom-color:var(--mu-blue-700)}
+.summary{border-color:var(--mu-blue-300)} .summary ul{margin:0;padding-left:20px} .summary li{margin:8px 0}
 footer.site{flex-wrap:wrap;gap:8px 24px} footer.site .status{display:flex;flex-wrap:wrap;gap:4px 16px;text-transform:uppercase;letter-spacing:.06em;font-size:12px}
 @media (max-width:600px){.race-grid{grid-template-columns:1fr} td.nm{min-width:150px}}
 </style></head><body>
 <header class="topbar"><div class="wrap"><div class="brand">
 <svg viewBox="0 0 110 22" height="22" aria-hidden="true"><text x="0" y="17" font-family="Geist, sans-serif" font-weight="600" font-size="18" fill="currentColor">Voľby 2026</text></svg>
-<span class="slash"></span><span class="app">Predpoveď samosprávnych volieb</span><h1 class="sr-only">Model · Claude · Voľby 2026</h1></div>
-<div class="topmenu" role="navigation" aria-label="Model"><a href="index.html" class=active aria-current=page>Claude</a><a href="codex.html">Codex</a><a href="porovnanie.html">Porovnanie</a></div></div></header>
-<nav aria-label="Sekcie"><div class="wrap"><a href="index.html">Prehľad</a><a href="model.html" class=active>Model</a><a href="pravidla.html">Pravidlá</a><a href="skore.html">Skóre</a><a href="archiv.html">Archív</a><a href="https://github.com/mareksulik/volby-2026-forecast" class="right">GitHub</a></div></nav>
-<section><div class="wrap"><div class="sec-num">Model · Claude</div>
-<h2>Ako vzniká predpoveď</h2>
+<span class="slash"></span><span class="app">Predpoveď samosprávnych volieb</span><h1 class="sr-only">Modely · Voľby 2026</h1></div></div></header>
+<nav aria-label="Sekcie"><div class="wrap"><a href="skore.html" class="hl">Výsledky</a><a href="volby.html">Voľby</a><a href="model.html" class="active" aria-current="page">Modely</a><a href="pravidla.html">Pravidlá</a><a href="archiv.html">Archív</a><a href="https://github.com/mareksulik/volby-2026-forecast" class="right">GitHub</a></div></nav>
+<section><div class="wrap"><div class="sec-num">Modely</div><h2>Ako počítajú Claude a Codex</h2>
+<p>Dva samostatné modely tých istých 33 volieb, každý s vlastným výskumom a metodikou. Tabuľka ukazuje, v čom sa líšia; pod ňou je podrobný postup každého modelu.</p>
+<div class="tbl-scroll"><table><thead><tr><th>Krok</th><th class="gs">Claude</th><th class="gs">Codex</th></tr></thead><tbody><tr><td><strong>Fundamenty</strong></td><td class="gs">Podmienený logit na 2 914 voľbách starostov 2018 → 2022 (obce s aspoň 2 000 voličmi). Rysy: obhajca a jeho interakcia s veľkosťou obce, minulý podiel, nezávislý kandidát, počet strán, povolanie.</td><td class="gs">Softmax na komunálnych voľbách 2018 → 2022 s aspoň 1 000 platnými hlasmi. Rysy: minulý podiel, minulé víťazstvo, počet strán, funkcia z registrácie, nezávislý kandidát. Obce sú rozdelené na tréning, kalibráciu a test.</td></tr><tr><td><strong>Kraje</strong></td><td class="gs">Fundamenty z obcí plus podpora nominujúcich strán s koeficientom 0,29 nafitovaným na 8 krajských voľbách 2022.</td><td class="gs">Fundamenty z obcí. Kraje 2017 → 2022 slúžia len ako test.</td></tr><tr><td><strong>Neistota</strong></td><td class="gs">Normálny šum na log-škále (σ = 0,95) nastavený na 80 % pokrytie na odložených obciach. Navyše jeden spoločný šok pre kandidátov vlády a opozície vo všetkých 33 voľbách.</td><td class="gs">Dirichletovo rozdelenie s koncentráciou nastavenou na 80 % pokrytie na kalibračných obciach. Voľby sa simulujú nezávisle.</td></tr><tr><td><strong>Prieskumy</strong></td><td class="gs">Vážený priemer: polčas 30 dní, váha √(n/600), prieskumy objednané kandidátom polovičnou váhou. S fundamentmi sa kombinuje podľa odhadnutej presnosti.</td><td class="gs">Bayesovská aktualizácia s váhou min(200, n/2) × 2^(−vek/30) × kvalita, koncentrácia najviac 80. Prieskumy bez úplného zoznamu kandidátov vyraďuje.</td></tr><tr><td><strong>Odstúpenia</strong></td><td class="gs">Polovica prieskumného podielu odstúpeného ide kandidátovi, ktorého podporil; zvyšok sa rozdelí pomerne.</td><td class="gs">Podiel odstúpených sa rozdelí podľa fundamentov; podporený kandidát nedostáva viac.</td></tr><tr><td><strong>Kurzy</strong></td><td class="gs">Kurzy bez marže menia pravdepodobnosť výhry (váha 0,5 v log-odds), podiely nie.</td><td class="gs">Do predpovede nevstupujú, slúžia len na porovnanie.</td></tr><tr><td><strong>Bodový odhad</strong></td><td class="gs">Medián 20 000 simulácií.</td><td class="gs">Priemer 50 000 simulácií.</td></tr><tr><td><strong>Ručné úpravy</strong></td><td class="gs">Áno, zapísané v overrides.yaml, každá s dôvodom.</td><td class="gs">Nie.</td></tr></tbody></table></div>
+</div></section>
+<section id="claude"><div class="wrap"><div class="sec-num">Claude</div>
+<h2>Ako počíta Claude</h2>
 <p>Postup vychádza z predpovede senátnych volieb 2026 od Josefa Šlerku (<a href="https://josefslerka.github.io/senat-2026-forecast/">senat-2026-forecast</a>) a je upravený pre slovenské pravidlá: jedno kolo, vyhráva kandidát s najviac hlasmi, aj pri predsedoch krajov. Výpočet má päť krokov; výsledné čísla sú z 20 000 simulácií.</p>
 
 <h3>1. Fundamenty</h3>
@@ -71,5 +72,8 @@ footer.site{flex-wrap:wrap;gap:8px 24px} footer.site .status{display:flex;flex-w
 </ul>
 <p class="text-small">Kód: <code>tools/</code>, vstupy: <code>data/inputs/</code>, výskum so zdrojmi: <code>data/research/</code>, snapshoty: <code>data/snapshots/</code>.</p>
 </div></section>
-<footer class="site"><span class="status"><span>Claude</span><span>snapshot final</span><span>stav k 2026-10-20 21:44</span><span>zamknuté</span></span><span>Marek Šulík · obsah CC BY 4.0, kód MIT · predpovede pripravili Claude a Codex, nie sú to tipy na stávkovanie</span></footer>
+<section id="codex"><div class="wrap"><div class="sec-num">Codex</div><h2>Ako počíta Codex</h2>
+<p>Zhrnutie podľa <a href="https://github.com/mareksulik/volebny-model-codex/blob/main/METHODOLOGY.md">METHODOLOGY.md</a> v repozitári Codexu. Pôvodný web Codexu: <a href="https://mareksulik.github.io/volebny-model-codex/">https://mareksulik.github.io/volebny-model-codex/</a>. Počet simulácií na voľbu: 50000.</p>
+<h3>Spätný test (komunálne voľby 2022, odložená množina)</h3><div class="tbl-scroll"><table><tbody><tr><td>Volieb / kandidátov</td><td class="num">73 / 271</td></tr><tr><td>Priemerná chyba podielu</td><td class="num">12,7 b.</td></tr><tr><td>Trafený víťaz</td><td class="num">70 %</td></tr><tr><td>Brier</td><td class="num">0,448</td></tr><tr><td>Pokrytie 80 % intervalov</td><td class="num">83 %</td></tr><tr><td>Priemerná šírka intervalu</td><td class="num">38,1 b.</td></tr></tbody></table></div></div></section>
+<footer class="site"><span class="status"><span>Claude</span><span>snapshot final</span><span>stav k 2026-10-20 21:44</span><span>zamknuté</span><span>·</span><span>Codex</span><span>zamknuté 2026-10-20 15:39</span><span>uzáver vstupov 2026-10-20 15:20</span></span><span>Marek Šulík · obsah CC BY 4.0, kód MIT · predpovede pripravili Claude a Codex, nie sú to tipy na stávkovanie</span></footer>
 </body></html>

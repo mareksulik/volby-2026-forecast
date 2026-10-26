@@ -1,6 +1,15 @@
-<div class="sec-num">Skóre</div>
+<div class="sec-num">Výsledky</div>
 <h2>Ako dopadla predpoveď</h2>
 <p>Porovnávame predpovede Claude a Codex zamknuté 20. 10. 2026 s oficiálnymi výsledkami volieb z 24. 10. 2026. Hodnotíme 29 volieb, v ktorých kandidovali aspoň dvaja ľudia.</p>
+<div class="card summary"><h3>Zhrnutie · 26. 10. 2026</h3><ul>
+<li><strong>Víťazi.</strong> Claude aj Codex trafili víťaza v 28 z 29 volieb. Obhajca kandidoval v 25 voľbách a vyhral v 24; prehral len košický primátor Jaroslav Polaček s Ladislavom Lörincom. Najtesnejšie to bolo v Košickom kraji: Trnka 32,5 %, Porvažník 31,1 %.</li>
+<li><strong>Kde sa modely pomýlili.</strong> Claude v Devíne: za favorita mal Igora Prieložného, ktorý skončil tretí, vyhral Martin Galát s 57,8 %. Codex v Karlovej Vsi: za favorita mal Branislava Záhradníka, ktorý prehral o 4,3 bodu s Martinom Vicianom.</li>
+<li><strong>Claude vs. Codex.</strong> Claude mal Brierovo skóre 0,173, Codex 0,186 (nižšie je lepšie). Podiely hlasov odhadol presnejšie Claude: priemerná odchýlka 5,2 bodu oproti 6,9 bodu, bližšie k výsledku bol v 20 voľbách, Codex v 8. Pravdepodobnosti výhry mal Codex presnejšie v krajoch a mestských častiach, Claude v krajských mestách.</li>
+<li><strong>Hlavná chyba: podcenení víťazi.</strong> Claude dal víťazom v priemere o 7,2 bodu menej, než dostali, Codex o 9,3 bodu. Najviac v Trenčíne (Forgáč 69,2 %, modely 33,5 a 35,2 %), v Trnave (Nemčovská 60,7 %, modely 35,7 a 29,2 %) a v Ružinove (Chren 82,4 %, modely 59,3 a 52,3 %). Hlasy, ktoré víťazom chýbali, modely pripísali malým kandidátom.</li>
+<li><strong>Prečo.</strong> V Trenčíne nebol žiadny prieskum a fundamenty medzi novými kandidátmi takmer nerozlišovali: Forgáč v nich nebol ani favoritom. V Košiciach fundamenty zvýhodnili obhajcu, hoci Lörinc viedol v štyroch z piatich prieskumov. V Trnave mal veľkú váhu študentský prieskum, ktorý ukazoval remízu.</li>
+<li><strong>Porovnanie s AI predpoveďou Josefa Šlerku.</strong> <a href="https://josefslerka.github.io/sk-volby-2026-forecast/">Jeho predpoveď</a> pokrýva 16 volieb (kraje a krajské mestá). Na nich mala jeho AI Brierovo skóre 0,107, Claude 0,127 a Codex 0,171. Claude stratil najviac v Košiciach a v Košickom kraji, Codex v krajských mestách; v krajoch bol Codex lepší ako jeho AI. Jeho verzia je zamknutá 23. 10., naše 20. 10.</li>
+<li><strong>Oficiálne výsledky overené.</strong> Priebežné výsledky ŠÚ SR z 25. 10. (100 % okrskov) sa zhodujú so súbormi na stiahnutie z 26. 10. Podiely sú prepočítané bez kandidátov, ktorí sa vzdali kandidatúry.</li>
+</ul></div>
 {{stats}}
 
 <h3>1. Víťazi</h3>
@@ -28,6 +37,6 @@
 <p class="text-small">Brierovo skóre a log skóre merajú, akú pravdepodobnosť dal model skutočnému víťazovi. Pri Brierovom skóre je lepšia nižšia hodnota, pri log skóre hodnota bližšie k nule. 80 % interval má obsahovať skutočný výsledok približne v 80 % prípadov.</p>
 
 <h3>Všetky voľby</h3>
-<p>Číslo pri modeli je rozdiel medzi predpoveďou a výsledkom v percentuálnych bodoch. Mínus znamená, že model kandidátovi predpovedal menej, než dostal.</p>
+<p>Číslo pri modeli je rozdiel medzi predpoveďou a výsledkom v percentuálnych bodoch. Mínus znamená, že model kandidátovi predpovedal menej, než dostal. P(výhra) víťaza je pravdepodobnosť výhry, ktorú model pred voľbami dal kandidátovi, ktorý vyhral.</p>
 {{race_table}}
 <div class="note">Zdroj výsledkov: Štatistický úrad SR, volbysr.sk (zoznam súborov je v <code>data/results/SOURCES.md</code>). Podiely sú prepočítané bez kandidátov, ktorí sa vzdali kandidatúry. Výpočet: <code>tools/evaluate.py</code>, údaje v <code>data/evaluation.json</code>. Pravidlá hodnotenia sú na stránke <a href="pravidla.html">Pravidlá</a>.</div>
