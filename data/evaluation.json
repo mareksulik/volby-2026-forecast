@@ -1,0 +1,1680 @@
+{
+ "summary": {
+  "claude": {
+   "winners_hit": 28,
+   "n": 29,
+   "mae_by_pos": {
+    "1": 9.9,
+    "2": 5.5,
+    "3": 4.9
+   },
+   "winner_bias": -7.2,
+   "misses": [
+    "mc-devin"
+   ],
+   "brier": 0.173,
+   "log_score": -0.364,
+   "favourites_hit": 28,
+   "share_mae_pp": 5.2,
+   "coverage_80": 0.797,
+   "hit_kraj": [
+    8,
+    8
+   ],
+   "hit_mesto": [
+    8,
+    8
+   ],
+   "hit_mc": [
+    12,
+    13
+   ]
+  },
+  "codex": {
+   "winners_hit": 28,
+   "n": 29,
+   "mae_by_pos": {
+    "1": 11.1,
+    "2": 6.6,
+    "3": 6.6
+   },
+   "winner_bias": -9.3,
+   "misses": [
+    "mc-karlova-ves"
+   ],
+   "brier": 0.186,
+   "log_score": -0.382,
+   "favourites_hit": 28,
+   "share_mae_pp": 6.9,
+   "coverage_80": 0.835,
+   "hit_kraj": [
+    8,
+    8
+   ],
+   "hit_mesto": [
+    8,
+    8
+   ],
+   "hit_mc": [
+    12,
+    13
+   ]
+  }
+ },
+ "races": [
+  {
+   "id": "kraj-za",
+   "name": "Žilinský samosprávny kraj",
+   "group": "kraj",
+   "margin": 28.44,
+   "top": [
+    {
+     "pos": 1,
+     "name": "Erika Jurinová",
+     "actual": 56.38,
+     "claude": {
+      "share": 45.8,
+      "err": -10.58
+     },
+     "codex": {
+      "share": 46.4,
+      "err": -9.98
+     }
+    },
+    {
+     "pos": 2,
+     "name": "Igor Choma",
+     "actual": 27.94,
+     "claude": {
+      "share": 31.6,
+      "err": 3.66
+     },
+     "codex": {
+      "share": 17.3,
+      "err": -10.64
+     }
+    },
+    {
+     "pos": 3,
+     "name": "Martin Kapitulík",
+     "actual": 13.7,
+     "claude": {
+      "share": 16.8,
+      "err": 3.1
+     },
+     "codex": {
+      "share": 12.3,
+      "err": -1.4
+     }
+    }
+   ],
+   "claude": {
+    "fav": "Erika Jurinová",
+    "hit": true,
+    "p_winner": 0.8145
+   },
+   "codex": {
+    "fav": "Erika Jurinová",
+    "hit": true,
+    "p_winner": 0.9699
+   }
+  },
+  {
+   "id": "kraj-bb",
+   "name": "Banskobystrický samosprávny kraj",
+   "group": "kraj",
+   "margin": 49.82,
+   "top": [
+    {
+     "pos": 1,
+     "name": "Ondrej Lunter",
+     "actual": 64.82,
+     "claude": {
+      "share": 57.1,
+      "err": -7.72
+     },
+     "codex": {
+      "share": 54.0,
+      "err": -10.82
+     }
+    },
+    {
+     "pos": 2,
+     "name": "Miroslav Suja",
+     "actual": 15.0,
+     "claude": {
+      "share": 16.5,
+      "err": 1.5
+     },
+     "codex": {
+      "share": 15.6,
+      "err": 0.6
+     }
+    },
+    {
+     "pos": 3,
+     "name": "Marian Kotleba",
+     "actual": 9.12,
+     "claude": {
+      "share": 7.2,
+      "err": -1.92
+     },
+     "codex": {
+      "share": 10.1,
+      "err": 0.98
+     }
+    }
+   ],
+   "claude": {
+    "fav": "Ondrej Lunter",
+    "hit": true,
+    "p_winner": 0.9736
+   },
+   "codex": {
+    "fav": "Ondrej Lunter",
+    "hit": true,
+    "p_winner": 0.9848
+   }
+  },
+  {
+   "id": "kraj-po",
+   "name": "Prešovský samosprávny kraj",
+   "group": "kraj",
+   "margin": 13.79,
+   "top": [
+    {
+     "pos": 1,
+     "name": "Milan Majerský",
+     "actual": 49.47,
+     "claude": {
+      "share": 52.2,
+      "err": 2.73
+     },
+     "codex": {
+      "share": 47.0,
+      "err": -2.47
+     }
+    },
+    {
+     "pos": 2,
+     "name": "Milan Mazurek",
+     "actual": 35.68,
+     "claude": {
+      "share": 28.0,
+      "err": -7.68
+     },
+     "codex": {
+      "share": 32.2,
+      "err": -3.48
+     }
+    },
+    {
+     "pos": 3,
+     "name": "Samuel Migaľ",
+     "actual": 6.14,
+     "claude": {
+      "share": 6.7,
+      "err": 0.56
+     },
+     "codex": {
+      "share": 8.5,
+      "err": 2.36
+     }
+    }
+   ],
+   "claude": {
+    "fav": "Milan Majerský",
+    "hit": true,
+    "p_winner": 0.8606
+   },
+   "codex": {
+    "fav": "Milan Majerský",
+    "hit": true,
+    "p_winner": 0.9396
+   }
+  },
+  {
+   "id": "kraj-ke",
+   "name": "Košický samosprávny kraj",
+   "group": "kraj",
+   "margin": 1.33,
+   "top": [
+    {
+     "pos": 1,
+     "name": "Rastislav Trnka",
+     "actual": 32.46,
+     "claude": {
+      "share": 40.0,
+      "err": 7.54
+     },
+     "codex": {
+      "share": 38.6,
+      "err": 6.14
+     }
+    },
+    {
+     "pos": 2,
+     "name": "Marián Porvažník",
+     "actual": 31.13,
+     "claude": {
+      "share": 27.9,
+      "err": -3.23
+     },
+     "codex": {
+      "share": 26.9,
+      "err": -4.23
+     }
+    },
+    {
+     "pos": 3,
+     "name": "Igor Šimko",
+     "actual": 24.5,
+     "claude": {
+      "share": 19.2,
+      "err": -5.3
+     },
+     "codex": {
+      "share": 17.8,
+      "err": -6.7
+     }
+    }
+   ],
+   "claude": {
+    "fav": "Rastislav Trnka",
+    "hit": true,
+    "p_winner": 0.5889
+   },
+   "codex": {
+    "fav": "Rastislav Trnka",
+    "hit": true,
+    "p_winner": 0.7127
+   }
+  },
+  {
+   "id": "kraj-ba",
+   "name": "Bratislavský samosprávny kraj",
+   "group": "kraj",
+   "margin": 59.43,
+   "top": [
+    {
+     "pos": 1,
+     "name": "Juraj Droba",
+     "actual": 70.97,
+     "claude": {
+      "share": 67.8,
+      "err": -3.17
+     },
+     "codex": {
+      "share": 60.8,
+      "err": -10.17
+     }
+    },
+    {
+     "pos": 2,
+     "name": "Rastislav Gajarský",
+     "actual": 11.54,
+     "claude": {
+      "share": 7.4,
+      "err": -4.14
+     },
+     "codex": {
+      "share": 11.0,
+      "err": -0.54
+     }
+    },
+    {
+     "pos": 3,
+     "name": "Zuzana Krajčovičová",
+     "actual": 9.61,
+     "claude": {
+      "share": 9.2,
+      "err": -0.41
+     },
+     "codex": {
+      "share": 6.4,
+      "err": -3.21
+     }
+    }
+   ],
+   "claude": {
+    "fav": "Juraj Droba",
+    "hit": true,
+    "p_winner": 0.991
+   },
+   "codex": {
+    "fav": "Juraj Droba",
+    "hit": true,
+    "p_winner": 0.9975
+   }
+  },
+  {
+   "id": "kraj-tt",
+   "name": "Trnavský samosprávny kraj",
+   "group": "kraj",
+   "margin": 33.19,
+   "top": [
+    {
+     "pos": 1,
+     "name": "Jozef Viskupič",
+     "actual": 54.05,
+     "claude": {
+      "share": 52.6,
+      "err": -1.45
+     },
+     "codex": {
+      "share": 51.0,
+      "err": -3.05
+     }
+    },
+    {
+     "pos": 2,
+     "name": "József Berényi",
+     "actual": 20.86,
+     "claude": {
+      "share": 18.5,
+      "err": -2.36
+     },
+     "codex": {
+      "share": 13.1,
+      "err": -7.76
+     }
+    },
+    {
+     "pos": 3,
+     "name": "Peter Hambálek",
+     "actual": 11.67,
+     "claude": {
+      "share": 11.1,
+      "err": -0.57
+     },
+     "codex": {
+      "share": 15.7,
+      "err": 4.03
+     }
+    }
+   ],
+   "claude": {
+    "fav": "Jozef Viskupič",
+    "hit": true,
+    "p_winner": 0.9638
+   },
+   "codex": {
+    "fav": "Jozef Viskupič",
+    "hit": true,
+    "p_winner": 0.9939
+   }
+  },
+  {
+   "id": "kraj-tn",
+   "name": "Trenčiansky samosprávny kraj",
+   "group": "kraj",
+   "margin": 18.42,
+   "top": [
+    {
+     "pos": 1,
+     "name": "Jaroslav Baška",
+     "actual": 57.44,
+     "claude": {
+      "share": 61.8,
+      "err": 4.36
+     },
+     "codex": {
+      "share": 50.7,
+      "err": -6.74
+     }
+    },
+    {
+     "pos": 2,
+     "name": "Natália Svítková",
+     "actual": 39.02,
+     "claude": {
+      "share": 35.0,
+      "err": -4.02
+     },
+     "codex": {
+      "share": 38.0,
+      "err": -1.02
+     }
+    },
+    {
+     "pos": 3,
+     "name": "Daniel Galas",
+     "actual": 2.29,
+     "claude": {
+      "share": 1.0,
+      "err": -1.29
+     },
+     "codex": {
+      "share": 7.0,
+      "err": 4.71
+     }
+    }
+   ],
+   "claude": {
+    "fav": "Jaroslav Baška",
+    "hit": true,
+    "p_winner": 0.8711
+   },
+   "codex": {
+    "fav": "Jaroslav Baška",
+    "hit": true,
+    "p_winner": 0.7394
+   }
+  },
+  {
+   "id": "kraj-nr",
+   "name": "Nitriansky samosprávny kraj",
+   "group": "kraj",
+   "margin": 21.6,
+   "top": [
+    {
+     "pos": 1,
+     "name": "Branislav Becík",
+     "actual": 50.47,
+     "claude": {
+      "share": 45.9,
+      "err": -4.57
+     },
+     "codex": {
+      "share": 44.1,
+      "err": -6.37
+     }
+    },
+    {
+     "pos": 2,
+     "name": "Henrich Varga",
+     "actual": 28.87,
+     "claude": {
+      "share": 27.0,
+      "err": -1.87
+     },
+     "codex": {
+      "share": 22.7,
+      "err": -6.17
+     }
+    },
+    {
+     "pos": 3,
+     "name": "Tibor Csenger",
+     "actual": 10.41,
+     "claude": {
+      "share": 8.3,
+      "err": -2.11
+     },
+     "codex": {
+      "share": 9.3,
+      "err": -1.11
+     }
+    }
+   ],
+   "claude": {
+    "fav": "Branislav Becík",
+    "hit": true,
+    "p_winner": 0.8285
+   },
+   "codex": {
+    "fav": "Branislav Becík",
+    "hit": true,
+    "p_winner": 0.8832
+   }
+  },
+  {
+   "id": "mc-stare-mesto",
+   "name": "Staré Mesto",
+   "group": "mc",
+   "margin": 42.37,
+   "top": [
+    {
+     "pos": 1,
+     "name": "Matej Vagač",
+     "actual": 62.18,
+     "claude": {
+      "share": 52.6,
+      "err": -9.58
+     },
+     "codex": {
+      "share": 41.9,
+      "err": -20.28
+     }
+    },
+    {
+     "pos": 2,
+     "name": "Zuzana Aufrichtová",
+     "actual": 19.81,
+     "claude": {
+      "share": 14.5,
+      "err": -5.31
+     },
+     "codex": {
+      "share": 18.9,
+      "err": -0.91
+     }
+    },
+    {
+     "pos": 3,
+     "name": "Miroslav Vetrík",
+     "actual": 10.46,
+     "claude": {
+      "share": 11.5,
+      "err": 1.04
+     },
+     "codex": {
+      "share": 15.0,
+      "err": 4.54
+     }
+    }
+   ],
+   "claude": {
+    "fav": "Matej Vagač",
+    "hit": true,
+    "p_winner": 0.7093
+   },
+   "codex": {
+    "fav": "Matej Vagač",
+    "hit": true,
+    "p_winner": 0.5728
+   }
+  },
+  {
+   "id": "mc-ruzinov",
+   "name": "Ružinov",
+   "group": "mc",
+   "margin": 69.85,
+   "top": [
+    {
+     "pos": 1,
+     "name": "Martin Chren",
+     "actual": 82.37,
+     "claude": {
+      "share": 59.3,
+      "err": -23.07
+     },
+     "codex": {
+      "share": 52.3,
+      "err": -30.07
+     }
+    },
+    {
+     "pos": 2,
+     "name": "Peter Strapák",
+     "actual": 12.52,
+     "claude": {
+      "share": 19.1,
+      "err": 6.58
+     },
+     "codex": {
+      "share": 30.8,
+      "err": 18.28
+     }
+    },
+    {
+     "pos": 3,
+     "name": "Ivor Švihran",
+     "actual": 5.11,
+     "claude": {
+      "share": 13.3,
+      "err": 8.19
+     },
+     "codex": {
+      "share": 16.9,
+      "err": 11.79
+     }
+    }
+   ],
+   "claude": {
+    "fav": "Martin Chren",
+    "hit": true,
+    "p_winner": 0.7145
+   },
+   "codex": {
+    "fav": "Martin Chren",
+    "hit": true,
+    "p_winner": 0.6846
+   }
+  },
+  {
+   "id": "mc-vrakuna",
+   "name": "Vrakuňa",
+   "group": "mc",
+   "margin": 76.15,
+   "top": [
+    {
+     "pos": 1,
+     "name": "Martin Kuruc",
+     "actual": 85.33,
+     "claude": {
+      "share": 78.0,
+      "err": -7.33
+     },
+     "codex": {
+      "share": 73.7,
+      "err": -11.63
+     }
+    },
+    {
+     "pos": 2,
+     "name": "Dušan Burdy",
+     "actual": 9.18,
+     "claude": {
+      "share": 8.0,
+      "err": -1.18
+     },
+     "codex": {
+      "share": 13.1,
+      "err": 3.92
+     }
+    },
+    {
+     "pos": 3,
+     "name": "Katarína Lukáčová",
+     "actual": 5.49,
+     "claude": {
+      "share": 9.6,
+      "err": 4.11
+     },
+     "codex": {
+      "share": 13.1,
+      "err": 7.61
+     }
+    }
+   ],
+   "claude": {
+    "fav": "Martin Kuruc",
+    "hit": true,
+    "p_winner": 0.9041
+   },
+   "codex": {
+    "fav": "Martin Kuruc",
+    "hit": true,
+    "p_winner": 0.9397
+   }
+  },
+  {
+   "id": "mc-podunajske-biskupice",
+   "name": "Podunajské Biskupice",
+   "group": "mc",
+   "margin": 37.33,
+   "top": [
+    {
+     "pos": 1,
+     "name": "Roman Lamoš",
+     "actual": 60.36,
+     "claude": {
+      "share": 56.7,
+      "err": -3.66
+     },
+     "codex": {
+      "share": 58.4,
+      "err": -1.96
+     }
+    },
+    {
+     "pos": 2,
+     "name": "Martina Frőhlich Činovská",
+     "actual": 23.03,
+     "claude": {
+      "share": 23.8,
+      "err": 0.77
+     },
+     "codex": {
+      "share": 23.3,
+      "err": 0.27
+     }
+    },
+    {
+     "pos": 3,
+     "name": "Ladislav Méry",
+     "actual": 16.61,
+     "claude": {
+      "share": 11.4,
+      "err": -5.21
+     },
+     "codex": {
+      "share": 18.3,
+      "err": 1.69
+     }
+    }
+   ],
+   "claude": {
+    "fav": "Roman Lamoš",
+    "hit": true,
+    "p_winner": 0.6824
+   },
+   "codex": {
+    "fav": "Roman Lamoš",
+    "hit": true,
+    "p_winner": 0.7897
+   }
+  },
+  {
+   "id": "mc-nove-mesto",
+   "name": "Nové Mesto",
+   "group": "mc",
+   "margin": 14.79,
+   "top": [
+    {
+     "pos": 1,
+     "name": "Matúš Čupka",
+     "actual": 56.19,
+     "claude": {
+      "share": 57.5,
+      "err": 1.31
+     },
+     "codex": {
+      "share": 62.2,
+      "err": 6.01
+     }
+    },
+    {
+     "pos": 2,
+     "name": "Rudolf Kusy",
+     "actual": 41.4,
+     "claude": {
+      "share": 26.9,
+      "err": -14.5
+     },
+     "codex": {
+      "share": 20.3,
+      "err": -21.1
+     }
+    },
+    {
+     "pos": 3,
+     "name": "Mária Martaus",
+     "actual": 2.41,
+     "claude": {
+      "share": 8.5,
+      "err": 6.09
+     },
+     "codex": {
+      "share": 17.5,
+      "err": 15.09
+     }
+    }
+   ],
+   "claude": {
+    "fav": "Matúš Čupka",
+    "hit": true,
+    "p_winner": 0.6728
+   },
+   "codex": {
+    "fav": "Matúš Čupka",
+    "hit": true,
+    "p_winner": 0.8384
+   }
+  },
+  {
+   "id": "mc-raca",
+   "name": "Rača",
+   "group": "mc",
+   "margin": 32.28,
+   "top": [
+    {
+     "pos": 1,
+     "name": "Michal Drotován",
+     "actual": 66.14,
+     "claude": {
+      "share": 80.2,
+      "err": 14.06
+     },
+     "codex": {
+      "share": 63.8,
+      "err": -2.34
+     }
+    },
+    {
+     "pos": 2,
+     "name": "Ján Polakovič",
+     "actual": 33.86,
+     "claude": {
+      "share": 19.8,
+      "err": -14.06
+     },
+     "codex": {
+      "share": 36.2,
+      "err": 2.34
+     }
+    }
+   ],
+   "claude": {
+    "fav": "Michal Drotován",
+    "hit": true,
+    "p_winner": 0.8534
+   },
+   "codex": {
+    "fav": "Michal Drotován",
+    "hit": true,
+    "p_winner": 0.7666
+   }
+  },
+  {
+   "id": "mc-vajnory",
+   "name": "Vajnory",
+   "group": "mc",
+   "margin": 28.19,
+   "top": [
+    {
+     "pos": 1,
+     "name": "Michal Vlček",
+     "actual": 54.46,
+     "claude": {
+      "share": 49.1,
+      "err": -5.36
+     },
+     "codex": {
+      "share": 58.5,
+      "err": 4.04
+     }
+    },
+    {
+     "pos": 2,
+     "name": "Juraj Ondruška",
+     "actual": 26.27,
+     "claude": {
+      "share": 24.9,
+      "err": -1.37
+     },
+     "codex": {
+      "share": 22.7,
+      "err": -3.57
+     }
+    },
+    {
+     "pos": 3,
+     "name": "Juraj Zeman",
+     "actual": 19.27,
+     "claude": {
+      "share": 16.3,
+      "err": -2.97
+     },
+     "codex": {
+      "share": 18.8,
+      "err": -0.47
+     }
+    }
+   ],
+   "claude": {
+    "fav": "Michal Vlček",
+    "hit": true,
+    "p_winner": 0.5965
+   },
+   "codex": {
+    "fav": "Michal Vlček",
+    "hit": true,
+    "p_winner": 0.79
+   }
+  },
+  {
+   "id": "mc-karlova-ves",
+   "name": "Karlova Ves",
+   "group": "mc",
+   "margin": 4.32,
+   "top": [
+    {
+     "pos": 1,
+     "name": "Martin Vician",
+     "actual": 52.16,
+     "claude": {
+      "share": 52.3,
+      "err": 0.14
+     },
+     "codex": {
+      "share": 36.7,
+      "err": -15.46
+     }
+    },
+    {
+     "pos": 2,
+     "name": "Branislav Záhradník",
+     "actual": 47.84,
+     "claude": {
+      "share": 47.7,
+      "err": -0.14
+     },
+     "codex": {
+      "share": 63.3,
+      "err": 15.46
+     }
+    }
+   ],
+   "claude": {
+    "fav": "Martin Vician",
+    "hit": true,
+    "p_winner": 0.5264
+   },
+   "codex": {
+    "fav": "Branislav Záhradník",
+    "hit": false,
+    "p_winner": 0.2398
+   }
+  },
+  {
+   "id": "mc-lamac",
+   "name": "Lamač",
+   "group": "mc",
+   "margin": 18.68,
+   "top": [
+    {
+     "pos": 1,
+     "name": "Igor Polakovič",
+     "actual": 59.34,
+     "claude": {
+      "share": 66.6,
+      "err": 7.26
+     },
+     "codex": {
+      "share": 69.5,
+      "err": 10.16
+     }
+    },
+    {
+     "pos": 2,
+     "name": "Mária Šimončičová",
+     "actual": 40.66,
+     "claude": {
+      "share": 33.4,
+      "err": -7.26
+     },
+     "codex": {
+      "share": 30.5,
+      "err": -10.16
+     }
+    }
+   ],
+   "claude": {
+    "fav": "Igor Polakovič",
+    "hit": true,
+    "p_winner": 0.6953
+   },
+   "codex": {
+    "fav": "Igor Polakovič",
+    "hit": true,
+    "p_winner": 0.8542
+   }
+  },
+  {
+   "id": "mc-devin",
+   "name": "Devín",
+   "group": "mc",
+   "margin": 33.82,
+   "top": [
+    {
+     "pos": 1,
+     "name": "Martin Galát",
+     "actual": 57.83,
+     "claude": {
+      "share": 31.1,
+      "err": -26.73
+     },
+     "codex": {
+      "share": 42.7,
+      "err": -15.13
+     }
+    },
+    {
+     "pos": 2,
+     "name": "Pavol Maruščák",
+     "actual": 24.01,
+     "claude": {
+      "share": 24.3,
+      "err": 0.29
+     },
+     "codex": {
+      "share": 23.6,
+      "err": -0.41
+     }
+    },
+    {
+     "pos": 3,
+     "name": "Igor Prieložný",
+     "actual": 18.16,
+     "claude": {
+      "share": 32.5,
+      "err": 14.34
+     },
+     "codex": {
+      "share": 33.7,
+      "err": 15.54
+     }
+    }
+   ],
+   "claude": {
+    "fav": "Igor Prieložný",
+    "hit": false,
+    "p_winner": 0.3614
+   },
+   "codex": {
+    "fav": "Martin Galát",
+    "hit": true,
+    "p_winner": 0.5136
+   }
+  },
+  {
+   "id": "mc-devinska-nova-ves",
+   "name": "Devínska Nová Ves",
+   "group": "mc",
+   "margin": 57.19,
+   "top": [
+    {
+     "pos": 1,
+     "name": "Dárius Krajčír",
+     "actual": 77.09,
+     "claude": {
+      "share": 60.0,
+      "err": -17.09
+     },
+     "codex": {
+      "share": 63.7,
+      "err": -13.39
+     }
+    },
+    {
+     "pos": 2,
+     "name": "Ľuboš Krajčír",
+     "actual": 19.9,
+     "claude": {
+      "share": 19.8,
+      "err": -0.1
+     },
+     "codex": {
+      "share": 19.5,
+      "err": -0.4
+     }
+    },
+    {
+     "pos": 3,
+     "name": "Denis Ružovič",
+     "actual": 3.01,
+     "claude": {
+      "share": 12.2,
+      "err": 9.19
+     },
+     "codex": {
+      "share": 16.8,
+      "err": 13.79
+     }
+    }
+   ],
+   "claude": {
+    "fav": "Dárius Krajčír",
+    "hit": true,
+    "p_winner": 0.7198
+   },
+   "codex": {
+    "fav": "Dárius Krajčír",
+    "hit": true,
+    "p_winner": 0.8547
+   }
+  },
+  {
+   "id": "mc-petrzalka",
+   "name": "Petržalka",
+   "group": "mc",
+   "margin": 20.0,
+   "top": [
+    {
+     "pos": 1,
+     "name": "Ján Hrčka",
+     "actual": 54.37,
+     "claude": {
+      "share": 56.0,
+      "err": 1.63
+     },
+     "codex": {
+      "share": 47.9,
+      "err": -6.47
+     }
+    },
+    {
+     "pos": 2,
+     "name": "Daniel Klimovský",
+     "actual": 34.37,
+     "claude": {
+      "share": 15.4,
+      "err": -18.97
+     },
+     "codex": {
+      "share": 26.6,
+      "err": -7.77
+     }
+    },
+    {
+     "pos": 3,
+     "name": "Juraj Mravec",
+     "actual": 11.26,
+     "claude": {
+      "share": 19.4,
+      "err": 8.14
+     },
+     "codex": {
+      "share": 25.4,
+      "err": 14.14
+     }
+    }
+   ],
+   "claude": {
+    "fav": "Ján Hrčka",
+    "hit": true,
+    "p_winner": 0.6788
+   },
+   "codex": {
+    "fav": "Ján Hrčka",
+    "hit": true,
+    "p_winner": 0.6237
+   }
+  },
+  {
+   "id": "mc-cunovo",
+   "name": "Čunovo",
+   "group": "mc",
+   "margin": 8.84,
+   "top": [
+    {
+     "pos": 1,
+     "name": "Gabriela Ferenčáková",
+     "actual": 43.66,
+     "claude": {
+      "share": 22.9,
+      "err": -20.76
+     },
+     "codex": {
+      "share": 42.7,
+      "err": -0.96
+     }
+    },
+    {
+     "pos": 2,
+     "name": "Marián Krist",
+     "actual": 34.82,
+     "claude": {
+      "share": 17.4,
+      "err": -17.42
+     },
+     "codex": {
+      "share": 14.3,
+      "err": -20.52
+     }
+    },
+    {
+     "pos": 3,
+     "name": "Marek Kausich",
+     "actual": 17.68,
+     "claude": {
+      "share": 12.8,
+      "err": -4.88
+     },
+     "codex": {
+      "share": 14.3,
+      "err": -3.38
+     }
+    }
+   ],
+   "claude": {
+    "fav": "Gabriela Ferenčáková",
+    "hit": true,
+    "p_winner": 0.3318
+   },
+   "codex": {
+    "fav": "Gabriela Ferenčáková",
+    "hit": true,
+    "p_winner": 0.6399
+   }
+  },
+  {
+   "id": "mesto-bratislava",
+   "name": "Bratislava",
+   "group": "mesto",
+   "margin": 32.27,
+   "top": [
+    {
+     "pos": 1,
+     "name": "Matúš Vallo",
+     "actual": 64.82,
+     "claude": {
+      "share": 53.0,
+      "err": -11.82
+     },
+     "codex": {
+      "share": 53.6,
+      "err": -11.22
+     }
+    },
+    {
+     "pos": 2,
+     "name": "Jozef Ráž",
+     "actual": 32.55,
+     "claude": {
+      "share": 34.7,
+      "err": 2.15
+     },
+     "codex": {
+      "share": 35.5,
+      "err": 2.95
+     }
+    },
+    {
+     "pos": 3,
+     "name": "Zuzana Šubová",
+     "actual": 1.84,
+     "claude": {
+      "share": 7.0,
+      "err": 5.16
+     },
+     "codex": {
+      "share": 5.9,
+      "err": 4.06
+     }
+    }
+   ],
+   "claude": {
+    "fav": "Matúš Vallo",
+    "hit": true,
+    "p_winner": 0.8771
+   },
+   "codex": {
+    "fav": "Matúš Vallo",
+    "hit": true,
+    "p_winner": 0.9465
+   }
+  },
+  {
+   "id": "mesto-kosice",
+   "name": "Košice",
+   "group": "mesto",
+   "margin": 18.36,
+   "top": [
+    {
+     "pos": 1,
+     "name": "Ladislav Lörinc",
+     "actual": 39.89,
+     "claude": {
+      "share": 23.7,
+      "err": -16.19
+     },
+     "codex": {
+      "share": 25.9,
+      "err": -13.99
+     }
+    },
+    {
+     "pos": 2,
+     "name": "Jaroslav Polaček",
+     "actual": 21.53,
+     "claude": {
+      "share": 23.6,
+      "err": 2.07
+     },
+     "codex": {
+      "share": 22.4,
+      "err": 0.87
+     }
+    },
+    {
+     "pos": 3,
+     "name": "Martin Mudrák",
+     "actual": 18.68,
+     "claude": {
+      "share": 17.6,
+      "err": -1.08
+     },
+     "codex": {
+      "share": 20.8,
+      "err": 2.12
+     }
+    }
+   ],
+   "claude": {
+    "fav": "Ladislav Lörinc",
+    "hit": true,
+    "p_winner": 0.4895
+   },
+   "codex": {
+    "fav": "Ladislav Lörinc",
+    "hit": true,
+    "p_winner": 0.5409
+   }
+  },
+  {
+   "id": "mesto-banska-bystrica",
+   "name": "Banská Bystrica",
+   "group": "mesto",
+   "margin": 3.86,
+   "top": [
+    {
+     "pos": 1,
+     "name": "Ján Nosko",
+     "actual": 47.01,
+     "claude": {
+      "share": 42.1,
+      "err": -4.91
+     },
+     "codex": {
+      "share": 41.6,
+      "err": -5.41
+     }
+    },
+    {
+     "pos": 2,
+     "name": "Diana Javorčíková",
+     "actual": 43.15,
+     "claude": {
+      "share": 33.6,
+      "err": -9.55
+     },
+     "codex": {
+      "share": 35.7,
+      "err": -7.45
+     }
+    },
+    {
+     "pos": 3,
+     "name": "Matúš Molitoris",
+     "actual": 6.98,
+     "claude": {
+      "share": 15.3,
+      "err": 8.32
+     },
+     "codex": {
+      "share": 16.7,
+      "err": 9.72
+     }
+    }
+   ],
+   "claude": {
+    "fav": "Ján Nosko",
+    "hit": true,
+    "p_winner": 0.5451
+   },
+   "codex": {
+    "fav": "Ján Nosko",
+    "hit": true,
+    "p_winner": 0.7276
+   }
+  },
+  {
+   "id": "mesto-nitra",
+   "name": "Nitra",
+   "group": "mesto",
+   "margin": 11.6,
+   "top": [
+    {
+     "pos": 1,
+     "name": "Marek Hattas",
+     "actual": 50.67,
+     "claude": {
+      "share": 50.8,
+      "err": 0.13
+     },
+     "codex": {
+      "share": 42.3,
+      "err": -8.37
+     }
+    },
+    {
+     "pos": 2,
+     "name": "Igor Kršiak",
+     "actual": 39.07,
+     "claude": {
+      "share": 30.7,
+      "err": -8.37
+     },
+     "codex": {
+      "share": 37.1,
+      "err": -1.97
+     }
+    },
+    {
+     "pos": 3,
+     "name": "Marek Illéš",
+     "actual": 6.34,
+     "claude": {
+      "share": 7.3,
+      "err": 0.96
+     },
+     "codex": {
+      "share": 9.9,
+      "err": 3.56
+     }
+    }
+   ],
+   "claude": {
+    "fav": "Marek Hattas",
+    "hit": true,
+    "p_winner": 0.7717
+   },
+   "codex": {
+    "fav": "Marek Hattas",
+    "hit": true,
+    "p_winner": 0.6509
+   }
+  },
+  {
+   "id": "mesto-presov",
+   "name": "Prešov",
+   "group": "mesto",
+   "margin": 16.57,
+   "top": [
+    {
+     "pos": 1,
+     "name": "František Oľha",
+     "actual": 40.69,
+     "claude": {
+      "share": 40.0,
+      "err": -0.69
+     },
+     "codex": {
+      "share": 30.4,
+      "err": -10.29
+     }
+    },
+    {
+     "pos": 2,
+     "name": "Pavel Hagyari",
+     "actual": 24.12,
+     "claude": {
+      "share": 23.6,
+      "err": -0.52
+     },
+     "codex": {
+      "share": 15.9,
+      "err": -8.22
+     }
+    },
+    {
+     "pos": 3,
+     "name": "Rastislav Mochnacký",
+     "actual": 13.3,
+     "claude": {
+      "share": 10.7,
+      "err": -2.6
+     },
+     "codex": {
+      "share": 14.0,
+      "err": 0.7
+     }
+    }
+   ],
+   "claude": {
+    "fav": "František Oľha",
+    "hit": true,
+    "p_winner": 0.7307
+   },
+   "codex": {
+    "fav": "František Oľha",
+    "hit": true,
+    "p_winner": 0.4293
+   }
+  },
+  {
+   "id": "mesto-trnava",
+   "name": "Trnava",
+   "group": "mesto",
+   "margin": 29.7,
+   "top": [
+    {
+     "pos": 1,
+     "name": "Eva Nemčovská",
+     "actual": 60.69,
+     "claude": {
+      "share": 35.7,
+      "err": -24.99
+     },
+     "codex": {
+      "share": 29.2,
+      "err": -31.49
+     }
+    },
+    {
+     "pos": 2,
+     "name": "Branislav Baroš",
+     "actual": 30.99,
+     "claude": {
+      "share": 31.8,
+      "err": 0.81
+     },
+     "codex": {
+      "share": 21.5,
+      "err": -9.49
+     }
+    },
+    {
+     "pos": 3,
+     "name": "Martin Pullmann",
+     "actual": 3.74,
+     "claude": {
+      "share": 9.6,
+      "err": 5.86
+     },
+     "codex": {
+      "share": 16.9,
+      "err": 13.16
+     }
+    }
+   ],
+   "claude": {
+    "fav": "Eva Nemčovská",
+    "hit": true,
+    "p_winner": 0.5964
+   },
+   "codex": {
+    "fav": "Eva Nemčovská",
+    "hit": true,
+    "p_winner": 0.3678
+   }
+  },
+  {
+   "id": "mesto-trencin",
+   "name": "Trenčín",
+   "group": "mesto",
+   "margin": 45.76,
+   "top": [
+    {
+     "pos": 1,
+     "name": "Ján Forgáč",
+     "actual": 69.18,
+     "claude": {
+      "share": 33.5,
+      "err": -35.68
+     },
+     "codex": {
+      "share": 35.2,
+      "err": -33.98
+     }
+    },
+    {
+     "pos": 2,
+     "name": "Miloš Mičega",
+     "actual": 23.42,
+     "claude": {
+      "share": 24.1,
+      "err": 0.68
+     },
+     "codex": {
+      "share": 25.8,
+      "err": 2.38
+     }
+    },
+    {
+     "pos": 3,
+     "name": "Danica Birošová",
+     "actual": 4.87,
+     "claude": {
+      "share": 18.1,
+      "err": 13.23
+     },
+     "codex": {
+      "share": 19.5,
+      "err": 14.63
+     }
+    }
+   ],
+   "claude": {
+    "fav": "Ján Forgáč",
+    "hit": true,
+    "p_winner": 0.7272
+   },
+   "codex": {
+    "fav": "Ján Forgáč",
+    "hit": true,
+    "p_winner": 0.4458
+   }
+  },
+  {
+   "id": "mesto-zilina",
+   "name": "Žilina",
+   "group": "mesto",
+   "margin": 12.71,
+   "top": [
+    {
+     "pos": 1,
+     "name": "Peter Fiabáne",
+     "actual": 41.28,
+     "claude": {
+      "share": 30.1,
+      "err": -11.18
+     },
+     "codex": {
+      "share": 27.4,
+      "err": -13.88
+     }
+    },
+    {
+     "pos": 2,
+     "name": "Rastislav Johanes",
+     "actual": 28.57,
+     "claude": {
+      "share": 8.8,
+      "err": -19.77
+     },
+     "codex": {
+      "share": 10.3,
+      "err": -18.27
+     }
+    },
+    {
+     "pos": 3,
+     "name": "Peter Cibulka",
+     "actual": 22.11,
+     "claude": {
+      "share": 10.2,
+      "err": -11.91
+     },
+     "codex": {
+      "share": 12.1,
+      "err": -10.01
+     }
+    }
+   ],
+   "claude": {
+    "fav": "Peter Fiabáne",
+    "hit": true,
+    "p_winner": 0.7134
+   },
+   "codex": {
+    "fav": "Peter Fiabáne",
+    "hit": true,
+    "p_winner": 0.3992
+   }
+  }
+ ]
+}

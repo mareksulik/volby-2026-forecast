@@ -32,6 +32,7 @@ python tools/forecast.py --date 2026-10-21 --label final
 python tools/compare.py            # Claude vs Codex -> data/comparison.json
 python tools/build_site.py         # -> docs/
 python tools/score.py              # po voľbách (data/results/2026.json)
+python tools/evaluate.py           # Claude vs Codex podľa poradia kandidátov -> data/evaluation.json (stránka Skóre)
 ```
 
 Výskum so zdrojmi: `data/research/*.json` (každé číslo má URL). Predpoveď pripravil model Claude, postup kontroloval človek. Nie sú to tipy na stávkovanie.

@@ -270,22 +270,54 @@ def fill_model(src):
     return src
 
 
-SERIES_SK = {"final": "Finálna", "bez_trhu": "Bez trhu", "fundamenty": "Fundamenty", "trh": "Trh (len voľby s kurzami)",
-             "obhajca": "Pravidlo: vyhrá obhajca", "rovnomerne": "Rovnomerne"}
+def signed(x):
+    return ("+" if x > 0 else "−" if x < 0 else "±") + num(abs(x))
 
 
-def score_html(s):
-    rows = "".join(f'<tr><td>{SERIES_SK.get(k, k)}</td><td class="num">{v["n"]}</td><td class="num">{num(v["brier"], 3)}</td>'
-                   f'<td class="num">{num(v["log_score"], 3)}</td><td class="num">{v["favourites_hit"]}</td></tr>' for k, v in s["series"].items())
-    races = "".join(f'<tr><td><a href="{r["id"]}.html">{e(r["id"])}</a></td><td>{e(r["winner"])}</td>'
-                    f'<td class="num">{prob(r.get("p_winner_final"))}</td><td class="num">{prob(r.get("p_winner_fundamenty"))}</td>'
-                    f'<td class="num">{prob(r.get("p_winner_trh"))}</td></tr>' for r in s["races"])
-    return (f'<h3>Výsledky ({e(s["snapshot"])})</h3><div class="tbl-scroll"><table><thead><tr><th>Séria</th><th class="num">Volieb</th>'
-            f'<th class="num">Brier ↓</th><th class="num">Log skóre ↑</th><th class="num">Trafení favoriti</th></tr></thead><tbody>{rows}</tbody></table></div>'
-            f'<p>Priemerná chyba podielu: {num(s["share_mae_pp"])} b. (fundamenty {num(s["fund_share_mae_pp"])} b.). '
-            f'Pokrytie 80 % intervalov: {round(100 * s["coverage_80"])} %.</p>'
-            f'<div class="tbl-scroll"><table><thead><tr><th>Voľba</th><th>Víťaz</th><th class="num">P finálna</th><th class="num">P fundamenty</th>'
-            f'<th class="num">P trh</th></tr></thead><tbody>{races}</tbody></table></div>')
+def table(head, rows, cls=""):
+    return f'<div class="tbl-scroll"><table{cls}><thead>{head}</thead><tbody>{"".join(rows)}</tbody></table></div>'
+
+
+def fill_skore(src):
+    ev = json.loads((ROOT / "data/evaluation.json").read_text())
+    c, x = ev["summary"]["claude"], ev["summary"]["codex"]
+    stat = lambda label, value, delta: f'<div class="stat"><div class="label">{label}</div><div class="value">{value}</div><div class="delta">{delta}</div></div>'
+    stats = ('<div class="card stats-row">'
+             + stat("Trafení víťazi", f'{c["winners_hit"]}/{c["n"]}', f'Claude aj Codex')
+             + stat("Odchýlka podielu, Claude", f'{num(c["share_mae_pp"])} b.', f'Codex: {num(x["share_mae_pp"])} b.')
+             + stat("Brierovo skóre, Claude", num(c["brier"], 3), f'Codex: {num(x["brier"], 3)}')
+             + '</div>')
+    pos = [f'<tr><td>{p}. miesto</td><td class="num">{num(c["mae_by_pos"][p])} b.</td><td class="num">{num(x["mae_by_pos"][p])} b.</td></tr>'
+           for p in ("1", "2", "3")]
+    pos.append(f'<tr><td>všetci kandidáti</td><td class="num">{num(c["share_mae_pp"])} b.</td><td class="num">{num(x["share_mae_pp"])} b.</td></tr>')
+    hits = lambda m: " · ".join(f'{m[f"hit_{g}"][0]}/{m[f"hit_{g}"][1]}' for g in ("kraj", "mesto", "mc"))
+    metrics = [("Trafení víťazi", f'{c["winners_hit"]}/{c["n"]}', f'{x["winners_hit"]}/{x["n"]}'),
+               ("kraje · mestá · mestské časti", hits(c), hits(x)),
+               ("Odchýlka podielu, všetci kandidáti", f'{num(c["share_mae_pp"])} b.', f'{num(x["share_mae_pp"])} b.'),
+               ("Odchýlka podielu víťaza", f'{num(c["mae_by_pos"]["1"])} b.', f'{num(x["mae_by_pos"]["1"])} b.'),
+               ("Brierovo skóre", num(c["brier"], 3), num(x["brier"], 3)),
+               ("Log skóre", num(c["log_score"], 3), num(x["log_score"], 3)),
+               ("Výsledok v 80 % intervale", f'{num(100 * c["coverage_80"])} %', f'{num(100 * x["coverage_80"])} %')]
+    races = []
+    for r in ev["races"]:
+        cells = ""
+        for t in r["top"][:2]:
+            miss = lambda m: ' <span class="chip chip-warn">netrafil</span>' if t["pos"] == 1 and not r[m]["hit"] else ""
+            cells += (f'<td class="gs">{e(t["name"])}</td><td class="num">{num(t["actual"])} %</td>'
+                      f'<td class="num">{signed(t["claude"]["err"])}{miss("claude")}</td><td class="num">{signed(t["codex"]["err"])}{miss("codex")}</td>')
+        races.append(f'<tr><td><a href="{r["id"]}.html">{e(r["name"].replace(" samosprávny kraj", " kraj"))}</a></td>{cells}</tr>')
+    sub = '<th class="gs">Kandidát</th><th class="num">Výsledok</th><th class="num">Claude</th><th class="num">Codex</th>'
+    rep = {
+        "stats": stats, "bias_claude": num(abs(c["winner_bias"])), "bias_codex": num(abs(x["winner_bias"])),
+        "pos_table": table('<tr><th>Poradie kandidáta</th><th class="num">Claude</th><th class="num">Codex</th></tr>', pos),
+        "model_table": table('<tr><th>Metrika</th><th class="num">Claude</th><th class="num">Codex</th></tr>',
+                             [f'<tr><td>{a}</td><td class="num">{b}</td><td class="num">{d}</td></tr>' for a, b, d in metrics]),
+        "race_table": table(f'<tr class="grp"><th></th><th colspan="4" class="gs">VÍŤAZ</th><th colspan="4" class="gs">2. MIESTO</th></tr>'
+                            f'<tr><th>Voľba</th>{sub}{sub}</tr>', races, ' class="grouped"'),
+    }
+    for k, v in rep.items():
+        src = src.replace("{{" + k + "}}", v)
+    return src
 
 
 def archive_html():
@@ -306,8 +338,8 @@ def content_page(name, title, active, status):
     src = archive_html() if name == "archiv" else (ROOT / "content" / f"{name}.html").read_text()
     if name == "model":
         src = fill_model(src)
-    if name == "skore" and (ROOT / "data/score.json").exists():
-        src += score_html(json.loads((ROOT / "data/score.json").read_text()))
+    if name == "skore":
+        src = fill_skore(src)
     return page(f"{title} · Claude · Voľby 2026", f'<section><div class="wrap">{src}</div></section>', "claude", active, status)
 
 
