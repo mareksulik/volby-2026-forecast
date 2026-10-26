@@ -283,9 +283,9 @@ def fill_skore(src):
     c, x = ev["summary"]["claude"], ev["summary"]["codex"]
     stat = lambda label, value, delta: f'<div class="stat"><div class="label">{label}</div><div class="value">{value}</div><div class="delta">{delta}</div></div>'
     stats = ('<div class="card stats-row">'
-             + stat("Trafení víťazi", f'{c["winners_hit"]}/{c["n"]}', f'Claude aj Codex')
-             + stat("Odchýlka podielu, Claude", f'{num(c["share_mae_pp"])} b.', f'Codex: {num(x["share_mae_pp"])} b.')
-             + stat("Brierovo skóre, Claude", num(c["brier"], 3), f'Codex: {num(x["brier"], 3)}')
+             + stat("Trafení víťazi", f'{c["winners_hit"]}/{c["n"]} · {x["winners_hit"]}/{x["n"]}', "Claude · Codex")
+             + stat("Odchýlka podielu", f'{num(c["share_mae_pp"])} · {num(x["share_mae_pp"])} b.', "Claude · Codex")
+             + stat("Brierovo skóre", f'{num(c["brier"], 3)} · {num(x["brier"], 3)}', "Claude · Codex")
              + '</div>')
     pos = [f'<tr><td>{p}. miesto</td><td class="num">{num(c["mae_by_pos"][p])} b.</td><td class="num">{num(x["mae_by_pos"][p])} b.</td></tr>'
            for p in ("1", "2", "3")]
